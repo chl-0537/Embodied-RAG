@@ -124,4 +124,4 @@ def generate_multiple_scenes(
 
 if __name__ == "__main__":
     # 生成10个不同的寻找场景
-    generate_multiple_scenes(num_scenes=50, output_path="generated_search_scenes_2.json")
+    generate_multiple_scenes(num_scenes=50, output_path="generated_search_scenes_3.json")

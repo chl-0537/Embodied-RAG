@@ -7,6 +7,7 @@ import math
 import random
 import requests
 import numpy as np
+import base64
 from datetime import datetime, timezone
 from typing import List, Dict, Any, Optional
 
@@ -164,18 +165,17 @@ def call_chatglm_llm_json(system_msg: str, user_msg: str, schema: Dict[str, type
     return {"raw_output": last_raw}
 
 # ----------------- ChatGLM Vision call -----------------
-def call_chatglm_vision_json(image_urls: List[str], question: str) -> Dict:
-    content_list = [{"type": "image_url", "image_url": {"url": u}} for u in image_urls]
+def call_chatglm_vision_json(image_url: str, question: str) -> Dict:
+    content_list = []
+    content_list.append({"type": "image_url", "image_url": {"url": image_url}})
     content_list.append({"type": "text", "text": question})
     payload = {
         "model": VISION_MODEL,
-        "messages": [{"role": "user", "content": content_list}],
-        "temperature": 0.3,
-        "max_tokens": 8192,
-        "stream": False
+        "messages": [{"role": "user", "content": content_list}]
     }
     resp = requests.post(CHATGLM_VISION_URL, json=payload, headers=HEADERS, timeout=60)
     data = resp.json()
+    # print(data)
     raw_text = data["choices"][0]["message"]["content"]
     try:
         import re
@@ -233,6 +233,8 @@ if __name__ == "__main__":
     plan = generate_action_plan_llm(intent, evid_slim, {"robot_location": robot_pose.get("semantic","unknown")})
     print("Action plan:", plan)
 
-    image_urls = ["https://known-black-9eebdukx4b.edgeone.app/%E7%BB%98%E5%88%B6%E4%B9%A6%E6%88%BF%203D%20%E5%9B%BE%E5%83%8F.png"]
-    vision_res = call_chatglm_vision_json(image_urls, f"请检查图片中是否有{intent.get('object')}，并输出 JSON")
+    with open("./picture/study_room.png", "rb") as image_file:
+        base64_image = base64.b64encode(image_file.read()).decode("utf-8")
+    # image_urls = ["https://known-black-9eebdukx4b.edgeone.app/%E7%BB%98%E5%88%B6%E4%B9%A6%E6%88%BF%203D%20%E5%9B%BE%E5%83%8F.png"]
+    vision_res = call_chatglm_vision_json(base64_image, f"请检查图片中是否有{intent.get('object')}，并输出 JSON")
     print("Vision result:", vision_res)

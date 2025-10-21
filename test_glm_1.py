@@ -18,7 +18,7 @@ response = client.chat.completions.create(
           {
             "type": "image_url",
             "image_url": {
-                "url" : base64_image
+                "url" : "https://cloudcache.tencentcs.cn/qcloud/ui/cloud-community/build/base/images/ip-img_dd5.png"
             }
           }
         ]

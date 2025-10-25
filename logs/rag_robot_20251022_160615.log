@@ -1,0 +1,7 @@
+2025-10-22 16:06:15 - INFO - setup_logging:128 - 日志系统初始化完成，日志文件: logs\rag_robot_20251022_160615.log
+2025-10-22 16:06:17 - INFO - log_info:185 - ==================================================
+2025-10-22 16:06:17 - INFO - log_info:185 - RAG Robot Framework Started
+2025-10-22 16:06:17 - INFO - log_info:185 - ==================================================
+2025-10-22 16:06:17 - INFO - log_info:185 - Initializing vector database
+2025-10-22 16:06:17 - ERROR - log_error:192 - ChromaDB不可用，请先安装: pip install chromadb
+2025-10-22 16:06:17 - ERROR - log_error:192 - Failed to initialize vector database, exiting

@@ -1,0 +1,52 @@
+2025-10-22 19:31:43 - INFO - setup_logging:128 - 日志系统初始化完成，日志文件: logs\rag_robot_20251022_193143.log
+2025-10-22 19:31:46 - INFO - log_info:185 - ============================================================
+2025-10-22 19:31:46 - INFO - log_info:185 - ROBOT NAVIGATION TASK SIMULATION
+2025-10-22 19:31:46 - INFO - log_info:185 - ============================================================
+2025-10-22 19:31:46 - INFO - log_info:185 - Initializing vector database
+2025-10-22 19:31:47 - INFO - log_info:185 - 加载现有集合: robot_memory
+2025-10-22 19:31:47 - INFO - log_info:185 - Vector database initialized successfully
+2025-10-22 19:31:47 - INFO - log_info:185 - Robot starting at: living_room
+2025-10-22 19:31:47 - INFO - log_info:185 - Initializing memory data
+2025-10-22 19:31:47 - ERROR - log_error:192 - Chroma数据库未初始化
+2025-10-22 19:31:47 - INFO - log_info:183 - Added memory entry: None | Data: {"item_label": "watercup", "text_desc": "blue watercup on study_desk left of laptop", "spatial": {"location_semantic": "study_desk"}, "temporal": {"timestamp_utc": "2024-10-01T16:30:00+00:00"}, "confidence": 0.92}
+2025-10-22 19:31:47 - ERROR - log_error:192 - Chroma数据库未初始化
+2025-10-22 19:31:47 - INFO - log_info:183 - Added memory entry: None | Data: {"item_label": "phone", "text_desc": "black smartphone on couch armrest", "spatial": {"location_semantic": "sofa_armrest"}, "temporal": {"timestamp_utc": "2024-09-30T10:00:00+00:00"}, "confidence": 0.9}
+2025-10-22 19:31:47 - ERROR - log_error:192 - Chroma数据库未初始化
+2025-10-22 19:31:47 - INFO - log_info:183 - Added memory entry: None | Data: {"item_label": "book", "text_desc": "red book on study_desk", "spatial": {"location_semantic": "study_desk"}, "temporal": {"timestamp_utc": "2024-10-01T15:00:00+00:00"}, "confidence": 0.85}
+2025-10-22 19:31:47 - INFO - log_info:183 - Memory database statistics | Data: {"error": "Database not initialized"}
+2025-10-22 19:31:47 - INFO - log_info:183 - User command received | Data: {"command": "帮我找到蓝色水杯，应该在书房的书桌上。"}
+2025-10-22 19:31:55 - INFO - log_info:183 - Intent parsed successfully | Data: {"object": "蓝色水杯", "action": "找到", "location": "书房的书桌上", "time": null, "constraints": ["蓝色"]}
+2025-10-22 19:31:55 - INFO - log_info:185 - Target room determined: study_room
+2025-10-22 19:31:55 - INFO - log_info:185 - ========================================
+2025-10-22 19:31:55 - INFO - log_info:185 - STARTING NAVIGATION TASK
+2025-10-22 19:31:55 - INFO - log_info:185 - ========================================
+2025-10-22 19:31:55 - INFO - log_info:185 - Step 1: Initial detection in living_room
+2025-10-22 19:31:55 - INFO - log_info:185 - Performing initial_detection in living_room
+2025-10-22 19:31:55 - INFO - log_info:185 - Using image: ./picture/living_room.png
+2025-10-22 19:31:55 - INFO - log_info:185 - Initial detection: scanning for all objects
+2025-10-22 19:32:15 - INFO - log_info:183 - Multi-object detection successful | Data: {"objects_count": 8, "target_objects": null}
+2025-10-22 19:32:15 - INFO - log_info:183 - Vision detection successful in living_room | Data: {"detection_type": "initial_detection", "objects_found": 8}
+2025-10-22 19:32:15 - INFO - log_info:185 - Integrating vision results into memory database
+2025-10-22 19:32:15 - ERROR - log_error:192 - Chroma数据库未初始化，无法添加视觉记忆
+2025-10-22 19:32:15 - INFO - log_info:185 - Added 0 vision memories to database
+2025-10-22 19:32:15 - INFO - log_info:183 - Analyzing detection results in living_room | Data: {"detection_type": "initial_detection", "total_objects": 8, "target_object": "蓝色水杯"}
+2025-10-22 19:32:15 - INFO - log_info:185 - Step 2: Navigating to target room: study_room
+2025-10-22 19:32:15 - INFO - log_info:185 - Robot navigated from living_room to study_room
+2025-10-22 19:32:15 - INFO - log_info:185 - Successfully navigated to study_room
+2025-10-22 19:32:15 - INFO - log_info:185 - Step 3: Detailed detection in study_room
+2025-10-22 19:32:15 - INFO - log_info:185 - Performing target_detection in study_room
+2025-10-22 19:32:15 - INFO - log_info:185 - Using image: ./picture/study_room.png
+2025-10-22 19:32:15 - INFO - log_info:185 - Target detection: looking for ['蓝色水杯']
+2025-10-22 19:32:33 - INFO - log_info:183 - Multi-object detection successful | Data: {"objects_count": 6, "target_objects": ["蓝色水杯"]}
+2025-10-22 19:32:33 - INFO - log_info:183 - Vision detection successful in study_room | Data: {"detection_type": "target_detection", "objects_found": 6}
+2025-10-22 19:32:33 - INFO - log_info:185 - Integrating vision results into memory database
+2025-10-22 19:32:33 - ERROR - log_error:192 - Chroma数据库未初始化，无法添加视觉记忆
+2025-10-22 19:32:33 - INFO - log_info:185 - Added 0 vision memories to database
+2025-10-22 19:32:33 - INFO - log_info:183 - Analyzing detection results in study_room | Data: {"detection_type": "target_detection", "total_objects": 6, "target_object": "蓝色水杯"}
+2025-10-22 19:32:33 - INFO - log_info:183 - TARGET FOUND: 蓝色水杯 with confidence 1.0 | Data: {"label": "蓝色水杯", "bbox": [0.78, 0.62, 0.82, 0.68], "confidence": 1.0, "description": "蓝色杯子，放在书桌上"}
+2025-10-22 19:32:33 - INFO - log_info:185 - ========================================
+2025-10-22 19:32:33 - INFO - log_info:185 - TASK COMPLETION REPORT
+2025-10-22 19:32:33 - INFO - log_info:185 - ========================================
+2025-10-22 19:32:33 - INFO - log_info:185 - Navigation path: living_room -> study_room
+2025-10-22 19:32:33 - INFO - log_info:185 - Final location: study_room
+2025-10-22 19:32:33 - INFO - log_info:185 - Task simulation completed

@@ -64,8 +64,38 @@ def init_chroma_db():
         # 获取或创建集合
         try:
             collection = client.get_collection(name=COLLECTION_NAME)
-            log_info(f"加载现有集合: {COLLECTION_NAME}")
+            
+            # 检查现有集合的维度是否匹配
+            try:
+                # 尝试获取一个测试向量来检查维度
+                test_results = collection.peek(limit=1)
+                if test_results.get('embeddings') and len(test_results['embeddings']) > 0:
+                    existing_dim = len(test_results['embeddings'][0])
+                    if existing_dim != EMB_DIM:
+                        log_warning(f"现有集合维度不匹配 (现有: {existing_dim}, 需要: {EMB_DIM})，删除并重建")
+                        client.delete_collection(name=COLLECTION_NAME)
+                        collection = client.create_collection(
+                            name=COLLECTION_NAME,
+                            metadata={"description": "机器人记忆存储"}
+                        )
+                        log_info(f"重新创建集合: {COLLECTION_NAME}")
+                    else:
+                        log_info(f"加载现有集合: {COLLECTION_NAME} (维度: {existing_dim})")
+                else:
+                    log_info(f"加载现有集合: {COLLECTION_NAME}")
+            except Exception as check_e:
+                log_warning(f"检查集合维度时出错: {check_e}，尝试重新创建")
+                try:
+                    client.delete_collection(name=COLLECTION_NAME)
+                except:
+                    pass
+                collection = client.create_collection(
+                    name=COLLECTION_NAME,
+                    metadata={"description": "机器人记忆存储"}
+                )
+                log_info(f"重新创建集合: {COLLECTION_NAME}")
         except Exception:
+            # 集合不存在，创建新集合
             collection = client.create_collection(
                 name=COLLECTION_NAME,
                 metadata={"description": "机器人记忆存储"}
@@ -294,9 +324,12 @@ def retrieve_candidates_by_text(query_text: str, topk: int = 20, location_filter
         if location_filter:
             where_clause = {"location_semantic": location_filter}
         
-        # 执行查询
+        # 使用Azure embedding生成查询向量
+        query_embedding = get_embedding_from_api(query_text).tolist()
+        
+        # 执行查询 - 使用query_embeddings而不是query_texts以确保维度一致
         results = chroma_collection.query(
-            query_texts=[query_text],
+            query_embeddings=[query_embedding],
             n_results=topk,
             where=where_clause
         )
@@ -337,23 +370,51 @@ def retrieve_candidates_by_intent(intent: Dict[str, Any], topk: int = 20) -> Lis
         # 组合对象和位置信息
         query_text = f"{object_name} in {location}"
         location_filter = location
+        
+        log_info("Enhanced query construction", {
+            "original_object": object_name,
+            "original_location": location,
+            "enhanced_query": query_text,
+            "location_filter": location_filter
+        })
+        
+        # 尝试带位置过滤的查询
+        results = retrieve_candidates_by_text(query_text, topk, location_filter)
+        
+        # 如果没有找到结果，放宽条件：不使用位置过滤
+        if len(results) == 0:
+            log_warning(f"No results found with location filter '{location}', trying without location filter")
+            query_text = object_name
+            location_filter = None
+            results = retrieve_candidates_by_text(query_text, topk, location_filter)
+        
+        return results
     elif object_name:
         # 仅使用对象信息
         query_text = object_name
         location_filter = None
+        
+        log_info("Enhanced query construction", {
+            "original_object": object_name,
+            "original_location": location,
+            "enhanced_query": query_text,
+            "location_filter": location_filter
+        })
+        
+        return retrieve_candidates_by_text(query_text, topk, location_filter)
     else:
         # 使用通用查询
         query_text = "object"
         location_filter = None
-    
-    log_info("Enhanced query construction", {
-        "original_object": object_name,
-        "original_location": location,
-        "enhanced_query": query_text,
-        "location_filter": location_filter
-    })
-    
-    return retrieve_candidates_by_text(query_text, topk, location_filter)
+        
+        log_info("Enhanced query construction", {
+            "original_object": object_name,
+            "original_location": location,
+            "enhanced_query": query_text,
+            "location_filter": location_filter
+        })
+        
+        return retrieve_candidates_by_text(query_text, topk, location_filter)
 
 def get_memory_stats():
     """获取记忆数据库统计信息"""
@@ -382,8 +443,11 @@ def search_by_location(location: str, topk: int = 10):
         return []
     
     try:
+        # 使用Azure embedding生成查询向量
+        query_embedding = get_embedding_from_api("objects in location").tolist()
+        
         results = chroma_collection.query(
-            query_texts=["objects in location"],
+            query_embeddings=[query_embedding],
             n_results=topk,
             where={"location_semantic": location}
         )
@@ -560,11 +624,16 @@ def call_chatglm_multi_object_detection(image_url: str, target_objects: List[str
             detection_prompt = f"""
 请仔细分析图片中的所有对象，特别关注以下目标对象：{target_str}
 
+重要提示：
+- 目标对象必须作为独立的objects列表项输出
+- 即使目标对象作为其他对象的属性描述（如"书桌上的水杯"），也必须单独提取为独立对象
+- 如果一个物体是由多个部分组成的（如书桌和水杯），每个部分都应单独列出
+
 请输出JSON格式，包含字段：
 {{
   "objects": [
     {{
-      "label": "对象名称",
+      "label": "对象名称（独立完整物体）",
       "bbox": [x1, y1, x2, y2],
       "confidence": 0.95,
       "description": "详细描述"
@@ -575,10 +644,12 @@ def call_chatglm_multi_object_detection(image_url: str, target_objects: List[str
 }}
 
 要求：
-1. bbox格式：[左上角x, 左上角y, 右下角x, 右下角y]
-2. confidence范围：0.0-1.0
-3. 只输出JSON，不要其他文字
-4. 检测所有可见对象，不限于目标对象
+1. objects数组中每个元素必须是一个独立完整的物体（如"水杯"、"书"、"电脑"等）
+2. bbox格式：[左上角x, 左上角y, 右下角x, 右下角y]
+3. confidence范围：0.0-1.0
+4. 只输出JSON，不要其他文字
+5. 对于目标对象"{target_str}"，必须单独列出，不要作为其他对象的描述
+6. 检测所有可见对象，包括目标对象
 """
         else:
             detection_prompt = """
@@ -1092,9 +1163,13 @@ def generate_action_plan_llm(intent: Dict, evidences: List[Dict], current_status
         "current_status 包含跨模态验证结果，请特别关注：\n"
         "- cross_modal_validation.consistency_score: 视觉与记忆的一致性分数\n"
         "- cross_modal_validation.recommendation: 系统推荐\n"
-        "请基于跨模态验证结果制定更智能的行动计划。"
+        "\n关键指令：\n"
+        "1. 首先检查 current_status 中的 target_found 和 visual_detection_result 字段。\n"
+        "2. 如果 target_found=true 且 visual_detection_result 包含 'SUCCESS'，说明目标已经找到，下一步应该是操作步骤（如：移动到目标前、准备抓取、报告位置等），而不是搜索。\n"
+        "3. 如果目标未找到，才需要生成搜索策略。\n"
+        "4. 请根据目标是否已找到来制定合适的行动计划。"
     )
-    user_prompt = f"intent={json.dumps(intent, ensure_ascii=False)}\nevi={json.dumps(evidences, ensure_ascii=False)}\nstatus={json.dumps(current_status, ensure_ascii=False)}\n\n请基于跨模态验证结果分析视觉观察与记忆证据的一致性，并制定智能行动计划。"
+    user_prompt = f"intent={json.dumps(intent, ensure_ascii=False)}\nevi={json.dumps(evidences, ensure_ascii=False)}\nstatus={json.dumps(current_status, ensure_ascii=False)}\n\n请分析当前状态：\n1. 目标是否已找到？（检查 status 中的 target_found 和 visual_detection_result）\n2. 如果已找到，生成后续操作计划（如移动到目标、抓取、报告等）。\n3. 如果未找到，生成搜索策略。"
     schema = {"next_action": str, "reasoning": str, "expected_observation": str, "fallback_plan": list, "confidence": float, "consistency_analysis": dict, "cross_modal_insights": dict}
     return call_chatglm_llm_json(system_inst, user_prompt, schema)
 
@@ -1202,10 +1277,6 @@ def simulate_robot_navigation_task():
     intent = intent_result.data
     log_info("Intent parsed successfully", intent)
     
-    # 确定目标房间
-    target_room = "study_room"  # 根据指令确定目标房间
-    log_info(f"Target room determined: {target_room}")
-    
     # 开始导航任务
     log_info("=" * 40)
     log_info("STARTING NAVIGATION TASK")
@@ -1215,27 +1286,132 @@ def simulate_robot_navigation_task():
     log_info(f"Step 1: Initial detection in {navigator.current_location}")
     perform_vision_detection_in_room(navigator, intent, "initial_detection")
     
-    # 步骤2: 导航到目标房间
-    log_info(f"Step 2: Navigating to target room: {target_room}")
-    if navigator.navigate_to_room(target_room):
-        log_info(f"Successfully navigated to {target_room}")
-        
-        # 步骤3: 在目标房间进行详细检测
-        log_info(f"Step 3: Detailed detection in {navigator.current_location}")
-        perform_vision_detection_in_room(navigator, intent, "target_detection")
-    else:
-        log_error(f"Failed to navigate to {target_room}")
+    # 步骤2: 循环搜索所有可能的房间
+    log_info("=" * 40)
+    log_info("STARTING ROOM SEARCH CYCLE")
+    log_info("=" * 40)
     
-    # 步骤4: 生成最终报告
+    # 获取所有可搜索的房间
+    rooms_to_search = ["kitchen", "bedroom", "study_room"]  # 客厅的三个出口
+    rooms_searched = []
+    target_found = False
+    found_location = None
+    
+    for room in rooms_to_search:
+        log_info(f"\n{'='*60}")
+        log_info(f"Attempting to search room: {room}")
+        log_info(f"{'='*60}")
+        
+        # 导航到目标房间
+        if navigator.navigate_to_room(room):
+            log_info(f"Successfully navigated to {room}")
+            rooms_searched.append(room)
+            
+            # 在目标房间进行检测
+            log_info(f"Performing detection in {navigator.current_location}")
+            target_found = perform_vision_detection_in_room(navigator, intent, "target_detection")
+            
+            if target_found:
+                found_location = room
+                log_info(f"\n{'='*60}")
+                log_info(f"TARGET OBJECT FOUND in {room}!")
+                log_info(f"{'='*60}\n")
+                break
+            else:
+                log_info(f"Target object not found in {room}. Returning to living room.")
+                # 返回客厅
+                navigator.navigate_to_room("living_room")
+                log_info(f"Returned to living room")
+        else:
+            log_error(f"Failed to navigate to {room}")
+    
+    # 步骤3: 生成最终报告和任务规划
     log_info("=" * 40)
     log_info("TASK COMPLETION REPORT")
     log_info("=" * 40)
     log_info(f"Navigation path: {' -> '.join(navigator.navigation_history + [navigator.current_location])}")
     log_info(f"Final location: {navigator.current_location}")
+    log_info(f"Rooms searched: {rooms_searched}")
+    
+    if target_found:
+        log_info(f"✓ TASK SUCCESS: Target object found in {found_location}")
+        
+        # 生成任务总结和行动计划
+        log_info("\n" + "=" * 40)
+        log_info("GENERATING TASK SUMMARY AND ACTION PLAN")
+        log_info("=" * 40)
+        
+        # 检索记忆证据
+        target_object = intent.get("object", "")
+        memory_evidences = retrieve_candidates_by_intent(intent, topk=5)
+        
+        # 构建当前状态 - 明确标注视觉检测已成功找到目标
+        current_status = {
+            "status": "SUCCESS",
+            "target_object": target_object,
+            "target_found": True,
+            "found_location": found_location,
+            "current_location": navigator.current_location,
+            "search_path": navigator.navigation_history + [navigator.current_location],
+            "total_rooms_searched": len(rooms_searched),
+            "rooms_searched": rooms_searched,
+            "visual_detection_result": "SUCCESS - Target object visually confirmed in current location",
+            "detection_confidence": "HIGH - Visual detection successfully identified the target object"
+        }
+        
+        # 构建视觉证据 - 明确标注已成功检测到
+        vision_evidence = structure_vision_evidence(
+            {
+                "detected": True,
+                "detection_status": "SUCCESS",
+                "location": found_location,
+                "object": target_object,
+                "confidence": "high",
+                "message": "Visual detection successfully confirmed the presence of target object"
+            },
+            target_object
+        )
+        
+        # 融合视觉和记忆证据
+        if memory_evidences:
+            fused_evidences = fuse_vision_with_memory(memory_evidences, vision_evidence)
+            
+            # 生成行动计划
+            plan_result = generate_action_plan_llm(intent, fused_evidences, current_status)
+            
+            if plan_result.is_success():
+                log_info("Action plan generated successfully", plan_result.data)
+                
+                # 输出最终结果总结
+                log_info("\n" + "=" * 60)
+                log_info("FINAL TASK RESULT")
+                log_info("=" * 60)
+                log_info(f"目标对象: {target_object}")
+                log_info(f"找到位置: {found_location}")
+                log_info(f"搜索路径: {' -> '.join(navigator.navigation_history + [navigator.current_location])}")
+                log_info(f"共搜索房间数: {len(rooms_searched)}")
+                log_info(f"搜索房间列表: {', '.join(rooms_searched)}")
+                
+                # 输出行动计划
+                if plan_result.data:
+                    log_info("\n--- ACTION PLAN ---")
+                    log_info(f"Next Action: {plan_result.data.get('next_action', 'N/A')}")
+                    log_info(f"Confidence: {plan_result.data.get('confidence', 'N/A')}")
+                    log_info(f"Reasoning: {plan_result.data.get('reasoning', 'N/A')}")
+                
+                log_info("=" * 60)
+            else:
+                log_warning("Failed to generate action plan", {"error": plan_result.error_msg})
+        else:
+            log_warning("No memory evidences found for action planning")
+            
+    else:
+        log_info("✗ TASK FAILED: Target object not found in any searched room")
+    
     log_info("Task simulation completed")
 
 def perform_vision_detection_in_room(navigator, intent, detection_type):
-    """在指定房间进行视觉检测"""
+    """在指定房间进行视觉检测，返回是否找到目标对象"""
     log_info(f"Performing {detection_type} in {navigator.current_location}")
     
     # 获取当前房间图片
@@ -1257,7 +1433,7 @@ def perform_vision_detection_in_room(navigator, intent, detection_type):
             log_info(f"Target detection: looking for {target_objects}")
         
         # 执行多对象检测
-        vision_result = call_chatglm_multi_object_detection(base64_image, target_objects)
+        vision_result = call_chatglm_multi_object_detection(f"data:image/png;base64,{base64_image}", target_objects)
         
         if vision_result.is_success():
             log_info(f"Vision detection successful in {navigator.current_location}", {
@@ -1272,13 +1448,16 @@ def perform_vision_detection_in_room(navigator, intent, detection_type):
                 log_info(f"Added {len(vision_memory_ids)} vision memories to database")
             
             # 分析检测结果
-            analyze_detection_results(vision_result.data, intent, navigator.current_location, detection_type)
+            target_found = analyze_detection_results(vision_result.data, intent, navigator.current_location, detection_type)
+            return target_found
             
         else:
             log_warning(f"Vision detection failed in {navigator.current_location}: {vision_result.error_msg}")
+            return False
             
     except Exception as e:
         log_error(f"Error during vision detection in {navigator.current_location}", e)
+        return False
 
 def analyze_detection_results(vision_data, intent, location, detection_type):
     """分析视觉检测结果"""
@@ -1291,20 +1470,104 @@ def analyze_detection_results(vision_data, intent, location, detection_type):
         "target_object": target_object
     })
     
+    # 定义关键词映射（中文到英文）
+    keyword_mapping = {
+        "水杯": "watercup",
+        "杯子": "cup",
+        "手机": "phone",
+        "书": "book",
+        "电脑": "laptop",
+        "笔记本": "laptop"
+    }
+    
     # 检查是否找到目标对象
     target_found = False
+    matching_obj = None
+    
     for obj in objects:
         obj_label = obj.get("label", "").lower()
+        obj_desc = obj.get("description", "").lower()
+        
+        # 检查直接匹配
         if target_object and target_object.lower() in obj_label:
             target_found = True
-            log_info(f"TARGET FOUND: {obj['label']} with confidence {obj['confidence']}", obj)
+            matching_obj = obj
+            log_info(f"TARGET FOUND (direct match): {obj['label']} with confidence {obj['confidence']}", obj)
             break
-    
-    if not target_found and detection_type == "target_detection":
-        log_warning(f"Target object '{target_object}' not found in {location}")
         
+        # 检查关键词映射匹配
+        if target_object:
+            target_lower = target_object.lower()
+            # 检查中文关键词
+            for chinese_keyword, english_keyword in keyword_mapping.items():
+                if chinese_keyword in target_lower:
+                    # 在label或description中查找匹配
+                    if english_keyword in obj_label or english_keyword in obj_desc:
+                        target_found = True
+                        matching_obj = obj
+                        log_info(f"TARGET FOUND (keyword mapping in label/desc): {obj['label']} with confidence {obj['confidence']}", obj)
+                        break
+                    # 也检查中文关键词
+                    if chinese_keyword in obj_label or chinese_keyword in obj_desc:
+                        target_found = True
+                        matching_obj = obj
+                        log_info(f"TARGET FOUND (keyword mapping in label/desc): {obj['label']} with confidence {obj['confidence']}", obj)
+                        break
+                # 检查英文关键词
+                if english_keyword in target_lower and (english_keyword in obj_label or english_keyword in obj_desc):
+                    target_found = True
+                    matching_obj = obj
+                    log_info(f"TARGET FOUND (keyword mapping): {obj['label']} with confidence {obj['confidence']}", obj)
+                    break
+            
+            if target_found:
+                break
+    
+    # Fallback: 如果在objects中没找到，检查description中是否提到了目标对象
+    if not target_found and detection_type == "target_detection":
+        log_warning(f"Target object '{target_object}' not found in objects list")
+        
+        # 在所有对象的description中搜索目标对象
+        for obj in objects:
+            obj_desc = obj.get("description", "").lower()
+            obj_label = obj.get("label", "").lower()
+            
+            # 检查description中是否包含目标对象
+            if target_object:
+                target_lower = target_object.lower()
+                
+                # 直接检查目标对象是否在description中
+                if target_lower in obj_desc:
+                    target_found = True
+                    matching_obj = obj
+                    log_info(f"TARGET FOUND (in description): {obj['label']} - description mentions '{target_object}'", {
+                        "label": obj['label'],
+                        "description": obj.get('description', ''),
+                        "confidence": obj.get('confidence', 0)
+                    })
+                    break
+                
+                # 检查关键词映射
+                for chinese_keyword, english_keyword in keyword_mapping.items():
+                    if chinese_keyword in target_lower:
+                        if english_keyword in obj_desc or chinese_keyword in obj_desc:
+                            target_found = True
+                            matching_obj = obj
+                            log_info(f"TARGET FOUND (keyword in description): {obj['label']} - {chinese_keyword} mentioned in description", {
+                                "label": obj['label'],
+                                "description": obj.get('description', ''),
+                                "confidence": obj.get('confidence', 0)
+                            })
+                            break
+                
+                if target_found:
+                    break
+        
+        if not target_found:
+            log_warning(f"Target object '{target_object}' critically not found in {location}")
+            
         # 显示所有检测到的对象
-        log_info("All detected objects:", [obj['label'] for obj in objects])
+        log_info("All detected objects:", [{"label": obj['label'], "confidence": obj.get('confidence', 0)} for obj in objects])
     
     return target_found
 

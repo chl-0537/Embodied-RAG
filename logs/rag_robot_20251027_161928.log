@@ -1,0 +1,212 @@
+2025-10-27 16:19:28 - INFO - setup_logging:158 - 日志系统初始化完成，日志文件: logs/rag_robot_20251027_161928.log
+2025-10-27 16:19:28 - INFO - log_info:215 - ============================================================
+2025-10-27 16:19:28 - INFO - log_info:215 - ROBOT NAVIGATION TASK SIMULATION
+2025-10-27 16:19:28 - INFO - log_info:215 - ============================================================
+2025-10-27 16:19:28 - INFO - log_info:215 - Initializing vector database
+2025-10-27 16:19:28 - WARNING - log_warning:232 - 检查集合维度时出错: The truth value of an array with more than one element is ambiguous. Use a.any() or a.all()，尝试重新创建
+2025-10-27 16:19:28 - INFO - log_info:215 - 重新创建集合: robot_memory
+2025-10-27 16:19:28 - INFO - log_info:215 - Vector database initialized successfully
+2025-10-27 16:19:28 - INFO - log_info:215 - Robot starting at: living_room
+2025-10-27 16:19:28 - INFO - log_info:215 - Initializing memory data
+2025-10-27 16:19:30 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:19:30 - INFO - log_info:213 - Added memory entry to Chroma: item_watercup_2025-10-27T08:19:28.707534+00:00_7df463 | Data: {"item_label": "watercup", "location_semantic": "study_desk", "timestamp_utc": "2024-10-01T16:30:00+00:00", "confidence": 0.92, "text_desc": "blue watercup on study_desk left of laptop", "created_at": "2025-10-27T08:19:28.707566+00:00"}
+2025-10-27 16:19:30 - INFO - log_info:213 - Added memory entry: item_watercup_2025-10-27T08:19:28.707534+00:00_7df463 | Data: {"item_label": "watercup", "text_desc": "blue watercup on study_desk left of laptop", "spatial": {"location_semantic": "study_desk"}, "temporal": {"timestamp_utc": "2024-10-01T16:30:00+00:00"}, "confidence": 0.92}
+2025-10-27 16:19:31 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:19:31 - INFO - log_info:213 - Added memory entry to Chroma: item_phone_2025-10-27T08:19:30.774408+00:00_f876d8 | Data: {"item_label": "phone", "location_semantic": "sofa_armrest", "timestamp_utc": "2024-09-30T10:00:00+00:00", "confidence": 0.9, "text_desc": "black smartphone on couch armrest", "created_at": "2025-10-27T08:19:30.774450+00:00"}
+2025-10-27 16:19:31 - INFO - log_info:213 - Added memory entry: item_phone_2025-10-27T08:19:30.774408+00:00_f876d8 | Data: {"item_label": "phone", "text_desc": "black smartphone on couch armrest", "spatial": {"location_semantic": "sofa_armrest"}, "temporal": {"timestamp_utc": "2024-09-30T10:00:00+00:00"}, "confidence": 0.9}
+2025-10-27 16:19:31 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:19:31 - INFO - log_info:213 - Added memory entry to Chroma: item_book_2025-10-27T08:19:31.354658+00:00_341351 | Data: {"item_label": "book", "location_semantic": "study_desk", "timestamp_utc": "2024-10-01T15:00:00+00:00", "confidence": 0.85, "text_desc": "red book on study_desk", "created_at": "2025-10-27T08:19:31.354706+00:00"}
+2025-10-27 16:19:31 - INFO - log_info:213 - Added memory entry: item_book_2025-10-27T08:19:31.354658+00:00_341351 | Data: {"item_label": "book", "text_desc": "red book on study_desk", "spatial": {"location_semantic": "study_desk"}, "temporal": {"timestamp_utc": "2024-10-01T15:00:00+00:00"}, "confidence": 0.85}
+2025-10-27 16:19:31 - INFO - log_info:213 - Memory database statistics | Data: {"total_memories": 3, "collection_name": "robot_memory", "database_path": "vector_db"}
+2025-10-27 16:19:31 - INFO - log_info:213 - User command received | Data: {"command": "帮我找到蓝色水杯，应该在书房的书桌上。"}
+2025-10-27 16:19:42 - INFO - log_info:213 - Intent parsed successfully | Data: {"object": "蓝色水杯", "action": "找到", "location": "书房的书桌上", "time": null, "constraints": ["蓝色"]}
+2025-10-27 16:19:42 - INFO - log_info:215 - ========================================
+2025-10-27 16:19:42 - INFO - log_info:215 - STARTING NAVIGATION TASK
+2025-10-27 16:19:42 - INFO - log_info:215 - ========================================
+2025-10-27 16:19:42 - INFO - log_info:215 - Step 1: Initial detection in living_room
+2025-10-27 16:19:42 - INFO - log_info:215 - Performing initial_detection in living_room
+2025-10-27 16:19:42 - INFO - log_info:215 - Using image: ./picture/living_room.png
+2025-10-27 16:19:42 - INFO - log_info:215 - Initial detection: scanning for all objects
+2025-10-27 16:20:01 - INFO - log_info:213 - Multi-object detection successful | Data: {"objects_count": 8, "target_objects": null}
+2025-10-27 16:20:01 - INFO - log_info:213 - Vision detection successful in living_room | Data: {"detection_type": "initial_detection", "objects_found": 8}
+2025-10-27 16:20:01 - INFO - log_info:215 - Integrating vision results into memory database
+2025-10-27 16:20:02 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:02 - INFO - log_info:213 - Added memory entry to Chroma: item_沙发_2025-10-27T08:20:01.906176+00:00_f3dab3 | Data: {"item_label": "沙发", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:01.906155+00:00", "confidence": 0.5, "text_desc": "vision detected 沙发 - 米色布艺沙发，位于房间左侧", "created_at": "2025-10-27T08:20:01.906210+00:00"}
+2025-10-27 16:20:02 - INFO - log_info:213 - Added vision memory: item_沙发_2025-10-27T08:20:01.906176+00:00_f3dab3 | Data: {"label": "沙发", "confidence": 0.99, "description": "米色布艺沙发，位于房间左侧"}
+2025-10-27 16:20:03 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:03 - INFO - log_info:213 - Added memory entry to Chroma: item_茶几_2025-10-27T08:20:02.910675+00:00_69ec91 | Data: {"item_label": "茶几", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:02.910656+00:00", "confidence": 0.5, "text_desc": "vision detected 茶几 - 木质茶几，位于沙发前方", "created_at": "2025-10-27T08:20:02.910704+00:00"}
+2025-10-27 16:20:03 - INFO - log_info:213 - Added vision memory: item_茶几_2025-10-27T08:20:02.910675+00:00_69ec91 | Data: {"label": "茶几", "confidence": 0.98, "description": "木质茶几，位于沙发前方"}
+2025-10-27 16:20:03 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:03 - INFO - log_info:213 - Added memory entry to Chroma: item_电视_2025-10-27T08:20:03.225745+00:00_64aabf | Data: {"item_label": "电视", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:03.225723+00:00", "confidence": 0.5, "text_desc": "vision detected 电视 - 黑色平板电视，放置在右侧木制电视柜上", "created_at": "2025-10-27T08:20:03.225771+00:00"}
+2025-10-27 16:20:03 - INFO - log_info:213 - Added vision memory: item_电视_2025-10-27T08:20:03.225745+00:00_64aabf | Data: {"label": "电视", "confidence": 0.97, "description": "黑色平板电视，放置在右侧木制电视柜上"}
+2025-10-27 16:20:03 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:03 - INFO - log_info:213 - Added memory entry to Chroma: item_电视柜_2025-10-27T08:20:03.529533+00:00_01d782 | Data: {"item_label": "电视柜", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:03.529511+00:00", "confidence": 0.5, "text_desc": "vision detected 电视柜 - 棕色木制电视柜，位于房间的右下角", "created_at": "2025-10-27T08:20:03.529561+00:00"}
+2025-10-27 16:20:03 - INFO - log_info:213 - Added vision memory: item_电视柜_2025-10-27T08:20:03.529533+00:00_01d782 | Data: {"label": "电视柜", "confidence": 0.96, "description": "棕色木制电视柜，位于房间的右下角"}
+2025-10-27 16:20:05 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:05 - INFO - log_info:213 - Added memory entry to Chroma: item_窗户_2025-10-27T08:20:03.879128+00:00_19a586 | Data: {"item_label": "窗户", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:03.879104+00:00", "confidence": 0.5, "text_desc": "vision detected 窗户 - 白色窗框，带有玻璃窗格", "created_at": "2025-10-27T08:20:03.879155+00:00"}
+2025-10-27 16:20:05 - INFO - log_info:213 - Added vision memory: item_窗户_2025-10-27T08:20:03.879128+00:00_19a586 | Data: {"label": "窗户", "confidence": 0.95, "description": "白色窗框，带有玻璃窗格"}
+2025-10-27 16:20:06 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:06 - INFO - log_info:213 - Added memory entry to Chroma: item_门_2025-10-27T08:20:05.955601+00:00_2f8567 | Data: {"item_label": "门", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:05.955582+00:00", "confidence": 0.5, "text_desc": "vision detected 门 - 白色双开门，位于房间中央偏右位置", "created_at": "2025-10-27T08:20:05.955627+00:00"}
+2025-10-27 16:20:06 - INFO - log_info:213 - Added vision memory: item_门_2025-10-27T08:20:05.955601+00:00_2f8567 | Data: {"label": "门", "confidence": 0.94, "description": "白色双开门，位于房间中央偏右位置"}
+2025-10-27 16:20:06 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:06 - INFO - log_info:213 - Added memory entry to Chroma: item_椅子_2025-10-27T08:20:06.260520+00:00_627a47 | Data: {"item_label": "椅子", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:06.260502+00:00", "confidence": 0.5, "text_desc": "vision detected 椅子 - 深灰色椅子，靠近窗户", "created_at": "2025-10-27T08:20:06.260543+00:00"}
+2025-10-27 16:20:06 - INFO - log_info:213 - Added vision memory: item_椅子_2025-10-27T08:20:06.260520+00:00_627a47 | Data: {"label": "椅子", "confidence": 0.93, "description": "深灰色椅子，靠近窗户"}
+2025-10-27 16:20:06 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:06 - INFO - log_info:213 - Added memory entry to Chroma: item_画框_2025-10-27T08:20:06.564725+00:00_bafca2 | Data: {"item_label": "画框", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:06.564704+00:00", "confidence": 0.5, "text_desc": "vision detected 画框 - 金色边框画作，挂在墙上", "created_at": "2025-10-27T08:20:06.564751+00:00"}
+2025-10-27 16:20:06 - INFO - log_info:213 - Added vision memory: item_画框_2025-10-27T08:20:06.564725+00:00_bafca2 | Data: {"label": "画框", "confidence": 0.92, "description": "金色边框画作，挂在墙上"}
+2025-10-27 16:20:07 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:07 - INFO - log_info:213 - Added memory entry to Chroma: item_scene_2025-10-27T08:20:06.883211+00:00_e5e070 | Data: {"item_label": "scene", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:06.883191+00:00", "confidence": 0.5, "text_desc": "vision scene: 这是一个明亮且温馨的客厅，有浅色的墙壁和地板，家具包括米色沙发、木质茶几、电视及电视柜等。", "created_at": "2025-10-27T08:20:06.883239+00:00"}
+2025-10-27 16:20:07 - INFO - log_info:215 - Added scene memory: item_scene_2025-10-27T08:20:06.883211+00:00_e5e070
+2025-10-27 16:20:07 - INFO - log_info:213 - Vision memory integration completed | Data: {"objects_added": 8, "total_memories_added": 9, "memory_ids": ["item_沙发_2025-10-27T08:20:01.906176+00:00_f3dab3", "item_茶几_2025-10-27T08:20:02.910675+00:00_69ec91", "item_电视_2025-10-27T08:20:03.225745+00:00_64aabf", "item_电视柜_2025-10-27T08:20:03.529533+00:00_01d782", "item_窗户_2025-10-27T08:20:03.879128+00:00_19a586", "item_门_2025-10-27T08:20:05.955601+00:00_2f8567", "item_椅子_2025-10-27T08:20:06.260520+00:00_627a47", "item_画框_2025-10-27T08:20:06.564725+00:00_bafca2", "item_scene_2025-10-27T08:20:06.883211+00:00_e5e070"]}
+2025-10-27 16:20:07 - INFO - log_info:215 - Added 9 vision memories to database
+2025-10-27 16:20:07 - INFO - log_info:213 - Analyzing detection results in living_room | Data: {"detection_type": "initial_detection", "total_objects": 8, "target_object": "蓝色水杯"}
+2025-10-27 16:20:07 - INFO - log_info:215 - ========================================
+2025-10-27 16:20:07 - INFO - log_info:215 - STARTING ROOM SEARCH CYCLE
+2025-10-27 16:20:07 - INFO - log_info:215 - ========================================
+2025-10-27 16:20:07 - INFO - log_info:215 - 
+============================================================
+2025-10-27 16:20:07 - INFO - log_info:215 - Attempting to search room: kitchen
+2025-10-27 16:20:07 - INFO - log_info:215 - ============================================================
+2025-10-27 16:20:07 - INFO - log_info:215 - Robot navigated from living_room to kitchen
+2025-10-27 16:20:07 - INFO - log_info:215 - Successfully navigated to kitchen
+2025-10-27 16:20:07 - INFO - log_info:215 - Performing detection in kitchen
+2025-10-27 16:20:07 - INFO - log_info:215 - Performing target_detection in kitchen
+2025-10-27 16:20:07 - INFO - log_info:215 - Using image: ./picture/kitchen.png
+2025-10-27 16:20:07 - INFO - log_info:215 - Target detection: looking for ['蓝色水杯']
+2025-10-27 16:20:24 - INFO - log_info:213 - Multi-object detection successful | Data: {"objects_count": 6, "target_objects": ["蓝色水杯"]}
+2025-10-27 16:20:24 - INFO - log_info:213 - Vision detection successful in kitchen | Data: {"detection_type": "target_detection", "objects_found": 6}
+2025-10-27 16:20:24 - INFO - log_info:215 - Integrating vision results into memory database
+2025-10-27 16:20:25 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:25 - INFO - log_info:213 - Added memory entry to Chroma: item_不锈钢水槽_2025-10-27T08:20:24.231996+00:00_c0e5b6 | Data: {"item_label": "不锈钢水槽", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:24.231977+00:00", "confidence": 0.5, "text_desc": "vision detected 不锈钢水槽 - 位于厨房台面左侧的不锈钢水槽", "created_at": "2025-10-27T08:20:24.232027+00:00"}
+2025-10-27 16:20:25 - INFO - log_info:213 - Added vision memory: item_不锈钢水槽_2025-10-27T08:20:24.231996+00:00_c0e5b6 | Data: {"label": "不锈钢水槽", "confidence": 0.99, "description": "位于厨房台面左侧的不锈钢水槽"}
+2025-10-27 16:20:25 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:25 - INFO - log_info:213 - Added memory entry to Chroma: item_白色橱柜_2025-10-27T08:20:25.264149+00:00_4799fa | Data: {"item_label": "白色橱柜", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:25.264132+00:00", "confidence": 0.5, "text_desc": "vision detected 白色橱柜 - 覆盖整个厨房墙面的白色橱柜", "created_at": "2025-10-27T08:20:25.264172+00:00"}
+2025-10-27 16:20:25 - INFO - log_info:213 - Added vision memory: item_白色橱柜_2025-10-27T08:20:25.264149+00:00_4799fa | Data: {"label": "白色橱柜", "confidence": 0.98, "description": "覆盖整个厨房墙面的白色橱柜"}
+2025-10-27 16:20:25 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:25 - INFO - log_info:213 - Added memory entry to Chroma: item_燃气灶_2025-10-27T08:20:25.580699+00:00_0449d9 | Data: {"item_label": "燃气灶", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:25.580670+00:00", "confidence": 0.5, "text_desc": "vision detected 燃气灶 - 位于厨房中央的黑色燃气灶", "created_at": "2025-10-27T08:20:25.580731+00:00"}
+2025-10-27 16:20:25 - INFO - log_info:213 - Added vision memory: item_燃气灶_2025-10-27T08:20:25.580699+00:00_0449d9 | Data: {"label": "燃气灶", "confidence": 0.97, "description": "位于厨房中央的黑色燃气灶"}
+2025-10-27 16:20:26 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:26 - INFO - log_info:213 - Added memory entry to Chroma: item_银色冰箱_2025-10-27T08:20:25.899510+00:00_d0f096 | Data: {"item_label": "银色冰箱", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:25.899487+00:00", "confidence": 0.5, "text_desc": "vision detected 银色冰箱 - 位于厨房右侧的银色冰箱", "created_at": "2025-10-27T08:20:25.899541+00:00"}
+2025-10-27 16:20:26 - INFO - log_info:213 - Added vision memory: item_银色冰箱_2025-10-27T08:20:25.899510+00:00_d0f096 | Data: {"label": "银色冰箱", "confidence": 0.96, "description": "位于厨房右侧的银色冰箱"}
+2025-10-27 16:20:27 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:27 - INFO - log_info:213 - Added memory entry to Chroma: item_白色盘子_2025-10-27T08:20:26.201801+00:00_654a9c | Data: {"item_label": "白色盘子", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:26.201781+00:00", "confidence": 0.5, "text_desc": "vision detected 白色盘子 - 叠放在厨房台面上的白色盘子", "created_at": "2025-10-27T08:20:26.201828+00:00"}
+2025-10-27 16:20:27 - INFO - log_info:213 - Added vision memory: item_白色盘子_2025-10-27T08:20:26.201801+00:00_654a9c | Data: {"label": "白色盘子", "confidence": 0.95, "description": "叠放在厨房台面上的白色盘子"}
+2025-10-27 16:20:27 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:27 - INFO - log_info:213 - Added memory entry to Chroma: item_水果_2025-10-27T08:20:27.187145+00:00_ffe4ad | Data: {"item_label": "水果", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:27.187120+00:00", "confidence": 0.5, "text_desc": "vision detected 水果 - 放置在厨房台面上的各种水果", "created_at": "2025-10-27T08:20:27.187170+00:00"}
+2025-10-27 16:20:27 - INFO - log_info:213 - Added vision memory: item_水果_2025-10-27T08:20:27.187145+00:00_ffe4ad | Data: {"label": "水果", "confidence": 0.94, "description": "放置在厨房台面上的各种水果"}
+2025-10-27 16:20:27 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:27 - INFO - log_info:213 - Added memory entry to Chroma: item_scene_2025-10-27T08:20:27.527538+00:00_f733a0 | Data: {"item_label": "scene", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:27.527521+00:00", "confidence": 0.5, "text_desc": "vision scene: 现代风格的厨房，配有白色橱柜、不锈钢水槽、燃气灶和银色冰箱，台面上有白色盘子和水果。", "created_at": "2025-10-27T08:20:27.527562+00:00"}
+2025-10-27 16:20:27 - INFO - log_info:215 - Added scene memory: item_scene_2025-10-27T08:20:27.527538+00:00_f733a0
+2025-10-27 16:20:27 - INFO - log_info:213 - Vision memory integration completed | Data: {"objects_added": 6, "total_memories_added": 7, "memory_ids": ["item_不锈钢水槽_2025-10-27T08:20:24.231996+00:00_c0e5b6", "item_白色橱柜_2025-10-27T08:20:25.264149+00:00_4799fa", "item_燃气灶_2025-10-27T08:20:25.580699+00:00_0449d9", "item_银色冰箱_2025-10-27T08:20:25.899510+00:00_d0f096", "item_白色盘子_2025-10-27T08:20:26.201801+00:00_654a9c", "item_水果_2025-10-27T08:20:27.187145+00:00_ffe4ad", "item_scene_2025-10-27T08:20:27.527538+00:00_f733a0"]}
+2025-10-27 16:20:27 - INFO - log_info:215 - Added 7 vision memories to database
+2025-10-27 16:20:27 - INFO - log_info:213 - Analyzing detection results in kitchen | Data: {"detection_type": "target_detection", "total_objects": 6, "target_object": "蓝色水杯"}
+2025-10-27 16:20:27 - WARNING - log_warning:232 - Target object '蓝色水杯' not found in objects list
+2025-10-27 16:20:27 - WARNING - log_warning:232 - Target object '蓝色水杯' critically not found in kitchen
+2025-10-27 16:20:27 - INFO - log_info:213 - All detected objects: | Data: [{"label": "不锈钢水槽", "confidence": 0.99}, {"label": "白色橱柜", "confidence": 0.98}, {"label": "燃气灶", "confidence": 0.97}, {"label": "银色冰箱", "confidence": 0.96}, {"label": "白色盘子", "confidence": 0.95}, {"label": "水果", "confidence": 0.94}]
+2025-10-27 16:20:27 - INFO - log_info:215 - Target object not found in kitchen. Returning to living room.
+2025-10-27 16:20:27 - INFO - log_info:215 - Robot navigated from kitchen to living_room
+2025-10-27 16:20:27 - INFO - log_info:215 - Returned to living room
+2025-10-27 16:20:27 - INFO - log_info:215 - 
+============================================================
+2025-10-27 16:20:27 - INFO - log_info:215 - Attempting to search room: bedroom
+2025-10-27 16:20:27 - INFO - log_info:215 - ============================================================
+2025-10-27 16:20:27 - INFO - log_info:215 - Robot navigated from living_room to bedroom
+2025-10-27 16:20:27 - INFO - log_info:215 - Successfully navigated to bedroom
+2025-10-27 16:20:27 - INFO - log_info:215 - Performing detection in bedroom
+2025-10-27 16:20:27 - INFO - log_info:215 - Performing target_detection in bedroom
+2025-10-27 16:20:27 - INFO - log_info:215 - Using image: ./picture/bedroom.png
+2025-10-27 16:20:27 - INFO - log_info:215 - Target detection: looking for ['蓝色水杯']
+2025-10-27 16:20:40 - INFO - log_info:213 - Multi-object detection successful | Data: {"objects_count": 5, "target_objects": ["蓝色水杯"]}
+2025-10-27 16:20:41 - INFO - log_info:213 - Vision detection successful in bedroom | Data: {"detection_type": "target_detection", "objects_found": 5}
+2025-10-27 16:20:41 - INFO - log_info:215 - Integrating vision results into memory database
+2025-10-27 16:20:42 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:42 - INFO - log_info:213 - Added memory entry to Chroma: item_床_2025-10-27T08:20:41.000312+00:00_26e632 | Data: {"item_label": "床", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:41.000291+00:00", "confidence": 0.5, "text_desc": "vision detected 床 - 木制双人床，床上铺有浅色被褥和枕头", "created_at": "2025-10-27T08:20:41.000338+00:00"}
+2025-10-27 16:20:42 - INFO - log_info:213 - Added vision memory: item_床_2025-10-27T08:20:41.000312+00:00_26e632 | Data: {"label": "床", "confidence": 0.99, "description": "木制双人床，床上铺有浅色被褥和枕头"}
+2025-10-27 16:20:43 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:43 - INFO - log_info:213 - Added memory entry to Chroma: item_床头柜_2025-10-27T08:20:42.861519+00:00_374865 | Data: {"item_label": "床头柜", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:42.861502+00:00", "confidence": 0.5, "text_desc": "vision detected 床头柜 - 木制床头柜，上面有一盏台灯和一个闹钟", "created_at": "2025-10-27T08:20:42.861542+00:00"}
+2025-10-27 16:20:43 - INFO - log_info:213 - Added vision memory: item_床头柜_2025-10-27T08:20:42.861519+00:00_374865 | Data: {"label": "床头柜", "confidence": 0.98, "description": "木制床头柜，上面有一盏台灯和一个闹钟"}
+2025-10-27 16:20:43 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:43 - INFO - log_info:213 - Added memory entry to Chroma: item_衣柜_2025-10-27T08:20:43.160676+00:00_2569ad | Data: {"item_label": "衣柜", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:43.160660+00:00", "confidence": 0.5, "text_desc": "vision detected 衣柜 - 木制双开门衣柜", "created_at": "2025-10-27T08:20:43.160702+00:00"}
+2025-10-27 16:20:43 - INFO - log_info:213 - Added vision memory: item_衣柜_2025-10-27T08:20:43.160676+00:00_2569ad | Data: {"label": "衣柜", "confidence": 0.97, "description": "木制双开门衣柜"}
+2025-10-27 16:20:43 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:43 - INFO - log_info:213 - Added memory entry to Chroma: item_窗户_2025-10-27T08:20:43.466546+00:00_ca1ffe | Data: {"item_label": "窗户", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:43.466528+00:00", "confidence": 0.5, "text_desc": "vision detected 窗户 - 白色窗框，窗帘拉开", "created_at": "2025-10-27T08:20:43.466572+00:00"}
+2025-10-27 16:20:43 - INFO - log_info:213 - Added vision memory: item_窗户_2025-10-27T08:20:43.466546+00:00_ca1ffe | Data: {"label": "窗户", "confidence": 0.96, "description": "白色窗框，窗帘拉开"}
+2025-10-27 16:20:44 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:44 - INFO - log_info:213 - Added memory entry to Chroma: item_地毯_2025-10-27T08:20:43.771901+00:00_988ce1 | Data: {"item_label": "地毯", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:43.771880+00:00", "confidence": 0.5, "text_desc": "vision detected 地毯 - 棕色地毯", "created_at": "2025-10-27T08:20:43.771931+00:00"}
+2025-10-27 16:20:44 - INFO - log_info:213 - Added vision memory: item_地毯_2025-10-27T08:20:43.771901+00:00_988ce1 | Data: {"label": "地毯", "confidence": 0.95, "description": "棕色地毯"}
+2025-10-27 16:20:44 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:44 - INFO - log_info:213 - Added memory entry to Chroma: item_scene_2025-10-27T08:20:44.089003+00:00_587b36 | Data: {"item_label": "scene", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:44.088983+00:00", "confidence": 0.5, "text_desc": "vision scene: 卧室内部，有一张双人床、一个床头柜、一个衣柜、一扇窗户和一块地毯。", "created_at": "2025-10-27T08:20:44.089034+00:00"}
+2025-10-27 16:20:44 - INFO - log_info:215 - Added scene memory: item_scene_2025-10-27T08:20:44.089003+00:00_587b36
+2025-10-27 16:20:44 - INFO - log_info:213 - Vision memory integration completed | Data: {"objects_added": 5, "total_memories_added": 6, "memory_ids": ["item_床_2025-10-27T08:20:41.000312+00:00_26e632", "item_床头柜_2025-10-27T08:20:42.861519+00:00_374865", "item_衣柜_2025-10-27T08:20:43.160676+00:00_2569ad", "item_窗户_2025-10-27T08:20:43.466546+00:00_ca1ffe", "item_地毯_2025-10-27T08:20:43.771901+00:00_988ce1", "item_scene_2025-10-27T08:20:44.089003+00:00_587b36"]}
+2025-10-27 16:20:44 - INFO - log_info:215 - Added 6 vision memories to database
+2025-10-27 16:20:44 - INFO - log_info:213 - Analyzing detection results in bedroom | Data: {"detection_type": "target_detection", "total_objects": 5, "target_object": "蓝色水杯"}
+2025-10-27 16:20:44 - WARNING - log_warning:232 - Target object '蓝色水杯' not found in objects list
+2025-10-27 16:20:44 - WARNING - log_warning:232 - Target object '蓝色水杯' critically not found in bedroom
+2025-10-27 16:20:44 - INFO - log_info:213 - All detected objects: | Data: [{"label": "床", "confidence": 0.99}, {"label": "床头柜", "confidence": 0.98}, {"label": "衣柜", "confidence": 0.97}, {"label": "窗户", "confidence": 0.96}, {"label": "地毯", "confidence": 0.95}]
+2025-10-27 16:20:44 - INFO - log_info:215 - Target object not found in bedroom. Returning to living room.
+2025-10-27 16:20:44 - INFO - log_info:215 - Robot navigated from bedroom to living_room
+2025-10-27 16:20:44 - INFO - log_info:215 - Returned to living room
+2025-10-27 16:20:44 - INFO - log_info:215 - 
+============================================================
+2025-10-27 16:20:44 - INFO - log_info:215 - Attempting to search room: study_room
+2025-10-27 16:20:44 - INFO - log_info:215 - ============================================================
+2025-10-27 16:20:44 - INFO - log_info:215 - Robot navigated from living_room to study_room
+2025-10-27 16:20:44 - INFO - log_info:215 - Successfully navigated to study_room
+2025-10-27 16:20:44 - INFO - log_info:215 - Performing detection in study_room
+2025-10-27 16:20:44 - INFO - log_info:215 - Performing target_detection in study_room
+2025-10-27 16:20:44 - INFO - log_info:215 - Using image: ./picture/study_room.png
+2025-10-27 16:20:44 - INFO - log_info:215 - Target detection: looking for ['蓝色水杯']
+2025-10-27 16:20:57 - INFO - log_info:213 - Multi-object detection successful | Data: {"objects_count": 6, "target_objects": ["蓝色水杯"]}
+2025-10-27 16:20:57 - INFO - log_info:213 - Vision detection successful in study_room | Data: {"detection_type": "target_detection", "objects_found": 6}
+2025-10-27 16:20:57 - INFO - log_info:215 - Integrating vision results into memory database
+2025-10-27 16:20:58 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:58 - INFO - log_info:213 - Added memory entry to Chroma: item_蓝色水杯_2025-10-27T08:20:57.073036+00:00_53ee14 | Data: {"item_label": "蓝色水杯", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:57.073011+00:00", "confidence": 0.5, "text_desc": "vision detected 蓝色水杯 - 位于书桌上", "created_at": "2025-10-27T08:20:57.073073+00:00"}
+2025-10-27 16:20:58 - INFO - log_info:213 - Added vision memory: item_蓝色水杯_2025-10-27T08:20:57.073036+00:00_53ee14 | Data: {"label": "蓝色水杯", "confidence": 0.95, "description": "位于书桌上"}
+2025-10-27 16:20:58 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:58 - INFO - log_info:213 - Added memory entry to Chroma: item_书_2025-10-27T08:20:58.082539+00:00_35da8d | Data: {"item_label": "书", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:58.082519+00:00", "confidence": 0.5, "text_desc": "vision detected 书 - 打开的书在书桌上", "created_at": "2025-10-27T08:20:58.082571+00:00"}
+2025-10-27 16:20:58 - INFO - log_info:213 - Added vision memory: item_书_2025-10-27T08:20:58.082539+00:00_35da8d | Data: {"label": "书", "confidence": 0.9, "description": "打开的书在书桌上"}
+2025-10-27 16:20:58 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:58 - INFO - log_info:213 - Added memory entry to Chroma: item_书架_2025-10-27T08:20:58.447457+00:00_304b8c | Data: {"item_label": "书架", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:58.447440+00:00", "confidence": 0.5, "text_desc": "vision detected 书架 - 木制书架，上面有各种书籍", "created_at": "2025-10-27T08:20:58.447480+00:00"}
+2025-10-27 16:20:58 - INFO - log_info:213 - Added vision memory: item_书架_2025-10-27T08:20:58.447457+00:00_304b8c | Data: {"label": "书架", "confidence": 0.8, "description": "木制书架，上面有各种书籍"}
+2025-10-27 16:20:59 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:59 - INFO - log_info:213 - Added memory entry to Chroma: item_椅子_2025-10-27T08:20:58.742285+00:00_c811fd | Data: {"item_label": "椅子", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:58.742264+00:00", "confidence": 0.5, "text_desc": "vision detected 椅子 - 黑色办公椅", "created_at": "2025-10-27T08:20:58.742318+00:00"}
+2025-10-27 16:20:59 - INFO - log_info:213 - Added vision memory: item_椅子_2025-10-27T08:20:58.742285+00:00_c811fd | Data: {"label": "椅子", "confidence": 0.85, "description": "黑色办公椅"}
+2025-10-27 16:20:59 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:59 - INFO - log_info:213 - Added memory entry to Chroma: item_窗户_2025-10-27T08:20:59.076345+00:00_9b8f5f | Data: {"item_label": "窗户", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:59.076328+00:00", "confidence": 0.5, "text_desc": "vision detected 窗户 - 白色框架的窗户，百叶窗半开", "created_at": "2025-10-27T08:20:59.076368+00:00"}
+2025-10-27 16:20:59 - INFO - log_info:213 - Added vision memory: item_窗户_2025-10-27T08:20:59.076345+00:00_9b8f5f | Data: {"label": "窗户", "confidence": 0.9, "description": "白色框架的窗户，百叶窗半开"}
+2025-10-27 16:20:59 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:20:59 - INFO - log_info:213 - Added memory entry to Chroma: item_植物_2025-10-27T08:20:59.489667+00:00_fb2239 | Data: {"item_label": "植物", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:59.489649+00:00", "confidence": 0.5, "text_desc": "vision detected 植物 - 绿色植物在花盆里", "created_at": "2025-10-27T08:20:59.489693+00:00"}
+2025-10-27 16:20:59 - INFO - log_info:213 - Added vision memory: item_植物_2025-10-27T08:20:59.489667+00:00_fb2239 | Data: {"label": "植物", "confidence": 0.8, "description": "绿色植物在花盆里"}
+2025-10-27 16:21:00 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:21:00 - INFO - log_info:213 - Added memory entry to Chroma: item_scene_2025-10-27T08:20:59.811355+00:00_6c85c9 | Data: {"item_label": "scene", "location_semantic": "current_scene", "timestamp_utc": "2025-10-27T08:20:59.811337+00:00", "confidence": 0.5, "text_desc": "vision scene: 房间内有一个深色木质书桌，上面放着一本打开的书和一个蓝色的水杯。旁边是一把黑色的办公椅。背景中有装满书的木制书架和一扇大窗户，阳光透过百叶窗洒进室内。还有一株绿色的植物放在角落。", "created_at": "2025-10-27T08:20:59.811379+00:00"}
+2025-10-27 16:21:00 - INFO - log_info:215 - Added scene memory: item_scene_2025-10-27T08:20:59.811355+00:00_6c85c9
+2025-10-27 16:21:00 - INFO - log_info:213 - Vision memory integration completed | Data: {"objects_added": 6, "total_memories_added": 7, "memory_ids": ["item_蓝色水杯_2025-10-27T08:20:57.073036+00:00_53ee14", "item_书_2025-10-27T08:20:58.082539+00:00_35da8d", "item_书架_2025-10-27T08:20:58.447457+00:00_304b8c", "item_椅子_2025-10-27T08:20:58.742285+00:00_c811fd", "item_窗户_2025-10-27T08:20:59.076345+00:00_9b8f5f", "item_植物_2025-10-27T08:20:59.489667+00:00_fb2239", "item_scene_2025-10-27T08:20:59.811355+00:00_6c85c9"]}
+2025-10-27 16:21:00 - INFO - log_info:215 - Added 7 vision memories to database
+2025-10-27 16:21:00 - INFO - log_info:213 - Analyzing detection results in study_room | Data: {"detection_type": "target_detection", "total_objects": 6, "target_object": "蓝色水杯"}
+2025-10-27 16:21:00 - INFO - log_info:213 - TARGET FOUND (direct match): 蓝色水杯 with confidence 0.95 | Data: {"label": "蓝色水杯", "bbox": [0.7, 0.45, 0.75, 0.48], "confidence": 0.95, "description": "位于书桌上"}
+2025-10-27 16:21:00 - INFO - log_info:215 - 
+============================================================
+2025-10-27 16:21:00 - INFO - log_info:215 - TARGET OBJECT FOUND in study_room!
+2025-10-27 16:21:00 - INFO - log_info:215 - ============================================================
+
+2025-10-27 16:21:00 - INFO - log_info:215 - ========================================
+2025-10-27 16:21:00 - INFO - log_info:215 - TASK COMPLETION REPORT
+2025-10-27 16:21:00 - INFO - log_info:215 - ========================================
+2025-10-27 16:21:00 - INFO - log_info:215 - Navigation path: living_room -> kitchen -> living_room -> bedroom -> living_room -> study_room
+2025-10-27 16:21:00 - INFO - log_info:215 - Final location: study_room
+2025-10-27 16:21:00 - INFO - log_info:215 - Rooms searched: ['kitchen', 'bedroom', 'study_room']
+2025-10-27 16:21:00 - INFO - log_info:215 - ✓ TASK SUCCESS: Target object found in study_room
+2025-10-27 16:21:00 - INFO - log_info:215 - 
+========================================
+2025-10-27 16:21:00 - INFO - log_info:215 - GENERATING ACTION PLAN
+2025-10-27 16:21:00 - INFO - log_info:215 - ========================================
+2025-10-27 16:21:00 - INFO - log_info:213 - Enhanced query construction | Data: {"original_object": "蓝色水杯", "original_location": "书房的书桌上", "enhanced_query": "蓝色水杯 in 书房的书桌上", "location_filter": "书房的书桌上"}
+2025-10-27 16:21:00 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:21:00 - INFO - log_info:213 - Retrieved 0 candidates from Chroma | Data: {"query": "蓝色水杯 in 书房的书桌上", "location_filter": "书房的书桌上", "topk": 5}
+2025-10-27 16:21:00 - WARNING - log_warning:232 - No results found with location filter '书房的书桌上', trying without location filter
+2025-10-27 16:21:00 - INFO - _send_single_request:1025 - HTTP Request: POST https://lechuang.openai.azure.com/openai/deployments/lechuang-embedding/embeddings?api-version=2023-05-15 "HTTP/1.1 200 OK"
+2025-10-27 16:21:00 - INFO - log_info:213 - Retrieved 5 candidates from Chroma | Data: {"query": "蓝色水杯", "location_filter": null, "topk": 5}
+2025-10-27 16:22:00 - ERROR - log_error:220 - API request error on attempt 1 | Error: HTTPSConnectionPool(host='open.bigmodel.cn', port=443): Read timed out. (read timeout=60)
+2025-10-27 16:23:01 - ERROR - log_error:220 - API request error on attempt 2 | Error: HTTPSConnectionPool(host='open.bigmodel.cn', port=443): Read timed out. (read timeout=60)
+2025-10-27 16:23:57 - INFO - log_info:213 - Action plan generated successfully | Data: {"next_action": "重新扫描书房书桌区域，特别关注书桌左侧位置，确认蓝色水杯的存在和精确位置", "reasoning": "跨模态验证显示视觉检测与记忆之间存在不一致。记忆中蓝色水杯位于书桌左侧，置信度0.92，而最新视觉检测未检测到该物体。场景描述也确认书桌上有蓝色水杯。这种不一致可能是由于视觉检测的短暂遮挡、角度问题或检测误差导致的。因此需要重新进行精确的视觉检测以确认目标位置。", "expected_observation": "视觉检测应能确认蓝色水杯在书房书桌上的位置，可能显示其位于书桌左侧笔记本电脑附近，与记忆信息一致。如果水杯被移动，应能检测到其新位置。", "fallback_plan": ["如果再次检测未找到，检查书桌下方和周围区域", "询问用户水杯是否可能被移动或遮挡", "使用多角度视觉检测确保没有遗漏", "检查书房其他区域作为备选位置"], "confidence": 0.85, "consistency_analysis": {"score": 0.6, "discrepancies": ["视觉检测未检测到蓝色水杯(detected: false)", "记忆中蓝色水杯位置明确，置信度0.92", "场景描述支持蓝色水杯在书桌上的存在"], "resolution_strategy": "重新进行高精度视觉检测，结合多角度确认"}, "cross_modal_insights": {"memory_strength": "记忆证据较强，置信度0.92，且有时间戳支持", "vision_limitations": "视觉检测置信度仅0.5，可能受光线、角度或遮挡影响", "scene_context": "场景描述一致支持目标对象存在，增强整体可靠性", "recommended_approach": "优先依赖高置信度记忆信息，辅以重新视觉验证"}}
+2025-10-27 16:23:57 - INFO - log_info:215 - Task simulation completed

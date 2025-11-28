@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "图中没有显示床垫或床"
+    },
+    {
+      "label": "梳妆台/dressing table",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "黑色木质梳妆台，上面有抽屉和装饰品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.3,
+        0.55,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "两幅方形画作挂在墙上"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.2,
+        0.1,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "左侧关闭的门"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.1,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "右侧打开的门"
+    }
+  ],
+  "scene_description": "房间内有黑色的梳妆台、镜子、两幅方形画作以及两扇木门。",
+  "detection_summary": "未发现床垫或床，发现了梳妆台、镜子、画作和两扇门。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个图像显示的是室内装饰，没有明显的床或床垫"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.2,
+        0.1,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "两个挂在墙上的相框"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.3,
+        0.6,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "照片/frame",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.75,
+      "description": "桌子上摆放的照片"
+    }
+  ],
+  "scene_description": "这是一张室内装饰的照片，可以看到一面大镜子、两个挂着的相框、一个白色的花瓶以及一些摆设品。",
+  "detection_summary": "在图像中没有明显可见的床或床垫。主要识别出镜子、相框、花瓶和照片等物品。"
+}

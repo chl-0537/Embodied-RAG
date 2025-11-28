@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.72,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的电源开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.75,
+        0.45,
+        0.8,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的电源开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一扇窗户、窗帘、沙发和一些装饰品。",
+  "detection_summary": "在图中成功检测到了两个墙上的电源开关。"
+}

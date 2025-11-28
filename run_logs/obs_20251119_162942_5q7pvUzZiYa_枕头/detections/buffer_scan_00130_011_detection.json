@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "白色沙发位于房间中央偏右位置"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "黑色电视放置在右侧墙边"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.65,
+        0.75,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "白色椅子靠近沙发"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.9,
+        0.7,
+        0.95,
+        0.85
+      ],
+      "confidence": 0.7,
+      "description": "棕色桌子位于房间右侧"
+    },
+    {
+      "label": "衣服/clothes",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.6,
+      "description": "蓝色外套挂在左侧门框上"
+    }
+  ],
+  "scene_description": "室内客厅场景，有沙发、电视、椅子和桌子等家具，以及挂着的衣物。",
+  "detection_summary": "成功检测到沙发、电视、椅子、桌子和衣服等主要物品。"
+}

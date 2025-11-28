@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "confidence": 1.0,
+      "description": "白色和灰色相间的砖墙"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        50,
+        20,
+        80,
+        60
+      ],
+      "confidence": 1.0,
+      "description": "黑色背景上有黄色眼睛和红色条纹的艺术作品"
+    },
+    {
+      "label": "扬声器/speaker",
+      "bbox": [
+        10,
+        30,
+        40,
+        70
+      ],
+      "confidence": 1.0,
+      "description": "灰色的方形扬声器"
+    },
+    {
+      "label": "帽子/hat",
+      "bbox": [
+        15,
+        35,
+        25,
+        45
+      ],
+      "confidence": 1.0,
+      "description": "黑色的帽子放在扬声器上"
+    }
+  ],
+  "scene_description": "房间内有一面白色和灰色相间的砖墙，墙上挂着一幅有黄色眼睛和红色条纹的艺术作品，旁边有一个灰色方形扬声器和一顶黑色帽子。",
+  "detection_summary": "在图中没有检测到枕头，但可以看到墙壁、一幅艺术作品和一个扬声器以及其上的帽子。"
+}

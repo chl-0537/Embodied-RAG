@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        500,
+        300,
+        800,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        400,
+        350,
+        450,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "棕色，上面有台灯"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        420,
+        380,
+        430,
+        420
+      ],
+      "confidence": 0.7,
+      "description": "在床头柜上"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        550,
+        200,
+        650,
+        300
+      ],
+      "confidence": 0.8,
+      "description": "两幅挂在墙上"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        700,
+        500,
+        750,
+        550
+      ],
+      "confidence": 0.7,
+      "description": "米色，前面有抱枕"
+    },
+    {
+      "label": "洗手池",
+      "bbox": [
+        100,
+        250,
+        200,
+        350
+      ],
+      "confidence": 0.8,
+      "description": "在浴室里"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        150,
+        200,
+        250,
+        300
+      ],
+      "confidence": 0.8,
+      "description": "在浴室里"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、床头柜、台灯、画框、椅子和浴室。",
+  "detection_summary": "成功检测到床、床头柜、台灯、画框、椅子、洗手池和镜子。未能检测到开关。"
+}

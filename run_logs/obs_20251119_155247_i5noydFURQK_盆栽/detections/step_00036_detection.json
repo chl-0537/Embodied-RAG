@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "图片显示了一面墙和一部分家具，但没有明显的盆栽。",
+  "detection_summary": "没有检测到明确的盆栽对象。"
+}

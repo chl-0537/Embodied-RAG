@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶中的植物"
+    }
+  ],
+  "scene_description": "室内房间，有大窗户和窗帘，窗外可以看到房屋和山脉。",
+  "detection_summary": "在图中识别出一个盆栽。"
+}

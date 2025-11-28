@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.7,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的插座"
+    }
+  ],
+  "scene_description": "室内环境，有米黄色和白色的墙壁以及木质踢脚线。",
+  "detection_summary": "在图片中检测到两个开关，分别位于左侧墙面上。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.5,
+        0.4,
+        0.52,
+        0.42
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆中的绿色植物"
+    },
+    {
+      "label": "床头灯/table lamp",
+      "bbox": [
+        0.7,
+        0.45,
+        0.72,
+        0.47
+      ],
+      "confidence": 0.8,
+      "description": "床边的台灯"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.3,
+        0.12,
+        0.32
+      ],
+      "confidence": 0.7,
+      "description": "墙上的圆形镜子"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.8,
+        0.35,
+        0.85,
+        0.38
+      ],
+      "confidence": 0.6,
+      "description": "带镜子的白色衣柜"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.75,
+        0.4,
+        0.78,
+        0.43
+      ],
+      "confidence": 0.5,
+      "description": "带有绿色床单和白色枕头的床"
+    }
+  ],
+  "scene_description": "这是一张室内照片，展示了一个卧室的一部分和一个连接的走廊。卧室里有一张床、一个床头柜和一个台灯，还有一个白色的衣柜。墙上挂着一个圆形的镜子。",
+  "detection_summary": "在图片中成功识别出了盆栽、床头灯、镜子、衣柜和床等主要物品。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "鞋子/shoes",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "鞋架上有各种鞋子"
+    },
+    {
+      "label": "盒子/box",
+      "bbox": [
+        0.7,
+        0.7,
+        0.85,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "放置在墙边的纸板箱"
+    }
+  ],
+  "scene_description": "图中有一个放满鞋子的鞋架和一个放在墙边的纸板箱。",
+  "detection_summary": "检测到两个主要对象：鞋子和纸板箱。"
+}

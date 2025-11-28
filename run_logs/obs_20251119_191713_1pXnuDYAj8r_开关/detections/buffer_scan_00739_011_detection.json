@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.9,
+        0.85,
+        0.92
+      ],
+      "confidence": 0.7,
+      "description": "位于右侧墙壁上方的黑色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上挂着的多个相框"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "房间内的一张床"
+    },
+    {
+      "label": "床头灯",
+      "bbox": [
+        0.5,
+        0.6,
+        0.52,
+        0.62
+      ],
+      "confidence": 0.7,
+      "description": "床头柜上的台灯"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、床头柜和台灯，墙上挂着多幅画框。",
+  "detection_summary": "在图中成功识别了开关、画框、床和床头灯等主要物品。"
+}

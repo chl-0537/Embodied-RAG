@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆里的绿色植物"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "红色鹿的画作"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.4,
+        0.38,
+        0.43
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的圆形镜子"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、地板和家具。",
+  "detection_summary": "在房间内识别出盆栽、画和镜子的位置和特征。"
+}

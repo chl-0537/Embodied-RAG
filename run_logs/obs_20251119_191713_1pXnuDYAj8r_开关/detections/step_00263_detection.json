@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        200,
+        100,
+        400,
+        300
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张白色床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        150,
+        250,
+        250,
+        350
+      ],
+      "confidence": 0.8,
+      "description": "床旁边有两个床头柜"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        50,
+        300,
+        150,
+        400
+      ],
+      "confidence": 0.7,
+      "description": "房间左侧有两把椅子"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        300,
+        300,
+        450,
+        400
+      ],
+      "confidence": 0.6,
+      "description": "房间右侧有一张沙发"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        450,
+        100,
+        500,
+        200
+      ],
+      "confidence": 0.5,
+      "description": "房间右侧有一个大窗户"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有床、床头柜、椅子、沙发和窗户。",
+  "detection_summary": "在给定的图像中，没有明确标识出开关的存在。"
+}

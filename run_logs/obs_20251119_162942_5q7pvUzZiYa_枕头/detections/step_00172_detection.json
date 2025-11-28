@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于床铺左侧的白色枕头"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "放置在房间右侧墙边的黑色电视机"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.65,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "靠近电视机的白色休闲椅"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.3,
+        0.35,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间内的大型床铺，配有深色床罩和白色被子"
+    }
+  ],
+  "scene_description": "现代风格的卧室内部，有大面积的落地窗、木质地板以及简约家具。",
+  "detection_summary": "成功识别出房间内的主要家具和装饰品，包括枕头、电视、椅子和床。"
+}

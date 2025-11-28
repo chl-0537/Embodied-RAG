@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.5,
+        0.4,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央偏右位置，放置在桌子上"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "白色现代设计，靠近窗户"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.45,
+        0.45,
+        0.5,
+        0.48
+      ],
+      "confidence": 0.7,
+      "description": "棕色木质表面，上面有电视"
+    }
+  ],
+  "scene_description": "这是一个现代化的室内环境，有一个大窗户、一张桌子和一台电视。",
+  "detection_summary": "已检测到电视、椅子和桌子三个主要对象。"
+}

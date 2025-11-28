@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "这是一张床，可以看到床垫和床架的一部分。"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "床垫位于床上，是支撑身体的部分。"
+    }
+  ],
+  "scene_description": "这张图片展示了一个室内环境，主要是一张床和一些家具。",
+  "detection_summary": "成功检测到床和床垫两个主要对象。"
+}

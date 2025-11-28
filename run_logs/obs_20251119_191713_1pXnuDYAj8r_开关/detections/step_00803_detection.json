@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧的银色家用电器"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "与洗衣机相邻的电器设备"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.35,
+        0.25,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "带有深色木纹图案的储物柜"
+    },
+    {
+      "label": "水槽/sink",
+      "bbox": [
+        0.55,
+        0.45,
+        0.7,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "嵌入在台面上的不锈钢水槽"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.78,
+        0.82,
+        0.81,
+        0.84
+      ],
+      "confidence": 0.8,
+      "description": "墙上的白色电灯开关"
+    }
+  ],
+  "scene_description": "厨房或洗衣房内部，有各种家用电器和家具。",
+  "detection_summary": "成功检测到洗衣机、烘干机、橱柜、水槽以及墙上的电灯开关。"
+}

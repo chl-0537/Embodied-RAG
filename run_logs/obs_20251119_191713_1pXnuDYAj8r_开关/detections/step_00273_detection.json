@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制门，部分被烧毁"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.1,
+        0.4,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色墙壁，有黑色污渍和损坏"
+    },
+    {
+      "label": "天花板/ceiling",
+      "bbox": [
+        0.45,
+        0.05,
+        0.55,
+        0.2
+      ],
+      "confidence": 0.7,
+      "description": "白色天花板，有一个圆形灯具"
+    },
+    {
+      "label": "灯/lamp",
+      "bbox": [
+        0.5,
+        0.18,
+        0.52,
+        0.22
+      ],
+      "confidence": 0.6,
+      "description": "天花板上安装的一个小圆形灯具"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.6,
+        0.8,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放置在架子上"
+    },
+    {
+      "label": "架子/shelf",
+      "bbox": [
+        0.65,
+        0.55,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "墙上的一个金属架子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个部分被烧毁的门、白色的墙壁和天花板，以及一个带有灯具的天花板和一个放在架子上的白色花瓶。",
+  "detection_summary": "检测到的主要对象包括一扇部分被烧毁的门、白色墙壁、天花板上的灯具、一个白色花瓶和一个金属架子。"
+}

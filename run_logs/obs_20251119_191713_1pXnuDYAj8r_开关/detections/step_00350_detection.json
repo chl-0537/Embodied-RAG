@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.55,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.28,
+        0.58,
+        0.38,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.41,
+        0.6,
+        0.51,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.45,
+        0.7,
+        0.55,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "黑白照片，放在桌子上"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.5,
+        0.4,
+        0.52,
+        0.42
+      ],
+      "confidence": 0.8,
+      "description": "墙上有一个白色的开关"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子上方有灯光照明，镜子下方是一张桌子，上面摆放着几个装饰性的花瓶和一幅黑白照片。",
+  "detection_summary": "在图中成功识别出了镜子、花瓶、相框以及墙上的开关。"
+}

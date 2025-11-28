@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.15,
+        0.45,
+        0.2,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.6,
+        0.4,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "蓝色调的艺术画作"
+    }
+  ],
+  "scene_description": "室内墙面装饰有艺术画作和一个电灯开关。",
+  "detection_summary": "成功检测到墙上的电灯开关和一幅蓝色调的艺术画作。"
+}

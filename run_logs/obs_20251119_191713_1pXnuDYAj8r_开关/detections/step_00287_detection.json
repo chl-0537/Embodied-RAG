@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.25,
+        0.45,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张白色床铺，上面有多个枕头和被子。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.35,
+        0.55,
+        0.45,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "床旁边有一个白色的床头柜，上面放着一个台灯和一些装饰品。"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.38,
+        0.58,
+        0.42,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上放置了一盏台灯。"
+    },
+    {
+      "label": "画-painting",
+      "bbox": [
+        0.5,
+        0.3,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂有两幅抽象风格的画作。"
+    },
+    {
+      "label": "窗户-window",
+      "bbox": [
+        0.65,
+        0.15,
+        0.95,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "右侧有大面积的落地窗，可以看到外面的景色。"
+    },
+    {
+      "label": "浴缸-bathtub",
+      "bbox": [
+        0.05,
+        0.8,
+        0.2,
+        0.95
+      ],
+      "confidence": 0.7,
+      "description": "左侧有一个白色的浴缸。"
+    }
+  ],
+  "scene_description": "这是一间现代化的卧室，拥有大窗户、舒适的床铺和一个独立的浴室区域。",
+  "detection_summary": "在房间内识别出了床、床头柜、台灯、画作、窗户以及浴缸等多个主要物件。"
+}

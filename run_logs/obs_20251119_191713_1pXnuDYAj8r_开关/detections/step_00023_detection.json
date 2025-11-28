@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙壁上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上的黑色边框画"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "走廊尽头的木制门"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个走廊的一部分，墙上挂着两幅画，尽头有一扇木门。",
+  "detection_summary": "在场景中检测到了一个开关、两个画框和一扇门。"
+}

@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "房间内有一张双人床，床上铺有白色床单和枕头。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.38,
+        0.55,
+        0.48,
+        0.7
+      ],
+      "confidence": 0.98,
+      "description": "床旁边有一个灰色的床头柜，上面放着一个台灯和一些装饰品。"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.39,
+        0.56,
+        0.42,
+        0.66
+      ],
+      "confidence": 0.97,
+      "description": "床头柜上放置了一盏白色的台灯。"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.96,
+      "description": "墙上挂着一幅抽象艺术画作。"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.6,
+        0.3,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.95,
+      "description": "房间右侧有大面积的落地窗，可以看到外面的景色。"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.65,
+        0.32,
+        0.85,
+        0.78
+      ],
+      "confidence": 0.94,
+      "description": "窗户前悬挂着浅色窗帘。"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.92,
+        0.02,
+        0.95,
+        0.04
+      ],
+      "confidence": 0.9,
+      "description": "天花板上有几个嵌入式灯具和一个电风扇的开关。"
+    }
+  ],
+  "scene_description": "这是一间现代风格的卧室，拥有大窗户、舒适的床铺以及简约的家具。",
+  "detection_summary": "成功识别出房间内的主要家具和装饰物，包括床、床头柜、台灯、画作、窗户、窗帘以及天花板上的开关。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "黑色柜子上放置的两个白色花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.6,
+        0.7,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.7,
+      "description": "黑色柜子上的两个相框"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.8,
+        0.9,
+        0.95,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧的一扇木门"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.9,
+        0.95,
+        0.92,
+        0.98
+      ],
+      "confidence": 0.8,
+      "description": "位于房间右侧墙上靠近天花板的开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个带有镜子的走廊区域，墙壁上有装饰画和开关。",
+  "detection_summary": "在图中成功识别了镜子、花瓶、相框、门以及墙上的开关。"
+}

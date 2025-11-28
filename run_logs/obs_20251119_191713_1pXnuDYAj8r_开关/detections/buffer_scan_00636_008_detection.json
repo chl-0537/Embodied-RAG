@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        500,
+        300,
+        800,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        400,
+        350,
+        450,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "黑色床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        420,
+        320,
+        430,
+        330
+      ],
+      "confidence": 0.7,
+      "description": "白色台灯"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        100,
+        200,
+        150,
+        250
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        700,
+        500,
+        750,
+        550
+      ],
+      "confidence": 0.7,
+      "description": "米色椅子"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、两个床头柜、一盏台灯和一些装饰品。",
+  "detection_summary": "在图中没有明确识别出开关。"
+}

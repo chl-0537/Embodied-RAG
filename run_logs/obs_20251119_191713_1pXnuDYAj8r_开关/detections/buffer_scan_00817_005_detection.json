@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    },
+    {
+      "label": "篮子",
+      "bbox": [
+        500,
+        300,
+        600,
+        400
+      ],
+      "confidence": 0.9,
+      "description": "棕色编织篮子，内有白色物品"
+    },
+    {
+      "label": "柜子",
+      "bbox": [
+        700,
+        100,
+        900,
+        500
+      ],
+      "confidence": 0.8,
+      "description": "深色木质柜子"
+    },
+    {
+      "label": "架子",
+      "bbox": [
+        200,
+        150,
+        400,
+        350
+      ],
+      "confidence": 0.7,
+      "description": "金属架子，上面有毛巾和篮子"
+    }
+  ],
+  "scene_description": "室内场景，有一个打开的门通向另一个房间，房间里有一个带毛巾和篮子的架子，旁边是深色的柜子和一个编织篮子。",
+  "detection_summary": "在给定的图像中没有明确识别到开关。"
+}

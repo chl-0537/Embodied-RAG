@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.35,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于窗户右侧的窗帘"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.45,
+        0.25,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "房间内的床"
+    },
+    {
+      "label": "枕头-pillow",
+      "bbox": [
+        0.15,
+        0.55,
+        0.18,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "床上放置的枕头"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.2,
+        0.5,
+        0.23,
+        0.53
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的花瓶"
+    },
+    {
+      "label": "兰花/orchid",
+      "bbox": [
+        0.21,
+        0.52,
+        0.24,
+        0.56
+      ],
+      "confidence": 0.9,
+      "description": "花瓶里的兰花"
+    },
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.65,
+        0.75,
+        0.68,
+        0.78
+      ],
+      "confidence": 0.9,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "这是一间卧室的场景，有一张床、枕头、花瓶和兰花，以及一扇窗户和窗帘。",
+  "detection_summary": "在场景中检测到了窗帘、床、枕头、花瓶、兰花和墙上的开关。"
+}

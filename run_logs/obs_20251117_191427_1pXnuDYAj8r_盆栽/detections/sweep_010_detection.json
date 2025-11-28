@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未发现盆栽"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.5,
+        0.3,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.55,
+        0.35,
+        0.65,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.2,
+        0.25,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "反射室内景象的镜子"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "木制门板"
+    }
+  ],
+  "scene_description": "房间内有几幅挂画、一面大镜子和一扇木门。",
+  "detection_summary": "在当前视图中没有检测到盆栽。"
+}

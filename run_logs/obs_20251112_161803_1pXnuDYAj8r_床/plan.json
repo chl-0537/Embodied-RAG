@@ -1,0 +1,20 @@
+{
+  "next_action": "移动到床的位置，坐标约为(11.4, 3.5, -5.2)",
+  "reasoning": "根据current_status显示，target_found=true且visual_detection_result='SUCCESS'，表明床已经被成功找到。最新的视觉检测显示床位于房间中央，坐标大约在(11.38, 3.51, -5.14)到(11.51, 3.51, -5.35)之间。下一步应该移动到床的位置进行确认和可能的后续操作。",
+  "expected_observation": "机器人移动到床的位置，观察到一张白色床，上面有多个枕头和被子，位于房间中央",
+  "fallback_plan": [
+    "如果移动后未找到床，重新扫描房间并更新地图",
+    "如果床的位置有偏差，根据视觉反馈调整移动路径",
+    "如果床被部分遮挡，调整视角进行完整观察"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_vision_consistency": "中等一致性，记忆中有多个床的位置记录，最新视觉检测确认床在房间中央",
+    "confidence_level": "高，视觉检测置信度为0.9，且系统状态显示'SUCCESS'"
+  },
+  "cross_modal_insights": {
+    "location_verification": "视觉检测确认床位于'habitat'区域，与记忆中的'current_scene'位置一致",
+    "object_description": "视觉观察显示床有白色床单、多个枕头和被子，与记忆中的描述相符",
+    "recommended_action": "系统建议移动到目标位置进行进一步操作"
+  }
+}

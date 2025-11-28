@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于前景"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶，位于前景"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.1,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "黑色和白色相间的窗帘，位于左侧"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.45,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.95,
+      "description": "木制门，有烧焦痕迹，位于中间"
+    }
+  ],
+  "scene_description": "房间内有一扇被火烧过的木门，两个白色花瓶和一些窗帘。",
+  "detection_summary": "共检测到四个主要对象：两个花瓶、一扇门和窗帘。"
+}

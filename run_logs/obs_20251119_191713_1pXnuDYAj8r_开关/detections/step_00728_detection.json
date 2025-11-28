@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.15,
+        0.1,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象艺术作品"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.7,
+        0.6,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "位于右侧墙壁上的白色开关"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅抽象画，右侧有一个白色的开关。",
+  "detection_summary": "在图中识别出两件主要物品：一幅挂在墙上的抽象画和一个位于右侧墙壁上的白色开关。"
+}

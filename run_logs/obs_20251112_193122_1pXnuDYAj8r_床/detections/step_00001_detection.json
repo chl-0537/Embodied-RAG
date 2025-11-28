@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个房间内有一张床"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个房间内有一张床垫"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，墙上挂着几幅画框，房间里有一个大镜子，还有一些小装饰品。",
+  "detection_summary": "在当前视图中没有直接可见的目标对象“mattress, bed, 床”。"
+}

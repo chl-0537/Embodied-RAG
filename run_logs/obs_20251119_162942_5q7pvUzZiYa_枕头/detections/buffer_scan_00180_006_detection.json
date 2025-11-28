@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "室内环境，有白色门和灰色砖墙",
+  "detection_summary": "未发现明确的目标对象"
+}

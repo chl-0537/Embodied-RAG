@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "海报",
+      "bbox": [
+        0.05,
+        0.15,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "绿色背景的海报，上面有白色字母"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.45,
+        0.35,
+        0.5,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "椭圆形的镜子，挂在墙上"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.5,
+        0.45,
+        0.7,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "红色长颈鹿图案的画"
+    }
+  ],
+  "scene_description": "房间内的墙上有一些装饰物，包括海报、镜子和画。",
+  "detection_summary": "在图片中没有发现盆栽或其同义词。"
+}

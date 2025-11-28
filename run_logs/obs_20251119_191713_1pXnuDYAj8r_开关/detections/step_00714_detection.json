@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.9,
+        0.82,
+        0.92
+      ],
+      "confidence": 0.7,
+      "description": "位于右侧墙壁上"
+    }
+  ],
+  "scene_description": "房间内有一张床、多幅挂在墙上的画和一个开关。",
+  "detection_summary": "在图中识别出一个开关。"
+}

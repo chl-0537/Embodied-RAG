@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书架/Shelf",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "浴室内的书架"
+    }
+  ],
+  "scene_description": "卧室和浴室的场景，卧室有床、床头柜和装饰画，浴室内有洗手台和镜子。",
+  "detection_summary": "在卧室和浴室中分别检测到了一本书和一个书架。"
+}

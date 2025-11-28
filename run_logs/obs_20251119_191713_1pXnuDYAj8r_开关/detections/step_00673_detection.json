@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.42,
+        0.65,
+        0.44,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "墙上的白色开关"
+    }
+  ],
+  "scene_description": "房间内有两幅挂在墙上的画和两个白色的开关。",
+  "detection_summary": "成功检测到两个开关。"
+}

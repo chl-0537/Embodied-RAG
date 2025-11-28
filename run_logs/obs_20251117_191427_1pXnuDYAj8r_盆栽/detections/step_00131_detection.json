@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/flower pot",
+      "bbox": [
+        0.1,
+        0.7,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色花朵放在窗台上"
+    }
+  ],
+  "scene_description": "室内场景，有一扇窗户和窗帘，窗外可以看到房屋和山脉。",
+  "detection_summary": "在图中识别出一个盆栽，位于窗户下方。"
+}

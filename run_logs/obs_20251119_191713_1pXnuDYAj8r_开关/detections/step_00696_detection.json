@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马头画"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "房间的背景墙"
+    },
+    {
+      "label": "门框/door frame",
+      "bbox": [
+        0.7,
+        0.2,
+        0.85,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "右侧的门框"
+    }
+  ],
+  "scene_description": "房间内有一幅挂画和一扇半开的门。",
+  "detection_summary": "已检测到一幅挂在墙上的马头画、一面墙壁和一个门框。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "床上的白色枕头"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.35,
+        0.7,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "床上的白色枕头"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、一幅画和一扇大窗户。",
+  "detection_summary": "在图中检测到两个枕头。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "室内环境，有木门、墙上的画框和远处的家具。",
+  "detection_summary": "未在图中检测到明显的开关。"
+}

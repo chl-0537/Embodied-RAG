@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "恒温器/thermostat",
+      "bbox": [
+        0.35,
+        0.45,
+        0.42,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "安装在墙上的电子设备"
+    },
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.3,
+        0.4,
+        0.33,
+        0.43
+      ],
+      "confidence": 0.8,
+      "description": "位于恒温器下方的小型白色装置"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.6,
+        0.2,
+        0.9,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的艺术作品"
+    }
+  ],
+  "scene_description": "室内环境，墙上安装有恒温器和开关，旁边挂着一幅画。",
+  "detection_summary": "成功检测到恒温器、开关和一幅画。"
+}

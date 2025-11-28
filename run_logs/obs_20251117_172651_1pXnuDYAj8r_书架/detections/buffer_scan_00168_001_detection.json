@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的书架，部分被烧毁"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "右侧墙上的破碎花瓶"
+    }
+  ],
+  "scene_description": "房间内有受损的书架和破碎的花瓶。",
+  "detection_summary": "检测到书架和花瓶两个主要对象。"
+}

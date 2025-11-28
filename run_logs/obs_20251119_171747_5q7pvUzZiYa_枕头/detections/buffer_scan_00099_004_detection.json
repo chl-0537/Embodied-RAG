@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "图中没有明显的枕头形状或特征"
+    }
+  ],
+  "scene_description": "这是一幅抽象画，画面中有多种颜色和纹理，但没有明确的物体形状。",
+  "detection_summary": "在给定的图像中没有检测到任何明确的枕头或其他可识别的物体。"
+}

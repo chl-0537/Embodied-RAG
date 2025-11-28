@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "房间内的大面积玻璃窗"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上的窗帘"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间的墙壁"
+    },
+    {
+      "label": "天花板/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.1
+      ],
+      "confidence": 0.7,
+      "description": "房间的天花板"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.1,
+        0.85,
+        0.15,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于天花板的电灯开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一扇大窗户、窗帘、墙壁和天花板。窗户可以看到外面的景色。",
+  "detection_summary": "成功检测到窗户、窗帘、墙壁、天花板以及一个电灯开关。"
+}

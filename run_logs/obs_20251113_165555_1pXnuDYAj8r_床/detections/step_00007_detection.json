@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.45,
+        0.4,
+        0.65,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.5,
+        0.1,
+        0.7,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的镜子"
+    }
+  ],
+  "scene_description": "房间内有一面镜子、两个白色花瓶和一幅挂画。",
+  "detection_summary": "在场景中检测到三个花瓶和一个画以及一面镜子。"
+}

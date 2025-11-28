@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙壁上的黑色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上的黑白照片"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "中间墙上排列的五幅黑白照片"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.65,
+        0.55,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "右侧墙上的两幅黑白照片"
+    }
+  ],
+  "scene_description": "室内房间，有装饰画和开关",
+  "detection_summary": "成功检测到开关和几幅挂在墙上的画"
+}

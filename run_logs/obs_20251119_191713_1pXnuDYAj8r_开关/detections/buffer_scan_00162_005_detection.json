@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个浴室的一部分，可以看到洗手台、镜子和一些毛巾。",
+  "detection_summary": "在当前视图中没有检测到明显的开关。"
+}

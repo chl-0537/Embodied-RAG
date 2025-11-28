@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书架",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书籍",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、床头柜和台灯，墙上挂着两幅画。",
+  "detection_summary": "在图片中没有检测到任何与'novel, book, 书架, 书, books'相关的目标对象。"
+}

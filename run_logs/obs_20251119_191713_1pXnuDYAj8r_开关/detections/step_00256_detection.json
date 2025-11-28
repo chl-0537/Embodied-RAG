@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.1,
+        0.1,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "带玻璃窗和金属框架的窗户"
+    },
+    {
+      "label": "花朵",
+      "bbox": [
+        0.35,
+        0.55,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "白色花朵"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘和装饰性花朵",
+  "detection_summary": "成功检测到窗帘、窗户和花朵"
+}

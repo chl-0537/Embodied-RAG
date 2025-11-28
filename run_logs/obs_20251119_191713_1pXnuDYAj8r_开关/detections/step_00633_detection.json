@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.35,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "梳妆台/dressing table",
+      "bbox": [
+        0.55,
+        0.65,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "黑色木制梳妆台"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.58,
+        0.7,
+        0.62,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.72,
+        0.73,
+        0.76,
+        0.77
+      ],
+      "confidence": 0.8,
+      "description": "黑白相间的相框"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.05,
+        0.25,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.05,
+        0.25,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "带窗帘的窗户"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.1,
+        0.8,
+        0.12,
+        0.82
+      ],
+      "confidence": 0.8,
+      "description": "墙壁上的开关"
+    }
+  ],
+  "scene_description": "房间内有一个黑色的梳妆台，上面摆放着白色的花瓶和两个黑白相间的相框。墙上挂着一面大镜子，旁边是带窗帘的窗户。墙壁上有几个开关。",
+  "detection_summary": "在房间里检测到了镜子、梳妆台、花瓶、相框、窗帘、窗户和墙壁上的开关。"
+}

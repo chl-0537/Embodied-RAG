@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 1.0,
+      "description": "挂在墙上的马头画像"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "背景墙"
+    }
+  ],
+  "scene_description": "室内墙上挂着一幅马的画像，周围环境较为简洁。",
+  "detection_summary": "在当前视图中没有发现明显的开关设备。"
+}

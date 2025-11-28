@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    }
+  ],
+  "scene_description": "室内走廊，有装饰性的墙面和远处的家具。",
+  "detection_summary": "在图中识别出一个白色的开关面板。"
+}

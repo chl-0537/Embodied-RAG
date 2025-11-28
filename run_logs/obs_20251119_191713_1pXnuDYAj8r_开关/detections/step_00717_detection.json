@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马头画像"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "竖立在墙边的全身镜"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅画和一面镜子。",
+  "detection_summary": "在图中识别出了两件主要物品：一幅挂在墙上的马头画像和一面竖立的全身镜。"
+}

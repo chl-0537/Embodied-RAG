@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央偏右位置，放置在白色柜子上"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.4,
+        0.38,
+        0.42,
+        0.41
+      ],
+      "confidence": 0.8,
+      "description": "位于房间中央偏右位置，靠近电视"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.43,
+        0.37,
+        0.47,
+        0.39
+      ],
+      "confidence": 0.7,
+      "description": "位于房间中央偏右位置，靠近电视和椅子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.3,
+        0.52,
+        0.32
+      ],
+      "confidence": 0.6,
+      "description": "挂在墙上，位于房间右侧"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有木质地板、白色墙壁和一个大窗户。房间里有一台电视、一把椅子和一张沙发。",
+  "detection_summary": "成功检测到电视、椅子、沙发和墙上的画。"
+}

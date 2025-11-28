@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.5,
+      "description": "左侧有一张床的一部分，可以看到床头和床垫的部分区域。"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.5,
+      "description": "与床相关的床垫部分。"
+    }
+  ],
+  "scene_description": "房间内有一个木门、两幅挂在墙上的画和一个窗户。",
+  "detection_summary": "在图片中检测到了床和床垫。"
+}

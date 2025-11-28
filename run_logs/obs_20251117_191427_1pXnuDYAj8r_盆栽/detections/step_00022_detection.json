@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        740,
+        500,
+        750,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        300,
+        200,
+        600,
+        400
+      ],
+      "confidence": 0.95,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        250,
+        350,
+        280,
+        450
+      ],
+      "confidence": 0.85,
+      "description": "位于床左侧"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        240,
+        320,
+        260,
+        380
+      ],
+      "confidence": 0.8,
+      "description": "在床头柜上"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        100,
+        420,
+        180,
+        500
+      ],
+      "confidence": 0.75,
+      "description": "房间前方左侧"
+    },
+    {
+      "label": "沙发-sofa",
+      "bbox": [
+        700,
+        400,
+        800,
+        480
+      ],
+      "confidence": 0.8,
+      "description": "房间前方右侧"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        50,
+        150,
+        120,
+        220
+      ],
+      "confidence": 0.85,
+      "description": "墙上挂着的艺术作品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        50,
+        230,
+        120,
+        290
+      ],
+      "confidence": 0.85,
+      "description": "墙上的装饰镜"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        800,
+        100,
+        900,
+        200
+      ],
+      "confidence": 0.8,
+      "description": "窗户旁边的布料"
+    }
+  ],
+  "scene_description": "这是一个布置精美的卧室，有一张大床、两个床头柜和一盏台灯，还有两把椅子和一张小桌子。墙上挂着几幅画和一个镜子。",
+  "detection_summary": "成功检测到盆栽、床、床头柜、台灯、椅子、沙发、画、镜子和窗帘等主要物品。"
+}

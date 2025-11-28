@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书架/Shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书/Books",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、一张沙发和一幅画。",
+  "detection_summary": "在当前视图中没有检测到任何书籍或书架。"
+}

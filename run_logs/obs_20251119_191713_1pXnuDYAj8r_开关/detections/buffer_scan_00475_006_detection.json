@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "房间内有烧毁的痕迹，墙壁和窗户有损坏，可以看到一些家具和装饰品。",
+  "detection_summary": "没有检测到明显的开关。"
+}

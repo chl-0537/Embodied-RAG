@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.3,
+        0.4,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一扇半开的木门"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "墙上挂着一幅画"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.65,
+        0.7,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "一把黑色的椅子"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.6,
+        0.7,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "一张灰色的桌子"
+    },
+    {
+      "label": "墙/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "白色的天花板和墙壁"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一扇半开的木门、一幅挂在墙上的画、一把黑色椅子和一张灰色桌子。",
+  "detection_summary": "在场景中检测到了门、画、椅子和桌子等物体。"
+}

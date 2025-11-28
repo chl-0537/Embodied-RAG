@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间左侧的浅色L型沙发"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间中央的小圆凳"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间远处的白色床"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间后方的落地窗"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "窗户两侧的花纹窗帘"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间右侧墙上的艺术画框和雕塑"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张白色的床、一张浅色的L型沙发和一个圆形小凳子。墙上挂着几幅艺术画作和一些雕塑装饰品。房间内有大面积的落地窗，窗外可以看到风景。",
+  "detection_summary": "在图中没有明确标识出开关的存在。"
+}

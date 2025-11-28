@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中显示"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中显示"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.5,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的一块大镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.7,
+        0.3,
+        0.8,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "两个装饰性的相框"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.25,
+        0.45,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "两个白色的花瓶"
+    }
+  ],
+  "scene_description": "房间内有一个黑色桌子，上面摆放着一些装饰品，包括两个白色花瓶和两个相框，墙上挂着一面大镜子。",
+  "detection_summary": "图中没有检测到床或床垫，但有镜子、相框和花瓶。"
+}

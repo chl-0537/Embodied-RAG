@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.3,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的风景画"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.8,
+        0.75,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "在右侧房间内的绿色植物"
+    }
+  ],
+  "scene_description": "室内走廊场景，墙上挂着一幅画，左侧有一个白色的开关，右侧可以看到一个带有植物的房间。",
+  "detection_summary": "成功检测到开关、画和植物三个主要对象。"
+}

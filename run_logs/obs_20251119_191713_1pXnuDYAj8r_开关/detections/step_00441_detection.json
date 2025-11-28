@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个黑色边框的画"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.3
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着的镜子"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子上方有两个装裱好的画作。",
+  "detection_summary": "在图中没有发现明确的开关，但可以看到一些装饰物品和家具。"
+}

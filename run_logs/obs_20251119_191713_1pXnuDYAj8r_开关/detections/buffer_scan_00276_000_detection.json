@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.15,
+        0.2,
+        0.35,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制的、部分烧焦的门"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.1,
+        1.0,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色的墙壁，有部分被烧黑的痕迹"
+    },
+    {
+      "label": "天花板/ceiling",
+      "bbox": [
+        0.5,
+        0.05,
+        0.6,
+        0.15
+      ],
+      "confidence": 0.7,
+      "description": "天花板上有一个圆形的灯具"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.65,
+        0.85,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "一个白色的花瓶，放在架子上"
+    },
+    {
+      "label": "架子/shelf",
+      "bbox": [
+        0.75,
+        0.55,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "一个黑色的架子，上面放着花瓶"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个部分烧毁的房间，可以看到门、墙壁、天花板和架子等物品。",
+  "detection_summary": "在场景中检测到了门、墙壁、天花板、花瓶和架子等主要物体。"
+}

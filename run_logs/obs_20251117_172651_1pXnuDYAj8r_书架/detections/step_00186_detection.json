@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "金属材质的书架，有多层隔板"
+    }
+  ],
+  "scene_description": "室内环境，有一个金属书架和一些管道。",
+  "detection_summary": "在图中识别出一个主要对象：书架。没有发现'novel', 'book', 'books'等目标对象。"
+}

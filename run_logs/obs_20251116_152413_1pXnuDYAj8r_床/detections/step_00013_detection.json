@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.5,
+        0.25,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于窗户旁边的窗帘"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.8,
+        0.35,
+        0.95,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制门"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "窗台上有一个白色花瓶"
+    },
+    {
+      "label": "兰花/Orchid",
+      "bbox": [
+        0.07,
+        0.47,
+        0.17,
+        0.57
+      ],
+      "confidence": 0.8,
+      "description": "花瓶中有几朵白色的兰花"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个带有窗户、窗帘和门的房间。窗外可以看到一些房屋和山脉。",
+  "detection_summary": "在图片中检测到了窗帘、门、花瓶和兰花等物体。"
+}

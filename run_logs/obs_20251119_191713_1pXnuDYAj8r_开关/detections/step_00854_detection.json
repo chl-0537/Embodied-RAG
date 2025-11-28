@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        10,
+        20,
+        15,
+        25
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        50,
+        60,
+        70,
+        80
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的多幅黑白照片"
+    },
+    {
+      "label": "楼梯扶手",
+      "bbox": [
+        40,
+        100,
+        60,
+        150
+      ],
+      "confidence": 0.7,
+      "description": "金属材质的楼梯扶手"
+    }
+  ],
+  "scene_description": "室内场景，有楼梯、墙上的画和电灯开关",
+  "detection_summary": "成功检测到开关、画框和楼梯扶手"
+}

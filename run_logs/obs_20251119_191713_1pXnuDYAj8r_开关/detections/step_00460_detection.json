@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "室内环境，有木制墙面和装饰画",
+  "detection_summary": "未检测到开关"
+}

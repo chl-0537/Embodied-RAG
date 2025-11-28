@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "盆栽",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个黑色边框照片"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.3,
+        0.2,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的长方形镜子"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着两幅画和一个镜子。",
+  "detection_summary": "未检测到盆栽，但检测到了两个相框和一面镜子。"
+}

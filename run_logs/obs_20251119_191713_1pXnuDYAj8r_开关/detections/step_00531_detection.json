@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.8,
+        0.1,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.7,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.6,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.3,
+        0.5,
+        0.4,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.3,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.6,
+        0.2,
+        0.7,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.1,
+        0.8,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    }
+  ],
+  "scene_description": "一间卧室，有一张床、一张桌子、几把椅子以及墙上挂着的画和窗户。",
+  "detection_summary": "在图片中检测到了多个开关，它们都位于左侧墙上。"
+}

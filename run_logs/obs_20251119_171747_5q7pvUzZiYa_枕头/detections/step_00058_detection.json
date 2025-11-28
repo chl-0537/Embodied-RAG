@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "一扇半开的木门"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着一幅画"
+    },
+    {
+      "label": "冰箱/refrigerator",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "房间角落里有一台冰箱"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个半开的木门、一幅挂在墙上的画和一个在房间角落里的冰箱。",
+  "detection_summary": "在这个场景中，我们成功检测到了门、画和冰箱这三个主要对象。"
+}

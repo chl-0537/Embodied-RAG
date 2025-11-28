@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "白色床单覆盖的床垫"
+    }
+  ],
+  "scene_description": "房间内有一张床，床上铺有白色床单和枕头。",
+  "detection_summary": "在图像中成功检测到一张床和一个床垫。"
+}

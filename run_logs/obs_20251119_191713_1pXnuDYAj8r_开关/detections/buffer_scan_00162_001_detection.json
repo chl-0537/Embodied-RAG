@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧，可以看到窗外的景色"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.85,
+        0.55,
+        0.9,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放置在柜子上，靠近窗户"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.88,
+        0.6,
+        0.92,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "放在柜子顶部，旁边有植物"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于浴室区域，上方有镜子"
+    },
+    {
+      "label": "毛巾/towel",
+      "bbox": [
+        0.48,
+        0.38,
+        0.52,
+        0.42
+      ],
+      "confidence": 0.8,
+      "description": "挂在洗手池旁边的墙上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个带有窗户、植物和台灯的生活空间，以及一个相邻的浴室区域，里面有洗手池和毛巾。",
+  "detection_summary": "成功检测到窗户、植物、台灯、洗手池和毛巾等主要对象。"
+}

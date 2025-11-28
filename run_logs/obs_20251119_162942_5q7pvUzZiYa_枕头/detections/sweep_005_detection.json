@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "黑色电视机放置在桌子上"
+    },
+    {
+      "label": "桌子/Table",
+      "bbox": [
+        0.35,
+        0.7,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "灰色桌子上有一些物品"
+    },
+    {
+      "label": "门/Door",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色门位于房间中央"
+    },
+    {
+      "label": "墙壁/Wall",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "右侧墙壁有彩色涂鸦"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个黑色的电视放在灰色的桌子上，背景是一面白色的墙和一个白色的门。",
+  "detection_summary": "成功检测到电视、桌子、门和墙壁四个主要对象。"
+}

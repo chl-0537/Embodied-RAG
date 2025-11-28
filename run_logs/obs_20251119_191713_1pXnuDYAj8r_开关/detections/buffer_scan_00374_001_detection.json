@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.65,
+        0.75,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的镜子"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "木制门，部分烧毁"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.01,
+        0.01,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "黑色和白色相间的窗帘"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.8,
+        0.8,
+        0.82,
+        0.83
+      ],
+      "confidence": 0.9,
+      "description": "白色的开关"
+    }
+  ],
+  "scene_description": "房间内有一扇部分烧毁的门、一面镜子、两个白色花瓶和一个白色开关。",
+  "detection_summary": "成功检测到多个主要对象，包括花瓶、镜子、门、窗帘和开关。"
+}

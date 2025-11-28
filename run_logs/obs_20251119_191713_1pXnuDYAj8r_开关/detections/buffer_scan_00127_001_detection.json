@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的大型浅色沙发"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.75,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "靠近窗户的小型白色椅子"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.55,
+        0.65,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "放置在墙边的黑色小桌子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.6,
+        0.7,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的一只白色花瓶"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.4,
+        0.9,
+        0.6,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "覆盖窗户的浅色窗帘"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.9,
+        0.9,
+        0.92,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "位于右侧墙壁上的电灯开关"
+    }
+  ],
+  "scene_description": "这是一个宽敞的卧室，有一张大床、一张小桌子和一把椅子，窗外可以看到城市景观。",
+  "detection_summary": "成功检测到沙发、椅子、桌子、花瓶、窗帘和电灯开关等主要物品。"
+}

@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "床头灯/lamp",
+      "bbox": [
+        880,
+        350,
+        920,
+        400
+      ],
+      "confidence": 0.9,
+      "description": "床头的台灯"
+    },
+    {
+      "label": "床头柜/nightstand",
+      "bbox": [
+        870,
+        300,
+        930,
+        450
+      ],
+      "confidence": 0.85,
+      "description": "床旁边的桌子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        740,
+        200,
+        800,
+        260
+      ],
+      "confidence": 0.9,
+      "description": "墙上的装饰画"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        810,
+        190,
+        860,
+        250
+      ],
+      "confidence": 0.9,
+      "description": "墙上的装饰画"
+    },
+    {
+      "label": "马桶/toilet",
+      "bbox": [
+        500,
+        150,
+        550,
+        200
+      ],
+      "confidence": 0.75,
+      "description": "浴室里的马桶"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        480,
+        100,
+        520,
+        140
+      ],
+      "confidence": 0.8,
+      "description": "浴室里的洗手池"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        430,
+        90,
+        470,
+        130
+      ],
+      "confidence": 0.85,
+      "description": "浴室里的镜子"
+    }
+  ],
+  "scene_description": "这是一间卧室和相连的浴室的场景。卧室里有一张大床、床头灯、床头柜以及墙上挂着的两幅装饰画。浴室里有马桶、洗手池和一面镜子。",
+  "detection_summary": "在图中成功识别了多个家居用品，包括床头灯、床头柜、装饰画、马桶、洗手池和镜子。"
+}

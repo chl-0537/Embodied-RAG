@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.25,
+        0.45,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.65,
+        0.55,
+        0.68,
+        0.58
+      ],
+      "confidence": 0.6,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.7,
+        0.55,
+        0.73,
+        0.58
+      ],
+      "confidence": 0.6,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "灯/light",
+      "bbox": [
+        0.75,
+        0.55,
+        0.78,
+        0.58
+      ],
+      "confidence": 0.6,
+      "description": "墙上的灯"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅画，两个白色花瓶放在桌子上，还有几个开关和灯。",
+  "detection_summary": "共检测到六个主要对象：两个花瓶、一幅画以及三个墙面装置（两个开关和一个灯）。"
+}

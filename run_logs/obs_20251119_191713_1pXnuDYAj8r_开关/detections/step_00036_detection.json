@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.3,
+        0.45,
+        0.35,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.3,
+        0.42,
+        0.35,
+        0.44
+      ],
+      "confidence": 0.8,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.3,
+        0.39,
+        0.35,
+        0.41
+      ],
+      "confidence": 0.7,
+      "description": "墙上的白色开关面板"
+    }
+  ],
+  "scene_description": "这是一个室内房间，有床、沙发和装饰画。",
+  "detection_summary": "在图中检测到了三个开关。"
+}

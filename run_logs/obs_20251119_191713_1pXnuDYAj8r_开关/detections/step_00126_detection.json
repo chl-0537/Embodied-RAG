@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的浅色沙发"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.65,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "覆盖窗户的图案窗帘"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.75,
+        0.7,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "靠近窗户的大床"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.55,
+        0.8,
+        0.58,
+        0.88
+      ],
+      "confidence": 0.8,
+      "description": "位于床旁的小桌子"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.57,
+        0.82,
+        0.59,
+        0.89
+      ],
+      "confidence": 0.8,
+      "description": "放置在床头柜上的白色台灯"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.56,
+        0.81,
+        0.58,
+        0.83
+      ],
+      "confidence": 0.8,
+      "description": "放在床头柜上的装饰物"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "墙上的平板电视"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.92,
+        0.02,
+        0.94,
+        0.04
+      ],
+      "confidence": 0.8,
+      "description": "天花板上的照明开关"
+    }
+  ],
+  "scene_description": "这是一个现代化的卧室，有大窗户、舒适的家具和装饰品。",
+  "detection_summary": "成功检测到沙发、窗帘、床、床头柜、台灯、装饰品、电视以及天花板上的照明开关。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开放式书架，有四个层板"
+    },
+    {
+      "label": "书/books",
+      "bbox": [
+        0.55,
+        0.65,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "书架上有一本书"
+    }
+  ],
+  "scene_description": "房间内有一个白色的墙壁和天花板，地板是浅色的。左侧是一扇木门，右侧是一个白色的开放式书架，上面有几本书。",
+  "detection_summary": "在图中识别出一个书架和一本书。"
+}

@@ -1,0 +1,26 @@
+{
+  "next_action": "移动到枕头位置 [12.34, 3.21, -5.09]",
+  "reasoning": "目标枕头已在初始扫描中被成功发现，视觉检测确认成功。系统已获取到枕头的3D位置坐标，下一步应移动到该位置进行后续操作。",
+  "expected_observation": "机器人移动到枕头附近，能够清晰看到枕头，并准备好进行抓取操作。",
+  "fallback_plan": [
+    "如果移动过程中路径受阻，重新规划路径",
+    "如果到达位置后枕头不可见，进行小范围扫描确认位置",
+    "如果抓取失败，尝试调整抓取角度或力度"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "visual_memory_consistency": "高一致性，多个视觉观察确认枕头存在",
+    "position_estimation": "3D位置估计与视觉观察位置基本一致",
+    "detection_confidence": "视觉检测置信度为0.9，表明检测结果可靠"
+  },
+  "cross_modal_insights": {
+    "fusion_result": "多视图三角测量完成，提供了准确的3D位置",
+    "recommendation": "基于高置信度的视觉检测和一致的3D位置估计，可以安全地执行移动到目标位置的操作"
+  },
+  "estimated_3d_position": [
+    12.34026106954071,
+    3.2086294840020484,
+    -5.091822576939896
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

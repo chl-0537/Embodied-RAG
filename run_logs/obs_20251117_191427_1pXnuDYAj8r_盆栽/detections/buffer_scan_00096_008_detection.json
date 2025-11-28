@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶状容器内种植有植物"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.6,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "浅色布艺沙发"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.35,
+        0.4,
+        0.65,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.5,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "床上铺有白色床单和枕头"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张床、一张沙发和一个大窗户，窗外可以看到山景。房间内有装饰品和家具。",
+  "detection_summary": "在场景中检测到了盆栽、沙发、窗帘、窗户和床等物体。"
+}

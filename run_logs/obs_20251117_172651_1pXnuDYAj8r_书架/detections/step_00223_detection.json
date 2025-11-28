@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的开放式书架"
+    },
+    {
+      "label": "书/books",
+      "bbox": [
+        0.05,
+        0.7,
+        0.15,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "书架上排列整齐的书本"
+    }
+  ],
+  "scene_description": "房间内有一个大镜子、装饰花瓶和木制家具。",
+  "detection_summary": "在图中识别出一个书架和几本书。"
+}

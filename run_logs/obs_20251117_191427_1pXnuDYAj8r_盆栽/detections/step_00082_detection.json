@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的平板电视"
+    },
+    {
+      "label": "画/Painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的抽象艺术作品"
+    }
+  ],
+  "scene_description": "房间内有一台大屏幕电视和墙上挂着一幅抽象艺术作品。",
+  "detection_summary": "在当前视图中没有检测到盆栽植物。"
+}

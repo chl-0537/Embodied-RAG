@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于左侧"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.4,
+        0.7,
+        0.6,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于右侧"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.6,
+        0.6,
+        0.65,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.7,
+        0.6,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、天花板和装饰物",
+  "detection_summary": "成功检测到两个花瓶和两个开关"
+}

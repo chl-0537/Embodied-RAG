@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧墙边的电视"
+    },
+    {
+      "label": "沙发/Sofa",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "位于房间中央的沙发"
+    },
+    {
+      "label": "枕头/Pillow",
+      "bbox": [
+        0.4,
+        0.7,
+        0.42,
+        0.72
+      ],
+      "confidence": 0.75,
+      "description": "位于沙发上"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有白色的墙壁和天花板，浅色的木质地板。房间里有一台电视和一个沙发。",
+  "detection_summary": "在图中成功检测到了电视、沙发和枕头三个主要对象。"
+}

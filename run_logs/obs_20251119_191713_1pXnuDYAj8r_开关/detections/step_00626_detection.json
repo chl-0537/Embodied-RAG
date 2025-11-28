@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、一张梳妆台和一面大镜子。窗外可以看到风景。",
+  "detection_summary": "在图像中没有检测到明显的开关。"
+}

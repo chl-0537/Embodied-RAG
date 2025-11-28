@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "图片显示了一个室内环境，左侧有一面墙和一个带有文字的海报。",
+  "detection_summary": "没有检测到明显的枕头或其他显著物体。"
+}

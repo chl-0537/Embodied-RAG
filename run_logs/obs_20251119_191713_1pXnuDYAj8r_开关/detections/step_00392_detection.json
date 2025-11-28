@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.55,
+        0.45,
+        0.62,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.63,
+        0.45,
+        0.7,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.55,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "白色装饰性花瓶"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.27,
+        0.55,
+        0.47,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "白色装饰性花瓶"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.49,
+        0.55,
+        0.69,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "白色装饰性花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.72,
+        0.45,
+        0.79,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.8,
+        0.5,
+        0.95,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制门"
+    }
+  ],
+  "scene_description": "房间内有一个黑色的柜子，上面摆放着一些装饰品和照片，墙上挂着一面大镜子和两幅画，旁边有一扇木门。",
+  "detection_summary": "已检测到镜子、相框、花瓶、门等物品。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "左侧木制门"
+    },
+    {
+      "label": "墙/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "白色天花板"
+    },
+    {
+      "label": "灯/light fixture",
+      "bbox": [
+        0.8,
+        0.9,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "右上角嵌入式灯具"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.7,
+        0.6,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.7,
+      "description": "右侧墙上有一个开关"
+    }
+  ],
+  "scene_description": "室内走廊场景，有木门、白色天花板和嵌入式灯具，以及墙上的开关。",
+  "detection_summary": "成功检测到门、天花板、灯和开关等主要对象。"
+}

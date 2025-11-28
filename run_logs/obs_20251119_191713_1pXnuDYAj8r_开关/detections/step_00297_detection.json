@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的长条形布料"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        200,
+        50,
+        400,
+        300
+      ],
+      "confidence": 0.8,
+      "description": "木制的门框"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        450,
+        100,
+        550,
+        250
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        480,
+        280,
+        520,
+        320
+      ],
+      "confidence": 0.75,
+      "description": "放在桌子上的白色花瓶"
+    }
+  ],
+  "scene_description": "这是一个室内场景，左侧有一扇窗户和挂着窗帘，中间是一扇被烧毁的门，右侧有一个带镜子的桌子。",
+  "detection_summary": "在场景中检测到了窗帘、门框、镜子和花瓶等物体。"
+}

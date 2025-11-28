@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.5,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央偏右位置，靠近墙壁"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "房间右侧，白色床架和绿色床单"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.65,
+        0.4,
+        0.75,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧，带有镜子的白色衣柜"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.15,
+        0.05,
+        0.25,
+        0.15
+      ],
+      "confidence": 0.8,
+      "description": "房间左侧墙上，绿色调的艺术作品"
+    },
+    {
+      "label": "装饰镜/decorative mirror",
+      "bbox": [
+        0.1,
+        0.1,
+        0.15,
+        0.2
+      ],
+      "confidence": 0.85,
+      "description": "房间左侧墙上，兔子形状的镜子"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，以白色为主色调，搭配一些绿色元素。房间内有一张床、一个带镜子的衣柜和一个装饰性的兔子形状镜子。",
+  "detection_summary": "在房间内成功识别出盆栽、床、衣柜、画和装饰镜等主要物品。"
+}

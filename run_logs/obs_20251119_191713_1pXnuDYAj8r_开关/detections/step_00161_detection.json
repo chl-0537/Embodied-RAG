@@ -1,0 +1,116 @@
+{
+  "objects": [
+    {
+      "label": "床头柜/nightstand",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧床边，上面有一盏台灯和一盆植物"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.75,
+        0.85,
+        0.78,
+        0.88
+      ],
+      "confidence": 0.9,
+      "description": "在床头柜上"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.76,
+        0.86,
+        0.79,
+        0.89
+      ],
+      "confidence": 0.9,
+      "description": "在床头柜上"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央偏右位置"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "覆盖窗户"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.15,
+        0.45,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于浴室区域"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.4,
+        0.2,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "安装在洗手池上方"
+    },
+    {
+      "label": "马桶/toilet",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于浴室区域"
+    },
+    {
+      "label": "淋浴房/shower enclosure",
+      "bbox": [
+        0.05,
+        0.3,
+        0.15,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于浴室区域"
+    },
+    {
+      "label": "毛巾架/towel rack",
+      "bbox": [
+        0.1,
+        0.5,
+        0.12,
+        0.52
+      ],
+      "confidence": 0.9,
+      "description": "安装在墙上"
+    }
+  ],
+  "scene_description": "这是一张室内照片，展示了一个卧室和一个相连的浴室。卧室里有一个床、床头柜、台灯和一些装饰品。浴室里有洗手池、镜子和马桶。",
+  "detection_summary": "成功检测到多个家居用品，包括床头柜、台灯、植物、窗户、窗帘、洗手池、镜子、马桶、淋浴房和毛巾架。"
+}

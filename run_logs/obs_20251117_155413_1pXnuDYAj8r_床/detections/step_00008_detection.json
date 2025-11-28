@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙边"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        200,
+        50,
+        300,
+        250
+      ],
+      "confidence": 0.8,
+      "description": "木制，有损坏痕迹"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0,
+        0,
+        500,
+        500
+      ],
+      "confidence": 0.7,
+      "description": "白色，部分区域有污渍"
+    }
+  ],
+  "scene_description": "房间内有一扇木制的门，门框有明显的损坏痕迹，旁边是白色的墙壁和一扇窗户，窗帘是浅色的。",
+  "detection_summary": "在当前视图中没有发现床、床垫或bed等目标对象。"
+}

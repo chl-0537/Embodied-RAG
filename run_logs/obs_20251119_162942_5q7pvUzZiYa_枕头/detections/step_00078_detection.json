@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.15,
+        0.8,
+        0.25,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "位于床的一侧"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.7,
+        0.35,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "带有枕头的家具"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.05,
+        0.05,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "悬挂在窗户前的布料"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.45,
+        0.45,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.75,
+      "description": "房间内的开口"
+    }
+  ],
+  "scene_description": "室内环境，有床、枕头和窗帘",
+  "detection_summary": "成功检测到枕头、床、窗帘和窗户"
+}

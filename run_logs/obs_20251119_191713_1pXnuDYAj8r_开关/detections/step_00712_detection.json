@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "卧室内的床铺"
+    },
+    {
+      "label": "床头灯",
+      "bbox": [
+        0.03,
+        0.18,
+        0.08,
+        0.23
+      ],
+      "confidence": 0.75,
+      "description": "床头柜上的台灯"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，墙上挂有多幅画作，床上铺有舒适的被褥。",
+  "detection_summary": "成功检测到房间内的主要家具和装饰品，包括开关、画框、床和床头灯。"
+}

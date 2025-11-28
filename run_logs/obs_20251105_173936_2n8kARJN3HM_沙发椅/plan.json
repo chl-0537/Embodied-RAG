@@ -1,0 +1,19 @@
+{
+  "next_action": "移动到左侧房间靠近壁炉的位置，确认沙发椅的位置和状态",
+  "reasoning": "根据current_status，target_found为true且visual_detection_result显示'SUCCESS - Target object visually confirmed'，表明目标沙发椅已成功找到。从evidences中可以看到多个视觉检测结果一致显示沙发椅位于左侧房间，靠近壁炉或地毯区域。下一步应移动到目标位置进行确认和后续操作。",
+  "expected_observation": "机器人移动到左侧房间靠近壁炉区域，能够近距离观察到沙发椅，确认其位置、状态和周围环境，为后续操作做准备。",
+  "fallback_plan": [
+    "如果左侧房间壁炉区域未找到目标，则搜索左侧房间靠近地毯区域",
+    "如果左侧房间未找到，则扩大搜索范围至整个场景",
+    "如视觉检测受阻，使用其他传感器辅助定位"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_vision_consistency": "中等一致性，记忆中多次检测到沙发椅位于左侧房间，但具体位置描述略有差异（靠近壁炉或地毯）",
+    "confidence_level": "高，最新视觉检测确认目标存在，置信度为0.9"
+  },
+  "cross_modal_insights": {
+    "validation_result": "视觉检测与记忆检测结果基本一致，均确认沙发椅位于左侧房间",
+    "recommendation": "根据cross_modal_validation.recommendation，应优先前往左侧房间靠近壁炉区域，该位置在记忆中被多次提及"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.35,
+        0.25,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马匹画作"
+    },
+    {
+      "label": "床/ bed",
+      "bbox": [
+        0.7,
+        0.5,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "卧室内的床铺"
+    },
+    {
+      "label": "床头柜/ bedside table",
+      "bbox": [
+        0.75,
+        0.6,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.7,
+      "description": "位于床旁边的床头柜"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅马的画作，右侧可以看到卧室的一部分，包括床和床头柜。",
+  "detection_summary": "在图中识别出了三件主要物品：一幅画、一张床和一个床头柜。"
+}

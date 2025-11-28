@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "图片显示了一个室内环境，有一面墙和一些模糊不清的物品。",
+  "detection_summary": "在当前视图中没有检测到枕头或其同义词。"
+}

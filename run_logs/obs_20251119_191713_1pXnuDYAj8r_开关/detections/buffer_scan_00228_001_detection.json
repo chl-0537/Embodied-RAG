@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "图中展示了一个室内环境，墙上挂着两幅画框，左侧有一面镜子反射出房间的部分景象。",
+  "detection_summary": "在当前视图中没有检测到明显的开关设备。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "房间内有一幅马的画、一张沙发和一扇窗户。",
+  "detection_summary": "在当前视图中没有检测到任何开关。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一扇木制门，表面有明显的磨损和污渍"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一面白色的墙，上面有一些污渍和不平整的地方"
+    },
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.5
+      ],
+      "confidence": 1.0,
+      "description": "一个安装在墙上的白色开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一扇有明显磨损的木门和一面有些污渍的白色墙，墙上安装了一个白色开关。",
+  "detection_summary": "在给定的图像中，成功识别出了一扇木门、一面白色墙和一个安装在墙上的白色开关。"
+}

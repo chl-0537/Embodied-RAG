@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画框/ painting frame",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "开关板/ switch panel",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "位于左侧墙上的白色开关板"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅画和一个开关板，右侧可以看到厨房的一部分。",
+  "detection_summary": "在图中识别出了画框和开关板两个主要对象。"
+}

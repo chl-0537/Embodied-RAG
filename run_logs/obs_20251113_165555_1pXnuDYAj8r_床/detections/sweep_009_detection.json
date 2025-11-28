@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧，部分可见"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "与床一起出现，部分可见"
+    }
+  ],
+  "scene_description": "室内环境，有床、墙上的画和门",
+  "detection_summary": "在图像中检测到床和床垫"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.55,
+        0.65,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的抽象艺术作品"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.45,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "雕塑/sculpture",
+      "bbox": [
+        0.3,
+        0.5,
+        0.4,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的金属雕塑"
+    }
+  ],
+  "scene_description": "室内装饰场景，有镜子、艺术品和装饰品",
+  "detection_summary": "成功检测到镜子、画作、花瓶和雕塑"
+}

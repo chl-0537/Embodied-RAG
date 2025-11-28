@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "相框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.35,
+        0.25,
+        0.45,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.4,
+        0.3,
+        0.5,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.88,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.92,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.6,
+        0.5,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.89,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.91,
+      "description": "挂在墙上的黑色边框照片"
+    }
+  ],
+  "scene_description": "走廊墙壁上挂着多幅黑白照片",
+  "detection_summary": "成功检测到多个挂在墙上的相框"
+}

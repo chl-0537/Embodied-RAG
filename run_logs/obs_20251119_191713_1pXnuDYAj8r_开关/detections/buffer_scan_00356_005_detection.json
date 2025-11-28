@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色陶瓷花瓶，位于左侧"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "白色陶瓷花瓶，位于右侧"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的镜子"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.1,
+        0.1,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "黑色和白色相间的窗帘"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.15,
+        0.1,
+        0.25,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制门，部分打开"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.65,
+        0.9,
+        0.68,
+        0.92
+      ],
+      "confidence": 0.8,
+      "description": "白色的开关，在墙上"
+    }
+  ],
+  "scene_description": "室内场景，有装饰性的花瓶、挂画、镜子和开关。",
+  "detection_summary": "成功检测到多个装饰性物品和一个开关。"
+}

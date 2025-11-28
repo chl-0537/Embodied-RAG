@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "相框",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的相框"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.7,
+        0.55,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的相框"
+    },
+    {
+      "label": "照片",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的照片"
+    }
+  ],
+  "scene_description": "房间内有一面镜子、两幅挂画和一张桌子，桌子上有一张照片。",
+  "detection_summary": "在场景中检测到三个主要对象：两个挂在墙上的相框和一个放在桌子上的照片。"
+}

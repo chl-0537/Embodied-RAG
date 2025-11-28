@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.9,
+        0.85,
+        0.92
+      ],
+      "confidence": 0.7,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.1,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.55,
+        0.35,
+        0.65,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "房间内的透明玻璃窗"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.75,
+        0.6,
+        0.85,
+        0.7
+      ],
+      "confidence": 0.6,
+      "description": "房间内的一张床"
+    }
+  ],
+  "scene_description": "这是一间卧室的场景，墙上挂着一幅画，房间里有一张床和一个窗户。",
+  "detection_summary": "在场景中检测到了开关、画框、窗户和床四个主要对象。"
+}

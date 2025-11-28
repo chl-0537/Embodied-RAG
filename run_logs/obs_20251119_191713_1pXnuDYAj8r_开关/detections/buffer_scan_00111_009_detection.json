@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马头画像"
+    },
+    {
+      "label": "画框/frame",
+      "bbox": [
+        0.1,
+        0.1,
+        0.15,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "白色墙面"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅马的画像。",
+  "detection_summary": "在图中识别出了画、画框和墙壁三个主要对象。"
+}

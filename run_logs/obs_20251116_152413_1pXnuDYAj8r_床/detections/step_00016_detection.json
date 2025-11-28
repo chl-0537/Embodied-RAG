@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧窗户前的窗帘"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "右侧的木制门"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户和一扇木门。",
+  "detection_summary": "在场景中检测到窗帘、门等物体。"
+}

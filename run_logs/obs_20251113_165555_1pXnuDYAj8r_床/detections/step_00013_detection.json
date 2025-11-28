@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色带黑色图案的窗帘"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "木制门，有明显的烧焦痕迹"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.7,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的镜子"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户和一扇门，门上有明显的烧焦痕迹，墙上挂着一面镜子。",
+  "detection_summary": "在房间内检测到窗帘、门、镜子和墙壁。"
+}

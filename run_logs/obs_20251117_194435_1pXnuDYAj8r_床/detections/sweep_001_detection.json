@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的浅色沙发"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画作"
+    },
+    {
+      "label": "灯/lamp",
+      "bbox": [
+        0.75,
+        0.65,
+        0.78,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "放置在柜子上的台灯"
+    }
+  ],
+  "scene_description": "这是一个室内环境，可以看到一些家具和装饰品。",
+  "detection_summary": "检测到沙发、画和灯三个主要对象。"
+}

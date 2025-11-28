@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        100,
+        200,
+        120,
+        220
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "洗手池",
+      "bbox": [
+        50,
+        250,
+        150,
+        350
+      ],
+      "confidence": 0.8,
+      "description": "厨房或浴室内的洗手池"
+    },
+    {
+      "label": "橱柜",
+      "bbox": [
+        10,
+        300,
+        90,
+        400
+      ],
+      "confidence": 0.7,
+      "description": "木制橱柜，位于左侧"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        500,
+        300,
+        600,
+        400
+      ],
+      "confidence": 0.6,
+      "description": "墙上的艺术作品"
+    },
+    {
+      "label": "楼梯",
+      "bbox": [
+        300,
+        100,
+        450,
+        300
+      ],
+      "confidence": 0.5,
+      "description": "室内的金属楼梯"
+    }
+  ],
+  "scene_description": "室内环境，包含厨房、楼梯和装饰画",
+  "detection_summary": "成功识别了开关、洗手池、橱柜、画作和楼梯等主要物体"
+}

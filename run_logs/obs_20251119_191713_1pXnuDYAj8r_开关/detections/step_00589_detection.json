@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个卧室的一部分。可以看到一张床、床头柜、台灯和一些装饰画。",
+  "detection_summary": "在提供的图像中没有检测到任何明确的'开关'。"
+}

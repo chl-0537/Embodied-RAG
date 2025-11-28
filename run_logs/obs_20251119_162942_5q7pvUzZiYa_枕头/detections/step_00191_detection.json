@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙边的电视"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.6,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "位于房间中央的白色椅子"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.75,
+        0.35,
+        0.85,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "位于房间右侧墙边的沙发"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有木质地板和白色墙壁，左侧有一扇大窗户，可以看到外面的景色。",
+  "detection_summary": "在图片中检测到了电视、椅子和沙发三个主要家具。"
+}

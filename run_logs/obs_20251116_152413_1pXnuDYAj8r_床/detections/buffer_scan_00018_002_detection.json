@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个图像显示的是一张床和床垫"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个图像显示的是一张床和床垫"
+    }
+  ],
+  "scene_description": "图像展示了一张床和床垫，背景是黑色的墙壁。",
+  "detection_summary": "在图像中没有检测到任何特定的家具或物品。"
+}

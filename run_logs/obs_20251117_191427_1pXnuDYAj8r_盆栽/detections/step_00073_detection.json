@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧靠近窗户的位置"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室内部，墙壁为浅灰色，装饰有艺术画作和家具。",
+  "detection_summary": "在图像中成功检测到一个盆栽植物。"
+}

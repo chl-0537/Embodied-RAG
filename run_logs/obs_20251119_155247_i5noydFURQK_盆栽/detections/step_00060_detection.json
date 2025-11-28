@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆中的绿色植物"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.25,
+        0.45,
+        0.35
+      ],
+      "confidence": 0.85,
+      "description": "红色鹿图案"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.15,
+        0.45,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "圆形镜子"
+    },
+    {
+      "label": "海报/poster",
+      "bbox": [
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "confidence": 0.8,
+      "description": "绿色背景带有白色字母的海报"
+    }
+  ],
+  "scene_description": "室内走廊，墙壁上有装饰画和镜子，远处有盆栽和其他家具。",
+  "detection_summary": "成功检测到盆栽、画、镜子和海报等主要对象。"
+}

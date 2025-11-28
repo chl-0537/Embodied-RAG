@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        880,
+        500,
+        900,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙面上"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        10,
+        300,
+        400,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "带有白色床单和枕头的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        10,
+        250,
+        100,
+        350
+      ],
+      "confidence": 0.9,
+      "description": "位于床头的带灯台灯的桌子"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        200,
+        50,
+        800,
+        450
+      ],
+      "confidence": 0.9,
+      "description": "三扇大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        180,
+        50,
+        820,
+        150
+      ],
+      "confidence": 0.9,
+      "description": "覆盖在窗户上的浅色窗帘"
+    },
+    {
+      "label": "装饰花",
+      "bbox": [
+        700,
+        300,
+        750,
+        400
+      ],
+      "confidence": 0.9,
+      "description": "放置在沙发前的白色装饰花"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        650,
+        300,
+        850,
+        450
+      ],
+      "confidence": 0.9,
+      "description": "米色的沙发，上面有抱枕"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、床头柜、窗户、窗帘以及一张沙发和一些装饰品。",
+  "detection_summary": "成功检测到开关、床、床头柜、窗户、窗帘、装饰花和沙发等主要对象。"
+}

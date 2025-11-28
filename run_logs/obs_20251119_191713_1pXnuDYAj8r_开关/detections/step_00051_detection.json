@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.25,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.7,
+        0.4,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "右侧打开的门"
+    },
+    {
+      "label": "灯",
+      "bbox": [
+        0.8,
+        0.6,
+        0.82,
+        0.68
+      ],
+      "confidence": 0.6,
+      "description": "在远处的天花板上"
+    }
+  ],
+  "scene_description": "室内走廊场景，墙上挂着一幅画，左侧有开关和插座，右侧有一扇开着的门。",
+  "detection_summary": "成功检测到开关、画框、门和天花板上的灯。"
+}

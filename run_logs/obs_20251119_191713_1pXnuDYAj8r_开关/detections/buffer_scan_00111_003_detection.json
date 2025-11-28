@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.7,
+        0.6,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "米色布艺扶手椅"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.8,
+        0.45,
+        0.95,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.8,
+        0.45,
+        0.95,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "浅色的窗帘"
+    },
+    {
+      "label": "床头灯/table lamp",
+      "bbox": [
+        0.6,
+        0.6,
+        0.62,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "黄色台灯"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.4,
+        0.42,
+        0.42
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两幅画"
+    }
+  ],
+  "scene_description": "卧室内部，有一张大床、两张扶手椅、一盏台灯和一些装饰品。",
+  "detection_summary": "在卧室场景中检测到了床、椅子、窗户、窗帘、床头灯和画等物体。"
+}

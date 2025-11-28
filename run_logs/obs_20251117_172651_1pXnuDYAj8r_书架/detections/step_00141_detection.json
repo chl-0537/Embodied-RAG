@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在桌子上的一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.2,
+        0.7,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "在桌子上的另一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.3,
+        0.6,
+        0.35,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "在桌子上的第三本书"
+    }
+  ],
+  "scene_description": "房间内有几张桌子，上面有几本书。",
+  "detection_summary": "检测到三本放在桌子上的书。"
+}

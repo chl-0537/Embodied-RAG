@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        200,
+        300,
+        500,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "卧室中央的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        100,
+        400,
+        150,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "床左侧的小型木质床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        120,
+        350,
+        140,
+        370
+      ],
+      "confidence": 0.7,
+      "description": "床头柜上的白色台灯"
+    },
+    {
+      "label": "枕头",
+      "bbox": [
+        250,
+        320,
+        280,
+        360
+      ],
+      "confidence": 0.85,
+      "description": "床上排列整齐的多个枕头"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        300,
+        500,
+        400,
+        550
+      ],
+      "confidence": 0.75,
+      "description": "房间右侧的两把米色扶手椅"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        400,
+        200,
+        700,
+        400
+      ],
+      "confidence": 0.8,
+      "description": "房间右侧的大型落地窗"
+    }
+  ],
+  "scene_description": "一间装饰精美的卧室，有一张大床、两个床头柜、两盏台灯、多个枕头、两张扶手椅和一扇大窗户。",
+  "detection_summary": "在图像中成功识别了多个家具和装饰品，包括床、床头柜、台灯、枕头、椅子和窗户。"
+}

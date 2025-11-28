@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书架",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "books",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "房间内有镜子、梳妆台和一些装饰品。",
+  "detection_summary": "未在图中检测到任何书籍或书架。"
+}

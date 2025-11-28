@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        500
+      ],
+      "confidence": 1.0,
+      "description": "带有图案的浅色窗帘"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        300,
+        200,
+        400,
+        600
+      ],
+      "confidence": 1.0,
+      "description": "木制门框"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        350,
+        50,
+        450,
+        150
+      ],
+      "confidence": 1.0,
+      "description": "圆形吊灯"
+    }
+  ],
+  "scene_description": "房间内有一扇半开的木门，可以看到里面的储物架和灯光。",
+  "detection_summary": "已检测到窗帘、门框和天花板灯。"
+}

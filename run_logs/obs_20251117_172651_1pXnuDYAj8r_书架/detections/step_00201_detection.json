@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.3,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "位于窗户右侧的窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.0,
+        0.2,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内的窗户，可以看到外面的景色"
+    }
+  ],
+  "scene_description": "室内场景，有一扇大窗户和一扇关闭的门，窗外是山景和一些房屋。",
+  "detection_summary": "在当前视图中没有检测到'novel', 'book', '书架', '书', 'books'这些目标对象。"
+}

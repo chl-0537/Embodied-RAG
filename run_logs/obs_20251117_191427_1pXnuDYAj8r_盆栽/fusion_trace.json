@@ -1,0 +1,794 @@
+[
+  {
+    "timestamp": "2025-11-17T11:15:24.469983+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          11.106893539428711,
+          3.514145851135254,
+          -5.325629234313965
+        ],
+        "ray_dir": null,
+        "depth": 1.4140789671623542,
+        "bbox": [
+          -18.0,
+          -2.0,
+          82.0,
+          98.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          12.257423345575464,
+          2.832908226403081,
+          -5.785863728010527
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      12.257423345575464,
+      2.832908226403081,
+      -5.785863728010527
+    ],
+    "confidence": 1.0,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": []
+  },
+  {
+    "timestamp": "2025-11-17T11:16:40.486704+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          11.47149658203125,
+          3.514145851135254,
+          -5.1357808113098145
+        ],
+        "ray_dir": null,
+        "depth": 5.993722186993126,
+        "bbox": [
+          75.0,
+          175.0,
+          175.0,
+          275.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          6.436582311678555,
+          3.190733687059198,
+          -1.9000817342663243
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      6.436582311678555,
+      3.190733687059198,
+      -1.9000817342663243
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:17:23.406168+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          11.47149658203125,
+          3.514145851135254,
+          -5.1357808113098145
+        ],
+        "ray_dir": null,
+        "depth": 0.954422668266,
+        "bbox": [
+          -18.0,
+          -2.0,
+          82.0,
+          98.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          12.266032363267051,
+          3.0543492181928946,
+          -4.874586289217801
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      12.266032363267051,
+      3.0543492181928946,
+      -4.874586289217801
+    ],
+    "confidence": 1.0,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": []
+  },
+  {
+    "timestamp": "2025-11-17T11:17:51.848717+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          11.23287582397461,
+          3.514145851135254,
+          -5.1357808113098145
+        ],
+        "ray_dir": null,
+        "depth": 5.574686827535439,
+        "bbox": [
+          414.0,
+          190.0,
+          514.0,
+          290.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          16.771083346358996,
+          3.514145851135254,
+          -4.499077847517327
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      16.771083346358996,
+      3.514145851135254,
+      -4.499077847517327
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:18:49.180752+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          10.93411922454834,
+          3.514145851135254,
+          -5.527196407318115
+        ],
+        "ray_dir": null,
+        "depth": 5.211233981515252,
+        "bbox": [
+          414.0,
+          190.0,
+          514.0,
+          290.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          15.595465473413693,
+          3.514145851135254,
+          -3.197215557978746
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      15.595465473413693,
+      3.514145851135254,
+      -3.197215557978746
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:19:59.337871+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          10.681699752807617,
+          3.514145851135254,
+          -5.154112339019775
+        ],
+        "ray_dir": null,
+        "depth": 1.9388784818651756,
+        "bbox": [
+          -18.0,
+          -2.0,
+          82.0,
+          98.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          11.732355776732042,
+          2.5800841636715353,
+          -6.489365292899135
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      11.732355776732042,
+      2.5800841636715353,
+      -6.489365292899135
+    ],
+    "confidence": 1.0,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": []
+  },
+  {
+    "timestamp": "2025-11-17T11:24:55.837664+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          10.55048656463623,
+          3.514145851135254,
+          -4.710346698760986
+        ],
+        "ray_dir": null,
+        "depth": 1.8397537313545886,
+        "bbox": [
+          414.0,
+          190.0,
+          514.0,
+          290.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.4546529584692,
+          3.514145851135254,
+          -3.2325637310596753
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      9.4546529584692,
+      3.514145851135254,
+      -3.2325637310596753
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:32:31.299075+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          10.562030792236328,
+          3.514145851135254,
+          -5.069400310516357
+        ],
+        "ray_dir": null,
+        "depth": 6.027311376626221,
+        "bbox": [
+          75.0,
+          275.0,
+          175.0,
+          375.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          5.24632072106761,
+          5.278891673616742,
+          -2.8428826141758443
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      5.24632072106761,
+      5.278891673616742,
+      -2.8428826141758443
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:32:40.995044+00:00",
+    "n_observations": 2,
+    "observations": [
+      {
+        "ray_origin": [
+          10.562030792236328,
+          3.514145851135254,
+          -5.069400310516357
+        ],
+        "ray_dir": null,
+        "depth": 6.027311376626221,
+        "bbox": [
+          75.0,
+          275.0,
+          175.0,
+          375.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          5.24632072106761,
+          5.278891673616742,
+          -2.8428826141758443
+        ]
+      },
+      {
+        "ray_origin": [
+          10.658292770385742,
+          3.514145851135254,
+          -5.300124645233154
+        ],
+        "ray_dir": null,
+        "depth": 5.546879603715141,
+        "bbox": [
+          75.0,
+          175.0,
+          175.0,
+          275.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          5.549535445235956,
+          3.214844633548202,
+          -3.1602903731479657
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      5.397928083151783,
+      4.246868153582472,
+      -3.0015864936619048
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:33:06.750593+00:00",
+    "n_observations": 3,
+    "observations": [
+      {
+        "ray_origin": [
+          10.562030792236328,
+          3.514145851135254,
+          -5.069400310516357
+        ],
+        "ray_dir": null,
+        "depth": 6.027311376626221,
+        "bbox": [
+          75.0,
+          275.0,
+          175.0,
+          375.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          5.24632072106761,
+          5.278891673616742,
+          -2.8428826141758443
+        ]
+      },
+      {
+        "ray_origin": [
+          10.658292770385742,
+          3.514145851135254,
+          -5.300124645233154
+        ],
+        "ray_dir": null,
+        "depth": 5.546879603715141,
+        "bbox": [
+          75.0,
+          175.0,
+          175.0,
+          275.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          5.549535445235956,
+          3.214844633548202,
+          -3.1602903731479657
+        ]
+      },
+      {
+        "ray_origin": [
+          10.658292770385742,
+          3.514145851135254,
+          -5.300124645233154
+        ],
+        "ray_dir": null,
+        "depth": 5.546879608705799,
+        "bbox": [
+          75.0,
+          175.0,
+          175.0,
+          275.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          5.549535305922037,
+          3.214844633548202,
+          -3.160290692816874
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      5.448463824075201,
+      3.9028603135710482,
+      -3.054487893380228
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:34:04.557782+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          10.658292770385742,
+          3.514145851135254,
+          -5.300124645233154
+        ],
+        "ray_dir": null,
+        "depth": 4.796684379476099,
+        "bbox": [
+          -18.0,
+          190.0,
+          82.0,
+          290.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          8.876800083250597,
+          3.514145851135254,
+          -9.753714752325859
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      8.876800083250597,
+      3.514145851135254,
+      -9.753714752325859
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:37:27.399159+00:00",
+    "n_observations": 1,
+    "observations": [
+      {
+        "ray_origin": [
+          11.66186809539795,
+          3.514145851135254,
+          -5.439144611358643
+        ],
+        "ray_dir": null,
+        "depth": 2.5495581156721934,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.473091123704808,
+          4.628462880371275,
+          -4.755185905199888
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      9.473091123704808,
+      4.628462880371275,
+      -4.755185905199888
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:37:31.602458+00:00",
+    "n_observations": 2,
+    "observations": [
+      {
+        "ray_origin": [
+          11.66186809539795,
+          3.514145851135254,
+          -5.439144611358643
+        ],
+        "ray_dir": null,
+        "depth": 2.5495581156721934,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.473091123704808,
+          4.628462880371275,
+          -4.755185905199888
+        ]
+      },
+      {
+        "ray_origin": [
+          11.90048885345459,
+          3.514145851135254,
+          -5.513710021972656
+        ],
+        "ray_dir": null,
+        "depth": 2.271749077936236,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.95020890624068,
+          4.507042882246137,
+          -4.904277920577723
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      9.711650014972744,
+      4.5677528813087065,
+      -4.829731912888805
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:37:41.103880+00:00",
+    "n_observations": 3,
+    "observations": [
+      {
+        "ray_origin": [
+          11.66186809539795,
+          3.514145851135254,
+          -5.439144611358643
+        ],
+        "ray_dir": null,
+        "depth": 2.5495581156721934,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.473091123704808,
+          4.628462880371275,
+          -4.755185905199888
+        ]
+      },
+      {
+        "ray_origin": [
+          11.90048885345459,
+          3.514145851135254,
+          -5.513710021972656
+        ],
+        "ray_dir": null,
+        "depth": 2.271749077936236,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.95020890624068,
+          4.507042882246137,
+          -4.904277920577723
+        ]
+      },
+      {
+        "ray_origin": [
+          12.377730369567871,
+          3.514145851135254,
+          -5.662840843200684
+        ],
+        "ray_dir": null,
+        "depth": 3.172850038860343,
+        "bbox": [
+          46.0,
+          310.0,
+          146.0,
+          410.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.860400708856904,
+          4.697023614467401,
+          -7.189546101400584
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      9.761233579600797,
+      4.610843125694938,
+      -5.6163366423927314
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  },
+  {
+    "timestamp": "2025-11-17T11:37:46.923766+00:00",
+    "n_observations": 4,
+    "observations": [
+      {
+        "ray_origin": [
+          11.66186809539795,
+          3.514145851135254,
+          -5.439144611358643
+        ],
+        "ray_dir": null,
+        "depth": 2.5495581156721934,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.473091123704808,
+          4.628462880371275,
+          -4.755185905199888
+        ]
+      },
+      {
+        "ray_origin": [
+          11.90048885345459,
+          3.514145851135254,
+          -5.513710021972656
+        ],
+        "ray_dir": null,
+        "depth": 2.271749077936236,
+        "bbox": [
+          270.0,
+          286.0,
+          370.0,
+          386.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.95020890624068,
+          4.507042882246137,
+          -4.904277920577723
+        ]
+      },
+      {
+        "ray_origin": [
+          12.377730369567871,
+          3.514145851135254,
+          -5.662840843200684
+        ],
+        "ray_dir": null,
+        "depth": 3.172850038860343,
+        "bbox": [
+          46.0,
+          310.0,
+          146.0,
+          410.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          9.860400708856904,
+          4.697023614467401,
+          -7.189546101400584
+        ]
+      },
+      {
+        "ray_origin": [
+          12.377730369567871,
+          3.514145851135254,
+          -5.662840843200684
+        ],
+        "ray_dir": null,
+        "depth": 2.3195574424337577,
+        "bbox": [
+          46.0,
+          310.0,
+          146.0,
+          410.0
+        ],
+        "type": "depth",
+        "confidence": 1.0,
+        "world_position": [
+          11.03012175814708,
+          4.378905533010873,
+          -7.341080531617312
+        ]
+      }
+    ],
+    "method": "depth",
+    "estimated_position": [
+      10.078455624237368,
+      4.552858727523922,
+      -6.0475226146988765
+    ],
+    "confidence": 0.5,
+    "inlier_ratio": null,
+    "entropy": null,
+    "anomaly_flags": [
+      "diverged_from_last_estimate"
+    ]
+  }
+]

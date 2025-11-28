@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "灯/灯泡/lamp/bulb",
+      "bbox": [
+        0.7,
+        0.6,
+        0.8,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的床头柜上"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.75,
+        0.55,
+        0.78,
+        0.58
+      ],
+      "confidence": 0.85,
+      "description": "位于房间右侧的床头柜上"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.38
+      ],
+      "confidence": 0.8,
+      "description": "位于房间中央窗户上方"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.15,
+        0.4,
+        0.25,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "位于左侧浴室区域"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.05,
+        0.4,
+        0.1,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧浴室区域的墙上"
+    },
+    {
+      "label": "抽屉/drawer",
+      "bbox": [
+        0.1,
+        0.5,
+        0.2,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "位于左侧浴室区域的下方"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.75,
+        0.6,
+        0.8,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的床头柜上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个带有浴室和卧室元素的房间。可以看到浴室区域有洗手池、镜子和抽屉，而卧室区域则有床铺、枕头、台灯和一些装饰品。",
+  "detection_summary": "在给定的图像中，成功识别出了多个家居用品，包括灯泡、植物、窗帘、洗手池、镜子和抽屉等。这些物品分布在不同的位置，如床头柜、浴室墙面和地面等。"
+}

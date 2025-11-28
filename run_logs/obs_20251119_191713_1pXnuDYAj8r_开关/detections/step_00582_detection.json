@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.4,
+        0.5,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.6,
+        0.35,
+        0.8,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的画框，内有一幅风景画"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.1,
+        0.2,
+        0.25,
+        0.7
+      ],
+      "confidence": 0.7,
+      "description": "木制门，带有玻璃窗"
+    },
+    {
+      "label": "灯",
+      "bbox": [
+        0.85,
+        0.15,
+        0.9,
+        0.2
+      ],
+      "confidence": 0.6,
+      "description": "天花板上的圆形灯具"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、开关、画框、门和灯等物品",
+  "detection_summary": "成功检测到开关、画框、门和灯等主要物体"
+}

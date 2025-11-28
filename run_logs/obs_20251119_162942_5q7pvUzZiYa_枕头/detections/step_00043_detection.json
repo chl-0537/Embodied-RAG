@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "裤子/jeans",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的各种颜色和款式的牛仔裤"
+    },
+    {
+      "label": "裤子/jeans",
+      "bbox": [
+        0.4,
+        0.1,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "挂在衣架上的白色和紫色裤子的混合"
+    },
+    {
+      "label": "裤子/jeans",
+      "bbox": [
+        0.75,
+        0.2,
+        0.95,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "挂在衣架上的深色裤子"
+    }
+  ],
+  "scene_description": "这是一个服装店或洗衣店的内部场景，展示了多排挂着的各种款式和颜色的裤子。",
+  "detection_summary": "在图中没有发现任何枕头或其同义词。"
+}

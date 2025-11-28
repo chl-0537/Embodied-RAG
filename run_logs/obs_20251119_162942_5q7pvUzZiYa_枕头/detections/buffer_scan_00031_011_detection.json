@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "墙上的彩色抽象画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.1,
+        0.5,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制门，半开状态"
+    },
+    {
+      "label": "空调/unit",
+      "bbox": [
+        0.45,
+        0.75,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "墙上安装的空调设备"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.35,
+        0.6,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "房间角落里的蓝色柜子"
+    }
+  ],
+  "scene_description": "室内环境，有画作、半开的木门、空调和蓝色柜子。",
+  "detection_summary": "在场景中检测到画作、门、空调和柜子。"
+}

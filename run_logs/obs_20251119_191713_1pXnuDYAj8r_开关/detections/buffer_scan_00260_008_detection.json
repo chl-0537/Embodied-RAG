@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "房间内的一张白色床铺，配有枕头和被子"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.38,
+        0.55,
+        0.48,
+        0.7
+      ],
+      "confidence": 0.98,
+      "description": "床旁边的灰色床头柜，上面有台灯和其他物品"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.5,
+        0.1,
+        0.95,
+        0.9
+      ],
+      "confidence": 0.97,
+      "description": "一排大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.45,
+        0.8,
+        0.47,
+        0.82
+      ],
+      "confidence": 0.85,
+      "description": "位于墙上的一个开关"
+    }
+  ],
+  "scene_description": "一间卧室，有一张大床、一个床头柜和一个带有多扇窗的大窗户。",
+  "detection_summary": "在房间内成功识别出床、床头柜、窗户以及墙上一个开关。"
+}

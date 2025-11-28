@@ -1,0 +1,127 @@
+{
+  "objects": [
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.25,
+        0.45,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央的木制柜子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.05,
+        0.25,
+        0.15,
+        0.35
+      ],
+      "confidence": 0.7,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.35,
+        0.25,
+        0.45,
+        0.35
+      ],
+      "confidence": 0.75,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.25,
+        0.15,
+        0.35,
+        0.25
+      ],
+      "confidence": 0.85,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.15,
+        0.15,
+        0.25,
+        0.25
+      ],
+      "confidence": 0.65,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.05,
+        0.15,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.6,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.35,
+        0.05,
+        0.45,
+        0.15
+      ],
+      "confidence": 0.55,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.25,
+        0.05,
+        0.35,
+        0.15
+      ],
+      "confidence": 0.7,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.15,
+        0.05,
+        0.25,
+        0.15
+      ],
+      "confidence": 0.5,
+      "description": "位于房间左侧墙边的架子上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.05,
+        0.05,
+        0.15,
+        0.15
+      ],
+      "confidence": 0.45,
+      "description": "位于房间左侧墙边的架子上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个带有多个储物篮子的房间和一面墙边柜子。",
+  "detection_summary": "在场景中检测到了多个篮子，它们被放置在不同的位置，如墙边的架子、柜子和地板上。"
+}

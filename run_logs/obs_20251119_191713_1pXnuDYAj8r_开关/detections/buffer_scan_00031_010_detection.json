@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        790,
+        400,
+        800,
+        420
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        10,
+        300,
+        200,
+        500
+      ],
+      "confidence": 0.8,
+      "description": "带有白色床单和枕头的大床"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        250,
+        450,
+        350,
+        550
+      ],
+      "confidence": 0.85,
+      "description": "两把米色扶手椅"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        100,
+        150,
+        900,
+        600
+      ],
+      "confidence": 0.75,
+      "description": "覆盖窗户的图案窗帘"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        850,
+        500,
+        900,
+        600
+      ],
+      "confidence": 0.8,
+      "description": "放置在桌子上的白色花瓶"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，有一张大床、两张扶手椅和一个大窗户，窗外可以看到风景。",
+  "detection_summary": "成功检测到房间内的主要家具和装饰品，包括床、椅子、窗帘、花瓶以及墙上的开关。"
+}

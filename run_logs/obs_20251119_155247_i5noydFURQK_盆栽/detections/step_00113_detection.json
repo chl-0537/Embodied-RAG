@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.5,
+        0.4,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆里的绿色植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.7,
+        0.6,
+        0.8,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "带有绿色床单和白色枕头的床"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.65,
+        0.65,
+        0.68,
+        0.68
+      ],
+      "confidence": 0.7,
+      "description": "白色床头柜，上面有台灯和其他小物品"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.3,
+        0.38,
+        0.33
+      ],
+      "confidence": 0.6,
+      "description": "挂在墙上的风景画"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到卧室的一部分，包括床、床头柜和一些装饰品。",
+  "detection_summary": "在图中成功检测到了盆栽、床、床头柜和一幅画。"
+}

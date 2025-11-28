@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "一幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.35,
+        0.15,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "另一幅挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "房间内有两幅挂在墙上的抽象画。",
+  "detection_summary": "在房间里检测到了两幅抽象画。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在沙发扶手上有一本书"
+    },
+    {
+      "label": "书架/Shelf",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "背景中有书架的一部分"
+    }
+  ],
+  "scene_description": "房间内有一个大镜子、两幅画框和一张沙发，沙发上放着一本书。",
+  "detection_summary": "检测到一本书和一个书架的部分。"
+}

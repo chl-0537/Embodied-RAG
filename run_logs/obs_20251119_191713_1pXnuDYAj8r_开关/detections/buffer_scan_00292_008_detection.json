@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.15,
+        0.2,
+        0.35,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.5,
+        0.25,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "黑色桌子上的白色花瓶"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.3,
+        0.45,
+        0.35
+      ],
+      "confidence": 0.7,
+      "description": "墙上挂着的画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.6,
+        0.4,
+        0.75,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "房间里的木门"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.85,
+        0.8,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个大镜子、一张黑色的桌子，上面放着一些装饰品，还有一扇木门和一面墙。",
+  "detection_summary": "在场景中检测到了一个大镜子、一个花瓶、一幅画、一扇门和一个墙上的开关。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "在纸箱内可见的枕头"
+    }
+  ],
+  "scene_description": "这是一个装满各种物品的纸箱堆叠的场景。",
+  "detection_summary": "在场景中检测到了一个枕头。"
+}

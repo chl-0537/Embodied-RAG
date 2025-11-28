@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在窗户旁边的窗帘"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.5,
+        0.2,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "放在窗台上的花瓶"
+    },
+    {
+      "label": "花朵/flowers",
+      "bbox": [
+        0.1,
+        0.5,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "插在花瓶里的白色花朵"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘和窗台上的花瓶及花朵。",
+  "detection_summary": "检测到窗帘、花瓶和花朵。"
+}

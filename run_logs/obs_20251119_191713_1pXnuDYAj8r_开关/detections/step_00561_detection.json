@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙壁上的白色开关"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "放置在柜子上的黑色台灯"
+    },
+    {
+      "label": "植物",
+      "bbox": [
+        0.65,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "放在柜子上的一盆绿色植物"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.35
+      ],
+      "confidence": 0.75,
+      "description": "窗户前的浅色窗帘"
+    },
+    {
+      "label": "柜子",
+      "bbox": [
+        0.6,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "房间内的米色柜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到墙壁、窗户、台灯、植物和柜子等物品。",
+  "detection_summary": "成功检测到开关、台灯、植物、窗帘和柜子等主要物体。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.72,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    }
+  ],
+  "scene_description": "室内房间，有窗户、窗帘和家具。",
+  "detection_summary": "在给定的图像中，成功识别出一个白色的墙上开关。"
+}

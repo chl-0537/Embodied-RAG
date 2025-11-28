@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "位于门右侧墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.3,
+        0.35,
+        0.4,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.05,
+        0.2,
+        0.15,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的方形镜子"
+    },
+    {
+      "label": "柜子",
+      "bbox": [
+        0.05,
+        0.5,
+        0.15,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "黑色的木制柜子"
+    }
+  ],
+  "scene_description": "房间内有一扇深色木门，墙上挂着两幅抽象画和一面镜子，左侧有一个黑色柜子。",
+  "detection_summary": "成功检测到开关、画框、镜子和柜子等主要物品。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "走廊中有三幅挂在墙上的画，右侧通向卧室。",
+  "detection_summary": "没有检测到任何开关。"
+}

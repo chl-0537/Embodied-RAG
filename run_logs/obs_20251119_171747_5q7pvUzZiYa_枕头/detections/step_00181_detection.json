@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.45,
+        0.42,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色现代设计椅子"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "黑色平板电视"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.7,
+        0.3,
+        0.75,
+        0.38
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的金色边框画作"
+    }
+  ],
+  "scene_description": "室内客厅，有白色墙壁和木质地板，墙上挂着一幅画，房间内有一把椅子和一台电视。",
+  "detection_summary": "在客厅场景中检测到一把椅子、一台电视和一幅画。"
+}

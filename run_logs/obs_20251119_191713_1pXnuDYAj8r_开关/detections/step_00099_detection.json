@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "左侧的木制门"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0.35,
+        0.9,
+        0.65,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "地面的浅色地毯"
+    }
+  ],
+  "scene_description": "这是一个室内走廊的场景，可以看到一扇半开的木门、墙上挂着的画和白色的开关。",
+  "detection_summary": "在图中成功检测到了开关、画框、门和地毯等物体。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "一幅挂在墙上的风景画"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "背景是一面白色的墙壁"
+    }
+  ],
+  "scene_description": "图中有一幅挂在白色墙上的风景画。",
+  "detection_summary": "在图中识别出了一幅画作和一面墙壁。"
+}

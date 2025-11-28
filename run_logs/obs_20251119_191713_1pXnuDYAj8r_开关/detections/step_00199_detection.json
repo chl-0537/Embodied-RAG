@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一扇木制门，位于房间入口处"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "房间的灰色墙壁"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的窗户"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着的艺术作品"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.75,
+        0.85,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "恒温器/thermostat",
+      "bbox": [
+        0.8,
+        0.8,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "墙上的电子恒温器"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个带有门的走廊，门旁边有一个窗户和一幅画。墙上安装了几个开关和一个恒温器。",
+  "detection_summary": "成功检测到门、墙壁、窗户、画、开关和恒温器等主要对象。"
+}

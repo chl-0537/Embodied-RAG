@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.72,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.2,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.1,
+        0.5,
+        0.4,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "房间内的床铺"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.3,
+        0.3,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的白色花瓶"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、一个大窗户和一扇门。墙上有一个白色的开关，窗帘是长款的，带有图案。",
+  "detection_summary": "在场景中成功检测到了开关、窗帘、床、窗户和花瓶等物体。"
+}

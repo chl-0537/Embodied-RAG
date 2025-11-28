@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.2,
+        0.3,
+        0.5,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的彩色画作"
+    },
+    {
+      "label": "冰箱/refrigerator",
+      "bbox": [
+        0.1,
+        0.4,
+        0.2,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "房间角落里的白色冰箱"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.5,
+        0.1,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "房间的木制门"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一幅挂画、一台冰箱和一扇门。",
+  "detection_summary": "在当前视图中没有发现枕头或其同义词。"
+}

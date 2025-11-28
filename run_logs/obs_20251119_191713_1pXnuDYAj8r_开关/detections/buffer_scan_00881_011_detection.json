@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.5,
+        0.35,
+        0.7,
+        0.65
+      ],
+      "confidence": 1.0,
+      "description": "一幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.75,
+        0.35,
+        0.9,
+        0.65
+      ],
+      "confidence": 1.0,
+      "description": "另一幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.15,
+        0.05,
+        0.25,
+        0.15
+      ],
+      "confidence": 1.0,
+      "description": "角落里的一小部分画作"
+    }
+  ],
+  "scene_description": "室内走廊，墙上挂着两幅大型抽象画和一部分较小的画作。",
+  "detection_summary": "在图中识别出三幅画作。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.5,
+      "description": "位于左侧墙边，靠近窗户的位置"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.3,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上，有黑色框架"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.65,
+        0.45,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上，有黑色框架"
+    }
+  ],
+  "scene_description": "室内环境，墙面有些许剥落，两幅画作挂在墙上。",
+  "detection_summary": "在场景中检测到一盆植物和两幅挂画。"
+}

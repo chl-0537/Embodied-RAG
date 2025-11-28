@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.5,
+        0.8,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "位于床上的白色枕头"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.7,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有黑色和白色床单的床"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "悬挂在窗户前的深色窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.3
+      ],
+      "confidence": 0.75,
+      "description": "可以看到外面景色的窗户"
+    }
+  ],
+  "scene_description": "房间内有一张床、一扇窗户以及悬挂的窗帘。",
+  "detection_summary": "成功检测到枕头、床、窗帘和窗户四个主要对象。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        880,
+        400,
+        960,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧有一张床，床上铺有白色床单和枕头。"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        880,
+        400,
+        960,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "床垫位于房间的右侧，与床紧密相连。"
+    }
+  ],
+  "scene_description": "这是一间卧室，左侧墙上挂着一幅画，中间有一个门通向另一个房间，右侧是一张床。",
+  "detection_summary": "在图中识别出了床和床垫两个主要对象。"
+}

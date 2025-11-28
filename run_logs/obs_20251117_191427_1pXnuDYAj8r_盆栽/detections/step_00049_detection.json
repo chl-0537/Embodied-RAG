@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.45,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧壁炉架上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.2,
+        0.5,
+        0.3,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧壁炉架上"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.4,
+        0.65,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框镜子，挂在墙上"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘和装饰品",
+  "detection_summary": "检测到两个白色花瓶和一个黑色边框镜子"
+}

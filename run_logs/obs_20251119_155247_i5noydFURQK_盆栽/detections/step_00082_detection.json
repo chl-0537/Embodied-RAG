@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "由于图像模糊，无法确定具体位置和大小"
+    }
+  ],
+  "scene_description": "图像显示了一个室内环境，背景是带有图案的墙壁，前景有一个不清晰的物体。",
+  "detection_summary": "未能成功检测到任何明确的盆栽或植物。"
+}

@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间左侧的大窗户"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间中央的双人床"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间左侧的米色沙发"
+    },
+    {
+      "label": "梳妆台",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间右侧的深色木制梳妆台"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "梳妆台上方的矩形镜子"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "梳妆台上的白色花瓶"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张大窗户、一张双人床、一把米色沙发和一个深色木制梳妆台。梳妆台上摆放着一些装饰品，墙上挂着一面大镜子。",
+  "detection_summary": "在图中没有明确标识出开关的存在。"
+}

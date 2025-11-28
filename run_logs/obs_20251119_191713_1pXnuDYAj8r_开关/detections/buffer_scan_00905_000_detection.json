@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的银色家用电器"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "与洗衣机相邻的银色家用电器"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.8,
+        0.4,
+        0.95,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "棕色木质橱柜，安装在墙上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "装满白色物品的编织篮子"
+    },
+    {
+      "label": "毛巾/towel",
+      "bbox": [
+        0.35,
+        0.6,
+        0.4,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在架子上的白色毛巾"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.05,
+        0.95,
+        0.1,
+        0.98
+      ],
+      "confidence": 0.8,
+      "description": "墙上的电灯开关"
+    }
+  ],
+  "scene_description": "这是一个洗衣房或杂物间，有洗衣机、烘干机和储物柜等设施。",
+  "detection_summary": "成功检测到洗衣机、烘干机、橱柜、篮子、毛巾和墙上的电灯开关。"
+}

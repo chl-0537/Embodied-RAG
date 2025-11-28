@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "台灯/lamp",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "白色圆柱形台灯，位于房间角落"
+    },
+    {
+      "label": "墙纸/wallpaper",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "confidence": 0.8,
+      "description": "蓝色背景带有黄色和绿色图案的墙纸"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.05,
+        0.05,
+        0.15,
+        0.15
+      ],
+      "confidence": 0.7,
+      "description": "左侧墙上挂着的彩色画作"
+    }
+  ],
+  "scene_description": "房间一角，有带图案的墙纸、一盏台灯和一个挂在墙上的彩色画作。",
+  "detection_summary": "检测到一盏台灯、墙纸和一幅画作。"
+}

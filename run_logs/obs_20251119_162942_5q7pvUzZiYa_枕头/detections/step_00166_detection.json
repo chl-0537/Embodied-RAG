@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "由于图像模糊，无法确定枕头的具体位置和大小"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个房间的角落，有墙壁、窗帘和一些模糊不清的家具。",
+  "detection_summary": "在当前图像中，没有清晰可辨的目标对象，特别是枕头。"
+}

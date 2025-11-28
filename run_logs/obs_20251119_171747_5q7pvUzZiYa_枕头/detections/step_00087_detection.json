@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    }
+  ],
+  "scene_description": "这是一家服装店的内部，左侧有多个货架，上面摆放着各种衣物，右侧有一个空旷的区域。",
+  "detection_summary": "没有检测到枕头或其同义词。"
+}

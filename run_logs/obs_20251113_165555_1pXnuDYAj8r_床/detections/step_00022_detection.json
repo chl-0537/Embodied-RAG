@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "带玻璃窗框的窗户"
+    },
+    {
+      "label": "房屋/house",
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "透过窗户看到的远处的房屋"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘和远处可以看到房屋",
+  "detection_summary": "检测到窗帘、窗户和房屋"
+}

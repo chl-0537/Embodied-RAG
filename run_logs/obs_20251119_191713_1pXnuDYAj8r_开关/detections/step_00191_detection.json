@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.2,
+        0.4,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "木制门，有明显的磨损痕迹"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上的玻璃窗"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.65,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "走廊墙上挂着的两幅画"
+    }
+  ],
+  "scene_description": "室内场景，显示了一个走廊和一扇有明显磨损的门，以及一些装饰画和墙面开关。",
+  "detection_summary": "成功检测到开关、门、窗户和画框等主要对象。"
+}

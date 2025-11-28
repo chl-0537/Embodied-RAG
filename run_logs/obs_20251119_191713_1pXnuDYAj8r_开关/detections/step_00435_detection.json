@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.42,
+        0.75,
+        0.44
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.38,
+        0.75,
+        0.41
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.55,
+        0.35,
+        0.65,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.05,
+        0.5,
+        0.25,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "木制门"
+    }
+  ],
+  "scene_description": "室内房间，有墙壁、门和挂画",
+  "detection_summary": "成功检测到开关、画框和门"
+}

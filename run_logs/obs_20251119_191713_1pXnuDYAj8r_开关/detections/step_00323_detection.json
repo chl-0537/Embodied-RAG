@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        200,
+        300,
+        500,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        100,
+        400,
+        150,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "左侧有台灯和植物"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        700,
+        500,
+        800,
+        600
+      ],
+      "confidence": 0.7,
+      "description": "右侧窗户旁"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、两个床头柜、一扇窗户和一些装饰品。",
+  "detection_summary": "在图像中没有明确识别出开关。"
+}

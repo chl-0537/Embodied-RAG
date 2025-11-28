@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个房间内没有看到床或床垫"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.5,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着一个大的方形镜子"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.55,
+        0.3,
+        0.65,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "两个挂在墙上的小相框"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.5,
+        0.45,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "柜子上摆放着几个白色的花瓶"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.25,
+        0.5,
+        0.35,
+        0.7
+      ],
+      "confidence": 0.75,
+      "description": "柜子上有一些装饰性的物品"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个大镜子、两个相框和一些装饰品放在柜子上。",
+  "detection_summary": "在给定的图像中没有检测到任何床或床垫。"
+}

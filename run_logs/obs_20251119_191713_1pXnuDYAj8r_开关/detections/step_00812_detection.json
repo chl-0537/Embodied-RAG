@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "深色木质橱柜，位于房间右侧墙壁上方"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.3,
+        0.4,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "编织篮子，放置在柜子上，内部有白色物品"
+    },
+    {
+      "label": "盒子/box",
+      "bbox": [
+        0.35,
+        0.45,
+        0.42,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "透明塑料盒，放在柜子上"
+    },
+    {
+      "label": "灯/lamp",
+      "bbox": [
+        0.75,
+        0.15,
+        0.78,
+        0.18
+      ],
+      "confidence": 0.8,
+      "description": "天花板上的嵌入式灯具"
+    }
+  ],
+  "scene_description": "室内环境，有一个带有木制橱柜和装饰品的房间。",
+  "detection_summary": "已检测到柜子、篮子、盒子以及灯等物体。"
+}

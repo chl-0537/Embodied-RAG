@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "图中显示了一个室内环境，有木制家具和一些杂物。",
+  "detection_summary": "在当前视图中没有检测到枕头。"
+}

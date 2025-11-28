@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.15,
+        0.45,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张白色床铺，上面摆放着多个枕头和被子。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.35,
+        0.65,
+        0.42,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "在床旁边有一个小型的床头柜，上面放着一盏台灯和一些装饰品。"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.7,
+        0.8,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.7,
+      "description": "靠近窗户的地方有两把白色的扶手椅。"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.6,
+        0.05,
+        0.95,
+        0.25
+      ],
+      "confidence": 0.6,
+      "description": "大窗户前挂着浅色的窗帘。"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.2,
+        0.3
+      ],
+      "confidence": 0.5,
+      "description": "墙上挂有几幅抽象艺术作品。"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.9,
+        0.9,
+        0.92,
+        0.95
+      ],
+      "confidence": 0.4,
+      "description": "天花板上有几个嵌入式灯具和一个电风扇的控制开关。"
+    }
+  ],
+  "scene_description": "这是一间布置精美的卧室，拥有大窗户、舒适的床铺以及现代化的家具。",
+  "detection_summary": "成功识别出床、床头柜、椅子、窗帘、画作和开关等多个物体。"
+}

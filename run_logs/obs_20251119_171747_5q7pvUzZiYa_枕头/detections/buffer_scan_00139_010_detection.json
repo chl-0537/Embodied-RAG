@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在房间右侧靠近床的位置"
+    }
+  ],
+  "scene_description": "这是一个室内场景，左侧有木制货架和衣物，右侧有一张床和一个大窗户。",
+  "detection_summary": "成功检测到一张床上的枕头。"
+}

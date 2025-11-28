@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.8,
+        0.85,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.2,
+        0.45,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.15,
+        0.65,
+        0.3,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.05,
+        0.4,
+        0.15,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的镜子"
+    }
+  ],
+  "scene_description": "这是一个室内走廊的场景，有白色的墙壁和天花板，浅色的地毯，以及一些装饰性的物品。",
+  "detection_summary": "在图中成功检测到了两个开关、两幅画和一个镜子。"
+}

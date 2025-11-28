@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.1,
+        0.8,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.5,
+      "description": "在墙边有一块区域看起来像是放着一个枕头"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "整个背景是白色的墙壁"
+    }
+  ],
+  "scene_description": "房间内有一个白色墙壁和一块区域看起来像放着枕头",
+  "detection_summary": "成功检测到墙壁和疑似枕头的物体"
+}

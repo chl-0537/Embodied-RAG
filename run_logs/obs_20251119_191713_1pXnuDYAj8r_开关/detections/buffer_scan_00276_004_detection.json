@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的白色和黑色窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.01,
+        0.1,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "位于左侧的透明玻璃窗"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.55,
+        0.4,
+        0.85,
+        0.7
+      ],
+      "confidence": 0.75,
+      "description": "棕色的木制门框"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.65,
+        0.8,
+        0.68,
+        0.88
+      ],
+      "confidence": 0.7,
+      "description": "圆形的白色天花板灯"
+    }
+  ],
+  "scene_description": "室内场景，有窗帘、窗户、门框和天花板灯",
+  "detection_summary": "成功检测到窗帘、窗户、门框和天花板灯"
+}

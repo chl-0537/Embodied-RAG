@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.7,
+        0.35,
+        0.85,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "木制门"
+    },
+    {
+      "label": "走廊",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "室内走廊"
+    }
+  ],
+  "scene_description": "这是一个室内的走廊场景，墙上挂着一幅画和一个白色的开关面板，旁边有一扇木制的门。",
+  "detection_summary": "在给定的图像中，成功识别出了开关、画框、门和走廊四个主要对象。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.1,
+        0.6,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色现代设计椅子"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.4,
+        0.5,
+        0.55,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "黑色平板电视"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.75,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "金色框架内的画作"
+    }
+  ],
+  "scene_description": "室内客厅，有现代家具和装饰品",
+  "detection_summary": "成功检测到房间内的主要家具和艺术品"
+}

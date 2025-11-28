@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "楼梯扶手上的装饰性金属条"
+    }
+  ],
+  "scene_description": "室内环境，有楼梯、墙壁上的画框和嵌入式照明。",
+  "detection_summary": "在图中没有明确标识或可见的独立开关。"
+}

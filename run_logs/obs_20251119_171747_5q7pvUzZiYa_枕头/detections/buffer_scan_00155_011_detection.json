@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "黑色平板电视放置在木制电视柜上"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.75,
+        0.4,
+        0.8,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的金色边框画作"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧的木制门"
+    }
+  ],
+  "scene_description": "室内走廊场景，有电视、画作和木门",
+  "detection_summary": "检测到电视、画和门三个主要对象"
+}

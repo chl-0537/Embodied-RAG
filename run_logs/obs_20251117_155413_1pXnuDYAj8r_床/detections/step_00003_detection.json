@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.15,
+        0.65,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "长方形镜子，反射室内景象"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.05,
+        0.05,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "木制门，关闭状态"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜前摆放着两个白色花瓶，旁边是一扇关闭的木门。",
+  "detection_summary": "在当前视图中没有检测到床、床垫或bed的同义词。"
+}

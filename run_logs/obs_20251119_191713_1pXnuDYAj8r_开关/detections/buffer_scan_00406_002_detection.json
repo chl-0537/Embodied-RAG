@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        880,
+        500,
+        900,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙壁上的白色开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        10,
+        400,
+        200,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "带有白色床单和枕头的床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        10,
+        350,
+        100,
+        450
+      ],
+      "confidence": 0.9,
+      "description": "床旁边的带灯的床头柜"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        300,
+        400,
+        400,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "房间内的两把椅子"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        250,
+        50,
+        800,
+        700
+      ],
+      "confidence": 0.9,
+      "description": "覆盖窗户的大窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        250,
+        50,
+        800,
+        700
+      ],
+      "confidence": 0.9,
+      "description": "房间内的大型玻璃窗"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        400,
+        300,
+        450,
+        350
+      ],
+      "confidence": 0.9,
+      "description": "放在桌子上的白色花瓶"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、两个床头柜、两把椅子和一个大窗户，窗外可以看到山景。",
+  "detection_summary": "在图中成功识别了开关、床、床头柜、椅子、窗帘、窗户和花瓶等主要物品。"
+}

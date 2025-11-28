@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "房间内有一张床，位于左侧窗户旁边。"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "床上有一个床垫，位于左侧窗户旁边。"
+    }
+  ],
+  "scene_description": "这是一间卧室，左侧有一扇大窗户和窗帘，右侧有一个带镜子的梳妆台。",
+  "detection_summary": "在图片中没有明确识别出床或床垫的具体位置和形状。"
+}

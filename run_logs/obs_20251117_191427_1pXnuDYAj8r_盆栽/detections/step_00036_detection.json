@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.5,
+      "description": "位于左侧角落的小型植物盆栽"
+    },
+    {
+      "label": "画框/picture frame",
+      "bbox": [
+        0.3,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅抽象艺术作品"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "右侧关闭的木门"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着两幅抽象艺术作品，左侧角落有一个小型植物盆栽，右侧有一扇关闭的木门。",
+  "detection_summary": "成功检测到盆栽、画框和门的完整物体。"
+}

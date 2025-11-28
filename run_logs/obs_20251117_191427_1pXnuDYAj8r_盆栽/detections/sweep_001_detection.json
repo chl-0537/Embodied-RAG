@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧窗户旁边的小型绿色植物"
+    }
+  ],
+  "scene_description": "室内客厅场景，有沙发、装饰画和通往其他房间的门。",
+  "detection_summary": "在图中识别出一个盆栽植物。"
+}

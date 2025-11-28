@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "一幅色彩鲜艳的抽象画"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "一个木制衣柜，里面挂着各种衣物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.7,
+        0.55,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "一张现代风格的床，床上铺着白色床单和深色被子"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.72,
+        0.62,
+        0.78,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "床上有一个白色的枕头"
+    }
+  ],
+  "scene_description": "这是一间现代化的卧室，有一张床、一个衣柜和一些装饰品。",
+  "detection_summary": "在房间内成功检测到了画作、衣柜、床和枕头等物品。"
+}

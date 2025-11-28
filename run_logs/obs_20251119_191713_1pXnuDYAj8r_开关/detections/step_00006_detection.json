@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        880,
+        500,
+        900,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙面上"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        100,
+        300,
+        400,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        50,
+        350,
+        150,
+        450
+      ],
+      "confidence": 0.9,
+      "description": "带有台灯"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        700,
+        550,
+        800,
+        650
+      ],
+      "confidence": 0.9,
+      "description": "米色扶手椅"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        200,
+        250,
+        1000,
+        750
+      ],
+      "confidence": 0.9,
+      "description": "覆盖窗户"
+    },
+    {
+      "label": "装饰花",
+      "bbox": [
+        850,
+        400,
+        950,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "白色花卉装饰"
+    }
+  ],
+  "scene_description": "一间卧室，有大窗户、床、床头柜、椅子和装饰品",
+  "detection_summary": "成功检测到开关和其他家具及装饰品"
+}

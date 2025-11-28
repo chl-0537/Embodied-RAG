@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.05,
+        0.35,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.3,
+        0.4,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "两幅挂在墙上的画"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.0,
+        0.5,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "黑色的木制柜子"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.6,
+        0.1,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "一扇深色的木门"
+    }
+  ],
+  "scene_description": "室内场景，有镜子、画、柜子和一扇木门。",
+  "detection_summary": "已检测到镜子、画、柜子和门四个主要对象。"
+}

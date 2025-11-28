@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.35,
+        0.4,
+        0.5,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.55,
+        0.6,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的另一幅画"
+    },
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "左侧可见的家用电器"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.15,
+        0.25,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.6,
+      "description": "放置在洗衣机上方的小型储物柜"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂有两幅画，左侧有一台洗衣机和一个小型储物柜。",
+  "detection_summary": "成功识别了房间内的主要家具和装饰品。"
+}

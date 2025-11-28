@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "整个画面被窗帘覆盖"
+    },
+    {
+      "label": "门/window",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "右侧有一扇半开的门"
+    }
+  ],
+  "scene_description": "房间内大部分区域被窗帘遮挡，仅能看见右边的半开门。",
+  "detection_summary": "由于窗帘的遮挡，无法清晰识别房间的具体细节和物品。"
+}

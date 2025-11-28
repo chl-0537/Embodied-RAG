@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙边的长条形布料"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.7,
+        0.3,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上，反射出房间的部分景象"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.8,
+        0.5,
+        1.0,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "放置在桌子上，具有装饰性"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户、一扇门和一面镜子，以及一些家具和装饰品。",
+  "detection_summary": "已检测到窗帘、镜子和花瓶等主要物品。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于厨房区域，靠近水槽和橱柜"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.35,
+        0.75,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "与洗衣机相邻，同样位于厨房区域"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.15,
+        0.7,
+        0.25,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "放置在台面上，内含毛巾或布料"
+    },
+    {
+      "label": "水龙头/faucet",
+      "bbox": [
+        0.65,
+        0.85,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "安装在洗涤池上方，用于取水"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.5,
+        0.1,
+        0.9,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "深色木质橱柜，覆盖了大部分墙面空间"
+    }
+  ],
+  "scene_description": "这是一个家庭洗衣房的场景，包含了洗衣机、烘干机、储物篮以及相关的厨房设施。",
+  "detection_summary": "成功识别出主要的家用电器和存储设备，以及一些常见的厨房配件。"
+}

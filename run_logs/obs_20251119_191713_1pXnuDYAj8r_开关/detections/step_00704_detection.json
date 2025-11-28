@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "三幅垂直排列的艺术作品，每幅都有不同的颜色和纹理"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "白色墙壁背景"
+    }
+  ],
+  "scene_description": "房间内有三幅垂直排列的艺术作品挂在白色墙上。",
+  "detection_summary": "在图像中没有检测到任何开关或其同义词。"
+}

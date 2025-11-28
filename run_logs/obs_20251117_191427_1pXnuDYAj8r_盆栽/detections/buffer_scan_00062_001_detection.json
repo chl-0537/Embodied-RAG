@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶状容器内种植有植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "房间内的主要家具之一，位于左侧"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.65,
+        0.42,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "靠近窗户的小型座椅"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.3,
+        0.7,
+        0.7,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "覆盖在窗户两侧的布料"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.8,
+        0.2,
+        0.95,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，有一张大床、一把椅子和一扇大窗户，窗外可以看到风景。墙上挂着一幅画。",
+  "detection_summary": "成功检测到盆栽、床、椅子、窗帘和画等主要对象。"
+}

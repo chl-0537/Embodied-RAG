@@ -1,0 +1,24 @@
+{
+  "next_action": "移动到床的位置 (11.11, 3.51, -5.33)",
+  "reasoning": "目标对象'床'已成功找到，位于房间右侧。根据视觉检测结果，床位于坐标 (11.11, 3.51, -5.33)，上面有枕头和被子。下一步应该移动到床的位置进行进一步操作。",
+  "expected_observation": "机器人移动到床的位置，能够近距离观察床的细节，包括床架、床垫、枕头和被子等组成部分。",
+  "fallback_plan": [
+    "如果无法直接移动到床的位置，先移动到房间右侧区域",
+    "如果右侧区域无法到达，尝试从不同角度接近床",
+    "如果床被障碍物阻挡，报告障碍物情况并请求清除路径"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_matches": 2,
+    "vision_matches": 3,
+    "consistency_score": 0.85,
+    "discrepancies": [],
+    "resolution": "视觉检测结果与记忆中的床的位置和描述一致"
+  },
+  "cross_modal_insights": {
+    "visual_semantic_match": true,
+    "spatial_coherence": true,
+    "object_completeness": "床及其相关物品（床垫、枕头、被子）均被检测到",
+    "environment_context": "床位于卧室环境中，与梳妆台和装饰品共存"
+  }
+}

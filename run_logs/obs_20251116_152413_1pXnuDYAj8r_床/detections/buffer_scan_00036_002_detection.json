@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "图中可以看到窗户旁边的窗帘"
+    },
+    {
+      "label": "窗台",
+      "bbox": [
+        0.0,
+        0.9,
+        0.1,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "在窗帘旁边可以看到一部分窗台"
+    }
+  ],
+  "scene_description": "这是一张室内照片，主要展示了窗户和窗帘。",
+  "detection_summary": "图片中可以清晰看到窗帘和窗台。"
+}

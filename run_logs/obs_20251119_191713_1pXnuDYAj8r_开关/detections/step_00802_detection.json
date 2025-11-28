@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "橱柜",
+      "bbox": [
+        0.05,
+        0.35,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "深色木质橱柜"
+    },
+    {
+      "label": "水槽",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "不锈钢水槽"
+    },
+    {
+      "label": "台面",
+      "bbox": [
+        0.05,
+        0.65,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "浅色大理石台面"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的多幅黑白照片"
+    },
+    {
+      "label": "楼梯扶手",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "金属材质的楼梯扶手"
+    }
+  ],
+  "scene_description": "室内环境，左侧是厨房区域，右侧是带有楼梯和装饰画的生活空间。",
+  "detection_summary": "成功识别了开关、橱柜、水槽、台面、画作和楼梯扶手等主要对象。"
+}

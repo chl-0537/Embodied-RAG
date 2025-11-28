@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的窗帘"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        200,
+        50,
+        400,
+        300
+      ],
+      "confidence": 0.8,
+      "description": "房间门口的门框"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        350,
+        50,
+        450,
+        150
+      ],
+      "confidence": 0.7,
+      "description": "天花板上方的圆形灯具"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        500,
+        100,
+        600,
+        250
+      ],
+      "confidence": 0.6,
+      "description": "右侧墙上的方形镜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个房间的入口和部分内部。可以看到窗帘、门框、天花板灯和一个镜子。",
+  "detection_summary": "在给定的图像中，成功识别出了窗帘、门框、天花板灯和镜子四个主要对象。"
+}

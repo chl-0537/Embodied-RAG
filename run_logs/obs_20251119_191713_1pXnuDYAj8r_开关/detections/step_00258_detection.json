@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.7,
+        0.4,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.2,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "室内的一扇窗户"
+    },
+    {
+      "label": "房屋",
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "窗外的房屋建筑"
+    }
+  ],
+  "scene_description": "这是一张室内的照片，可以看到一扇窗户和窗外的景色，窗外有房屋和山脉。",
+  "detection_summary": "在图片中检测到了窗帘、窗户和房屋三个主要对象。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间右侧桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.75,
+        0.85,
+        0.88,
+        0.93
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间右侧桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.65,
+        0.8,
+        0.78,
+        0.92
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间右侧桌子上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个窗户、窗帘和一些装饰品。",
+  "detection_summary": "在图片中没有检测到novel, book, 书架, 书, books等目标对象。"
+}

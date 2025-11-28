@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.2,
+        0.3,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧墙边的电视"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "白色椅子，位于房间左侧"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的一幅画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.2,
+        0.7,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "木制门框，位于房间中央"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.75,
+        0.25,
+        0.85,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "带有装饰性边框的镜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个现代化的客厅或休息区。房间里有一台电视、一张白色的椅子和一些装饰品。",
+  "detection_summary": "在给定的图像中，没有发现任何明确的枕头。"
+}

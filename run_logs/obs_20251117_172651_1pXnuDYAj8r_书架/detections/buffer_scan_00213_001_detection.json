@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.5,
+        0.5,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.45,
+        0.45,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有另一本书"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、一张床头柜和两扇大窗户。",
+  "detection_summary": "在图中识别出了两本位于床头柜上的书。"
+}

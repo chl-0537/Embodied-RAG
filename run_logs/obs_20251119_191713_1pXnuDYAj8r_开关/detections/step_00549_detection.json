@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "恒温器/thermostat",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.6,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "在房间右侧靠近床的位置"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.62,
+        0.52,
+        0.68,
+        0.72
+      ],
+      "confidence": 0.7,
+      "description": "放在床头柜上"
+    },
+    {
+      "label": "枕头-pillow",
+      "bbox": [
+        0.73,
+        0.75,
+        0.78,
+        0.85
+      ],
+      "confidence": 0.6,
+      "description": "在床上"
+    },
+    {
+      "label": "被子/blanket",
+      "bbox": [
+        0.73,
+        0.82,
+        0.78,
+        0.9
+      ],
+      "confidence": 0.6,
+      "description": "在床上"
+    }
+  ],
+  "scene_description": "这是一间卧室的场景，可以看到墙壁、床、床头柜和装饰品。",
+  "detection_summary": "成功检测到恒温器、画、床头柜、台灯、枕头和被子等物体。"
+}

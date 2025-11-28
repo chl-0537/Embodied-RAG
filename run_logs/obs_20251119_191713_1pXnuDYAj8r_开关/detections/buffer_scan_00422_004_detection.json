@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "装饰画",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "室内客厅场景，有沙发、窗户、窗帘和装饰画。",
+  "detection_summary": "未成功检测到任何明确的目标对象或其特征。"
+}

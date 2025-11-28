@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "书架/Shelf",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "书籍/Books",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个装饰精美的房间。房间里有一个大镜子、一些装饰品和一个木制柜子。",
+  "detection_summary": "在给定的图像中没有检测到任何特定的目标对象，如小说、书或书架。"
+}

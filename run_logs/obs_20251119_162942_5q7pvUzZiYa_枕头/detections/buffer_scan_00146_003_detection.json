@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "confidence": 0.9,
+      "description": "位于房间角落的枕头"
+    }
+  ],
+  "scene_description": "室内环境，有木制家具和装饰画",
+  "detection_summary": "成功检测到枕头"
+}

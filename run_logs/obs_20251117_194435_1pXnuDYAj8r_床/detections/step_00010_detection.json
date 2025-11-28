@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个房间内有一张床"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "床上有一个床垫"
+    }
+  ],
+  "scene_description": "这是一间卧室的场景，可以看到一张床和一面镜子。",
+  "detection_summary": "在当前视图中没有明确识别出'床', 'mattress', 'bed'这三个词所对应的独立物体。"
+}

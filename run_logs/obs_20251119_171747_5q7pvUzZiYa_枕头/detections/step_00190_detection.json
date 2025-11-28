@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.5,
+        0.7,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色床单上的枕头"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.35,
+        0.65,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "带有黑色床头板的床"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.45,
+        0.4,
+        0.55,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "墙上的艺术作品"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.6,
+        0.5,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.6,
+      "description": "大型的落地窗"
+    }
+  ],
+  "scene_description": "现代卧室，有一张大床、一幅画和一扇大窗户。",
+  "detection_summary": "成功检测到枕头、床、画作和窗户等主要对象。"
+}

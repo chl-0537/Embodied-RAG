@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.47,
+        0.74,
+        0.49
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.49,
+        0.75,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.51,
+        0.76,
+        0.54
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.53,
+        0.75,
+        0.56
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.55,
+        0.75,
+        0.58
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.57,
+        0.75,
+        0.59
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的书"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、床头柜和窗户。",
+  "detection_summary": "在图中识别出了多本书籍放在床头柜上。"
+}

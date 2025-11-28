@@ -1,0 +1,29 @@
+{
+  "next_action": "移动到床的位置 (13.67, 3.51, -5.12) 并确认床的特征",
+  "reasoning": "根据current_status，目标'床'已经成功找到（target_found=true且visual_detection_result='SUCCESS'）。系统已通过视觉检测确认了床的存在，并提供了精确的3D位置坐标。下一步应该移动到目标位置进行确认，而不是继续搜索。",
+  "expected_observation": "机器人移动到床的位置，能够观察到床的全貌，包括床的尺寸、材质、床上物品（如白色床单、枕头）以及周围环境。",
+  "fallback_plan": [
+    "如果移动到指定位置后无法确认床的存在，则重新扫描周围区域",
+    "如果床的位置有偏差，则在当前位置周围5米范围内进行环形搜索",
+    "如果视觉检测再次失败，则使用其他传感器（如触觉或声音）辅助定位"
+  ],
+  "confidence": 0.85,
+  "consistency_analysis": {
+    "visual_memory_consistency": "低 - 视觉检测与历史记忆匹配度不高（memory_matches: 0），可能是因为床的位置或特征在记忆中记录不准确",
+    "detection_confidence": "高 - 最新视觉检测显示confidence为0.9，表明检测结果可靠",
+    "position_estimation": "可靠 - 使用多视图三角测量确定了精确的3D位置"
+  },
+  "cross_modal_insights": {
+    "discrepancies": [
+      "最新视觉检测显示detected: false，但structured_data中显示detected: true，存在数据不一致",
+      "历史记忆中的床位置与当前检测位置略有差异"
+    ],
+    "recommendations": "建议在移动到目标位置后进行多模态验证，同时使用视觉和触觉确认床的存在和特征"
+  },
+  "estimated_3d_position": [
+    13.666133880615243,
+    3.5141458511352535,
+    -5.123539447784425
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

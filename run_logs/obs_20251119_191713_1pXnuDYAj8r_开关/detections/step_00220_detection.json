@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        740,
+        300,
+        750,
+        320
+      ],
+      "confidence": 0.9,
+      "description": "位于墙壁上的电灯开关"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、一张沙发和一个梳妆台。窗户可以看到外面的风景。",
+  "detection_summary": "在图中成功检测到一个电灯开关。"
+}

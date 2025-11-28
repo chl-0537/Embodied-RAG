@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于房间角落的小型植物盆栽"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，墙壁上有蓝色和黄色的图案壁纸，床上摆放着多色枕头和一个带有‘LOVE’字样的画框。",
+  "detection_summary": "在图中识别出一个盆栽。"
+}

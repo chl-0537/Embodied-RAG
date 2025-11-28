@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书架",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "书籍",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个走廊的一部分。左侧有一个装饰性的镜子，右侧是一扇半开的木门。墙上挂着几幅画框。",
+  "detection_summary": "在当前视图中没有检测到任何特定的书籍、书架或小说。"
+}

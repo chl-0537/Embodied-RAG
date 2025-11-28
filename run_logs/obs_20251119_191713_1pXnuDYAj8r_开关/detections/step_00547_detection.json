@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.3,
+        0.6,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "床两侧的小桌子"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.35,
+        0.65,
+        0.38,
+        0.68
+      ],
+      "confidence": 0.85,
+      "description": "床头柜上的灯具"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.7,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床尾处的两把椅子"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.8,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "房间右侧的大窗户"
+    }
+  ],
+  "scene_description": "一间装饰精美的卧室，有一张大床、两个床头柜和台灯，以及两把椅子。",
+  "detection_summary": "在提供的图像中，没有明确识别出任何开关。"
+}

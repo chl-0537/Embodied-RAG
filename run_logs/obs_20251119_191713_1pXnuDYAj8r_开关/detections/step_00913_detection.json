@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画布/canvas",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "左侧白色画布"
+    },
+    {
+      "label": "画布/canvas",
+      "bbox": [
+        0.4,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "中间蓝色和白色相间的画布"
+    },
+    {
+      "label": "画布/canvas",
+      "bbox": [
+        0.7,
+        0.2,
+        0.8,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "右侧蓝色和白色相间的画布"
+    }
+  ],
+  "scene_description": "三幅挂在墙上的画布",
+  "detection_summary": "检测到三个画布"
+}

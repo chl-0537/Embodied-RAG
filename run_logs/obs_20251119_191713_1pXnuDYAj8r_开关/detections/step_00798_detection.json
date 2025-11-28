@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "位于墙面上"
+    }
+  ],
+  "scene_description": "室内墙面，有一个明显的开关装置",
+  "detection_summary": "在墙面上成功检测到一个开关"
+}

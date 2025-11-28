@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.1
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.8,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "右侧白色门板"
+    }
+  ],
+  "scene_description": "室内环境，左侧有墙面和灯光，右侧有一扇关闭的门。",
+  "detection_summary": "成功检测到开关和门两个主要对象。"
+}

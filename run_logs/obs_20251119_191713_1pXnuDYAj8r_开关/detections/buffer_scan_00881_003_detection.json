@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "走廊左侧墙上挂着一幅画"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.65,
+        0.35,
+        0.75,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "走廊右侧墙上挂着的一幅小画"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "走廊右侧墙上挂着的一幅小画"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.75,
+        0.55,
+        0.85,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "走廊右侧墙上挂着的一幅小画"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.15,
+        0.65,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "卧室里有一幅画"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个走廊和一间卧室。走廊上有几幅挂在墙上的画，而卧室里也有画和一些家具。",
+  "detection_summary": "在图中识别出了多幅画作，它们被挂在不同的位置，包括走廊和卧室的墙壁上。"
+}

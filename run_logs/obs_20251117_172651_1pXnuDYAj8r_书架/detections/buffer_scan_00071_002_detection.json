@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画框/ paintings",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的几幅画"
+    },
+    {
+      "label": "画框/ paintings",
+      "bbox": [
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的几幅画"
+    },
+    {
+      "label": "画框/ paintings",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的几幅画"
+    }
+  ],
+  "scene_description": "房间内有几扇门和墙上的装饰画",
+  "detection_summary": "在房间里没有发现novel、book、书架或books"
+}

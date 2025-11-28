@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的白色开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.3,
+        0.4,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的一幅大型画作"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.7,
+        0.7,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "床边的一个小桌子"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.75,
+        0.75,
+        0.78,
+        0.78
+      ],
+      "confidence": 0.75,
+      "description": "放在床头柜上的台灯"
+    },
+    {
+      "label": "枕头",
+      "bbox": [
+        0.82,
+        0.82,
+        0.84,
+        0.84
+      ],
+      "confidence": 0.7,
+      "description": "床上放置的枕头"
+    }
+  ],
+  "scene_description": "这是一张卧室的照片，可以看到墙壁、床头柜、台灯和床上的枕头等物品。",
+  "detection_summary": "在图片中成功识别出了开关、画框、床头柜、台灯和枕头等多个物体。"
+}

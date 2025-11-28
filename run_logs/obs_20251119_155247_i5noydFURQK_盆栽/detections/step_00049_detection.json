@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.1,
+        0.7,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "位于房间角落的小型植物盆栽"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的带有'LOVE'字样的装饰画"
+    },
+    {
+      "label": "枕头-pillow",
+      "bbox": [
+        0.65,
+        0.85,
+        0.75,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "床上放置的白色枕头"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.6,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "房间内占据大部分空间的床"
+    }
+  ],
+  "scene_description": "这是一个室内卧室的场景，有一张床、一些枕头和一个挂在墙上的装饰画。窗户旁边有一个小型的植物盆栽。",
+  "detection_summary": "在给定的图像中，成功识别出了几个主要对象，包括一个盆栽、一幅画、两个枕头和一张床。这些对象都被准确地定位并标记出来。"
+}

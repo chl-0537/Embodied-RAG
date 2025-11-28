@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "台灯/lamp",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色台灯，位于房间角落"
+    },
+    {
+      "label": "墙纸/wallpaper",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "蓝色和黄色图案的墙纸"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "confidence": 0.7,
+      "description": "绿色和黄色的字母组合"
+    }
+  ],
+  "scene_description": "房间一角，有台灯、墙纸和一幅画",
+  "detection_summary": "检测到台灯、墙纸和一幅画"
+}

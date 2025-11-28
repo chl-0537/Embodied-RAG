@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙壁上挂着一幅抽象画"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.45,
+        0.45,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "走廊尽头墙上挂着一幅马头的照片"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.75,
+        0.65,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "右侧墙壁上挂着两幅小画"
+    },
+    {
+      "label": "床/ bed",
+      "bbox": [
+        0.7,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "房间内有一张床"
+    }
+  ],
+  "scene_description": "这是一条装饰有艺术品的走廊，通向一个卧室。",
+  "detection_summary": "在走廊和卧室中检测到了多幅画作以及一张床。"
+}

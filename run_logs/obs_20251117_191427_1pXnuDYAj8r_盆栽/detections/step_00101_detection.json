@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        100,
+        200,
+        150,
+        250
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧角落的床头柜上"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        300,
+        400,
+        600,
+        800
+      ],
+      "confidence": 0.95,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        700,
+        900,
+        800,
+        1000
+      ],
+      "confidence": 0.85,
+      "description": "两把白色布艺扶手椅"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        650,
+        950,
+        750,
+        1050
+      ],
+      "confidence": 0.8,
+      "description": "小茶几位于两把椅子之间"
+    }
+  ],
+  "scene_description": "这是一个装饰精美的卧室，有一张大床、两张白色布艺扶手椅和一个小茶几。窗户很大，可以看到外面的风景。",
+  "detection_summary": "在图中成功识别了盆栽、床、椅子和桌子四个主要物体。"
+}

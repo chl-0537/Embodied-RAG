@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.15,
+        0.55,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.27,
+        0.55,
+        0.37,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂有几幅画，房间内有门和开关插座。",
+  "detection_summary": "在图中没有发现novel、book、书架或books等目标对象。"
+}

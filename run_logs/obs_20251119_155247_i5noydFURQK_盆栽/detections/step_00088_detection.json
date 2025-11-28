@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.2,
+        0.05,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧房间的洗手台上"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.6,
+        0.8,
+        0.85
+      ],
+      "confidence": 0.95,
+      "description": "房间中央靠右的位置"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.4,
+        0.3,
+        0.7,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧墙壁上"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.75,
+        0.65,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧墙上"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.7,
+        0.45,
+        0.78,
+        0.52
+      ],
+      "confidence": 0.85,
+      "description": "房间右侧墙上"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一个床、一个衣柜和一个窗户。在左侧房间里可以看到一个洗手台和一盆植物。",
+  "detection_summary": "成功检测到盆栽、床、衣柜、窗户和画作等主要对象。"
+}

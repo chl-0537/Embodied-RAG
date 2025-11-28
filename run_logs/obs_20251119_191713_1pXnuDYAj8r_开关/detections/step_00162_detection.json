@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "灯/灯泡/lamp/bulb",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.65,
+        0.8,
+        0.68,
+        0.83
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的绿色植物"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "窗户旁边的白色窗帘"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.4,
+        0.38,
+        0.43
+      ],
+      "confidence": 0.9,
+      "description": "浴室墙上的镜子"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.15,
+        0.45,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "浴室里的洗手池"
+    },
+    {
+      "label": "毛巾/towel",
+      "bbox": [
+        0.18,
+        0.42,
+        0.22,
+        0.46
+      ],
+      "confidence": 0.9,
+      "description": "挂在洗手池旁的毛巾"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.05,
+        0.5,
+        0.15,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "浴室里的储物柜"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.02,
+        0.02,
+        0.04,
+        0.04
+      ],
+      "confidence": 0.8,
+      "description": "墙上靠近天花板的开关"
+    }
+  ],
+  "scene_description": "这是一张室内照片，展示了一个卧室和与之相连的浴室。卧室里有一张床、一张床头柜和一个台灯，而浴室则有一个洗手池、镜子和一些洗漱用品。",
+  "detection_summary": "在图片中成功识别出了多个家居物品，包括灯具、植物、窗帘、镜子、洗手池、毛巾、橱柜以及墙面上的开关。"
+}

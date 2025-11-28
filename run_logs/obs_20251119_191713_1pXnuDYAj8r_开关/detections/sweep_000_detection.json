@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.4,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.3,
+        0.35,
+        0.35,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "位于墙上的白色开关面板"
+    }
+  ],
+  "scene_description": "这是一个室内房间，有墙壁、地毯和家具。",
+  "detection_summary": "在图中检测到了两个开关。"
+}

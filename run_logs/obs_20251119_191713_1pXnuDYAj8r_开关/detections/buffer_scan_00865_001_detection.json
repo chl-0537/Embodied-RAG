@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        100,
+        200,
+        150,
+        250
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        300,
+        400,
+        450,
+        550
+      ],
+      "confidence": 0.8,
+      "description": "带有黑色窗框的大窗户"
+    }
+  ],
+  "scene_description": "室内装修场景，有墙壁、柱子和窗户。",
+  "detection_summary": "在图中识别出了天花板上的嵌入式开关、挂在墙上的两幅画以及大窗户。"
+}

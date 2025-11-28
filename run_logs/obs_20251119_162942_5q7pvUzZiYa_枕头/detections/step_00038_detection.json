@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "西装/suit",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的白色西装"
+    },
+    {
+      "label": "西装/suit",
+      "bbox": [
+        0.4,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的黑色西装"
+    },
+    {
+      "label": "西装/suit",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的深色西装"
+    }
+  ],
+  "scene_description": "房间内有一个木制衣柜，里面挂着几件不同颜色的西装。",
+  "detection_summary": "在房间里检测到三件挂在衣架上的西装。"
+}

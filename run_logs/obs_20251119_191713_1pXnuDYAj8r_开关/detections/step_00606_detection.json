@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的大型浅色沙发"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.75,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "靠近沙发的单人椅"
+    },
+    {
+      "label": "梳妆台/dresser",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "带有镜子的深色木制梳妆台"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.78,
+        0.6,
+        0.82,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两幅装饰画"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.05,
+        0.1,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "房间左侧的大窗户"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.47,
+        0.5,
+        0.53,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "悬挂在窗户旁边的窗帘"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张大床、一张沙发和一把椅子，墙上挂着几幅艺术作品，还有一个大窗户可以看到外面的景色。",
+  "detection_summary": "成功检测到多个家具和装饰品，包括沙发、椅子、梳妆台、画、窗户和窗帘。"
+}

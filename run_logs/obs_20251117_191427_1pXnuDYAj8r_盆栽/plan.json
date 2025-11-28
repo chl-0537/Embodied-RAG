@@ -1,0 +1,26 @@
+{
+  "next_action": "移动到盆栽位置 [10.08, 4.55, -6.05]",
+  "reasoning": "根据当前状态，目标'盆栽'已被成功找到（target_found=true，visual_detection_result=SUCCESS）。系统已通过视觉检测确认了盆栽的存在，并提供了其3D位置坐标。下一步应移动到目标位置进行后续操作，而不是继续搜索。",
+  "expected_observation": "机器人移动到盆栽附近，能够近距离观察盆栽的详细状态，包括植物健康情况、盆栽大小和形状等信息。",
+  "fallback_plan": [
+    "如果移动到指定位置未找到盆栽，则重新扫描周围区域",
+    "如果盆栽位置有障碍物，则规划绕行路径",
+    "如果盆栽状态不适合直接抓取，则调整抓取策略"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "visual_memory_consistency": "视觉检测与历史记忆中的盆栽位置基本一致，位置坐标相近",
+    "detection_confidence": "视觉检测置信度为0.9，表明检测结果可靠",
+    "position_estimation": "3D位置估计基于多视图三角测量，精度较高"
+  },
+  "cross_modal_insights": {
+    "fusion_result": "视觉检测与空间信息融合成功，提供了精确的3D位置",
+    "recommendation": "基于跨模态验证结果，建议直接移动到目标位置进行操作"
+  },
+  "estimated_3d_position": [
+    10.078455624237368,
+    4.552858727523922,
+    -6.0475226146988765
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

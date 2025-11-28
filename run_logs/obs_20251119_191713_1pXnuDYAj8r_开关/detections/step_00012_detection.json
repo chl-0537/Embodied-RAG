@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        400
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的白色窗帘"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        200,
+        300,
+        250,
+        350
+      ],
+      "confidence": 0.8,
+      "description": "两个白色的装饰性花瓶"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        150,
+        50,
+        300,
+        450
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        100,
+        100,
+        200,
+        300
+      ],
+      "confidence": 0.75,
+      "description": "木制的门"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        320,
+        400,
+        340,
+        420
+      ],
+      "confidence": 0.7,
+      "description": "墙上的电灯开关"
+    }
+  ],
+  "scene_description": "房间内有一扇木门、一面大镜子、两盏台灯和一盏吊灯，墙上有一个电灯开关。",
+  "detection_summary": "成功检测到窗帘、花瓶、镜子、门和电灯开关等主要物品。"
+}

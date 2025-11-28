@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的浅色沙发"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.75,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的浅色椅子"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "带有窗帘的大窗户"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.55,
+        0.65,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "位于房间中央的床"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.65,
+        0.55,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "位于房间右侧墙上的装饰品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.75,
+        0.45,
+        0.85,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙上的镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.78,
+        0.38,
+        0.88,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙上的画"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.78,
+        0.53,
+        0.88,
+        0.63
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙上的画"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.92,
+        0.82,
+        0.94,
+        0.84
+      ],
+      "confidence": 0.8,
+      "description": "位于房间右侧墙上的开关"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张大床、一张沙发和一把椅子，墙上挂着几幅画和一个大镜子。",
+  "detection_summary": "在图中成功检测到了沙发、椅子、窗户、床、装饰品、镜子、两幅画以及一个开关。"
+}

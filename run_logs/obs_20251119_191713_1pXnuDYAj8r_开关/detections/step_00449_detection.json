@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.15,
+        0.45,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "房间中央的大床，床上铺有白色床单和多个枕头"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.98,
+      "description": "位于床头的黑色小桌子，上面有一盏台灯"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.8,
+        0.45,
+        0.9
+      ],
+      "confidence": 0.97,
+      "description": "两把米色扶手椅，配有图案靠垫"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.7,
+        0.1,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.96,
+      "description": "大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.25,
+        0.1,
+        0.35,
+        0.2
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的两幅装饰画"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.65,
+        0.85,
+        0.75,
+        0.95
+      ],
+      "confidence": 0.94,
+      "description": "放在沙发旁的花瓶里插着几枝白色的花"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.6,
+        0.2,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.93,
+      "description": "悬挂在窗边的浅色窗帘"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.02,
+        0.02,
+        0.03,
+        0.04
+      ],
+      "confidence": 0.9,
+      "description": "天花板上的一个小型圆形开关"
+    }
+  ],
+  "scene_description": "一间布置精美的卧室，有大床、床头柜、椅子、窗户以及各种装饰品。",
+  "detection_summary": "成功识别了多个主要家具和装饰物，包括床、床头柜、椅子、窗户、画作、花瓶、窗帘和一个天花板上的小型圆形开关。"
+}

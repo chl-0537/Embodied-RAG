@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.65,
+        0.85,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电源插座"
+    }
+  ],
+  "scene_description": "室内走廊，有地毯、墙画和天花板灯光。",
+  "detection_summary": "在走廊内检测到两个开关和一个电源插座。"
+}

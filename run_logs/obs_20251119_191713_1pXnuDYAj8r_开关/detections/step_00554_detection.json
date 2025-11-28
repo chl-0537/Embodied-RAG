@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        600,
+        300,
+        900,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        400,
+        350,
+        550,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "木制床头柜，上面有台灯和植物"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        420,
+        370,
+        480,
+        430
+      ],
+      "confidence": 0.7,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        100,
+        200,
+        300,
+        400
+      ],
+      "confidence": 0.8,
+      "description": "墙上的艺术画作"
+    }
+  ],
+  "scene_description": "卧室内部，有一张大床、一个床头柜和一个台灯，墙上挂有两幅画。",
+  "detection_summary": "在提供的图像中没有明确识别出开关的存在。"
+}

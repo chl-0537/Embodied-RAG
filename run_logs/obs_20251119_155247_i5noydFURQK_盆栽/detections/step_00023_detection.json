@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内有一张床，床上铺有绿色和白色的床单。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.4,
+        0.55,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "床旁边有一个小桌子，上面放着一个台灯和一些装饰品。"
+    },
+    {
+      "label": "衣柜/wardrobe",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.95,
+      "description": "房间里有一个大型的白色衣柜，门上有镜子。"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.42,
+        0.52
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着一幅画，描绘了一个番茄酱罐头。"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.75,
+        0.65,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧有两扇窗户，窗帘是浅色的。"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、一个小桌子、一个大衣柜以及两扇窗户。墙上挂着一幅画，描绘了一个番茄酱罐头。",
+  "detection_summary": "在给定的图像中，没有明确标识出盆栽植物的存在。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关板/switch plate",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "白色开关板，安装在墙上"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.55,
+        0.35,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "蓝色调抽象画，挂在墙上"
+    }
+  ],
+  "scene_description": "室内墙面装饰，左侧有白色开关板，右侧有一幅蓝色调的抽象画。",
+  "detection_summary": "成功检测到墙上的白色开关板和一幅蓝色调的抽象画。"
+}

@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶状盆栽，位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.4,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "大号双人床，铺有白色床单和枕头，位于房间左侧"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.55,
+        0.65,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "棕色扶手椅，带有条纹靠垫，位于房间中央"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.45,
+        0.6,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "小圆桌，位于房间中央，上面摆放着装饰品"
+    },
+    {
+      "label": "台灯/lamp",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的台灯，发出柔和的光线"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "花纹窗帘，覆盖在窗户两侧"
+    }
+  ],
+  "scene_description": "一间豪华卧室，有大窗户、大床、扶手椅、小圆桌、台灯和装饰性盆栽",
+  "detection_summary": "成功检测到盆栽、床、椅子、桌子、台灯和窗帘等主要家具和装饰品"
+}

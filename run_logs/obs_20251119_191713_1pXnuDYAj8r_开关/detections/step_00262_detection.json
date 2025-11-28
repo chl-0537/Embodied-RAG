@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.7,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.3,
+        0.6,
+        0.35,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.4,
+        0.5,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.4,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.6,
+        0.3,
+        0.65,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.2,
+        0.75,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.1,
+        0.85,
+        0.15
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、一张沙发和几把椅子。墙上挂有几幅画。",
+  "detection_summary": "在图片中检测到了多个开关，它们均匀地分布在左侧墙面上。"
+}

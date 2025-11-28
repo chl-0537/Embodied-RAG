@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶位于左侧，靠近墙壁的位置"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.7,
+        0.6,
+        0.8,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "黑色边框的照片挂在墙上"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.65,
+        0.45,
+        0.75,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "黑色边框的照片挂在墙上"
+    }
+  ],
+  "scene_description": "室内环境，有装饰画、镜子和花瓶",
+  "detection_summary": "成功检测到花瓶和两个相框"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "门铰链/hinge",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "金属材质的门铰链"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "白色墙面"
+    }
+  ],
+  "scene_description": "室内环境，可以看到一扇有金属铰链的门和白色的墙壁。",
+  "detection_summary": "在图中识别出一个明显的门铰链以及背景中的墙壁。"
+}

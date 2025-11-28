@@ -1,0 +1,160 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.4,
+        0.2,
+        0.5,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.85,
+        0.45,
+        0.95,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.9,
+        0.2,
+        0.95,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.3,
+        1.0,
+        0.35
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.4,
+        1.0,
+        0.45
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.5,
+        1.0,
+        0.55
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.6,
+        1.0,
+        0.65
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.7,
+        1.0,
+        0.75
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.8,
+        1.0,
+        0.85
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.95,
+        0.9,
+        1.0,
+        0.95
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "天花板灯/ceiling light",
+      "bbox": [
+        0.5,
+        0.05,
+        0.52,
+        0.07
+      ],
+      "confidence": 0.9,
+      "description": "天花板上安装的灯具"
+    }
+  ],
+  "scene_description": "走廊内有多个挂画和一盏天花板灯。",
+  "detection_summary": "走廊内主要检测到多幅挂画和一个天花板灯。"
+}

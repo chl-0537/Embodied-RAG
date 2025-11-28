@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        10,
+        20,
+        30,
+        40
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的两个开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        50,
+        60,
+        70,
+        80
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的画框"
+    },
+    {
+      "label": "照片",
+      "bbox": [
+        55,
+        65,
+        75,
+        85
+      ],
+      "confidence": 0.7,
+      "description": "画框内的照片"
+    }
+  ],
+  "scene_description": "室内场景，墙上有一个带有照片的画框和两个开关面板。",
+  "detection_summary": "成功检测到墙上的两个开关面板、一个画框以及画框内的照片。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制门，位于房间左侧"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.85,
+      "description": "一面带有涂鸦的灰色砖墙"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.4,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.75,
+      "description": "一张黑色桌子，上面有一个黑色的圆形物品"
+    },
+    {
+      "label": "枕头-pillow",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.05,
+      "description": "在桌子上似乎有一个枕头"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一面带涂鸦的灰色砖墙、一扇木制门和一个黑色桌子，桌子上有一个黑色圆形物品。",
+  "detection_summary": "检测到门、墙壁、桌子以及可能存在的枕头。"
+}

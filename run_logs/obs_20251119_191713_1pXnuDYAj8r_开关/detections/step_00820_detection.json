@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "confidence": 1.0,
+      "description": "一幅描绘蓝色山峰和黄色天空的艺术作品"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "confidence": 1.0,
+      "description": "黄色的墙壁"
+    }
+  ],
+  "scene_description": "房间内有一幅挂在墙上的艺术作品，背景是黄色的墙壁。",
+  "detection_summary": "在场景中检测到一幅画作和一面墙壁。"
+}

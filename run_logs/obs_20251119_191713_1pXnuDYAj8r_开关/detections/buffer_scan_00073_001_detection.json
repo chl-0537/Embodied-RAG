@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.875,
+        0.925,
+        0.885,
+        0.935
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.55,
+        0.4,
+        0.65,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    }
+  ],
+  "scene_description": "室内走廊，有地毯、墙壁装饰和天花板灯。",
+  "detection_summary": "成功检测到开关和三幅画作。"
+}

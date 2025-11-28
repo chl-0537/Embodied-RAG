@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "冰箱/fridge",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "左侧有一个白色的冰箱，上面有一些黑色的污渍和划痕。"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "中间有一个棕色的木制柜子，表面有明显的磨损痕迹。"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.65,
+        0.75,
+        0.68,
+        0.78
+      ],
+      "confidence": 0.9,
+      "description": "在右侧墙上可以看到一个黑色的开关。"
+    }
+  ],
+  "scene_description": "这是一个室内环境，主要展示了一个带有白色冰箱、棕色木制柜子和黑色开关的场景。",
+  "detection_summary": "成功检测到冰箱、柜子和墙上的开关三个主要对象。"
+}

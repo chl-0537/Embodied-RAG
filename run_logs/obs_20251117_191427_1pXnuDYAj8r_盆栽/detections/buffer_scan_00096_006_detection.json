@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间角落"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的窗帘，覆盖窗户"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.2,
+        0.3,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "米色床铺，位于房间左侧"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.35,
+        0.65,
+        0.4,
+        0.75
+      ],
+      "confidence": 0.6,
+      "description": "白色雕塑，位于床头柜上"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张床、一扇大窗户和几个装饰品。",
+  "detection_summary": "在图片中检测到了花瓶、窗帘、床和装饰品等物体。"
+}

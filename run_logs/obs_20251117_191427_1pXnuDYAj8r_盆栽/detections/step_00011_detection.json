@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        740,
+        500,
+        750,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        300,
+        200,
+        600,
+        400
+      ],
+      "confidence": 0.95,
+      "description": "房间中央的主要家具"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        100,
+        350,
+        150,
+        450
+      ],
+      "confidence": 0.85,
+      "description": "房间左侧有一把椅子"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        50,
+        380,
+        120,
+        420
+      ],
+      "confidence": 0.8,
+      "description": "与椅子相邻的小桌子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        20,
+        10,
+        80,
+        70
+      ],
+      "confidence": 0.75,
+      "description": "墙上挂着的艺术作品"
+    },
+    {
+      "label": "灯/lamp",
+      "bbox": [
+        700,
+        250,
+        720,
+        280
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的台灯"
+    }
+  ],
+  "scene_description": "这是一个装饰精美的卧室，有床、椅子和桌子等家具，以及墙上的艺术作品和窗边的植物。",
+  "detection_summary": "在房间内成功识别了盆栽、床、椅子、桌子、画和灯等多个对象。"
+}

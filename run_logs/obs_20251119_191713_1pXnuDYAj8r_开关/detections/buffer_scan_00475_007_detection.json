@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.05,
+        0.45,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧的浅色沙发"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "带有窗帘的大窗户"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.45,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "放置在黑色柜子上的白色装饰品"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.5,
+        0.5,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.6,
+      "description": "右侧受损的墙壁"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个客厅的一部分，有沙发、大窗户和一些装饰品。墙壁看起来有些损坏。",
+  "detection_summary": "成功检测到沙发、窗户、装饰品和墙壁等主要对象。"
+}

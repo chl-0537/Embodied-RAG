@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "室内环境，有家具和装饰品",
+  "detection_summary": "未发现目标对象枕头"
+}

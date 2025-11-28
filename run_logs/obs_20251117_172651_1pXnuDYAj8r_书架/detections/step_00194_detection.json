@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.5,
+        0.7,
+        0.6,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于黑色桌子上"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.65,
+        0.75,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "白色相框，位于黑色桌子右侧"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "大镜子，挂在墙上"
+    }
+  ],
+  "scene_description": "房间内有一个黑色桌子，上面摆放着两个白色的花瓶和一个白色的相框。墙上挂着一面大镜子。",
+  "detection_summary": "在房间里检测到了花瓶、相框和镜子。"
+}

@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        880,
+        500,
+        900,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙壁上的白色开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        10,
+        300,
+        200,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "房间左侧的白色床铺"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        10,
+        250,
+        100,
+        350
+      ],
+      "confidence": 0.9,
+      "description": "床旁边的白色床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        20,
+        220,
+        70,
+        270
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的黄色台灯"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        400,
+        450,
+        500,
+        550
+      ],
+      "confidence": 0.9,
+      "description": "房间中央的米色扶手椅"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        150,
+        1000,
+        700
+      ],
+      "confidence": 0.9,
+      "description": "覆盖窗户的图案窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        100,
+        100,
+        800,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "房间前方的大面积玻璃窗"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0,
+        600,
+        1000,
+        700
+      ],
+      "confidence": 0.9,
+      "description": "覆盖整个房间的浅色地毯"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，拥有大窗户、舒适的床和柔软的地毯。",
+  "detection_summary": "在房间内成功识别了多个主要家具和装饰品，包括床、床头柜、台灯、椅子、窗帘、窗户和地毯。"
+}

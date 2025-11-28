@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.9,
+        0.6,
+        0.95,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的艺术画作"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0.0,
+        0.7,
+        1.0,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "浅色地毯覆盖地面"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.45,
+        0.05,
+        0.55,
+        0.15
+      ],
+      "confidence": 0.8,
+      "description": "嵌入式天花板灯"
+    }
+  ],
+  "scene_description": "室内走廊场景，有地毯、艺术画作和天花板灯。",
+  "detection_summary": "成功检测到开关、画框、地毯和天花板灯。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.1,
+        0.2,
+        0.8,
+        0.7
+      ],
+      "confidence": 1.0,
+      "description": "两幅挂在墙上的画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.9,
+        0.2,
+        0.9,
+        0.7
+      ],
+      "confidence": 1.0,
+      "description": "两幅挂在墙上的画"
+    }
+  ],
+  "scene_description": "房间内有两幅挂画，背景是黄色的墙壁。",
+  "detection_summary": "在场景中检测到两幅画作。"
+}

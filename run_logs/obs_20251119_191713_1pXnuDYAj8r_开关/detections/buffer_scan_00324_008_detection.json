@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.35,
+        0.45,
+        0.38,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.4,
+        0.42,
+        0.43,
+        0.44
+      ],
+      "confidence": 0.8,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.3,
+        0.4,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的黑色边框画"
+    }
+  ],
+  "scene_description": "室内房间，有墙壁、地板和天花板，墙上挂有两幅画和一个开关面板。",
+  "detection_summary": "在图中成功检测到两个开关和两幅画。"
+}

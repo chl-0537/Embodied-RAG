@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象艺术作品"
+    }
+  ],
+  "scene_description": "室内走廊场景，有墙壁、门和装饰画",
+  "detection_summary": "成功检测到开关和一幅画"
+}

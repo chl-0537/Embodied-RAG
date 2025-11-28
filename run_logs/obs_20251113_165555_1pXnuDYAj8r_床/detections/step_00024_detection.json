@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.45,
+        0.25,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "房间左侧有一张白色的床，床上铺有白色床单和枕头。"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.05,
+        0.45,
+        0.25,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "床垫位于床的正下方，与床紧密相连。"
+    }
+  ],
+  "scene_description": "这是一间卧室，左侧有一张白色的床，右侧是一排大窗户，窗外可以看到房屋和山脉。",
+  "detection_summary": "在图片中成功检测到一张床和一个床垫。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "相框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.42
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.45,
+        0.43,
+        0.55,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.45,
+        0.51,
+        0.55,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.4,
+        0.2,
+        0.6,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的长方形镜子"
+    }
+  ],
+  "scene_description": "房间内墙上挂着几幅画和一面大镜子。",
+  "detection_summary": "在场景中检测到多个挂着的相框和一个镜子。"
+}

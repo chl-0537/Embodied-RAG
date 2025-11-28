@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一扇木制门，位于房间入口处"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.6,
+        0.2,
+        0.8,
+        0.4
+      ],
+      "confidence": 1.0,
+      "description": "一幅抽象艺术画作，挂在墙上"
+    },
+    {
+      "label": "音响设备/audio equipment",
+      "bbox": [
+        0.7,
+        0.45,
+        0.9,
+        0.65
+      ],
+      "confidence": 1.0,
+      "description": "一组黑色音响设备，放置在墙边"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一扇半开的木门、一幅抽象艺术画作和一组音响设备。",
+  "detection_summary": "已检测到门、画和音响设备三个主要对象。"
+}

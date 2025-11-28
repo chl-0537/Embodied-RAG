@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    }
+  ],
+  "scene_description": "图中展示了一幅墙上的艺术作品和一部分墙面。",
+  "detection_summary": "未检测到任何枕头或其同义词。"
+}

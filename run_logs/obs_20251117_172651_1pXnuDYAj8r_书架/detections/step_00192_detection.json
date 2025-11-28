@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "整个房间内可见的书架结构"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个被烧焦和损坏的区域，可能是因为火灾造成的。墙壁、天花板和地板都有明显的烧痕。",
+  "detection_summary": "在给定的图像中，没有明确识别出'novel', 'book', '书架', '书', 'books'这些特定的目标对象。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "相框",
+      "bbox": [
+        0.1,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.1,
+        0.35,
+        0.15,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.1,
+        0.25,
+        0.15,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的照片"
+    }
+  ],
+  "scene_description": "房间内有几幅挂在墙上的照片和镜子。",
+  "detection_summary": "在房间里检测到四幅挂在墙上的照片。"
+}

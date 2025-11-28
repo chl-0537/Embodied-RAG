@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.5,
+        0.7,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色床单上的枕头"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.5,
+        0.75,
+        0.55,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色床单上的枕头"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.1,
+        0.85,
+        0.15,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "木制床头柜"
+    },
+    {
+      "label": "画作-painting",
+      "bbox": [
+        0.05,
+        0.05,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "画作-painting",
+      "bbox": [
+        0.45,
+        0.4,
+        0.65,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "窗户-window",
+      "bbox": [
+        0.7,
+        0.5,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "大玻璃窗"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、两个枕头、一张床头柜和两幅挂画，以及一扇大窗户。",
+  "detection_summary": "成功检测到枕头、床头柜、画作和窗户等主要对象。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的方形镜子"
+    },
+    {
+      "label": "相框/photoframe",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两个相框"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.3,
+        0.5,
+        0.4,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.42,
+        0.52,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.6,
+      "description": "放在桌子上的装饰品"
+    },
+    {
+      "label": "抽屉/drawer",
+      "bbox": [
+        0.2,
+        0.6,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "桌子上的抽屉"
+    }
+  ],
+  "scene_description": "房间内有一个带镜子的木制梳妆台，上面摆放着一些装饰品和花瓶，墙上挂着几幅画和一个镜子。",
+  "detection_summary": "在房间里识别出了镜子、相框、花瓶、装饰品和抽屉等物品。"
+}

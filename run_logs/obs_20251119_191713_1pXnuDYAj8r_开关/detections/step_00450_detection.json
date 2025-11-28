@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "床头柜上的台灯"
+    }
+  ],
+  "scene_description": "卧室内部，有一张大床、两个床头柜、一张沙发和一扇通往浴室的门。",
+  "detection_summary": "在图中没有明确标识或可见的独立开关。"
+}

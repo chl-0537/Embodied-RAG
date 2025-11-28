@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.5,
+        0.35,
+        0.7,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "左侧的木制门"
+    }
+  ],
+  "scene_description": "室内走廊场景，墙上挂着一幅抽象画，左侧有一扇木门。",
+  "detection_summary": "在给定的图像中，识别出了两件主要物品：一幅挂在墙上的抽象画和一扇木门。没有发现明显的开关或其同义词。"
+}

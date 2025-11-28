@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "confidence": 1.0,
+      "description": "深色木质橱柜，有五个门板"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.0,
+        0.5,
+        0.25,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "编织篮子，内有白色物品"
+    },
+    {
+      "label": "玻璃杯/glass cup",
+      "bbox": [
+        0.25,
+        0.5,
+        0.35,
+        0.7
+      ],
+      "confidence": 1.0,
+      "description": "透明玻璃杯，放在柜台上"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.75,
+        0.5,
+        1.0,
+        0.8
+      ],
+      "confidence": 1.0,
+      "description": "大理石台面洗手池，带水龙头"
+    }
+  ],
+  "scene_description": "厨房或浴室一角，有深色木质橱柜、编织篮子、玻璃杯和大理石台面洗手池。",
+  "detection_summary": "已检测到橱柜、篮子、玻璃杯和洗手池四个主要对象。"
+}

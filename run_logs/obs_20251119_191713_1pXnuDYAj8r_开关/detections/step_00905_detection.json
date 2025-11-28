@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的银色家用电器"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "紧邻洗衣机的灰色电器设备"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.6,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "安装在墙上的深棕色储物柜"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.2,
+        0.45,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "放置在架子上装有白色物品的容器"
+    },
+    {
+      "label": "毛巾/towel",
+      "bbox": [
+        0.15,
+        0.5,
+        0.25,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "挂在架子上的白色布料"
+    },
+    {
+      "label": "纸巾盒/box of tissues",
+      "bbox": [
+        0.4,
+        0.35,
+        0.5,
+        0.45
+      ],
+      "confidence": 0.6,
+      "description": "放在架子上的透明塑料盒子"
+    }
+  ],
+  "scene_description": "这是一个家庭洗衣房的场景，有洗衣机、烘干机和储物柜等设施。",
+  "detection_summary": "成功识别了多个与洗衣相关的设备和家具。"
+}

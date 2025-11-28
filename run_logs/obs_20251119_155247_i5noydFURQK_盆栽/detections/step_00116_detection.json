@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色柜子上的一盆绿色植物"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的圆形镜子"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.05,
+        0.05,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上的窗户"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.0,
+        0.75,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "通往另一个房间的门"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.7,
+        0.2,
+        0.8,
+        0.3
+      ],
+      "confidence": 0.75,
+      "description": "白色柜子上的画作"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到一个白色的房间，墙上挂着一个圆形的镜子，左侧有一个窗户，中间有一扇通向另一个房间的门，右侧的房间里有一个白色的柜子，上面放着一盆绿色的植物和一幅画作。",
+  "detection_summary": "在图中成功识别出了盆栽、镜子、窗户、门、画等物体。"
+}

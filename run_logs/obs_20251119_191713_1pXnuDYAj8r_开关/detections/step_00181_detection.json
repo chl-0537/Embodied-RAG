@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.3,
+        0.4,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "灯泡",
+      "bbox": [
+        0.75,
+        0.65,
+        0.78,
+        0.68
+      ],
+      "confidence": 0.7,
+      "description": "天花板上的圆形灯泡"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅画和一个开关面板，天花板上有一个灯泡。",
+  "detection_summary": "成功检测到开关、画框和灯泡三个主要对象。"
+}

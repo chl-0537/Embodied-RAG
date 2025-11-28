@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.3,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色木制门，位于房间中央偏右位置"
+    },
+    {
+      "label": "墙/brick wall",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙壁由砖块构成，颜色较深"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "墙上挂着一幅抽象画，位于左侧墙壁上方"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.75,
+      "description": "黑色椅子，位于右侧角落"
+    }
+  ],
+  "scene_description": "室内环境，有一扇白色的门、一面砖墙和一幅抽象画，以及一把黑色的椅子。",
+  "detection_summary": "成功检测到门、墙、画和椅子四个主要对象。"
+}

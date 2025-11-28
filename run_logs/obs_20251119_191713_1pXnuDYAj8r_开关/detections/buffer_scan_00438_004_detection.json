@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "恒温器",
+      "bbox": [
+        0.7,
+        0.75,
+        0.74,
+        0.78
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色恒温器"
+    }
+  ],
+  "scene_description": "室内走廊场景，有门、墙壁和天花板。",
+  "detection_summary": "在图中识别出了两个主要对象：一个白色的开关面板和一个白色的恒温器。"
+}

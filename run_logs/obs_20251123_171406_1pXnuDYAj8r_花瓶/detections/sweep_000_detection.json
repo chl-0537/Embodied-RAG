@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中找到花瓶"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个卧室的一部分。可以看到一张床、一些家具和装饰品。",
+  "detection_summary": "在给定的图像中没有检测到任何花瓶。"
+}

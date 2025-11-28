@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于左侧"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶，位于中间"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.6,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于右侧"
+    }
+  ],
+  "scene_description": "室内环境，有装饰性花瓶和镜子",
+  "detection_summary": "检测到三个白色花瓶"
+}

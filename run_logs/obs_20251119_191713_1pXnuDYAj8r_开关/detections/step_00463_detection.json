@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.65,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0.0,
+        0.6,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "走廊地面的浅色地毯"
+    }
+  ],
+  "scene_description": "一条有装饰画的走廊，墙上有一个白色的开关和一盏灯。",
+  "detection_summary": "在走廊中成功检测到开关、画框和地毯。"
+}

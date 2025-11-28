@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "猫",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一只白色和黑色相间的猫"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.2,
+        0.2,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "一扇黑色的窗户"
+    }
+  ],
+  "scene_description": "这是一张模糊的照片，显示了一只白色和黑色相间的猫透过一扇黑色的窗户向外看。",
+  "detection_summary": "在照片中检测到了一只猫和一个窗户。"
+}

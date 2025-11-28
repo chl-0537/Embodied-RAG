@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间两侧的书架，上面没有书籍"
+    }
+  ],
+  "scene_description": "这是一个走廊或储藏室，天花板和墙壁有损坏痕迹，但没有看到任何书籍、小说或其他物品。",
+  "detection_summary": "在图中未发现任何书籍、小说或相关的物品。"
+}

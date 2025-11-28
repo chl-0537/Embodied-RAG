@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0,
+        500,
+        1000
+      ],
+      "confidence": 1.0,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        500,
+        0,
+        1000,
+        1000
+      ],
+      "confidence": 1.0,
+      "description": "白色墙壁"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户和一面墙。",
+  "detection_summary": "在场景中没有检测到任何书籍或书架。"
+}

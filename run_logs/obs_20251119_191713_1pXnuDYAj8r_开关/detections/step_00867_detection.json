@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "走廊内有几幅挂在墙上的画和天花板上的灯。",
+  "detection_summary": "没有检测到明确的开关或画作的具体位置和尺寸。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.1,
+        0.7,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "白色花盆中的绿色植物"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.05,
+        0.65,
+        0.1,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "白色相框内有一张照片"
+    },
+    {
+      "label": "画板/whiteboard",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "绿色背景上有白色文字"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.6,
+        0.2,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "浅色窗帘"
+    }
+  ],
+  "scene_description": "房间一角，有墙纸、家具和装饰品",
+  "detection_summary": "成功检测到盆栽、相框、画板和窗帘"
+}

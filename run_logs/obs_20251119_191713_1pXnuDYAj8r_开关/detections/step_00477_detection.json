@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙上的开关"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        0.45,
+        0.55,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.95,
+      "description": "米色沙发，带有抱枕"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.35,
+        0.65,
+        0.42,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "靠近沙发的单人椅"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.78,
+        0.6,
+        0.98,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "覆盖窗户的图案窗帘"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.05,
+        0.1,
+        0.2,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "挂在左侧墙上的抽象画"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有大面积的落地窗和舒适的家具布置。",
+  "detection_summary": "在图中成功识别了开关、沙发、椅子、窗帘和画作等多个对象。"
+}

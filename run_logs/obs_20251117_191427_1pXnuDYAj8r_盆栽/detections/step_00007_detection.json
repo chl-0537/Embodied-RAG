@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间右侧靠近墙壁的位置"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.2,
+        0.45,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的窗帘，悬挂在窗户旁边"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "浅色椅子，位于房间左侧"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.65,
+        0.25,
+        0.85
+      ],
+      "confidence": 0.6,
+      "description": "米色沙发，位于房间中央偏左位置"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到窗户、窗帘、椅子和沙发等家具。",
+  "detection_summary": "共检测到四个主要对象：一个花瓶、两幅窗帘、一把椅子和一张沙发。"
+}

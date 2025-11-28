@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "白色陶瓷花瓶"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.35,
+        0.25,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.95,
+      "description": "木制门"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、两个白色的花瓶和一个木制的门，墙上有一个电灯开关。",
+  "detection_summary": "成功检测到开关、花瓶、镜子和门四个主要对象。"
+}

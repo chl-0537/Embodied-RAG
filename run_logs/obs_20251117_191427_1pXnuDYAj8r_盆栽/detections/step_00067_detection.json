@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.2,
+        0.4,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶内插有白色花朵"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.5,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "米色床铺，上面有白色枕头和被子"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.4,
+        0.55,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "棕色带花纹的窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.15,
+        0.3,
+        0.45,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "两扇大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "装饰画/decorative painting",
+      "bbox": [
+        0.65,
+        0.4,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象艺术画作"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张床、一个大窗户和一些装饰品。",
+  "detection_summary": "在图片中检测到了盆栽、床、窗帘、窗户和装饰画等物体。"
+}

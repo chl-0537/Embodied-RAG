@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "白色墙壁"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户和一堵墙，墙上挂着有图案的窗帘。",
+  "detection_summary": "在场景中检测到窗帘和墙壁两个主要对象。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/flower pot",
+      "bbox": [
+        0.0,
+        0.4,
+        0.1,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧靠近窗户的位置"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "在黑色柜子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.75,
+        0.55,
+        0.85,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "在黑色柜子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.8,
+        0.45,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "在黑色柜子上"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有一扇大窗户可以看到外面的景色，窗帘是灰色的。房间里有一个黑色的柜子，上面摆放着几个白色的装饰品和花瓶。",
+  "detection_summary": "在这个场景中，我成功检测到了三个花瓶和一个盆栽。这些物品都是房间的装饰品，增加了空间的审美价值。"
+}

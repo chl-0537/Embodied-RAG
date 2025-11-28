@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间左侧的大窗户"
+    },
+    {
+      "label": "天花板/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.2
+      ],
+      "confidence": 0.8,
+      "description": "房间的白色天花板"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.2,
+        1.0,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "房间内的白色墙壁"
+    },
+    {
+      "label": "地毯/carpet",
+      "bbox": [
+        0.0,
+        0.7,
+        1.0,
+        0.9
+      ],
+      "confidence": 0.75,
+      "description": "房间内的浅色地毯"
+    },
+    {
+      "label": "家具/furniture",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "房间右侧的各种家具"
+    }
+  ],
+  "scene_description": "这是一个室内场景，左侧有大窗户和白色墙壁，中间有浅色地毯，右侧有一些家具。",
+  "detection_summary": "在给定的图像中，没有明确识别出任何特定的开关或其同义词。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.45,
+        0.52,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.7,
+        0.35,
+        0.85,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.85,
+        0.35,
+        1.0,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象画"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.15,
+        0.25,
+        0.3,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "黑色木制门框"
+    }
+  ],
+  "scene_description": "室内走廊，墙上挂有两幅抽象画，左侧有一扇半开的门，可以看到内部有办公桌和椅子。",
+  "detection_summary": "成功检测到开关、两幅画作以及门框。"
+}

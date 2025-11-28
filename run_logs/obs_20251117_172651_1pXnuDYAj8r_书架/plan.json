@@ -1,0 +1,30 @@
+{
+  "next_action": "移动到书架位置 [13.83, 3.86, -7.13]，准备进行详细检查",
+  "reasoning": "根据当前状态分析，目标'书架'已被成功找到（target_found=true，visual_detection_result='SUCCESS'）。系统已通过视觉检测确认书架存在，并提供了精确的3D位置坐标。下一步应移动到书架位置进行近距离检查或后续操作，而不是继续搜索。",
+  "expected_observation": "机器人移动到书架附近，能够清晰看到书架的细节，包括其结构、上面的书籍和杂物，并确认书架的稳固性和可访问性。",
+  "fallback_plan": [
+    "如果移动过程中遇到障碍物，重新规划路径并尝试从不同角度接近书架",
+    "如果书架位置有误，使用视觉搜索在周围区域重新定位书架",
+    "如果书架被遮挡，调整视角或位置以获得清晰视野"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_matches": 5,
+    "vision_matches": 1,
+    "consistency_score": 0.6,
+    "discrepancies": [
+      "vision_observation中detected字段为false，但structured_data中detected为true，存在不一致"
+    ]
+  },
+  "cross_modal_insights": {
+    "visual_memory_correlation": "视觉检测与历史记忆中的场景描述一致，均确认室内环境中存在书架",
+    "spatial_accuracy": "提供的3D坐标位置精确，可用于精确定位和导航",
+    "object_stability": "从历史记忆中可推断书架是固定结构，适合进行近距离操作"
+  },
+  "estimated_3d_position": [
+    13.827751043606295,
+    3.8634136129313057,
+    -7.128716661184248
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

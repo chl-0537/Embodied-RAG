@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一幅抽象画，主要颜色有黑色、黄色和红色"
+    },
+    {
+      "label": "扬声器/speaker",
+      "bbox": [
+        0.1,
+        0.4,
+        0.3,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "一个黑色的扬声器，位于房间左侧"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        0.3
+      ],
+      "confidence": 0.85,
+      "description": "一扇白色的门，位于房间的左侧"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一幅抽象画挂在墙上，左侧有一个黑色的扬声器和一扇白色的门。",
+  "detection_summary": "在当前视图中没有检测到枕头或其同义词。"
+}

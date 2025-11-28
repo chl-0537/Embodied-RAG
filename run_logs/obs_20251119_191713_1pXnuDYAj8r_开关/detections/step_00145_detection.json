@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一扇木制门，表面有黑色污渍和磨损痕迹"
+    },
+    {
+      "label": "墙/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "天花板上有黄色的灯光照明"
+    }
+  ],
+  "scene_description": "这是一个室内走廊的场景，左侧有一扇木制的门，右侧是白色的墙壁，天花板上装有黄色的灯光。",
+  "detection_summary": "在当前视图中没有发现明显的开关设备。"
+}

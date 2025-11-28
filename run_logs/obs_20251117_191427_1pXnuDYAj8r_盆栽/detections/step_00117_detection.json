@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶位于左侧"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.35,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.7,
+        0.25,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的镜子"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、窗户和装饰品",
+  "detection_summary": "检测到花瓶、画和镜子"
+}

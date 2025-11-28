@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.45,
+        0.55,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张双人床，床上铺有白色床单和枕头。"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.45,
+        0.55,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "床垫位于床的正下方。"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，有一张大床、床头柜、台灯和一些艺术品。",
+  "detection_summary": "在图中识别出一张床和一个床垫。"
+}

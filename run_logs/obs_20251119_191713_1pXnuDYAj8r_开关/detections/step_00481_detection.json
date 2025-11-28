@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间左侧有一组米色的沙发"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张白色的床"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.2,
+        0.2,
+        0.8,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "房间前方有大面积的落地窗"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.15,
+        0.25,
+        0.85,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "窗户两侧有浅色窗帘"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.75,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一些装饰品"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.78,
+        0.42,
+        0.82,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一盏台灯"
+    }
+  ],
+  "scene_description": "这是一个宽敞的卧室，拥有大窗户和舒适的家具。",
+  "detection_summary": "在房间内识别出了沙发、床、窗户、窗帘、装饰品和台灯等主要物品。"
+}

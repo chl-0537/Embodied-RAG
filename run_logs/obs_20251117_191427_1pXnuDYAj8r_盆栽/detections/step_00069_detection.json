@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间右侧墙边"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.42,
+        0.58,
+        0.44,
+        0.66
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于房间右侧墙边"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.7,
+        0.35,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "米色床，位于房间左侧"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.15,
+        0.25,
+        0.35,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "浅棕色窗帘，位于窗户两侧"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "黑色电视，位于房间右侧墙边"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张床、一台电视和一些装饰品。",
+  "detection_summary": "在图片中检测到了多个对象，包括两个花瓶、一张床、两幅画和一扇窗户。"
+}

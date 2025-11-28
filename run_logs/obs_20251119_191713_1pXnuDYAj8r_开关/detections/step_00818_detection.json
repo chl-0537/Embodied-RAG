@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.05,
+        0.35,
+        0.45,
+        0.65
+      ],
+      "confidence": 1.0,
+      "description": "两幅挂在墙上的蓝色调画作"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.5,
+        0.35,
+        0.9,
+        0.65
+      ],
+      "confidence": 1.0,
+      "description": "两幅挂在墙上的蓝色调画作"
+    },
+    {
+      "label": "储物架",
+      "bbox": [
+        0.6,
+        0.7,
+        0.95,
+        0.95
+      ],
+      "confidence": 1.0,
+      "description": "右侧墙上的储物架，上面放着一些物品"
+    }
+  ],
+  "scene_description": "房间内有两幅蓝色调的画作挂在墙上，右侧有一个储物架。",
+  "detection_summary": "在图中没有发现明显的开关或其同义词。"
+}

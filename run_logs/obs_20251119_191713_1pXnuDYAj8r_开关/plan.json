@@ -1,0 +1,27 @@
+{
+  "next_action": "移动到坐标位置 [6.53, 3.32, -2.77] 附近的开关位置",
+  "reasoning": "根据当前状态分析，目标'开关'已被成功找到（target_found=true）且视觉检测成功（visual_detection_result=SUCCESS）。系统已通过多视图三角测量确定了开关的3D位置坐标。下一步应移动到目标位置进行确认和后续操作。",
+  "expected_observation": "机器人移动到开关附近，能够清晰看到墙上的开关装置，确认开关的具体位置和状态。",
+  "fallback_plan": [
+    "如果初始位置未找到开关，则在'habitat'区域内进行系统化搜索",
+    "检查记忆中提到的墙面位置（如相框附近、门附近等）",
+    "使用视觉系统重新扫描当前场景，寻找开关"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_vision_consistency": "不一致",
+    "discrepancy_details": "视觉检测结果显示开关已找到，但与历史记忆的一致性评分为0，表明记忆中可能没有完全匹配当前场景的开关信息",
+    "resolution_strategy": "依赖实时视觉检测结果和空间融合数据，优先使用当前检测到的位置信息"
+  },
+  "cross_modal_insights": {
+    "spatial_fusion_status": "已完成",
+    "position_accuracy": "高精度3D坐标已确定",
+    "recommended_approach": "直接移动到目标位置，无需额外搜索"
+  },
+  "estimated_3d_position": [
+    6.532474021704951,
+    3.318577088342267,
+    -2.7725276100377227
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

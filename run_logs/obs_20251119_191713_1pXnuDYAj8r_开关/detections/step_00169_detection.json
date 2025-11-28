@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙壁上"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.1,
+        0.3,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.95,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "黄色台灯"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.35,
+        0.75,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "米色扶手椅"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.5,
+        0.2,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "大窗户，可以看到外面的景色"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，有一张大床、一张床头柜、一把扶手椅和一个大窗户。",
+  "detection_summary": "成功检测到开关、床、床头柜、椅子和窗户等主要对象。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.25,
+        0.5,
+        0.3,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.4,
+        0.7,
+        0.42,
+        0.72
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的黑色相框"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.6,
+      "description": "窗户旁边的黑白条纹窗帘"
+    }
+  ],
+  "scene_description": "房间内有一个大镜子、一张桌子、一些装饰品和窗帘。",
+  "detection_summary": "在房间内成功识别了多个装饰物品，包括镜子、花瓶、相框和窗帘。"
+}

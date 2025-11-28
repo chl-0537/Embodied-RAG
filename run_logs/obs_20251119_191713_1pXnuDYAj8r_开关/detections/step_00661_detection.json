@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "天花板上的黑色开关"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的黑白照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.35,
+        0.25,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的黑白照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.6,
+        0.3,
+        0.8,
+        0.5
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的黑白照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.85,
+        0.55,
+        0.95,
+        0.65
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的黑白照片"
+    }
+  ],
+  "scene_description": "室内走廊，墙上挂着多幅黑白照片，天花板上有一个黑色开关。",
+  "detection_summary": "成功检测到天花板上的一个黑色开关和五幅挂在墙上的黑白照片。"
+}

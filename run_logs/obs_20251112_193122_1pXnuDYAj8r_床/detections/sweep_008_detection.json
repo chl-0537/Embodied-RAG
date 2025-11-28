@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "床/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中显示"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中显示"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中显示"
+    }
+  ],
+  "scene_description": "房间内有一扇木门和两幅挂在墙上的画框。",
+  "detection_summary": "没有检测到任何床或床垫。"
+}

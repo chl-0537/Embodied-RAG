@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "在左侧房间的柜子上有一盆植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间中央有一张床"
+    },
+    {
+      "label": "衣柜/wardrobe",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间右侧有一个带镜子的衣柜"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间右侧有一扇窗户"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，中央有一张床，右侧有一个带镜子的衣柜，左侧可以看到另一个房间的一部分，其中有一个柜子和一盆植物。",
+  "detection_summary": "在这个场景中，识别出了盆栽、床、衣柜和窗户等主要对象。"
+}

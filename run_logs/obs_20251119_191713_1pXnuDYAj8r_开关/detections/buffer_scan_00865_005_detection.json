@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的开关"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.2,
+        0.4,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.15,
+        0.35,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.1,
+        0.3,
+        0.15,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.05,
+        0.25,
+        0.1,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.4,
+        0.55,
+        0.45,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.35,
+        0.5,
+        0.4,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.3,
+        0.45,
+        0.35,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.25,
+        0.4,
+        0.3,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    }
+  ],
+  "scene_description": "房间内有一面墙上挂着多幅黑白照片，墙上有一些裂缝和修补痕迹。",
+  "detection_summary": "成功检测到墙上的开关以及多幅挂着的相框。"
+}

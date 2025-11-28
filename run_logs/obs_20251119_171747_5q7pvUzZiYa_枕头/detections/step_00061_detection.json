@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "沙发/chair",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色椅子位于房间左侧"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.35,
+        0.65,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "黑色电视机放置在木制柜子上"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.55,
+        0.42,
+        0.57
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的金色边框画作"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "打开的浅色木门"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.6,
+        0.45,
+        0.62,
+        0.47
+      ],
+      "confidence": 0.9,
+      "description": "反射出房间的玻璃镜面"
+    }
+  ],
+  "scene_description": "室内客厅场景，有沙发、电视、画和门等家具及装饰品。",
+  "detection_summary": "成功检测到多个家居物品，包括沙发、电视、画、门和镜子。"
+}

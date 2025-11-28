@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "confidence": 1.0,
+      "description": "深色木质橱柜，位于厨房上方"
+    },
+    {
+      "label": "水槽/sink",
+      "bbox": [
+        0.7,
+        0.5,
+        1.0,
+        0.8
+      ],
+      "confidence": 1.0,
+      "description": "不锈钢材质的水槽，带有水龙头"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.0,
+        0.5,
+        0.3,
+        0.9
+      ],
+      "confidence": 1.0,
+      "description": "编织篮子，里面装有白色物品"
+    },
+    {
+      "label": "台面/countertop",
+      "bbox": [
+        0.3,
+        0.8,
+        0.7,
+        0.9
+      ],
+      "confidence": 1.0,
+      "description": "浅色石材台面"
+    }
+  ],
+  "scene_description": "这是一个厨房的一部分，有深色的木质橱柜、不锈钢水槽和浅色石材台面。",
+  "detection_summary": "在图中没有发现明确的'开关'或其同义词。"
+}

@@ -1,0 +1,27 @@
+{
+  "next_action": "移动到枕头位置 (17.11, 1.05, -4.65)",
+  "reasoning": "目标枕头已在habitat区域被视觉确认，系统已通过多视图三角测量确定了其精确3D位置。下一步是移动到目标位置以便进行后续操作。",
+  "expected_observation": "机器人移动到枕头附近，能够清晰看到枕头位于床上或纸箱内，准备进行抓取操作。",
+  "fallback_plan": [
+    "如果移动到指定位置后未找到枕头，则重新扫描周围区域并更新目标位置",
+    "如果视觉确认失败，则使用触觉传感器辅助定位",
+    "如果多次尝试失败，则报告无法找到目标并请求更多信息"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_vision_consistency": "部分一致 - 记忆中显示枕头在纸箱和床上，最新视觉检测确认了枕头存在但位置略有差异",
+    "status_evidence_consistency": "一致 - 状态显示目标已找到且视觉检测成功，与最新证据相符",
+    "position_confidence": "高 - 系统已通过多视图三角测量确定了精确3D位置"
+  },
+  "cross_modal_insights": {
+    "visual_memory_integration": "视觉检测与历史记忆结合，确认枕头存在于habitat区域",
+    "position_refinement": "多视图三角测量提供了比单一观察更精确的位置估计",
+    "detection_confidence": "高置信度(0.9)的视觉检测支持目标已找到的结论"
+  },
+  "estimated_3d_position": [
+    17.114912568682115,
+    1.051968360115848,
+    -4.654184085586439
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

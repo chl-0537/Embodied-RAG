@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于镜子前方的桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.7,
+        0.45,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于镜子前方的桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.55,
+        0.75,
+        0.65,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于镜子前方的桌子上"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.2,
+        0.15,
+        1
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘，位于左侧"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.25,
+        0.1,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制门，位于房间中央"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.6,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "大镜子，反射房间的景象"
+    }
+  ],
+  "scene_description": "室内场景，有窗帘、门、镜子和桌子上的花瓶。",
+  "detection_summary": "检测到多个花瓶、窗帘、门和镜子。"
+}

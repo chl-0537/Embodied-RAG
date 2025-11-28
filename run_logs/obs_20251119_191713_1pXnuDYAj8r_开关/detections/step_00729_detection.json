@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.8,
+        0.52,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.7,
+        0.45,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "另一幅挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "室内走廊，墙上挂有两幅抽象画，左侧有一扇半开的门。",
+  "detection_summary": "成功检测到墙上的两个开关和两幅画作。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙壁上的白色开关"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上的大窗户"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.6,
+        0.6,
+        0.65,
+        0.65
+      ],
+      "confidence": 0.7,
+      "description": "走廊尽头的木门"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一条长走廊，两侧有装饰性的栏杆和窗户。走廊尽头有一扇木门。",
+  "detection_summary": "在图片中成功检测到了一个开关、一扇窗户和一扇门。"
+}

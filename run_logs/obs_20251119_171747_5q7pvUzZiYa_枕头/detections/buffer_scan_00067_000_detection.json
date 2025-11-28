@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "房间内的一台大屏幕电视"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.8,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间内的木制柜子"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个带有电视和柜子的房间。",
+  "detection_summary": "在图片中检测到了一台电视和一个柜子。"
+}

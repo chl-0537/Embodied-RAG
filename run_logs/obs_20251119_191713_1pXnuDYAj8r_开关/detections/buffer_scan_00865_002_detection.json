@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.2,
+        0.4,
+        0.3,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.6,
+        0.2,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.65,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "带有窗帘的窗户"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着几幅画，右侧有带窗帘的窗户。",
+  "detection_summary": "在图中没有发现明确的开关，但有多个挂在墙上的画框和一个带窗帘的窗户。"
+}

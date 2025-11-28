@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "图片显示了一个模糊的场景，左侧有一个黑色的垂直条状物，右侧是灰白色的背景。",
+  "detection_summary": "没有检测到明确的开关或其他显著的对象。"
+}

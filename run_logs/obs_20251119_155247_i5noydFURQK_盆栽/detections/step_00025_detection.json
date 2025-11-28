@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.05,
+        0.15,
+        0.1,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙边柜子上的一盆绿色植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "房间内有一张白色和绿色的床"
+    },
+    {
+      "label": "床头灯/table lamp",
+      "bbox": [
+        0.38,
+        0.5,
+        0.4,
+        0.52
+      ],
+      "confidence": 0.7,
+      "description": "床头柜上有一个白色的台灯"
+    },
+    {
+      "label": "狗窝/dog bed",
+      "bbox": [
+        0.6,
+        0.8,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "地板上有一个蓝色的狗窝"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有床、床头灯、狗窝和一个放在墙边的盆栽。",
+  "detection_summary": "在场景中成功检测到了盆栽、床、床头灯和狗窝。"
+}

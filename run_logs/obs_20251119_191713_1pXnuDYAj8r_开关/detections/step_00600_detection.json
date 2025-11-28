@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    }
+  ],
+  "scene_description": "室内环境，有白色墙壁和黑色门框",
+  "detection_summary": "在白色墙壁上成功检测到一个开关"
+}

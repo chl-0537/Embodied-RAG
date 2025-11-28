@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "黑色桌子，上面有物品"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "黑色椅子，位于桌子上方"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.4,
+        0.1,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色门，关闭状态"
+    },
+    {
+      "label": "墙/ wall",
+      "bbox": [
+        0.5,
+        0,
+        1,
+        1
+      ],
+      "confidence": 0.8,
+      "description": "彩色涂鸦墙"
+    }
+  ],
+  "scene_description": "房间内有一张黑色桌子，上面放着一个黑色的圆形物品，旁边是一把黑色椅子，背景是白色的墙壁和一扇关闭的白色门，墙上覆盖着彩色的涂鸦。",
+  "detection_summary": "在房间内识别出一张黑色桌子、一把黑色椅子和一扇白色门，以及一面带有彩色涂鸦的墙。"
+}

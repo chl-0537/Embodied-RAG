@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.2,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的大窗户旁"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.5,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "位于房间的左侧"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.05,
+        0.15,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.65
+      ],
+      "confidence": 0.75,
+      "description": "放在桌子上"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.35,
+        0.8,
+        0.38,
+        0.82
+      ],
+      "confidence": 0.9,
+      "description": "在墙面上"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有大窗户、沙发和装饰品。",
+  "detection_summary": "成功检测到窗帘、沙发、电视、花瓶和墙面上的开关。"
+}

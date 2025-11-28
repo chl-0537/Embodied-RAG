@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "台灯/lamp",
+      "bbox": [
+        0.1,
+        0.4,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "白色灯罩和黄色底座的台灯"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.35,
+        0.55,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "白色边框的照片"
+    },
+    {
+      "label": "墙纸/wallpaper",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "蓝色背景带有绿色图案的墙纸"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.75,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "绿色门的右侧部分"
+    }
+  ],
+  "scene_description": "房间角落，有带图案的墙纸、一盏台灯和一个照片相框。",
+  "detection_summary": "在图片中检测到台灯、相框、墙纸和门。"
+}

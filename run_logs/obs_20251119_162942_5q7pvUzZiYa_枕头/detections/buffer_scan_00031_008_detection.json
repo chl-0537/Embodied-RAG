@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧墙边的一台黑色电视机"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.2,
+        0.3,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "挂在右侧墙壁上的一幅色彩鲜艳的抽象画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.1,
+        0.4,
+        0.15,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的一扇白色木门"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一台黑色的电视放在房间的左侧墙边，墙上挂着一幅色彩鲜艳的抽象画，还有一扇白色的木门。",
+  "detection_summary": "在当前视图中没有发现枕头或其同义词。"
+}

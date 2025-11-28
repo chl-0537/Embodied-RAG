@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内的一张床，位于左侧，可以看到床头和床垫的一部分。"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "窗户旁边的窗帘，带有图案设计。"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "桌子上的白色花瓶，装饰性物品。"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.75,
+        0.35,
+        0.9,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "墙上的大镜子，反射出房间的部分景象。"
+    }
+  ],
+  "scene_description": "这是一个室内卧室的场景，有一张床、一扇窗户以及一些装饰品。",
+  "detection_summary": "在场景中成功检测到了床、窗帘、花瓶和镜子等主要对象。"
+}

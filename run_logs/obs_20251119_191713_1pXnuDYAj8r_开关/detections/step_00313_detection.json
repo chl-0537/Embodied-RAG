@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "位于左侧墙上的长方形窗户"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "木制门，部分烧毁"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.75,
+        0.25,
+        1.0,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.75,
+        0.5,
+        0.85,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放在梳妆台上的白色装饰品"
+    },
+    {
+      "label": "梳妆台",
+      "bbox": [
+        0.75,
+        0.5,
+        0.85,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "黑色梳妆台，上面有装饰品"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在墙上靠近窗户的位置"
+    }
+  ],
+  "scene_description": "房间内有一扇被部分烧毁的门、一面大镜子、一张黑色的梳妆台以及一些装饰品和窗帘。",
+  "detection_summary": "成功检测到窗帘、窗户、门、镜子、装饰品、梳妆台和开关等物体。"
+}

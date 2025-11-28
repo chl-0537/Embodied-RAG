@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.15,
+        0.05,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.6,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.7,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.45,
+        0.4,
+        0.5,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "墙上的一组开关"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、一些装饰品和一组墙上的开关。",
+  "detection_summary": "成功检测到镜子、花瓶、相框以及墙上的开关。"
+}

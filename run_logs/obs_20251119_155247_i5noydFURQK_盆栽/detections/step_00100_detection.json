@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.1,
+        0.8,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "位于左侧墙边的一个白色花盆内有一株绿色植物"
+    }
+  ],
+  "scene_description": "房间一角，有蓝色带黄色图案的壁纸和一扇半开的门。",
+  "detection_summary": "在图片中识别出一个盆栽。"
+}

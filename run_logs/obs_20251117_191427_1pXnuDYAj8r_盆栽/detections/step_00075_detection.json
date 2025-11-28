@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.5,
+        0.05,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧靠近窗户的位置"
+    },
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.1,
+        0.6,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "位于房间中央靠近床的位置"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、两个床头柜和两把椅子。",
+  "detection_summary": "在场景中检测到了两个盆栽植物。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.5,
+        0.35,
+        0.7,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的油画"
+    },
+    {
+      "label": "床/ bed",
+      "bbox": [
+        0.8,
+        0.5,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "房间内的床的一部分"
+    }
+  ],
+  "scene_description": "室内场景，墙上挂着一幅画，可以看到一部分床。",
+  "detection_summary": "在图像中检测到一幅画和部分床。"
+}

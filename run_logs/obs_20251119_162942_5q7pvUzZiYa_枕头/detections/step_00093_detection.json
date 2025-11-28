@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一幅挂在墙上的抽象画"
+    },
+    {
+      "label": "音响设备/sound equipment",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "房间内放置的一个大型黑色音响设备"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "一扇半开的木门"
+    }
+  ],
+  "scene_description": "这是一个室内场景，墙上挂着一幅抽象画，房间里有一个大型的黑色音响设备和一扇半开的木门。",
+  "detection_summary": "在当前视图中没有发现枕头或其同义词。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "房间内的一张床，位于画面的右侧"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.55,
+        0.7,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床上放置的床垫，位于画面右下方"
+    }
+  ],
+  "scene_description": "这是一间卧室的场景，左侧有一扇大窗户，窗帘拉开，可以看到窗外的景色。右侧是一张床和床垫。",
+  "detection_summary": "在图中成功检测到了一张床和一个床垫。"
+}

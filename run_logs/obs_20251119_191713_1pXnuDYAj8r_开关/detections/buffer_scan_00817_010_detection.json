@@ -1,0 +1,149 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.05,
+        0.35,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "墙上的两幅画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.28,
+        0.35,
+        0.48,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "墙上的两幅画"
+    },
+    {
+      "label": "储物柜",
+      "bbox": [
+        0.55,
+        0.45,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "带有盒子和毛巾的储物柜"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.58,
+        0.52,
+        0.62,
+        0.56
+      ],
+      "confidence": 0.7,
+      "description": "储物柜中的第一个盒子"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.64,
+        0.52,
+        0.68,
+        0.56
+      ],
+      "confidence": 0.7,
+      "description": "储物柜中的第二个盒子"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.7,
+        0.52,
+        0.74,
+        0.56
+      ],
+      "confidence": 0.7,
+      "description": "储物柜中的第三个盒子"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.76,
+        0.52,
+        0.8,
+        0.56
+      ],
+      "confidence": 0.7,
+      "description": "储物柜中的第四个盒子"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.82,
+        0.52,
+        0.86,
+        0.56
+      ],
+      "confidence": 0.7,
+      "description": "储物柜中的第五个盒子"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.6,
+        0.5,
+        0.63,
+        0.53
+      ],
+      "confidence": 0.8,
+      "description": "储物柜中的第一条毛巾"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.66,
+        0.5,
+        0.69,
+        0.53
+      ],
+      "confidence": 0.8,
+      "description": "储物柜中的第二条毛巾"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.72,
+        0.5,
+        0.75,
+        0.53
+      ],
+      "confidence": 0.8,
+      "description": "储物柜中的第三条毛巾"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.78,
+        0.5,
+        0.81,
+        0.53
+      ],
+      "confidence": 0.8,
+      "description": "储物柜中的第四条毛巾"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.84,
+        0.5,
+        0.87,
+        0.53
+      ],
+      "confidence": 0.8,
+      "description": "储物柜中的第五条毛巾"
+    }
+  ],
+  "scene_description": "房间内有一面墙挂着两幅画，旁边有一个打开的门通向一个储物柜，里面放着一些盒子和毛巾。",
+  "detection_summary": "在图中识别出了多幅画作、储物柜、多个盒子和多条毛巾。"
+}

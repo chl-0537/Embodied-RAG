@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.15,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在窗户旁边的图案窗帘"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放在窗台上的白色花瓶"
+    },
+    {
+      "label": "兰花/orchid",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "插在花瓶里的白色兰花"
+    },
+    {
+      "label": "楼梯/stairs",
+      "bbox": [
+        0.75,
+        0.7,
+        0.95,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙边的木制楼梯"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘、花瓶和楼梯。",
+  "detection_summary": "检测到窗帘、花瓶、兰花和楼梯。"
+}

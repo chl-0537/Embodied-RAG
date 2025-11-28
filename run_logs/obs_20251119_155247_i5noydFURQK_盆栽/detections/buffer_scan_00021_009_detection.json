@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧房间的白色柜子上"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "房间内有一张床，床上铺有绿色和白色的床单"
+    },
+    {
+      "label": "狗窝/dog bed",
+      "bbox": [
+        0.65,
+        0.75,
+        0.8,
+        0.85
+      ],
+      "confidence": 0.7,
+      "description": "在房间右侧的地板上有一个蓝色的狗窝"
+    },
+    {
+      "label": "画/poster",
+      "bbox": [
+        0.55,
+        0.2,
+        0.6,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着一幅番茄罐头的海报"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个卧室的一部分，可以看到一张床、一个狗窝和一些装饰品。",
+  "detection_summary": "成功检测到盆栽、床、狗窝和墙上的海报。"
+}

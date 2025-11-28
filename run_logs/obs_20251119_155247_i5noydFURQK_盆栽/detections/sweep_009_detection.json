@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "海报",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "绿色背景上有白色字母的海报"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "confidence": 0.9,
+      "description": "浅绿色的墙壁"
+    }
+  ],
+  "scene_description": "房间内有一面浅绿色的墙壁和一个带有绿色背景和白色字母的海报。",
+  "detection_summary": "在当前视图中没有检测到盆栽或其他植物。"
+}

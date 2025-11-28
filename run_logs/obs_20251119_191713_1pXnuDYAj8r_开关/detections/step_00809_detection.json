@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "深色木质橱柜，位于房间右侧墙壁上方"
+    },
+    {
+      "label": "藤箱/wicker box",
+      "bbox": [
+        0.3,
+        0.4,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "打开的藤制箱子，里面装有白色物品"
+    },
+    {
+      "label": "玻璃杯/glass cup",
+      "bbox": [
+        0.65,
+        0.75,
+        0.68,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "透明玻璃杯，位于柜子上"
+    }
+  ],
+  "scene_description": "室内环境，有木制橱柜、藤箱和玻璃杯等物品",
+  "detection_summary": "成功检测到柜子、藤箱和玻璃杯"
+}

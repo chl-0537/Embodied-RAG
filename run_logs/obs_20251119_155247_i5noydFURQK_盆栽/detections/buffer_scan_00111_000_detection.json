@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.05,
+        0.15,
+        0.1,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙边柜子上的一盆绿色植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "房间内有一张白色和绿色的床"
+    },
+    {
+      "label": "床头灯/table lamp",
+      "bbox": [
+        0.38,
+        0.48,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "在床上有一个白色的床头灯"
+    },
+    {
+      "label": "狗窝/dog bed",
+      "bbox": [
+        0.6,
+        0.7,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "地上有一个蓝色的狗窝"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.8,
+        0.85,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙上有一扇窗户"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有床、床头灯、狗窝、窗户和一个放在墙边的盆栽。",
+  "detection_summary": "成功检测到盆栽、床、床头灯、狗窝和窗户等主要物品。"
+}

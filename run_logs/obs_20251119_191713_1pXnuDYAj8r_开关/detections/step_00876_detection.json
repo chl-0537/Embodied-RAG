@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        100,
+        200,
+        300,
+        400
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "楼梯扶手",
+      "bbox": [
+        500,
+        600,
+        700,
+        800
+      ],
+      "confidence": 0.8,
+      "description": "位于楼梯旁的金属扶手"
+    }
+  ],
+  "scene_description": "室内走廊，有墙壁装饰和楼梯。",
+  "detection_summary": "在图中没有明确识别出开关，但有多个画框和楼梯扶手。"
+}

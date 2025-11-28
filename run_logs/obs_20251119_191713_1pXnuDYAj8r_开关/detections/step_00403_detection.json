@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "挂在窗户两侧的布制窗帘"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.8,
+        0.4,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "墙上的大镜子"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.85,
+        0.75,
+        0.88,
+        0.78
+      ],
+      "confidence": 0.9,
+      "description": "墙上的电灯开关"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户、一张桌子、一面墙和一盏灯。",
+  "detection_summary": "已成功检测到窗帘、花瓶、镜子和开关四个主要物体。"
+}

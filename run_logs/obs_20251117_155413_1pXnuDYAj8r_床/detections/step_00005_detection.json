@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间内靠近镜子的地方"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的窗帘，悬挂在窗户旁边"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.25,
+        0.4,
+        0.35,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "木制门，部分打开状态"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.55,
+        0.4,
+        0.65,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的镜子，反射出房间的部分景象"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到一些家具和装饰品，如花瓶、窗帘、门和镜子。",
+  "detection_summary": "共检测到四个主要对象：花瓶、窗帘、门和镜子。"
+}

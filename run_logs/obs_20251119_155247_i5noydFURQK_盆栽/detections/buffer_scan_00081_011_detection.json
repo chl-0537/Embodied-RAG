@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.1,
+        0.8,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "白色花盆中的植物"
+    },
+    {
+      "label": "墙纸/wallpaper",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.99,
+      "description": "带有黄色花朵图案的蓝色背景墙纸"
+    }
+  ],
+  "scene_description": "房间角落，有带花卉图案的墙纸和一盆植物。",
+  "detection_summary": "在图像中检测到一盆植物和墙纸。"
+}

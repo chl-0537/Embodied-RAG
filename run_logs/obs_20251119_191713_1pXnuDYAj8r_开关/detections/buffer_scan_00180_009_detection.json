@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "灯泡/light bulb",
+      "bbox": [
+        0.8,
+        0.05,
+        0.85,
+        0.1
+      ],
+      "confidence": 0.9,
+      "description": "天花板上的圆形灯泡"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.65,
+        0.35,
+        0.75,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "窗户旁边的窗帘"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.7,
+        0.45,
+        0.72,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的绿色植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.9,
+        0.6,
+        0.98,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧的床"
+    },
+    {
+      "label": "床头柜/nightstand",
+      "bbox": [
+        0.7,
+        0.5,
+        0.78,
+        0.68
+      ],
+      "confidence": 0.9,
+      "description": "床旁边的床头柜"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "浴室里的洗手池"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.4,
+        0.42,
+        0.42
+      ],
+      "confidence": 0.9,
+      "description": "洗手池上面的镜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个卧室和连接的浴室。卧室里有一张床、床头柜、台灯和一些装饰品。浴室里有洗手池和镜子。",
+  "detection_summary": "在图中识别出了多个家具和物品，包括灯泡、台灯、窗帘、植物、床、床头柜、洗手池和镜子。"
+}

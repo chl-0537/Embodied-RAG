@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.2,
+        0.7,
+        0.4,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色陶瓷花瓶，放置在桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "白色陶瓷花瓶，放置在桌子上"
+    }
+  ],
+  "scene_description": "房间内有一扇木门、一面墙和一个镜子，墙上挂着画框，桌子上有两个白色的花瓶。",
+  "detection_summary": "检测到两个花瓶，位于房间的桌子上。"
+}

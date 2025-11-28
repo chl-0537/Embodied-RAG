@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.3,
+        0.35,
+        0.38,
+        0.42
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.5,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.6,
+        0.65,
+        0.68,
+        0.7
+      ],
+      "confidence": 0.88,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.75,
+        0.75,
+        0.83,
+        0.78
+      ],
+      "confidence": 0.92,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "房间里的床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.52,
+        0.62,
+        0.58,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的床头柜"
+    }
+  ],
+  "scene_description": "这是一个室内场景，墙上挂着多幅画框，左侧有一个开关，右侧有一张床和床头柜。",
+  "detection_summary": "成功检测到开关、画框、床和床头柜等物体。"
+}

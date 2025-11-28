@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "书架",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    },
+    {
+      "label": "books",
+      "bbox": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    }
+  ],
+  "scene_description": "房间内有木制家具和装饰品，但没有明显的书、书架或书籍。",
+  "detection_summary": "未检测到任何目标对象。"
+}

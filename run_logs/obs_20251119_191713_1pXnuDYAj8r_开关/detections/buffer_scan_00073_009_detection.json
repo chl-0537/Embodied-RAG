@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的图案窗帘"
+    },
+    {
+      "label": "装饰画",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着的两幅装饰画"
+    },
+    {
+      "label": "柜子",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.7,
+      "description": "黑色柜子上摆放着一些物品"
+    },
+    {
+      "label": "雕塑",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.6,
+      "description": "柜子上放置的一个白色雕塑"
+    }
+  ],
+  "scene_description": "房间内有一面墙挂着两幅装饰画和一个黑色的柜子，柜子上有一个白色的雕塑和一些小物件。",
+  "detection_summary": "在当前视图中没有发现明确的'开关'对象。"
+}

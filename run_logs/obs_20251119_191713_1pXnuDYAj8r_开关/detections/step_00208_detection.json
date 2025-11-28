@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间左侧的大窗户"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间内的床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "床旁边的床头柜"
+    },
+    {
+      "label": "梳妆台",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "房间右侧的黑色梳妆台"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "梳妆台上方的镜子"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "梳妆台上的白色花瓶"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "梳妆台上的各种装饰品"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张大床、一个窗户和一面墙上的大镜子。房间里还有一个黑色的梳妆台，上面摆放着一些装饰品。",
+  "detection_summary": "在提供的图像中没有检测到任何明确的开关。"
+}

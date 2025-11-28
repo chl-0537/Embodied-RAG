@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一幅抽象风格的画作，主要颜色有黑色、黄色和红色"
+    },
+    {
+      "label": "电视/ television",
+      "bbox": [
+        0.1,
+        0.5,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "一台老式的CRT电视机，屏幕是黑色的"
+    },
+    {
+      "label": "墙壁/ wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "白色的砖墙"
+    }
+  ],
+  "scene_description": "房间内有一幅抽象风格的画作挂在墙上，还有一台老式的CRT电视机和一些家具。",
+  "detection_summary": "在图片中检测到了一幅画、一台电视和一面墙。"
+}

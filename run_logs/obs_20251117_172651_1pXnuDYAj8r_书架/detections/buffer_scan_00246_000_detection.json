@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.5,
+        0.7,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.45,
+        0.65,
+        0.5,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    }
+  ],
+  "scene_description": "卧室内部，有床、床头柜和窗户。",
+  "detection_summary": "在卧室的场景中检测到了两本位于床头柜上的书。"
+}

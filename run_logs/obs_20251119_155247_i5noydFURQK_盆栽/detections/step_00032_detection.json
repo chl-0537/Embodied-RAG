@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶内插有白色花朵"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.65,
+        0.55,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "黄色底座和白色灯罩"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.35,
+        0.45,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "灰色带点图案"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.35,
+        0.45,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "白色"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.35,
+        0.45,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "浅蓝色"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.45,
+        0.25,
+        0.55,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "绿色、黄色和蓝色的‘LOVE’字样"
+    }
+  ],
+  "scene_description": "卧室一角，有床铺、床头柜、台灯、枕头和一个带有'LOVE'字样的装饰画。",
+  "detection_summary": "在卧室的一角成功识别出盆栽、台灯、枕头和装饰画等物品。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙壁上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "挂在左侧墙上的两个黑色边框的画"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "带有磨砂玻璃的长方形窗户"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.9,
+        0.9,
+        0.92,
+        0.93
+      ],
+      "confidence": 0.8,
+      "description": "位于天花板的嵌入式灯具"
+    }
+  ],
+  "scene_description": "室内走廊场景，有墙壁、窗户、天花板灯和装饰画",
+  "detection_summary": "成功检测到开关、画框、窗户和天花板灯等主要对象"
+}

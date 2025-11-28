@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.15,
+        0.35,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "一扇半开的木门"
+    },
+    {
+      "label": "墙/brick wall",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "一面砖墙"
+    },
+    {
+      "label": "箱子/box",
+      "bbox": [
+        0.7,
+        0.6,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "一个黑色的方形箱子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.05,
+        0.1,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着一幅画"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一面砖墙、一扇半开的木门和一个黑色方形箱子，墙上还挂着一幅画。",
+  "detection_summary": "在场景中检测到了门、墙、箱子和画四个主要对象。"
+}

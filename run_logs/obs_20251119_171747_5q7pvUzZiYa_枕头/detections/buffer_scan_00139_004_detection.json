@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.5,
+        0.6,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "白色现代设计椅子"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.45,
+        0.4,
+        0.48,
+        0.42
+      ],
+      "confidence": 0.8,
+      "description": "黑色平板电视"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.35,
+        0.7,
+        0.38,
+        0.72
+      ],
+      "confidence": 0.7,
+      "description": "浅色沙发"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.75,
+        0.3,
+        0.78,
+        0.32
+      ],
+      "confidence": 0.6,
+      "description": "挂在墙上的艺术作品"
+    }
+  ],
+  "scene_description": "这是一个现代化的客厅，有木质地板和白色墙壁，房间内有一把白色现代设计的椅子、一台黑色平板电视和一个浅色的沙发。墙上挂着一幅艺术作品。",
+  "detection_summary": "在客厅中检测到了一把白色现代设计的椅子、一台黑色平板电视、一个浅色的沙发以及一幅挂在墙上的艺术作品。"
+}

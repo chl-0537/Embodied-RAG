@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0.5,
+        0.8,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.5,
+      "description": "黑色枕头的一部分，位于图像右下角"
+    }
+  ],
+  "scene_description": "室内环境，有白色门和灰色砖墙",
+  "detection_summary": "在图像中检测到一个可能的枕头"
+}

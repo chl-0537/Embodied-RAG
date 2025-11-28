@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画框",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的画"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色背景的画"
+    }
+  ],
+  "scene_description": "墙上挂着一幅有黑色边框的画",
+  "detection_summary": "在墙面上识别出一幅带有黑色边框的画"
+}

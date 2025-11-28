@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.15,
+        0.65,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "床上有两个枕头，一个是白色带有橙色图案的枕头，另一个是深灰色枕头。"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.15,
+        0.7,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "房间中央有一张床，床上铺着白色的被子和灰色的毯子。"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着一幅描绘三个人的画。"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.4,
+        0.7,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "在床旁边有一个小桌子，上面放着一些物品。"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.45,
+        0.7,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "桌子旁有一把椅子。"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.6,
+        0.5,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧有大面积的落地窗，可以看到外面的景色。"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张大床、一张小桌子和一把椅子，墙上挂着一幅画，房间内光线充足。",
+  "detection_summary": "成功检测到枕头、床、画作、桌子、椅子和窗户等主要对象。"
+}

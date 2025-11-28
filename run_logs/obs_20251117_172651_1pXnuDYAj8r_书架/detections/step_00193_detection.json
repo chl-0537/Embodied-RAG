@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "房间内有一个大型的书架，占据了大部分空间。"
+    },
+    {
+      "label": "书/books",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "在书架上可以看到一些书籍。"
+    }
+  ],
+  "scene_description": "这是一个室内场景，主要展示了一个带有大型书架和书籍的房间。",
+  "detection_summary": "成功检测到一个大型书架和一些书籍。"
+}

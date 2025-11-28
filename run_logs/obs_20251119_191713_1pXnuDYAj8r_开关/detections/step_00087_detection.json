@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "卧室中央的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.3,
+        0.7,
+        0.4,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "床旁边的白色床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.35,
+        0.75,
+        0.38,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.1,
+        0.1,
+        0.15,
+        0.15
+      ],
+      "confidence": 0.8,
+      "description": "墙上的艺术画作"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.8,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.75,
+      "description": "窗户旁的浅色窗帘"
+    }
+  ],
+  "scene_description": "一间装饰精美的卧室，有一张大床、床头柜和台灯，墙上挂有艺术画作，窗户旁边有浅色窗帘。",
+  "detection_summary": "在卧室场景中成功检测到多个对象，包括床、床头柜、台灯、画和窗帘。"
+}

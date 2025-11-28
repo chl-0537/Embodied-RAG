@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "沙发/chair",
+      "bbox": [
+        0.1,
+        0.7,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色椅子位于房间左侧"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.3,
+        0.6,
+        0.35,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "黑色电视机放置在桌子上"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.25,
+        0.75,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "棕色桌子位于房间中央"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "金色框画挂在墙上"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "木制门半开着"
+    },
+    {
+      "label": "墙/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色天花板和墙壁"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个白色的客厅，里面有一张白色的沙发、一台黑色的电视和一个棕色的桌子。墙上挂着一幅金框画，天花板上安装了几个嵌入式灯具。",
+  "detection_summary": "成功检测到多个家具和装饰品，包括沙发、电视、桌子、画和门。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个房间内没有看到床或床垫"
+    },
+    {
+      "label": "梳妆台/dressing table",
+      "bbox": [
+        0.5,
+        0.3,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "黑色木质梳妆台，上面摆放着装饰品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.55,
+        0.35,
+        0.65,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "两个挂在墙上的方形相框"
+    }
+  ],
+  "scene_description": "室内环境，有木制家具和装饰品",
+  "detection_summary": "未发现明确的目标对象 mattress 或 bed"
+}

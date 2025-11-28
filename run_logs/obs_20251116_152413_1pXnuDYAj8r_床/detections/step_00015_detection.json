@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.15,
+        0.05,
+        0.55,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "可以看到外面的景色"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.65,
+        0.1,
+        0.95,
+        0.9
+      ],
+      "confidence": 0.75,
+      "description": "木制门，有金属把手"
+    }
+  ],
+  "scene_description": "室内场景，有一扇窗户和一扇门，窗帘半拉开。",
+  "detection_summary": "检测到窗帘、窗户和门三个主要对象。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "行李箱/luggage",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "房间内有一面墙上有涂鸦，旁边有一个黑色的行李箱和一个白色的门。",
+  "detection_summary": "在当前视图中没有检测到枕头或行李箱。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到盆栽"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、窗户和一些家具。",
+  "detection_summary": "在当前视图中没有检测到任何盆栽。"
+}

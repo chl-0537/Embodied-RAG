@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色椅子位于房间中央"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.2,
+        0.2,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "黑色窗帘覆盖窗户"
+    },
+    {
+      "label": "天花板/ceiling",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "白色天花板上有三个灯"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一把白色的椅子和黑色的窗帘，天花板上装有照明设备。",
+  "detection_summary": "在当前视图中没有发现枕头或其同义词。"
+}

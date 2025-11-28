@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧的银色家用电器"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.2,
+        0.0,
+        0.4,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "紧邻洗衣机的黑色电器"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.4,
+        0.0,
+        1.0,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "上方深棕色木制储物柜"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.7,
+        0.5,
+        0.9,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "右侧的不锈钢水槽"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.0,
+        0.5,
+        0.2,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "装有白色物品的浅色编织篮"
+    }
+  ],
+  "scene_description": "厨房或洗衣房内的各种家用电器和家具",
+  "detection_summary": "成功识别了主要家电和存储设备"
+}

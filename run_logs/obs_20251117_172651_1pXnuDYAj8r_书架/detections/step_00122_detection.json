@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在梳妆台上"
+    },
+    {
+      "label": "书",
+      "bbox": [
+        0.75,
+        0.8,
+        0.78,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在梳妆台上"
+    },
+    {
+      "label": "书",
+      "bbox": [
+        0.79,
+        0.8,
+        0.82,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在梳妆台上"
+    }
+  ],
+  "scene_description": "房间内有一个大窗户、窗帘、梳妆台和镜子。",
+  "detection_summary": "在梳妆台上发现了三本书。"
+}

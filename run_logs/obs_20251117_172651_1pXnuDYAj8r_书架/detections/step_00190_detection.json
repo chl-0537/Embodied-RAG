@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "整个图像显示了一个书架，书架上没有放置任何书籍或物品。"
+    }
+  ],
+  "scene_description": "图中展示的是一个空的书架。",
+  "detection_summary": "在图像中没有检测到novel、book、书、books等目标对象。"
+}

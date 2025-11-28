@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.5,
+        0.25,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在窗户旁边的长条形布料"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.2,
+        0.2,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "带有玻璃和框架的结构"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "房间内的垂直结构"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.45,
+        0.65,
+        0.48,
+        0.68
+      ],
+      "confidence": 0.85,
+      "description": "位于墙上的小型装置"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘、墙壁和一个开关。",
+  "detection_summary": "成功检测到窗帘、窗户、墙壁和开关。"
+}

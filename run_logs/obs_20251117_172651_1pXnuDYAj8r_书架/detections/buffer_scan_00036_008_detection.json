@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在黑色柜子上的一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.75,
+        0.8,
+        0.78,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "在黑色柜子上的另一本书"
+    }
+  ],
+  "scene_description": "房间内有一个大镜子、窗帘和装饰品",
+  "detection_summary": "检测到两本放在黑色柜子上的书"
+}

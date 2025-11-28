@@ -1,0 +1,182 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.45,
+        0.82,
+        0.47
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.55,
+        0.35,
+        0.65,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.67,
+        0.35,
+        0.77,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.15,
+        0.25,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "黑色木制门框"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.05,
+        0.02,
+        0.1,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.12,
+        0.02,
+        0.17,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.19,
+        0.02,
+        0.24,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.26,
+        0.02,
+        0.31,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.33,
+        0.02,
+        0.38,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.4,
+        0.02,
+        0.45,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.47,
+        0.02,
+        0.52,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.54,
+        0.02,
+        0.59,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.61,
+        0.02,
+        0.66,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.68,
+        0.02,
+        0.73,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.75,
+        0.02,
+        0.8,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.82,
+        0.02,
+        0.87,
+        0.08
+      ],
+      "confidence": 0.8,
+      "description": "左侧天花板上的一盏灯"
+    }
+  ],
+  "scene_description": "室内走廊场景，有装饰画、开关和天花板灯光。",
+  "detection_summary": "成功检测到开关、画作、门框以及多盏天花板灯。"
+}

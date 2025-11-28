@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "储物柜",
+      "bbox": [
+        0.8,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙面上方"
+    },
+    {
+      "label": "篮子",
+      "bbox": [
+        0.5,
+        0.5,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "装满物品的编织篮子"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "挂在架子上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个走廊和一间房间。走廊左侧墙上挂着一幅画，右侧有一个木制橱柜和一个装有物品的编织篮子。",
+  "detection_summary": "在给定的图像中，没有明确识别出任何开关。"
+}

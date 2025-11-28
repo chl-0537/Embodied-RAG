@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.1,
+        0.1,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "卧室内的床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "床旁边的床头柜"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "房间里的椅子"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.4,
+        0.2,
+        0.6,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画框"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张床、一张椅子和一些装饰品。",
+  "detection_summary": "在场景中检测到了开关、床、床头柜、椅子和画框等物体。"
+}

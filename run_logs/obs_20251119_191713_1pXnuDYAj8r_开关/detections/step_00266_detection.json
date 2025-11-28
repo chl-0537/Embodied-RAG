@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.5,
+        0.6,
+        0.52,
+        0.62
+      ],
+      "confidence": 0.8,
+      "description": "黑色桌子上白色花瓶"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.58,
+        0.42,
+        0.6,
+        0.44
+      ],
+      "confidence": 0.7,
+      "description": "墙上挂着的画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.4,
+        0.75,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "木制门"
+    }
+  ],
+  "scene_description": "房间内有镜子、花瓶、画和木门",
+  "detection_summary": "已检测到镜子、花瓶、画和门"
+}

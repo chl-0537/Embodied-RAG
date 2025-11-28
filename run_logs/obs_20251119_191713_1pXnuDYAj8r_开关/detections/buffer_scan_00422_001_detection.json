@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的镜子"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.55,
+        0.55,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画框"
+    }
+  ],
+  "scene_description": "房间内有一面墙，墙上挂着一面大镜子和一幅画，还有两个开关。",
+  "detection_summary": "成功检测到墙上的开关、一面大镜子和一幅画。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "恒温器/thermostat",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "安装在墙上的电子设备"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.15,
+        0.7,
+        0.25,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "位于墙上的小型白色装置"
+    }
+  ],
+  "scene_description": "室内墙壁上有两个电子设备，一个是恒温器，另一个是开关。",
+  "detection_summary": "成功检测到恒温器和开关两个主要对象。"
+}

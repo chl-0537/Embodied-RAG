@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于左侧"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "大镜子，反射房间内部"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        1.0
+      ],
+      "confidence": 0.85,
+      "description": "黑色和白色相间的窗帘，位于左侧"
+    }
+  ],
+  "scene_description": "室内场景，有花瓶、镜子和窗帘",
+  "detection_summary": "检测到花瓶、镜子和窗帘"
+}

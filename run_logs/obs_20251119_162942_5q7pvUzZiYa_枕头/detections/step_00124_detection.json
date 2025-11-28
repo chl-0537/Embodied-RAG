@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.5,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 1.0,
+      "description": "一幅抽象风格的画，背景是绿色和黄色，中间有一个黑色的人脸图案，眼睛是黄色的，嘴巴是红色的"
+    },
+    {
+      "label": "音响/amplifier",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "一个灰色的音响设备，位于左侧墙边"
+    }
+  ],
+  "scene_description": "房间内有一幅大型抽象画挂在墙上，旁边有一个灰色音响设备。",
+  "detection_summary": "在当前视图中没有发现枕头或其同义词。"
+}

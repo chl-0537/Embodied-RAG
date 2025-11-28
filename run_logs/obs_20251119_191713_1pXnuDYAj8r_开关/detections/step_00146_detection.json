@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.46,
+        0.59,
+        0.49,
+        0.62
+      ],
+      "confidence": 0.8,
+      "description": "白色墙壁上的另一个开关面板"
+    }
+  ],
+  "scene_description": "室内场景，有烧焦的门和墙，以及一些装饰画",
+  "detection_summary": "在图中识别出了两个开关"
+}

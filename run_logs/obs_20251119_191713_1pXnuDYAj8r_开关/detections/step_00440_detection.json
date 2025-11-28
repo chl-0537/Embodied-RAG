@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.05,
+        0.1,
+        0.3,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "相框/photoframe",
+      "bbox": [
+        0.4,
+        0.35,
+        0.55,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着的两个相框"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.15,
+        0.65,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "黑色桌子上的一盏白色台灯"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.2,
+        0.7,
+        0.3,
+        0.8
+      ],
+      "confidence": 0.6,
+      "description": "桌子上的一个装饰品"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、两幅挂在墙上的相框、一张黑色的桌子以及一盏白色的台灯和桌面上的装饰品。",
+  "detection_summary": "在场景中成功识别出镜子、相框、台灯和装饰品等主要物品。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.008,
+        0.397,
+        0.069,
+        0.468
+      ],
+      "confidence": 0.99,
+      "description": "位于左侧房间内的白色柜子上"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.5,
+        0.5,
+        0.999
+      ],
+      "confidence": 0.98,
+      "description": "房间内主要家具之一"
+    },
+    {
+      "label": "衣柜/wardrobe",
+      "bbox": [
+        0.5,
+        0.0,
+        0.75,
+        0.5
+      ],
+      "confidence": 0.97,
+      "description": "带有镜子的白色衣柜"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.8,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.96,
+      "description": "墙上挂着的艺术作品"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张床、一个带镜子的白色衣柜和一个装饰画。在另一个房间里可以看到一个白色的柜子，上面放着一个盆栽。",
+  "detection_summary": "成功检测到盆栽、床、衣柜和画作四个主要对象。"
+}

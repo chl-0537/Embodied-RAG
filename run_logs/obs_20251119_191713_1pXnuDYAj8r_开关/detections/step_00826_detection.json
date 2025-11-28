@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "储物柜",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "带有多个隔间的储物柜"
+    },
+    {
+      "label": "篮子",
+      "bbox": [
+        0.4,
+        0.7,
+        0.6,
+        0.8
+      ],
+      "confidence": 0.75,
+      "description": "储物柜内的篮子"
+    },
+    {
+      "label": "衣物",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "储物柜内叠放的衣物"
+    }
+  ],
+  "scene_description": "房间内有挂画的墙壁和一个带有多层隔间和篮子的储物柜。",
+  "detection_summary": "已检测到画作、储物柜、篮子和衣物。"
+}

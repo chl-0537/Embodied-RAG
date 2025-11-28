@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的方形画作"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.6,
+        0.6,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的方形画作"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "深色木制抽屉柜"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.32,
+        0.18,
+        0.38
+      ],
+      "confidence": 0.7,
+      "description": "白色花瓶，放在柜子上"
+    },
+    {
+      "label": "雕塑/sculpture",
+      "bbox": [
+        0.19,
+        0.33,
+        0.22,
+        0.39
+      ],
+      "confidence": 0.7,
+      "description": "白色雕塑，放在柜子上"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、两幅挂画和一个带抽屉的柜子，上面摆放着一些装饰品。",
+  "detection_summary": "已检测到镜子、画作、柜子和装饰品等物品。"
+}

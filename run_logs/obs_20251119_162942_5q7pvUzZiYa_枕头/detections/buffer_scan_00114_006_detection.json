@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一幅抽象风格的画作，背景是绿色和白色，中间有一个黑色的人脸图案，眼睛是黄色的，嘴巴被红色的手遮住"
+    },
+    {
+      "label": "音响/amplifier",
+      "bbox": [
+        0.1,
+        0.3,
+        0.3,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "一个黑色的音响设备，顶部有圆形的装饰物"
+    }
+  ],
+  "scene_description": "房间内有一幅抽象风格的画作和一个黑色的音响设备。",
+  "detection_summary": "在图片中检测到了一幅画和一个音响设备。"
+}

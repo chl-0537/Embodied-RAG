@@ -1,0 +1,160 @@
+{
+  "objects": [
+    {
+      "label": "床头灯/lamp",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "床头的台灯"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.65,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的桌子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "墙上的装饰画"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "墙上的装饰画"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.8,
+        0.4,
+        0.9,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "卧室内的窗户"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.8,
+        0.4,
+        0.9,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "窗前的窗帘"
+    },
+    {
+      "label": "洗手池/sink",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "浴室里的洗手池"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.05,
+        0.25,
+        0.15,
+        0.35
+      ],
+      "confidence": 0.85,
+      "description": "浴室里的镜子"
+    },
+    {
+      "label": "马桶/toilet",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "浴室里的马桶"
+    },
+    {
+      "label": "淋浴房/shower cabin",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "浴室里的淋浴房"
+    },
+    {
+      "label": "毛巾/towel",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "浴室里的毛巾"
+    },
+    {
+      "label": "浴缸/bathtub",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "浴室里的浴缸"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "房间里的花瓶"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.1,
+        0.3,
+        0.2,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "房间里的植物"
+    }
+  ],
+  "scene_description": "这是一间卧室和浴室相连的场景。卧室里有一张床、两个床头柜和两盏台灯，墙上挂着两幅装饰画。浴室里有洗手池、镜子和马桶。",
+  "detection_summary": "在图中识别出了多个家居用品，包括灯具、家具、装饰品以及浴室设施。"
+}

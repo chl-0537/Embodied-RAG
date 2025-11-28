@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "天花板灯泡/light bulb",
+      "bbox": [
+        0.45,
+        0.15,
+        0.55,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "位于天花板上，发出亮光"
+    },
+    {
+      "label": "门框/door frame",
+      "bbox": [
+        0.35,
+        0.35,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "黑色，与墙壁形成对比"
+    },
+    {
+      "label": "墙/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "白色，有烧焦痕迹"
+    }
+  ],
+  "scene_description": "房间内部，有一个被烧毁的门和天花板灯泡，墙壁上有明显的烧痕。",
+  "detection_summary": "已检测到天花板灯泡、门框和墙壁。"
+}

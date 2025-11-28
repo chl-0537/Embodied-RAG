@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.15,
+        0.35,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "木制棕色门"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.65,
+        0.25,
+        0.95,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "室内走廊场景，有木门、墙上挂着的画作和墙上的开关。",
+  "detection_summary": "成功检测到开关、门和画作为主要对象。"
+}

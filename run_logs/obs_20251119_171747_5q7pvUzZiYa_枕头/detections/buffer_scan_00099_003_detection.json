@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "图中没有看到枕头"
+    }
+  ],
+  "scene_description": "这是一幅抽象画，画面中有红色、黑色和白色的笔触，以及一些模糊的人脸。",
+  "detection_summary": "未在图中检测到枕头。"
+}

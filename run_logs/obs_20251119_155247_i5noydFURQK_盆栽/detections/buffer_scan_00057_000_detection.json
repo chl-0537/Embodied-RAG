@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.7,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间内有一张白色的床，上面铺着绿色的床单和枕头。"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.5,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "房间内有三个窗户，窗帘是白色的。"
+    },
+    {
+      "label": "画/poster",
+      "bbox": [
+        0.35,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着一幅海报，内容不清晰。"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.85,
+        0.75,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上放着一个台灯。"
+    },
+    {
+      "label": "抱枕/cushion",
+      "bbox": [
+        0.65,
+        0.8,
+        0.7,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床上放着几个抱枕。"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有床、窗户、海报、台灯和抱枕等物品。",
+  "detection_summary": "在场景中检测到了床、窗户、海报、台灯和抱枕等物品。"
+}

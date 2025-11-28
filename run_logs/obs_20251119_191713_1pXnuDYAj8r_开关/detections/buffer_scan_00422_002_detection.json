@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.5,
+        0.2,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.1,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙壁上的窗帘"
+    },
+    {
+      "label": "雕塑/sculpture",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "底座上的白色雕塑"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.8,
+        0.9,
+        0.82,
+        0.92
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙壁上的电灯开关"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、一扇窗户和两幅窗帘，以及底座上的白色雕塑和墙壁上的电灯开关。",
+  "detection_summary": "成功检测到镜子、窗帘、雕塑和电灯开关四个主要对象。"
+}

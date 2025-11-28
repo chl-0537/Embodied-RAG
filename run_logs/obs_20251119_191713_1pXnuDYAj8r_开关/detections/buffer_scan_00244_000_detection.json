@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色带有纹理的花瓶"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.65,
+        0.15,
+        0.95,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的镜子"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.55,
+        0.4,
+        0.6,
+        0.45
+      ],
+      "confidence": 0.7,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "室内环境，有花瓶、镜子和墙上的开关。",
+  "detection_summary": "成功检测到花瓶、镜子和墙上的开关。"
+}

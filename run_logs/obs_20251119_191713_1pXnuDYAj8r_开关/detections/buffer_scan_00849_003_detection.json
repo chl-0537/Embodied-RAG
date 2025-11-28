@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    }
+  ],
+  "scene_description": "室内墙壁的一部分，有剥落的油漆和裂缝。",
+  "detection_summary": "在图像中检测到一个开关。"
+}

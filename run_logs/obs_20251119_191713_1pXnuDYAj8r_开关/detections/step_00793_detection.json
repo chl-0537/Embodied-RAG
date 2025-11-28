@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.65,
+        0.35,
+        0.75,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "两幅挂在墙上的蓝色山脉画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.78,
+        0.38,
+        0.88,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "两幅挂在墙上的蓝色山脉画"
+    }
+  ],
+  "scene_description": "室内走廊，墙上挂有两幅蓝色山脉画，左侧有一个白色的开关。",
+  "detection_summary": "在图中成功识别出一个开关和两幅画作。"
+}

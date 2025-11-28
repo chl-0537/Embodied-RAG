@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.55,
+        0.42,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "黑色柜子上方的白色花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.75,
+        0.6,
+        0.82,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "黑色柜子上的黑白照片"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.2,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "窗户旁边的灰色窗帘"
+    }
+  ],
+  "scene_description": "房间内有一个黑色的柜子，上面摆放着一些装饰品，墙上挂着一面大镜子，旁边是灰色的窗帘。",
+  "detection_summary": "在图中识别出了镜子、花瓶、相框和窗帘等物品。"
+}

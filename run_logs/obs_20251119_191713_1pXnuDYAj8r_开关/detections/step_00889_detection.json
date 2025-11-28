@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "墙上的两幅画"
+    },
+    {
+      "label": "洗衣机",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "右侧的银色电器"
+    },
+    {
+      "label": "篮子",
+      "bbox": [
+        0.6,
+        0.7,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "洗衣机的上方"
+    }
+  ],
+  "scene_description": "这是一个室内场景，左侧有两幅挂在墙上的画，中间有一个通往另一个房间的门，右侧有一台银色的洗衣机和一个放在上面的篮子。",
+  "detection_summary": "在给定的图像中，没有明确识别出开关的存在。"
+}

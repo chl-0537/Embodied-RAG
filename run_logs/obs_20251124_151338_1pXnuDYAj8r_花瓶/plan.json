@@ -1,0 +1,27 @@
+{
+  "next_action": "移动到坐标 [11.22, 3.69, -5.81] 处的花瓶位置",
+  "reasoning": "目标花瓶已在habitat区域被视觉检测确认，系统已计算出其3D位置。下一步应移动到目标位置进行后续操作。",
+  "expected_observation": "机器人移动到花瓶位置，应能看到花瓶在视野中，距离适合抓取操作。",
+  "fallback_plan": [
+    "如果无法直接到达目标位置，尝试从不同角度接近",
+    "如果花瓶位置有障碍物，规划绕行路径",
+    "如果视觉确认失败，重新进行视觉检测"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "vision_memory_consistency": "视觉检测显示成功找到花瓶，但与记忆的一致性分数较低（with_memory: false）",
+    "status_consistency": "系统状态显示SUCCESS，与视觉检测结果一致",
+    "action_consistency": "移动到目标位置是找到目标后的合理下一步行动"
+  },
+  "cross_modal_insights": {
+    "visual_positioning": "已获得花瓶的3D位置估计，可用于精确导航",
+    "spatial_fusion": "多视图三角测量已完成，提供可靠的位置信息",
+    "detection_confidence": "视觉检测置信度为0.9，表明检测结果可靠"
+  },
+  "estimated_3d_position": [
+    11.22311668512464,
+    3.687012525213871,
+    -5.810967415291744
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

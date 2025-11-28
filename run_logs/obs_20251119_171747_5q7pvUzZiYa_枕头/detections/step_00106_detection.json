@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "白色枕头"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.2,
+        0.2,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "黑色床架"
+    }
+  ],
+  "scene_description": "卧室内的床和枕头",
+  "detection_summary": "成功检测到枕头和床"
+}

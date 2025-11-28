@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧的大型浅色沙发"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "靠近沙发的单人椅"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "位于床尾的小型深色家具"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.65,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "放置在床头柜上的白色台灯"
+    },
+    {
+      "label": "窗户-window",
+      "bbox": [
+        0.2,
+        0.1,
+        0.8,
+        0.4
+      ],
+      "confidence": 0.95,
+      "description": "房间前方的大面积玻璃窗"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.15,
+        0.05,
+        0.85,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "覆盖窗户的浅色窗帘"
+    },
+    {
+      "label": "地毯-carpet",
+      "bbox": [
+        0.0,
+        0.5,
+        1.0,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "铺设在地面的浅色地毯"
+    },
+    {
+      "label": "电视-TV",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "位于右侧墙上的平板电视"
+    },
+    {
+      "label": "开关-switch",
+      "bbox": [
+        0.9,
+        0.9,
+        0.92,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "位于右上角的电源开关"
+    }
+  ],
+  "scene_description": "这是一个现代化的卧室，拥有大窗户、舒适的沙发和椅子，以及装饰精美的床头柜和台灯。",
+  "detection_summary": "成功检测到多个主要对象，包括沙发、椅子、床头柜、台灯、窗户、窗帘、地毯、电视和电源开关。"
+}

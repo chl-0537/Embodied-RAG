@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.35,
+        0.45,
+        0.42,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色现代设计椅子"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的平板电视"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.75,
+        0.3,
+        0.8,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的金色边框画作"
+    }
+  ],
+  "scene_description": "这是一个现代化的客厅，有白色的墙壁和天花板，浅色的木地板，以及大窗户。",
+  "detection_summary": "在图中没有发现枕头或其同义词。"
+}

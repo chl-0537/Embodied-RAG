@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一扇木制门，部分打开，位于房间左侧"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "白色墙壁，有部分损坏和剥落的油漆"
+    },
+    {
+      "label": "冰箱/refrigerator",
+      "bbox": [
+        0.6,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "黑色冰箱，顶部放着一个黑色的圆形物品"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.7,
+        0.1,
+        1.0,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "彩色抽象画，位于右侧墙上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个带有损坏门的房间，以及一些家具和装饰品。",
+  "detection_summary": "在场景中检测到了门、墙壁、冰箱、画作等物体。"
+}

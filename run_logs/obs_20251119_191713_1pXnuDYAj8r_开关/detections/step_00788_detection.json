@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上，金属材质"
+    }
+  ],
+  "scene_description": "室内环境，墙面和门框",
+  "detection_summary": "成功检测到开关"
+}

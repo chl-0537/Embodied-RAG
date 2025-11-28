@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.5,
+        0.35,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.2,
+        0.4,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "带白色框架的窗户"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.7,
+      "description": "米色沙发"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.65,
+        0.2,
+        0.75
+      ],
+      "confidence": 0.6,
+      "description": "装有白色花朵的花瓶"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.8,
+        0.2,
+        0.95,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制门"
+    }
+  ],
+  "scene_description": "室内房间，有窗户、窗帘、沙发和装饰品",
+  "detection_summary": "成功检测到窗帘、窗户、沙发、花瓶和门"
+}

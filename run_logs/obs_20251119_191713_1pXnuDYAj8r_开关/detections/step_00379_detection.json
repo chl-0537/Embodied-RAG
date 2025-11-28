@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "房间内的一张白色床铺"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的灰色床头柜"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.38,
+        0.48,
+        0.39,
+        0.49
+      ],
+      "confidence": 0.85,
+      "description": "床头柜上的黄色台灯"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.42,
+        0.5,
+        0.43,
+        0.51
+      ],
+      "confidence": 0.75,
+      "description": "窗户旁的浅色窗帘"
+    },
+    {
+      "label": "椅子-chair",
+      "bbox": [
+        0.55,
+        0.65,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "房间内的两把米色椅子"
+    },
+    {
+      "label": "花瓶-vase",
+      "bbox": [
+        0.58,
+        0.68,
+        0.59,
+        0.69
+      ],
+      "confidence": 0.8,
+      "description": "椅子上的白色花瓶"
+    },
+    {
+      "label": "画作-painting",
+      "bbox": [
+        0.05,
+        0.15,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.85,
+      "description": "墙上挂着的艺术作品"
+    },
+    {
+      "label": "开关-switch",
+      "bbox": [
+        0.45,
+        0.95,
+        0.46,
+        0.96
+      ],
+      "confidence": 0.8,
+      "description": "墙上的电源开关"
+    }
+  ],
+  "scene_description": "一间现代风格的卧室，有一张大床、两个床头柜和一盏台灯，以及两把椅子和一个花瓶，窗外可以看到山景。",
+  "detection_summary": "成功检测到床、床头柜、台灯、窗帘、椅子、花瓶、画作和开关等多个对象。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一扇关闭的门"
+    },
+    {
+      "label": "墙/wall",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一面白色的墙壁"
+    }
+  ],
+  "scene_description": "这是一张显示室内环境的照片，左侧是一面白色墙壁，右侧是一扇关闭的木门。",
+  "detection_summary": "在当前视图中没有检测到任何特定的目标对象，如开关。"
+}

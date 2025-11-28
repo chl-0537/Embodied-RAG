@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "墙上的两幅画框"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "带有磨砂玻璃的大窗户"
+    },
+    {
+      "label": "楼梯扶手",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "金属材质的楼梯扶手"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个现代化的家居环境，包括大窗户、装饰画和楼梯。",
+  "detection_summary": "在图中没有明确标识出开关的位置，因此无法提供具体的坐标信息。"
+}

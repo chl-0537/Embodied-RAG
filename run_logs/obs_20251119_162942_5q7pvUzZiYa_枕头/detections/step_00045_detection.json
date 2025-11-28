@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "衣物",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "挂在衣架上的各种衣物"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "背景墙"
+    }
+  ],
+  "scene_description": "这是一个室内环境，可能是在一个衣柜或更衣室里，墙上挂着多件衣物。",
+  "detection_summary": "在当前视图中没有发现明确的枕头或其他类似物品。"
+}

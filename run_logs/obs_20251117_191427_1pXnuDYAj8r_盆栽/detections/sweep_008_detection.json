@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    }
+  ],
+  "scene_description": "图中显示了一个室内环境，有墙壁、门框和两幅挂在墙上的画。没有看到明显的盆栽。",
+  "detection_summary": "图中未检测到任何盆栽。"
+}

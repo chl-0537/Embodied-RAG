@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的开关"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.2,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框照片"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.6,
+        0.5,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "带有磨砂玻璃的窗户"
+    }
+  ],
+  "scene_description": "室内场景，有墙壁、窗户和挂着的相框",
+  "detection_summary": "成功检测到开关、相框和窗户"
+}

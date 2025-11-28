@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧墙面的窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.2,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间右侧的大面积窗户"
+    },
+    {
+      "label": "桌子",
+      "bbox": [
+        0.0,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "房间左侧墙边的桌子"
+    },
+    {
+      "label": "植物",
+      "bbox": [
+        0.05,
+        0.75,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "桌子上的一盆植物"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.03,
+        0.7,
+        0.08,
+        0.88
+      ],
+      "confidence": 0.8,
+      "description": "桌子上的台灯"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.9,
+        0.1,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "天花板上的开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到一个大窗户、一张桌子以及一些装饰品。",
+  "detection_summary": "在给定的图像中，成功识别出了窗帘、窗户、桌子、植物、台灯和天花板上的开关等主要对象。"
+}

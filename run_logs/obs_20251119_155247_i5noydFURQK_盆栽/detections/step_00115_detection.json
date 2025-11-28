@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant in pot",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆里的绿色植物"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "圆形镜子反射室内景象"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的风景画"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.6,
+        0.5,
+        0.75,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "白色的储物柜"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到一面镜子、一幅画和一个白色的储物柜，柜子上有一盆绿色的植物。",
+  "detection_summary": "在图中成功识别了盆栽、镜子、画和柜子四个主要对象。"
+}

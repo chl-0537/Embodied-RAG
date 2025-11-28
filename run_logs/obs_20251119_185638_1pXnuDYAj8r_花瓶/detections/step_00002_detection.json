@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "相框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的相框"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.35,
+        0.7,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的相框"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的镜子"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.6,
+        0.4,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "木制的门"
+    }
+  ],
+  "scene_description": "房间内有一面镜子、两幅挂画和一扇木门。",
+  "detection_summary": "在图片中检测到了四个主要对象：两个相框、一面镜子和一扇门。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.15,
+        0.35,
+        0.85,
+        0.65
+      ],
+      "confidence": 1.0,
+      "description": "一幅抽象画，背景颜色从黄色渐变到蓝色"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.05,
+        0.3,
+        0.95,
+        0.7
+      ],
+      "confidence": 1.0,
+      "description": "黑色边框，内嵌有画作"
+    }
+  ],
+  "scene_description": "墙上挂着一幅抽象画，被装裱在黑色相框里。",
+  "detection_summary": "检测到一幅抽象画和其对应的黑色相框。"
+}

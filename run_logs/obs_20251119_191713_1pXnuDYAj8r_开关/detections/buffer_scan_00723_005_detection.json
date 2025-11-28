@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.35,
+        0.45,
+        0.38,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.65,
+        0.4,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马头画像"
+    }
+  ],
+  "scene_description": "室内走廊场景，墙上挂着一幅马的画像和一个白色的电灯开关。",
+  "detection_summary": "成功检测到电灯开关和一幅挂在墙上的马头画像。"
+}

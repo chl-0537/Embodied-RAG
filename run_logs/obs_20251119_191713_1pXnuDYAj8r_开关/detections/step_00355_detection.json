@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.4,
+        0.8,
+        0.6,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.05,
+        0.9,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的镜子"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.65,
+        0.55,
+        0.68,
+        0.58
+      ],
+      "confidence": 0.8,
+      "description": "墙上安装的开关"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子上方有一个灯泡，镜子旁边有两个白色的花瓶，墙上安装了一个开关。",
+  "detection_summary": "在图片中成功检测到了两个花瓶、一面镜子以及一个开关。"
+}

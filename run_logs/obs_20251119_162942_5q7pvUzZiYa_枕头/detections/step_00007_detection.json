@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "西装",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的黑色西装"
+    },
+    {
+      "label": "西装",
+      "bbox": [
+        0.35,
+        0.2,
+        0.45,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的深灰色西装"
+    },
+    {
+      "label": "西装",
+      "bbox": [
+        0.5,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的白色西装"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.7,
+        0.8,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "房间内的木制门"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的画作"
+    }
+  ],
+  "scene_description": "室内场景，有悬挂的西装、木制家具和墙上的画作。",
+  "detection_summary": "检测到多个西装、一扇门和一幅画。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Books",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "在桌子上可以看到几本书"
+    },
+    {
+      "label": "书架/Shelf",
+      "bbox": [
+        0.2,
+        0.6,
+        0.4,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "墙边有一个书架"
+    }
+  ],
+  "scene_description": "房间内有桌子、椅子、书架和书籍。",
+  "detection_summary": "已检测到书和书架。"
+}

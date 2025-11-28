@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象艺术画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.65,
+        0.55,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象艺术画"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "黑色木制门框"
+    },
+    {
+      "label": "桌子",
+      "bbox": [
+        0.3,
+        0.6,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内的办公桌"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.35,
+        0.6,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "桌子旁的椅子"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.5,
+        0.6,
+        0.6,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "桌子旁的椅子"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.65,
+        0.6,
+        0.75,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "桌子旁的椅子"
+    }
+  ],
+  "scene_description": "室内环境，有办公桌、椅子和装饰画",
+  "detection_summary": "成功识别了开关和画作等主要对象"
+}

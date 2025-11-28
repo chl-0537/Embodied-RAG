@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于镜子前"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.5,
+        0.5,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.7,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "室内场景，有镜子、花瓶和墙上挂着的画",
+  "detection_summary": "检测到花瓶、画和墙上的开关"
+}

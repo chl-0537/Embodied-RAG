@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于黑色架子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.3,
+        0.5,
+        0.35,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于黑色架子上"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.1,
+        0.2,
+        0.25,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "带有图案的窗帘，位于窗户两侧"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.05,
+        0.65,
+        0.15,
+        0.9
+      ],
+      "confidence": 0.75,
+      "description": "棕色沙发，位于房间左侧"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.7,
+        0.3,
+        0.85,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的平板电视"
+    }
+  ],
+  "scene_description": "这是一个现代风格的客厅，有一扇大窗户、一张沙发和一个挂在墙上的平板电视。",
+  "detection_summary": "在图像中检测到了多个对象，包括两个花瓶、窗帘、沙发和电视。"
+}

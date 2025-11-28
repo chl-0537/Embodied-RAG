@@ -1,0 +1,105 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.2,
+        0.5,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧的浅色沙发"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.45,
+        0.55,
+        0.52,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "靠近沙发的单人椅"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.4,
+        0.65,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "覆盖窗户的深色窗帘"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.75,
+        0.6,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "放置在右侧墙边的黑色电视"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.78,
+        0.7,
+        0.82,
+        0.75
+      ],
+      "confidence": 0.7,
+      "description": "电视上方的小型白色装饰物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.58,
+        0.62,
+        0.63,
+        0.68
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的床头柜"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.61,
+        0.67,
+        0.64,
+        0.72
+      ],
+      "confidence": 0.75,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.1,
+        0.9,
+        0.12,
+        0.92
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧墙壁上的开关"
+    }
+  ],
+  "scene_description": "这是一个现代化的卧室，有一张大床、一张沙发和一把椅子，以及一台电视和一些装饰品。房间的墙壁是白色的，地板是浅色的。",
+  "detection_summary": "成功检测到多个家具和装饰品，包括沙发、椅子、窗帘、电视、装饰品、床、床头柜、台灯和一个开关。"
+}

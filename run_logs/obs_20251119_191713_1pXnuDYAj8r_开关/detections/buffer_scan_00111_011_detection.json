@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画框",
+      "bbox": [
+        0.2,
+        0.3,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品框架"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "背景墙壁"
+    }
+  ],
+  "scene_description": "房间内有一幅挂在墙上的艺术作品",
+  "detection_summary": "在图像中检测到一幅挂在墙上的艺术作品和背景墙壁"
+}

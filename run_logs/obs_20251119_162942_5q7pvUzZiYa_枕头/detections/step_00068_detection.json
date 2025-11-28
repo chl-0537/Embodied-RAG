@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "衣物",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的深色衣物"
+    },
+    {
+      "label": "衣物",
+      "bbox": [
+        0.45,
+        0.25,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在衣架上的黑色衣物"
+    },
+    {
+      "label": "衣物",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "挂在衣架上的浅色衣物"
+    },
+    {
+      "label": "冰箱",
+      "bbox": [
+        0.8,
+        0.55,
+        0.95,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "房间角落里的蓝色冰箱"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "木制房门"
+    }
+  ],
+  "scene_description": "房间内有几件悬挂的衣物、一台冰箱和一个木门。",
+  "detection_summary": "在图像中检测到衣物、冰箱和门。没有检测到枕头或其同义词。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.35,
+        0.47,
+        0.38
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.15,
+        0.25,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.65,
+        0.55,
+        0.7,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "白色陶瓷花瓶"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.68,
+        0.58,
+        0.72,
+        0.62
+      ],
+      "confidence": 0.8,
+      "description": "白色陶瓷装饰品"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.73,
+        0.6,
+        0.78,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画框"
+    }
+  ],
+  "scene_description": "室内房间，有窗户、窗帘和装饰物品",
+  "detection_summary": "成功检测到开关和其他装饰物"
+}

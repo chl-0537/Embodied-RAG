@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.8,
+        0.6,
+        0.95,
+        0.85
+      ],
+      "confidence": 0.95,
+      "description": "房间内的大型家具，上面有枕头和被子"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.65,
+        0.8,
+        0.75,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间内的座椅，靠近床边"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "灯/lamp",
+      "bbox": [
+        0.85,
+        0.7,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内的照明设备，放在床头柜上"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、一把椅子和一些装饰品，如画和盆栽。",
+  "detection_summary": "在场景中检测到了盆栽、床、椅子和画等主要物品。"
+}

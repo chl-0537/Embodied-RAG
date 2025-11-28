@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个图像显示的是一个室内环境，没有明显的床或床垫"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "黑色边框的照片相框"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.55,
+        0.35,
+        0.65,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "白色边框的照片相框"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.2,
+        0.3,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "白色的装饰性花瓶"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的大镜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，墙上挂着几幅画和一个大镜子，桌子上摆放着一些装饰品和照片相框。",
+  "detection_summary": "在图像中没有检测到明确的床或床垫。主要检测到的对象是相框、花瓶和镜子。"
+}

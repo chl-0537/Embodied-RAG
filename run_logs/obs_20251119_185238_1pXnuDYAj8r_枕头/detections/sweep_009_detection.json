@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "白色和黑色图案的枕头"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.3,
+        0.4,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.7,
+        0.8,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "木制门"
+    }
+  ],
+  "scene_description": "室内场景，有墙壁、门和装饰画",
+  "detection_summary": "成功检测到枕头、画和门"
+}

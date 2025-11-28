@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "位于右侧墙壁上"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.15
+      ],
+      "confidence": 0.8,
+      "description": "覆盖地面"
+    }
+  ],
+  "scene_description": "这是一个室内走廊的场景，有地毯、墙上的画框和开关。",
+  "detection_summary": "在图中成功检测到开关、画框和地毯。"
+}

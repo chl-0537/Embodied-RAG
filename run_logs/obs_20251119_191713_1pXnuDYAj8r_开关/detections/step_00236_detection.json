@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.47,
+        0.57
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.35,
+        0.25,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "带有图案的灰色窗帘"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.7,
+        0.6,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色的装饰性花瓶"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.05,
+        0.4,
+        0.15,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "米色的单人沙发椅"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        0.3
+      ],
+      "confidence": 0.7,
+      "description": "部分可见的床铺"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一扇大窗户、一张床、一把椅子以及一些装饰品。",
+  "detection_summary": "在房间内成功识别了开关、窗帘、花瓶和椅子等主要物品。"
+}

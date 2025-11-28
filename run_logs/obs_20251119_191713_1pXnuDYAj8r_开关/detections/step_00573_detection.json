@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧的浅色沙发"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "带有窗帘的大窗户"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.55,
+        0.65,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.45,
+        0.7,
+        0.55,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "黑色木制柜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.5,
+        0.75,
+        0.52,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "放在柜子上的白色花瓶"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.6,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "深色木门"
+    }
+  ],
+  "scene_description": "这是一个装饰精美的客厅，有一张沙发、一个大窗户、一面大镜子和一些艺术品。",
+  "detection_summary": "在图中识别出了多个家具和装饰品，包括沙发、窗户、镜子、画、柜子、花瓶和门。"
+}

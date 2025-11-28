@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "图片显示了一个模糊的场景，可能是一面墙和一个门框。",
+  "detection_summary": "没有检测到明确的开关对象。"
+}

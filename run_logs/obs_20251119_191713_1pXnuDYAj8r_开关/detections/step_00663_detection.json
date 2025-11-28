@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.65,
+        0.48,
+        0.68
+      ],
+      "confidence": 0.9,
+      "description": "位于柱子右侧墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "左侧墙上挂着的黑色边框画作"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.6,
+        0.5,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "右侧墙上挂着的白色边框画作"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、柱子和挂在墙上的几幅画。",
+  "detection_summary": "成功检测到柱子右侧墙上的白色开关以及两幅挂在墙上的画框。"
+}

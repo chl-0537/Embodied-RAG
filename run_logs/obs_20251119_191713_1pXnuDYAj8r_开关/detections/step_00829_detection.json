@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.05,
+        0.35,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.27,
+        0.35,
+        0.47,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.49,
+        0.35,
+        0.69,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.71,
+        0.35,
+        0.91,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.93,
+        0.35,
+        1.13,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.15,
+        0.67,
+        0.35,
+        0.87
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.37,
+        0.67,
+        0.57,
+        0.87
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两幅画"
+    }
+  ],
+  "scene_description": "墙上挂着多幅画作，房间内有多个画作对象",
+  "detection_summary": "检测到7个画作对象，置信度均为0.9"
+}

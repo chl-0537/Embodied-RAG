@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.3,
+        0.4,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的彩色抽象画"
+    },
+    {
+      "label": "音响系统/sound system",
+      "bbox": [
+        0.1,
+        0.5,
+        0.2,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "房间角落里的黑色设备"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.7,
+        0.1,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "左侧关闭的门"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅色彩鲜艳的抽象画，旁边有一个黑色的音响设备和一扇关闭的门。",
+  "detection_summary": "在图片中检测到一幅画作、一个音响系统和一扇门。没有检测到枕头或其同义词。"
+}

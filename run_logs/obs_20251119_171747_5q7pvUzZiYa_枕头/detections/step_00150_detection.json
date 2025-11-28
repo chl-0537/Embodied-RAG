@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "confidence": 1.0,
+      "description": "一幅抽象艺术作品，背景是灰色的墙壁，画布上有黑色、红色和黄色的图案"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "confidence": 1.0,
+      "description": "一幅抽象艺术作品，背景是灰色的墙壁，画布上有黑色、红色和黄色的图案"
+    }
+  ],
+  "scene_description": "灰色墙面上有两幅抽象艺术作品。",
+  "detection_summary": "在灰色墙面上成功检测到两幅抽象艺术作品。"
+}

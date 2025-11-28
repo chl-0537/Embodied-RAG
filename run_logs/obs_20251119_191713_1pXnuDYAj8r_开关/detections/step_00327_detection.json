@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.725,
+        0.815,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.725,
+        0.855,
+        0.75,
+        0.88
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    }
+  ],
+  "scene_description": "室内走廊，有木门和墙上的艺术画框",
+  "detection_summary": "在图中识别出两个开关"
+}

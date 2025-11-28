@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/flower pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶内有几枝白色的花"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、一张沙发和一个窗户，窗外可以看到山景和房屋。",
+  "detection_summary": "在卧室的场景中，识别出一个盆栽植物。"
+}

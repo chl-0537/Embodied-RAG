@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        100,
+        200,
+        110,
+        210
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙壁上"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        150,
+        250,
+        160,
+        260
+      ],
+      "confidence": 0.8,
+      "description": "位于右侧墙壁上"
+    }
+  ],
+  "scene_description": "卧室内部，有床、沙发、台灯和装饰画等物品。",
+  "detection_summary": "在图中成功检测到两个开关。"
+}

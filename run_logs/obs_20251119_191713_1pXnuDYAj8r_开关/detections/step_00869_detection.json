@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于天花板上"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.65,
+        0.55,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上"
+    },
+    {
+      "label": "洗衣机",
+      "bbox": [
+        0.35,
+        0.5,
+        0.45,
+        0.7
+      ],
+      "confidence": 0.95,
+      "description": "在走廊里"
+    },
+    {
+      "label": "烘干机",
+      "bbox": [
+        0.35,
+        0.5,
+        0.45,
+        0.7
+      ],
+      "confidence": 0.95,
+      "description": "在走廊里"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个走廊，走廊上有两幅画，左边是打开的门通向另一个房间，房间里有一台洗衣机和一台烘干机。",
+  "detection_summary": "成功检测到开关、画作、洗衣机和烘干机。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "白色门框"
+    },
+    {
+      "label": "玻璃窗",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.75,
+      "description": "右侧模糊区域可能是窗户"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、门和可能的窗户。",
+  "detection_summary": "成功检测到开关、门框和可能存在的窗户。"
+}

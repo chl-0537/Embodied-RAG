@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "位于房间角落的小型植物盆栽"
+    },
+    {
+      "label": "画/canvas",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的带有'LOVE'字样的装饰画"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.7,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "房间内的大床，上面有枕头和被子"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "房间左侧的两扇窗户，可以看到外面的建筑"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.35,
+        0.65,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的台灯"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、一盏台灯和一个装饰画。墙上挂着一幅写有‘LOVE’字样的画，房间里还有一个小型的植物盆栽。",
+  "detection_summary": "在房间内成功检测到了盆栽、画、床、窗户和台灯等物体。"
+}

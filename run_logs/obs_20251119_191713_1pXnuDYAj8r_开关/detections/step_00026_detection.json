@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "图中显示了两幅挂在墙上的画框，背景是黄色的墙壁。",
+  "detection_summary": "没有检测到开关。"
+}

@@ -1,0 +1,171 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间内有一张床，位于左侧，占据了大部分空间。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.2,
+        0.3,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.25,
+        0.35,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.3,
+        0.4,
+        0.35,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.35,
+        0.45,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.4,
+        0.5,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.5,
+        0.6,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.55,
+        0.65,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.6,
+        0.7,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.65,
+        0.75,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.75,
+        0.85,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.8,
+        0.9,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.85,
+        0.95,
+        0.9,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "在桌子上有一个相框。"
+    }
+  ],
+  "scene_description": "这是一间卧室，里面有一张床和一些装饰品。",
+  "detection_summary": "检测到一张床和多个相框。"
+}

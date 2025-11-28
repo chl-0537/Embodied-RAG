@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间右侧墙边，上面摆放着一些物品"
+    },
+    {
+      "label": "书/book",
+      "bbox": [
+        0.55,
+        0.75,
+        0.58,
+        0.78
+      ],
+      "confidence": 0.9,
+      "description": "在书架上可以看到几本书籍"
+    }
+  ],
+  "scene_description": "这是一个室内环境，有一面墙和一扇门，墙上挂着两幅画，地面是木质的。",
+  "detection_summary": "检测到书架和书籍两个主要目标对象。"
+}

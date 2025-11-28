@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙壁上的两幅抽象画"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙壁上的马头画像"
+    }
+  ],
+  "scene_description": "走廊内有三幅挂在墙上的艺术作品。",
+  "detection_summary": "在走廊内检测到三幅艺术品。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色带有黑色花纹的窗帘"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "木制门，有明显的烧焦痕迹"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户和一扇被火烧过的门。",
+  "detection_summary": "在图像中检测到了窗帘和门两个主要对象。"
+}

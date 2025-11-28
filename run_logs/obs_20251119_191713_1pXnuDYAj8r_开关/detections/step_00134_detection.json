@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.65,
+        0.35,
+        0.75,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    }
+  ],
+  "scene_description": "室内走廊场景，有墙壁、地毯和装饰画",
+  "detection_summary": "成功检测到开关和画框两个主要对象"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    }
+  ],
+  "scene_description": "这是一张室内走廊的照片，左侧有窗户和石制护栏，右侧有一个办公区域，可以看到桌子、椅子和一些办公用品。",
+  "detection_summary": "在当前视图中没有检测到明显的开关。"
+}

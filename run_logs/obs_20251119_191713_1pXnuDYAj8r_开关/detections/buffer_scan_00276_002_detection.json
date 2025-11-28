@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        200,
+        0,
+        400,
+        300
+      ],
+      "confidence": 0.8,
+      "description": "木制门框"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        250,
+        50,
+        270,
+        70
+      ],
+      "confidence": 0.7,
+      "description": "圆形吊灯"
+    }
+  ],
+  "scene_description": "房间内有一扇被烧毁的门和一盏亮着的灯。",
+  "detection_summary": "已检测到窗帘、门框和天花板灯。"
+}

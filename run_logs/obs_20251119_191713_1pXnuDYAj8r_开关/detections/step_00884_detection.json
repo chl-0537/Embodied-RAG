@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.7,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "蓝色调的艺术作品"
+    },
+    {
+      "label": "天花板灯",
+      "bbox": [
+        0.48,
+        0.02,
+        0.52,
+        0.05
+      ],
+      "confidence": 0.85,
+      "description": "圆形吊灯"
+    }
+  ],
+  "scene_description": "室内环境，有装饰画、开关和天花板灯。",
+  "detection_summary": "成功检测到开关、画作和天花板灯。"
+}

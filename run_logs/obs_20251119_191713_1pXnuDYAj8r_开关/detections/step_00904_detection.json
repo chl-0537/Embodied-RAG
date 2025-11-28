@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.1,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.99,
+      "description": "深色木质橱柜，位于厨房区域上方"
+    },
+    {
+      "label": "水槽/sink",
+      "bbox": [
+        0.7,
+        0.6,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.98,
+      "description": "不锈钢材质的水槽，安装在台面上"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.97,
+      "description": "编织篮子，内含白色物品"
+    },
+    {
+      "label": "洗碗机/dishwasher",
+      "bbox": [
+        0.35,
+        0.65,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.96,
+      "description": "嵌入式的黑色洗碗机"
+    }
+  ],
+  "scene_description": "这是一个厨房或洗衣房的场景，有深色的木质橱柜、不锈钢水槽和一个黑色的洗碗机。",
+  "detection_summary": "在图中识别出了四个主要物体：橱柜、水槽、篮子和洗碗机。"
+}

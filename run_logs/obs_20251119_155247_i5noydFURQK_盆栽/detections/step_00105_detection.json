@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆中的绿色植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.4,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "带有蓝色和灰色枕头的床"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.85,
+        0.65,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "黄色底座白色灯罩的台灯"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.95,
+      "description": "墙上挂着的“LOVE”字样装饰画"
+    }
+  ],
+  "scene_description": "一间卧室，有床、枕头、台灯和一个墙上的装饰画。",
+  "detection_summary": "在房间内识别出了盆栽、床、台灯和装饰画四个主要对象。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.875,
+        0.925,
+        0.8875,
+        0.945
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.875,
+        0.955,
+        0.8875,
+        0.975
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电源插座"
+    }
+  ],
+  "scene_description": "室内环境，有装饰画、餐桌和椅子。",
+  "detection_summary": "在图中成功检测到两个开关，分别位于墙面上方和下方。"
+}

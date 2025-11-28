@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.45,
+        0.35,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色有纹理的花瓶"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.55,
+        0.25,
+        0.65,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.1,
+        0.6,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有黑色边框的大镜子"
+    }
+  ],
+  "scene_description": "室内装饰场景，有一个大镜子、一幅画和一个白色的花瓶。",
+  "detection_summary": "成功检测到花瓶、画和镜子三个主要对象。"
+}

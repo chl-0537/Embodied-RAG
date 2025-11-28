@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.55,
+        0.52,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的两幅抽象艺术作品"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0.0,
+        0.8,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "浅色地毯覆盖了整个地面"
+    }
+  ],
+  "scene_description": "室内走廊场景，有装饰画、地毯和电灯开关。",
+  "detection_summary": "成功检测到开关、画框和地毯三个主要对象。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.5,
+        0.5,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于墙面上方的一个小矩形装置"
+    }
+  ],
+  "scene_description": "室内环境，墙面为浅色，右侧有黑色框架结构。",
+  "detection_summary": "在给定图像中成功识别出一个开关。"
+}

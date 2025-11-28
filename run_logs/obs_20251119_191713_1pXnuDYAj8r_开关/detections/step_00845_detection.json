@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.5,
+      "description": "位于右上角的白色开关"
+    }
+  ],
+  "scene_description": "室内环境，背景模糊，无法清晰识别具体细节",
+  "detection_summary": "在图像中成功检测到一个开关"
+}

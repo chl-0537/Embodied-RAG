@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.45,
+        0.65,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.95,
+      "description": "房间中央有一张床，床上铺有白色床单和绿色枕头"
+    },
+    {
+      "label": "衣柜/wardrobe",
+      "bbox": [
+        0.05,
+        0.55,
+        0.35,
+        0.95
+      ],
+      "confidence": 0.95,
+      "description": "左侧有一个白色的衣柜，带有镜门"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.4,
+        0.4,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着一幅番茄罐头的画作"
+    },
+    {
+      "label": "窗帘/curtains",
+      "bbox": [
+        0.6,
+        0.9,
+        0.8,
+        0.95
+      ],
+      "confidence": 0.95,
+      "description": "窗户上有浅色的窗帘"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张床、一个衣柜、一幅画和一些装饰品。",
+  "detection_summary": "在房间内成功检测到盆栽、床、衣柜、画作和窗帘等物体。"
+}

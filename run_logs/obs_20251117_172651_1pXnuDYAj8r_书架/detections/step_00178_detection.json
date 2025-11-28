@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的书架，上面没有书籍"
+    }
+  ],
+  "scene_description": "房间内有一个白色的书架，但没有看到任何书籍或小说。",
+  "detection_summary": "在当前视图中未发现任何书籍、小说或其他相关的目标对象。"
+}

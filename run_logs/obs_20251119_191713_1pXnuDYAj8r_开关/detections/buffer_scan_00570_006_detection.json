@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的圆形白色开关"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.8
+      ],
+      "confidence": 0.95,
+      "description": "木制棕色门，有明显的磨损痕迹"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.5,
+        0.3,
+        0.9,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象画作，颜色以灰色和棕色为主"
+    }
+  ],
+  "scene_description": "室内场景，有一扇旧木门、墙上挂着一幅抽象画和一个白色的开关。",
+  "detection_summary": "成功检测到开关、门和画三个主要对象。"
+}

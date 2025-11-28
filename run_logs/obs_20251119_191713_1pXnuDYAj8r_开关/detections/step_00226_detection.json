@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙壁上的白色开关"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个黑色边框的画"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.05,
+        0.5,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "带有黑白图案的椅子"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、两幅挂画和一把椅子。",
+  "detection_summary": "成功检测到开关、镜子、画框和椅子四个主要对象。"
+}

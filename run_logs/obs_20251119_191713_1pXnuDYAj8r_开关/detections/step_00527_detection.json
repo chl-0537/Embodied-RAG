@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.2,
+        0.45,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间中央的大床，上面有白色和棕色的床上用品。"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.55,
+        0.65,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "靠近窗户的一把米色扶手椅。"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.35,
+        0.75,
+        0.55,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "与扶手椅相邻的配套沙发。"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.25,
+        0.15,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "覆盖在窗户两侧的浅棕色窗帘。"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的黄色台灯。"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.78,
+        0.68,
+        0.82,
+        0.72
+      ],
+      "confidence": 0.7,
+      "description": "黑色桌子上方的白色雕塑装饰品。"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.88,
+        0.58,
+        0.92,
+        0.62
+      ],
+      "confidence": 0.7,
+      "description": "墙上挂着的抽象艺术作品。"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.01,
+        0.01,
+        0.03,
+        0.03
+      ],
+      "confidence": 0.5,
+      "description": "位于墙角的电源开关。"
+    }
+  ],
+  "scene_description": "一间豪华卧室，有大床、扶手椅、沙发、大窗户以及各种装饰品和艺术品。",
+  "detection_summary": "成功检测到床、椅子、沙发、窗帘、台灯、装饰品、画作和开关等主要对象。"
+}

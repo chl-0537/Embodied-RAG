@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "纸箱/box",
+      "bbox": [
+        0.7,
+        0.3,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "图中右侧有一个打开的纸箱，里面有一些物品"
+    },
+    {
+      "label": "鞋子/shoes",
+      "bbox": [
+        0.75,
+        0.45,
+        0.85,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "在纸箱内可以看到几双鞋子"
+    }
+  ],
+  "scene_description": "图片展示了一个室内环境，左侧是墙壁，右侧有一个打开的纸箱，里面有几双鞋子。",
+  "detection_summary": "图片中没有发现枕头或其同义词。"
+}

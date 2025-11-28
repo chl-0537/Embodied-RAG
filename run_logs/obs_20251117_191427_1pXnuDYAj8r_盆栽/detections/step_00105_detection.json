@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧床边的小型植物盆栽"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.95,
+      "description": "挂在左侧墙上的大型抽象画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "挂在床头柜上方的一幅小画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.65,
+        0.75,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.95,
+      "description": "挂在右侧墙上的一幅小画"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.35,
+        0.4,
+        0.65,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.6,
+        0.7,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "床尾处的单人沙发椅"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.55,
+        0.6,
+        0.58,
+        0.63
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.68,
+        0.7,
+        0.71,
+        0.73
+      ],
+      "confidence": 0.9,
+      "description": "右侧床头柜上的台灯"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，有一张大床、两盏台灯和几幅挂画。房间内还有一把单人沙发椅和一个小型植物盆栽。",
+  "detection_summary": "在房间中成功识别出盆栽、画作、床、椅子和台灯等主要物品。"
+}

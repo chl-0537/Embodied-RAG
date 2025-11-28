@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到"
+    }
+  ],
+  "scene_description": "房间内有一面墙和一扇门，没有看到明显的家具或装饰品。",
+  "detection_summary": "未检测到任何枕头或其他明显物品。"
+}

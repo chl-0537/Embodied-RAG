@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.725,
+        0.875,
+        0.78,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "室内场景，墙上挂有两幅抽象画和一个白色的电灯开关。",
+  "detection_summary": "成功检测到两个主要对象：一个电灯开关和两幅抽象画。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色带有纹理的花瓶"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.4,
+        0.7,
+        0.6,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色带有纹理的花瓶"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的画"
+    }
+  ],
+  "scene_description": "室内环境，有装饰性的花瓶和一幅挂画",
+  "detection_summary": "检测到两个花瓶和一个画"
+}

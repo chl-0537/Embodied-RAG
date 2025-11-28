@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色花盆里的绿色植物"
+    }
+  ],
+  "scene_description": "室内走廊，有装饰画和镜子",
+  "detection_summary": "在图中识别出一个盆栽"
+}

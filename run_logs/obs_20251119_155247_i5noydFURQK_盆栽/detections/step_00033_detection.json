@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "台灯/lamp",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色灯罩和金色底座的台灯"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.7,
+        0.65,
+        0.8,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "放在桌子上的黑色边框照片"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "白色带圆点的枕头"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.1,
+        0.25,
+        0.3
+      ],
+      "confidence": 0.85,
+      "description": "蓝色背景上有绿色和黄色字母的画"
+    }
+  ],
+  "scene_description": "房间角落，有床、床头柜、台灯、相框和装饰画",
+  "detection_summary": "成功检测到台灯、相框、枕头和画"
+}

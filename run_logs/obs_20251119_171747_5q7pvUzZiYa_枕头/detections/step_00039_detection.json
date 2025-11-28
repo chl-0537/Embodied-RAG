@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的彩色画作"
+    },
+    {
+      "label": "门/ door",
+      "bbox": [
+        0.2,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色的门"
+    },
+    {
+      "label": "窗帘/ curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.5
+      ],
+      "confidence": 0.7,
+      "description": "左侧的白色窗帘"
+    },
+    {
+      "label": "炉子/ stove",
+      "bbox": [
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间内的蓝色炉子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，墙上挂着一幅彩色的画，旁边有一扇白色的门和一扇窗户，窗前有白色的窗帘。房间里有一个蓝色的炉子。",
+  "detection_summary": "在场景中检测到了一幅画、一扇门、一面墙和一个炉子。没有检测到枕头或其同义词。"
+}

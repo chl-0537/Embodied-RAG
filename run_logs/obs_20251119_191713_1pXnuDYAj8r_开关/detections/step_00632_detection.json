@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.72,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的电源开关"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "带有窗帘的大窗户"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        0.01,
+        0.55,
+        0.09,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "米色沙发"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.38,
+        0.6,
+        0.42,
+        0.68
+      ],
+      "confidence": 0.75,
+      "description": "白色花瓶"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.58,
+        0.2,
+        0.88,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "大镜子"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.53,
+        0.7,
+        0.57,
+        0.74
+      ],
+      "confidence": 0.8,
+      "description": "黑色和白色的装饰品"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张大窗户、一张床和一个带镜子的梳妆台。",
+  "detection_summary": "在图中成功识别了多个对象，包括开关、窗户、沙发、花瓶、镜子和装饰品。"
+}

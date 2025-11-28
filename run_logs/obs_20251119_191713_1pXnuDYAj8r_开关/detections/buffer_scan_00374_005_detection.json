@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.25,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在窗户旁边的长条形布料"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放置在桌子上的容器，内有白色花朵"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "房间内的垂直结构"
+    },
+    {
+      "label": "门/window",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "带有玻璃和框架的结构"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.4,
+        0.6,
+        0.42,
+        0.62
+      ],
+      "confidence": 0.9,
+      "description": "墙上的小型控制装置"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到窗户、窗帘、花瓶、墙壁、门以及墙上的开关。",
+  "detection_summary": "成功检测到窗帘、花瓶、墙壁、门和开关等主要对象。"
+}

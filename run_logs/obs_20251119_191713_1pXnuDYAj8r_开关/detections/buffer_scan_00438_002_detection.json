@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.47,
+        0.74,
+        0.49
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.49,
+        0.75,
+        0.52
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.8,
+        0.35,
+        0.95,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    }
+  ],
+  "scene_description": "室内走廊，有装饰画和开关面板",
+  "detection_summary": "成功检测到开关和两幅挂画"
+}

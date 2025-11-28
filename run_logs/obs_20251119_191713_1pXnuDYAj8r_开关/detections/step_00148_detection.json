@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.95,
+      "description": "木制棕色门"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.15,
+        0.4,
+        0.25,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.05,
+        0.3,
+        0.15,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的矩形镜子"
+    }
+  ],
+  "scene_description": "室内走廊场景，有木门、挂画和镜子，墙上有一个白色的开关。",
+  "detection_summary": "成功检测到开关、门、画框和镜子等主要对象。"
+}

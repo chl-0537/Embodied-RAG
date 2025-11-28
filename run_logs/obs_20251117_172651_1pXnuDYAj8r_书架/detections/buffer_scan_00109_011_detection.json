@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.75,
+        0.45,
+        0.78,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.79,
+        0.45,
+        0.82,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.83,
+        0.45,
+        0.86,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.87,
+        0.45,
+        0.9,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.91,
+        0.45,
+        0.94,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.96,
+        0.45,
+        0.99,
+        0.48
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一本书"
+    }
+  ],
+  "scene_description": "卧室里有一张床、两个床头柜和一扇大窗户。",
+  "detection_summary": "在卧室的场景中，成功检测到了多本放在床头柜上的书。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.0,
+        0.5,
+        0.1,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙边柜子上的一盆植物"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.85,
+      "description": "房间内有一张床，床上铺有绿色和白色的床单"
+    },
+    {
+      "label": "床头灯/table lamp",
+      "bbox": [
+        0.75,
+        0.45,
+        0.78,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上有一盏台灯"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.65,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内有一个带镜子的白色衣柜"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个卧室的一部分，包括床、床头柜、台灯和一个带有镜子的白色衣柜。",
+  "detection_summary": "在场景中检测到了盆栽、床、床头灯和衣柜四个主要对象。"
+}

@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.5,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央偏左位置，靠近墙壁"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.7,
+        0.4,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "白色和绿色床上用品，位于右侧卧室区域"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.75,
+        0.65,
+        0.8,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "位于床旁边，上面有台灯和其他小物品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.05,
+        0.15,
+        0.1,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "挂在左侧墙上，反射出房间的部分景象"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "confidence": 0.7,
+      "description": "挂在左侧墙上，内容不清晰"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.9,
+        0.9,
+        0.95,
+        0.95
+      ],
+      "confidence": 0.6,
+      "description": "在右上角，具体形状和内容难以辨认"
+    }
+  ],
+  "scene_description": "这是一个现代风格的室内环境，主要展示了一个带有镜子的卧室和一个连接的小型储物间或走廊。",
+  "detection_summary": "成功识别了主要的家具和装饰品，包括盆栽、床、床头柜、镜子和一些艺术品。"
+}

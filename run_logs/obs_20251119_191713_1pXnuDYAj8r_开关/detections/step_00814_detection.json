@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间内放置在架子上的编织篮子"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.8,
+        0.6,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间内的木制储物柜"
+    },
+    {
+      "label": "门/window",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间的入口或窗户"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到一些家具和装饰品。",
+  "detection_summary": "已检测到篮子、柜子和门等物体。"
+}

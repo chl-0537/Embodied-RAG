@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.45,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧墙边"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧墙边"
+    }
+  ],
+  "scene_description": "室内场景，有窗户、窗帘和装饰画",
+  "detection_summary": "检测到两个白色花瓶"
+}

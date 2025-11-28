@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        200,
+        300,
+        400,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        150,
+        350,
+        250,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "床两侧的白色床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        100,
+        400,
+        150,
+        450
+      ],
+      "confidence": 0.7,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        50,
+        500,
+        150,
+        600
+      ],
+      "confidence": 0.6,
+      "description": "床前的小沙发椅"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        300,
+        700,
+        400,
+        800
+      ],
+      "confidence": 0.5,
+      "description": "窗户旁边的窗帘"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张大床、两个床头柜和两盏台灯，还有一个小沙发椅和一扇大窗户。",
+  "detection_summary": "在图中成功识别了多个家具和装饰品，包括床、床头柜、台灯、小沙发椅和窗帘。"
+}

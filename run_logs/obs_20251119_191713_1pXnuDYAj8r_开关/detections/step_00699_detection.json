@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "一幅抽象画，背景颜色从浅色渐变到深色"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.8,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 1.0,
+      "description": "白色窗框，位于画面右侧"
+    }
+  ],
+  "scene_description": "这是一幅室内场景图，展示了一扇白色的窗户和一幅抽象画。",
+  "detection_summary": "图中主要检测到了一幅抽象画和一个窗户。"
+}

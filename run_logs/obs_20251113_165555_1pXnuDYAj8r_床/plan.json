@@ -1,0 +1,21 @@
+{
+  "next_action": "报告床的位置信息：在房间左侧发现一张双人床，位于坐标(12.80, 3.51, -5.11)，并准备移动到床的位置",
+  "reasoning": "根据当前状态信息，target_found为true且visual_detection_result显示'SUCCESS - Target object visually confirmed'，表明床已经被成功找到。视觉检测结果显示房间左侧有一张双人床，位置在(12.80, 3.51, -5.11)。由于任务目标是'找到床'，现在应该报告位置信息并准备移动到目标位置。",
+  "expected_observation": "系统确认床的位置信息，并准备执行移动指令前往床的位置",
+  "fallback_plan": [
+    "如果移动到床的位置失败，则重新扫描周围环境确认床的确切位置",
+    "如果床的位置信息不明确，则使用记忆中的位置信息进行导航",
+    "如果视觉检测再次失败，则请求用户提供更具体的位置线索"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "score": 0.75,
+    "details": "视觉检测结果与状态信息一致，显示床已被找到。但最新的vision_observation中detected字段与metadata中的检测结果存在轻微矛盾，需要以状态信息为准。",
+    "recommendation": "继续执行找到床后的操作流程，可以忽略vision_observation中的detected:false，因为metadata和状态信息都确认了检测成功"
+  },
+  "cross_modal_insights": {
+    "vision_memory_consistency": "部分一致",
+    "discrepancies": "最新vision_observation显示detected:false，但metadata和状态信息都确认检测成功",
+    "resolution": "以状态信息为准，因为它是综合评估的结果"
+  }
+}

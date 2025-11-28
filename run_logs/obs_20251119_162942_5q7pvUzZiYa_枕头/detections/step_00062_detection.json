@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "纸箱/box",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "图中主要显示了一个大型的纸箱，占据了大部分画面。"
+    },
+    {
+      "label": "猫/cat",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "在纸箱内部可以看到一只猫的部分身体。"
+    }
+  ],
+  "scene_description": "图片展示了一只猫在一个大型纸箱内，背景是灰色的墙壁。",
+  "detection_summary": "成功检测到一个大型纸箱和箱子内的猫。"
+}

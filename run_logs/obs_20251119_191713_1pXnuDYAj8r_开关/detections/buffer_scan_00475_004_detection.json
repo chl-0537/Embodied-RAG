@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个被破坏的区域，墙壁和天花板有明显的损坏痕迹。",
+  "detection_summary": "在当前视图中没有检测到任何开关。"
+}

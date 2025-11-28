@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于黑色桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.6,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于黑色桌子旁边"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.05,
+        0.2,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "带有图案的窗帘，悬挂在窗户前"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.7,
+        0.4,
+        0.95,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "大镜子，挂在墙上"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户、一盏灯、一张黑色的桌子以及一些装饰品。",
+  "detection_summary": "已检测到花瓶、窗帘和镜子等物品。"
+}

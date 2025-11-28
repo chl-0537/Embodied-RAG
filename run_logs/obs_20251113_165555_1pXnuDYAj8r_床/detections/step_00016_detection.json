@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0,
+        200,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        300,
+        100,
+        600,
+        400
+      ],
+      "confidence": 0.8,
+      "description": "木质柜子，有多个抽屉和门"
+    }
+  ],
+  "scene_description": "室内环境，左侧是带图案的窗帘，右侧是木制柜子。",
+  "detection_summary": "检测到窗帘和柜子两个主要对象。"
+}

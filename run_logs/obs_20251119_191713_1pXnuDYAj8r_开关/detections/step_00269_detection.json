@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "天花板灯泡/light bulb",
+      "bbox": [
+        0.45,
+        0.15,
+        0.55,
+        0.25
+      ],
+      "confidence": 0.9,
+      "description": "位于天花板上，发出亮光"
+    },
+    {
+      "label": "门框/door frame",
+      "bbox": [
+        0.35,
+        0.35,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "黑色，看起来有些损坏"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "白色，有部分区域被烧焦"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个走廊和一扇黑色的门。天花板上有灯光照明，墙壁上有一些烧焦的痕迹。",
+  "detection_summary": "在给定的图像中，识别出了天花板灯泡、门框和墙壁三个主要对象。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.15,
+        0.35,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马画"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.55,
+        0.7,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "卧室里的床"
+    },
+    {
+      "label": "枕头",
+      "bbox": [
+        0.58,
+        0.75,
+        0.62,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "床上的一只枕头"
+    },
+    {
+      "label": "床头灯",
+      "bbox": [
+        0.82,
+        0.72,
+        0.86,
+        0.76
+      ],
+      "confidence": 0.8,
+      "description": "床边的台灯"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，墙上挂着一幅马的画作，房间内有一张床和一些家具。",
+  "detection_summary": "在图中识别出了画作、床、枕头和床头灯等主要物品。"
+}

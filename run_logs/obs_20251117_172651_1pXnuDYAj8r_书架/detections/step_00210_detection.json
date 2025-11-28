@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    },
+    {
+      "label": "书",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "房间内有一个窗户、窗帘和一张桌子，桌子上有一盏台灯和一些装饰品。",
+  "detection_summary": "在图片中没有检测到明显的书籍或书架。"
+}

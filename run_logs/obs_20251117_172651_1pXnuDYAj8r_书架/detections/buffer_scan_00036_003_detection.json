@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "相框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个黑色边框的相框"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.6,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个黑色边框的相框"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.05,
+        0.6,
+        0.15,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.18,
+        0.65,
+        0.28,
+        0.75
+      ],
+      "confidence": 0.6,
+      "description": "放在桌子上的银色装饰品"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子、两幅挂画和一张桌子，桌子上摆放着一些装饰品。",
+  "detection_summary": "在图片中没有发现'novel', 'book', '书架', '书', 'books'这些目标对象。"
+}

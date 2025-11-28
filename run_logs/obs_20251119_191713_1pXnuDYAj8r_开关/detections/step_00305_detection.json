@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        0.8
+      ],
+      "confidence": 1.0,
+      "description": "房间内的一张双人床，床上铺有白色床单和被子。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.5,
+        0.0,
+        0.7,
+        0.3
+      ],
+      "confidence": 1.0,
+      "description": "位于床旁边的床头柜，上面放有一盏台灯和一些装饰品。"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.55,
+        0.05,
+        0.65,
+        0.15
+      ],
+      "confidence": 1.0,
+      "description": "床头柜上的台灯，发出柔和的光线。"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.7,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "覆盖窗户的大窗帘，带有花纹设计。"
+    },
+    {
+      "label": "窗户-window",
+      "bbox": [
+        0.7,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "房间内的落地窗，可以看到外面的景色。"
+    },
+    {
+      "label": "开关-switch",
+      "bbox": [
+        0.85,
+        0.9,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "墙上的电源开关，用于控制室内照明或电器。"
+    }
+  ],
+  "scene_description": "这是一间布置简洁现代的卧室，有一张大床、一个带灯的床头柜以及大窗户。",
+  "detection_summary": "在房间内成功识别出床、床头柜、台灯、窗帘、窗户和墙上的开关等主要物品。"
+}

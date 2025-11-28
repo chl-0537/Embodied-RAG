@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的矩形开关面板"
+    }
+  ],
+  "scene_description": "室内环境，有木制门框和装饰灯带",
+  "detection_summary": "在图中识别出一个白色墙壁上的矩形开关面板"
+}

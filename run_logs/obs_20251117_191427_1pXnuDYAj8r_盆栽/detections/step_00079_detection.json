@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        780,
+        500,
+        820,
+        550
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        400,
+        300,
+        800,
+        600
+      ],
+      "confidence": 0.95,
+      "description": "房间中央的主要家具"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        200,
+        450,
+        350,
+        650
+      ],
+      "confidence": 0.85,
+      "description": "房间左侧有一把单人椅"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        100,
+        400,
+        250,
+        700
+      ],
+      "confidence": 0.8,
+      "description": "房间左侧有一张双人沙发"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        50,
+        150,
+        150,
+        250
+      ],
+      "confidence": 0.75,
+      "description": "房间左侧墙上挂着一台电视"
+    }
+  ],
+  "scene_description": "这是一个装饰精美的卧室，有床、沙发、椅子以及墙上的电视和艺术画作。",
+  "detection_summary": "在房间内成功检测到了盆栽植物、床、椅子、沙发和电视等主要家具和电器。"
+}

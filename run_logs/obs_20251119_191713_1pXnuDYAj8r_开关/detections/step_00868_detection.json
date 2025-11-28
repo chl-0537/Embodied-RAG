@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的圆形灯"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "走廊墙上的两幅抽象艺术作品"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "走廊尽头墙上的马头画像"
+    }
+  ],
+  "scene_description": "一条装饰有艺术作品的走廊，墙壁为白色，地面为浅色瓷砖。",
+  "detection_summary": "在图中没有明确识别出任何开关。"
+}

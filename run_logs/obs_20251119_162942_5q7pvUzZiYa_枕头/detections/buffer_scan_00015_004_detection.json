@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "夹克/coat",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在衣架上的黑色夹克"
+    },
+    {
+      "label": "夹克/coat",
+      "bbox": [
+        0.35,
+        0.2,
+        0.45,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "挂在衣架上的深灰色夹克"
+    },
+    {
+      "label": "夹克/coat",
+      "bbox": [
+        0.5,
+        0.2,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.85,
+      "description": "挂在衣架上的浅灰色夹克"
+    },
+    {
+      "label": "夹克/coat",
+      "bbox": [
+        0.65,
+        0.2,
+        0.75,
+        0.4
+      ],
+      "confidence": 0.88,
+      "description": "挂在衣架上的白色夹克"
+    },
+    {
+      "label": "夹克/coat",
+      "bbox": [
+        0.8,
+        0.2,
+        0.9,
+        0.4
+      ],
+      "confidence": 0.92,
+      "description": "挂在衣架上的蓝色夹克"
+    }
+  ],
+  "scene_description": "室内环境，有木制家具和挂着的衣物",
+  "detection_summary": "未发现目标对象枕头"
+}

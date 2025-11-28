@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/flower pot",
+      "bbox": [
+        0.7,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶状容器内放置着植物"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.35,
+        0.3,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "浅色布艺沙发"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.4,
+        0.4,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "单人座椅"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.05,
+        0.15,
+        0.1,
+        0.25
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的平板电视"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.2,
+        0.2,
+        0.8,
+        0.3
+      ],
+      "confidence": 0.7,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "地毯/carpet",
+      "bbox": [
+        0.0,
+        0.6,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.65,
+      "description": "覆盖地面的浅色地毯"
+    }
+  ],
+  "scene_description": "室内客厅场景，有沙发、椅子、电视和窗户。",
+  "detection_summary": "成功检测到盆栽、沙发、椅子、电视、窗帘和地毯等主要对象。"
+}

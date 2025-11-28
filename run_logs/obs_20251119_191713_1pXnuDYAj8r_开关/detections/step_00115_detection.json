@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.65,
+        0.48,
+        0.68
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.7,
+        0.35,
+        0.95,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的马画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.05,
+        0.25,
+        0.15,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "走廊中有两幅挂画和两个白色的墙上开关。",
+  "detection_summary": "成功检测到两个开关和两幅画作。"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "植物",
+      "bbox": [
+        0.65,
+        0.55,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "放在桌子上的绿色植物"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、门和装饰物",
+  "detection_summary": "成功检测到开关、画框和植物"
+}

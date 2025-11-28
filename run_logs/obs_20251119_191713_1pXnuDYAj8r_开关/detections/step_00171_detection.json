@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.3,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张大床，床上铺着白色的床单和枕头。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.2,
+        0.4,
+        0.3,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "在床旁边有一个小型的床头柜，上面放着一个台灯和一些装饰品。"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.4,
+        0.45,
+        0.6,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "窗户两侧挂着两幅图案相同的窗帘。"
+    },
+    {
+      "label": "椅子-chair",
+      "bbox": [
+        0.65,
+        0.35,
+        0.75,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "房间里还有一把单人沙发椅，靠近窗户的位置。"
+    },
+    {
+      "label": "开关-switch",
+      "bbox": [
+        0.8,
+        0.6,
+        0.82,
+        0.62
+      ],
+      "confidence": 0.7,
+      "description": "墙上有几个电灯开关。"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，里面有一张双人床、一张小桌子、一把单人沙发椅以及一些装饰品。",
+  "detection_summary": "成功识别出床、床头柜、窗帘、椅子和开关等主要物品。"
+}

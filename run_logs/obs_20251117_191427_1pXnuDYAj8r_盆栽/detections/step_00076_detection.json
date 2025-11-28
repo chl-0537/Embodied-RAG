@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        740,
+        500,
+        750,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央的小型植物盆栽"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        300,
+        200,
+        800,
+        600
+      ],
+      "confidence": 0.8,
+      "description": "带有白色床单和多个枕头的双人床"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        400,
+        450,
+        500,
+        550
+      ],
+      "confidence": 0.85,
+      "description": "两把带靠垫的扶手椅"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        350,
+        480,
+        450,
+        530
+      ],
+      "confidence": 0.75,
+      "description": "小圆桌，上面有装饰品"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        900,
+        100,
+        1100,
+        700
+      ],
+      "confidence": 0.9,
+      "description": "大落地窗，可以看到外面的景色"
+    }
+  ],
+  "scene_description": "这是一个宽敞而优雅的卧室，有一张大床、两张扶手椅、一个小圆桌和一个大型植物盆栽。房间内还有几个窗户，提供了充足的自然光线。",
+  "detection_summary": "在图中成功识别了盆栽、床、椅子、桌子和窗户等主要家具和装饰物。"
+}

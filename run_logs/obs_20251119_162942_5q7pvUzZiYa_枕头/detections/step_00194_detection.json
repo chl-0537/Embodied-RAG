@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.5,
+        0.2,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "位于床的一侧，白色和灰色相间"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "放置在房间右侧的柜子上"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.65,
+        0.55,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "位于房间的中央区域"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.4,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "位于房间的左侧"
+    }
+  ],
+  "scene_description": "这是一个现代风格的卧室，有一张大床、一台电视和一个舒适的椅子。",
+  "detection_summary": "成功检测到枕头、电视、椅子和床等主要家具。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        500,
+        300,
+        800,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        400,
+        350,
+        450,
+        450
+      ],
+      "confidence": 0.8,
+      "description": "黑色床头柜上有台灯"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        100,
+        200,
+        150,
+        250
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的画框"
+    },
+    {
+      "label": "地毯",
+      "bbox": [
+        0,
+        500,
+        1000,
+        700
+      ],
+      "confidence": 0.6,
+      "description": "浅色地毯"
+    }
+  ],
+  "scene_description": "卧室内部，有一张大床、两个床头柜、墙上挂着两幅画和一个地毯。",
+  "detection_summary": "在卧室场景中，成功识别出床、床头柜、画框和地毯等主要家具和装饰品。开关未能被准确检测到。"
+}

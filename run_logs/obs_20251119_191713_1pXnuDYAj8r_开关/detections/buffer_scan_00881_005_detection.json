@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "走廊左侧墙上挂着的两幅画"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "走廊右侧墙上挂着一幅画"
+    },
+    {
+      "label": "门框/ door frame",
+      "bbox": [
+        0.8,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "通往卧室的门框"
+    }
+  ],
+  "scene_description": "一条装饰有艺术作品的走廊，通向一间卧室。",
+  "detection_summary": "在走廊内识别出三幅画作和一个门框。"
+}

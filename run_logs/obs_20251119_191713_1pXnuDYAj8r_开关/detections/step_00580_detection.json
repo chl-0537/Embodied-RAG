@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制门，表面有明显的磨损和污渍"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.85,
+      "description": "浅灰色墙壁，上面有一些剥落的油漆"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "一幅挂在墙上的画，框架是黑色的"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.75,
+        0.65,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "墙上安装的一个白色开关"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个走廊的一部分，可以看到一扇木制的门、一面浅灰色的墙壁以及墙上挂着一幅画和一个白色的开关。",
+  "detection_summary": "在图片中成功识别出了门、墙壁、画和开关四个主要对象。"
+}

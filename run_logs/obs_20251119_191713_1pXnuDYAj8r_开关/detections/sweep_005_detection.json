@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.48
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.47,
+        0.74,
+        0.49
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.49,
+        0.75,
+        0.51
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    }
+  ],
+  "scene_description": "房间内有墙壁、门框和三幅挂在墙上的画",
+  "detection_summary": "在墙上识别出三个白色开关"
+}

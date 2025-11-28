@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "墙上的彩色抽象画"
+    },
+    {
+      "label": "门/ door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.3,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧的木制门"
+    },
+    {
+      "label": "箱子/ box",
+      "bbox": [
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "中间的黑色箱子"
+    }
+  ],
+  "scene_description": "房间内有一扇木门、一幅彩色的抽象画和两个黑色的箱子。",
+  "detection_summary": "在房间内检测到了一扇木门、一幅彩色的抽象画和两个黑色的箱子。"
+}

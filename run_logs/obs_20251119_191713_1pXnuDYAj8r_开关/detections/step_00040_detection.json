@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.7,
+        0.8,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.6,
+        0.7,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "黑色台灯和植物"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "浴室门",
+      "bbox": [
+        0.3,
+        0.4,
+        0.4,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "打开的门通向浴室"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、床头柜、画框和一个通往浴室的门。",
+  "detection_summary": "在图像中没有明确识别到开关的存在。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子上方有装饰画框，左侧有一个带有黑白图案的椅子。",
+  "detection_summary": "在当前视图中没有检测到明显的开关。"
+}

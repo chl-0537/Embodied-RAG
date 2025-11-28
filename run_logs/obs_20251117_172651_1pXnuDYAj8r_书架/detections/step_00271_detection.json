@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.7,
+        0.5,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "房间内有一个金属制的书架，上面没有放置任何书籍或物品。"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个带有窗户和门的房间。窗帘是白色带黑色图案的，窗外可以看到一些建筑物。",
+  "detection_summary": "在图片中没有检测到'novel', 'book', '书', 'books'这些目标对象。"
+}

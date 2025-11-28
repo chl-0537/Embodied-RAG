@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到床或床垫"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到床或床垫"
+    }
+  ],
+  "scene_description": "图中显示了一个室内走廊，墙壁上有两幅画框，右侧有一个门通向另一个房间。",
+  "detection_summary": "图中没有检测到床、床垫或其他类似物品。"
+}

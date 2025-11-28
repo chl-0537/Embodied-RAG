@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间内靠近镜子的地方"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.6,
+        0.75,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间内靠近镜子的地方"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.65,
+        0.8,
+        0.9,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间内靠近镜子的地方"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.85,
+        0.95,
+        1.05
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间内靠近镜子的地方"
+    }
+  ],
+  "scene_description": "室内装饰场景，有镜子、花瓶和墙上的画",
+  "detection_summary": "未发现目标对象novel, book, 书架, 书, books"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.7,
+        0.4,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的白色窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.2,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "双层玻璃窗"
+    },
+    {
+      "label": "房屋",
+      "bbox": [
+        0.5,
+        0.3,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "远处可见的住宅建筑"
+    },
+    {
+      "label": "山脉",
+      "bbox": [
+        0.5,
+        0.0,
+        0.8,
+        0.3
+      ],
+      "confidence": 0.7,
+      "description": "远处的山丘或山脉"
+    }
+  ],
+  "scene_description": "室内视角，通过窗户可以看到外面的房屋和山脉。",
+  "detection_summary": "在图像中检测到窗帘、窗户、房屋和山脉。"
+}

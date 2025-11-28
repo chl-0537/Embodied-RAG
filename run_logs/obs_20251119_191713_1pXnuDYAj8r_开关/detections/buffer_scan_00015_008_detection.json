@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有白色床单和枕头的大床"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.7,
+        0.7,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "两把带靠垫的扶手椅"
+    },
+    {
+      "label": "桌子",
+      "bbox": [
+        0.6,
+        0.6,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.7,
+      "description": "小圆桌"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    }
+  ],
+  "scene_description": "一间装饰精美的卧室，有一张大床、两张扶手椅、一个小圆桌和一些艺术品。",
+  "detection_summary": "成功检测到房间内的主要家具和装饰品，包括床、椅子、桌子以及墙上的画。"
+}

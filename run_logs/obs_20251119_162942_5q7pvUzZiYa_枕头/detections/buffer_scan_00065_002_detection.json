@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的彩色抽象画"
+    },
+    {
+      "label": "空调/air conditioner",
+      "bbox": [
+        0.5,
+        0.7,
+        0.6,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "安装在墙上的空调设备"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅彩色的抽象画，旁边有一个空调。",
+  "detection_summary": "在图中检测到两件主要物品：一幅抽象画和一个空调。"
+}

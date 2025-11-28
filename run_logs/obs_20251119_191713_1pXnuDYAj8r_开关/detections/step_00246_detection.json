@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.2,
+        0.45,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张白色床单和棕色靠垫的大床。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.05,
+        0.65,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "床旁边有一个白色的床头柜，上面放着一个台灯。"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.55,
+        0.75,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.7,
+      "description": "房间内有两把米色的扶手椅。"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.8,
+        0.65,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "窗户两侧有花纹的窗帘。"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.78,
+        0.9,
+        0.82,
+        0.92
+      ],
+      "confidence": 0.8,
+      "description": "墙上有两个电灯开关。"
+    }
+  ],
+  "scene_description": "这是一间装饰精美的卧室，有大床、床头柜、两把扶手椅、大窗户以及花纹窗帘。",
+  "detection_summary": "成功检测到床、床头柜、椅子、窗帘和开关等主要家具和电器设备。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.8,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙壁上的白色开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "照片",
+      "bbox": [
+        0.35,
+        0.7,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑白照片"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.05,
+        0.25,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的长方形镜子"
+    }
+  ],
+  "scene_description": "房间内有一面镜子、两幅挂画和一张桌子，桌子上有一个相框。",
+  "detection_summary": "成功检测到开关、画框、照片和镜子四个主要对象。"
+}

@@ -1,0 +1,20 @@
+{
+  "next_action": "移动到床的位置，确认床的状态并报告位置",
+  "reasoning": "根据当前状态分析，target_found为true且visual_detection_result显示'SUCCESS - Target object visually confirmed'，表明床已经被成功找到。视觉证据显示床位于房间左侧，可以看到床头和床垫的一部分。下一步应该移动到床的位置进行确认，并报告找到结果。",
+  "expected_observation": "机器人移动到床的位置，能够清晰看到床的整体结构，包括床头和床垫。系统应确认床的位置和状态，并准备生成找到目标的报告。",
+  "fallback_plan": [
+    "如果移动到床的位置遇到障碍物，尝试重新规划路径",
+    "如果床的位置信息不明确，进行周围环境扫描以获取更精确的位置信息",
+    "如果床的状态与预期不符，进行额外的视觉确认"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_vision_consistency": "高",
+    "discrepancies": "无显著不一致",
+    "resolution": "视觉检测结果与记忆中的床的位置描述一致"
+  },
+  "cross_modal_insights": {
+    "validation_score": 0.9,
+    "recommendation": "确认床的位置后，可以执行后续操作如检查床上的物品或进行其他相关任务"
+  }
+}

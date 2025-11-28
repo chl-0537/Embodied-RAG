@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.05,
+        0.15,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧房间的角落里"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.35,
+        0.4,
+        0.55,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "房间中央靠墙放置"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.3,
+        0.25,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "带有镜子的白色衣柜"
+    },
+    {
+      "label": "狗窝/dog bed",
+      "bbox": [
+        0.65,
+        0.8,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "在地板上"
+    },
+    {
+      "label": "海报/poster",
+      "bbox": [
+        0.5,
+        0.45,
+        0.55,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着的海报"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一个白色的衣柜、一张床和一个窗户。房间里还有一个盆栽和一些装饰品。",
+  "detection_summary": "成功检测到盆栽、床、衣柜、狗窝和海报等主要物品。"
+}

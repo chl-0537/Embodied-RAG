@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.2,
+        0.25,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制门，部分打开"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.85,
+      "description": "房间内的白色墙壁"
+    },
+    {
+      "label": "箱子/box",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "黑色箱子放在灰色箱子上"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.8,
+        0.4,
+        1.0,
+        0.7
+      ],
+      "confidence": 0.75,
+      "description": "墙上的彩色画作"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一扇部分打开的门、一些堆叠的箱子和一面装饰有彩画的墙。",
+  "detection_summary": "在场景中检测到了门、墙壁、箱子和一幅画。"
+}

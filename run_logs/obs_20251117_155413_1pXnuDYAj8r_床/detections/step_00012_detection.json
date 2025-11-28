@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "房间内的一张床"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.1,
+        0.75,
+        0.3,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "床上放置的床垫"
+    }
+  ],
+  "scene_description": "一间带有大窗户和窗帘的现代卧室，窗外可以看到山景。",
+  "detection_summary": "在图像中成功检测到一张床和一个床垫。"
+}

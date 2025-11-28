@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "人/Person",
+      "bbox": [
+        0.2,
+        0.3,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "穿绿色上衣的人"
+    },
+    {
+      "label": "猫/Cat",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "有橙色斑点的猫"
+    }
+  ],
+  "scene_description": "模糊的场景中有一个人和一只猫",
+  "detection_summary": "检测到两个主要对象：人和猫"
+}

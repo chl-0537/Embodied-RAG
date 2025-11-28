@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到开关"
+    },
+    {
+      "label": "洗衣机",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "位于洗衣房内"
+    },
+    {
+      "label": "篮子",
+      "bbox": [
+        0.2,
+        0.4,
+        0.3,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "放置在架子上"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.75,
+        0.65,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上"
+    }
+  ],
+  "scene_description": "室内环境，有洗衣设备和装饰画",
+  "detection_summary": "成功检测到洗衣机、篮子和画作，未发现开关"
+}

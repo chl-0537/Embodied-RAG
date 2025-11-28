@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.4,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.35,
+        0.25,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.3,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.2,
+        0.25,
+        0.25,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关面板"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "灯",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.7,
+      "description": "房间角落里的台灯"
+    }
+  ],
+  "scene_description": "这是一个室内环境，有一面装饰有艺术画的墙壁和一个带有开关和插座的墙面。",
+  "detection_summary": "在图中成功识别了多个开关、一幅画以及一盏台灯。"
+}

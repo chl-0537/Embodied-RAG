@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "一幅挂在墙上的抽象画"
+    },
+    {
+      "label": "衣架/hanger",
+      "bbox": [
+        0.4,
+        0.5,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "挂有衣服的衣架"
+    },
+    {
+      "label": "鞋子/shoes",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "摆放在架子上的鞋子"
+    }
+  ],
+  "scene_description": "一间展示艺术作品的房间，墙上挂着多幅画作，旁边是摆放着各种鞋子的货架。",
+  "detection_summary": "在场景中检测到了画作、衣架和鞋子。"
+}

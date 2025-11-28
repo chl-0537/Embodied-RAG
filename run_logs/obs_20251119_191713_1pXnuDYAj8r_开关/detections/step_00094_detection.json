@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于墙面上，靠近右侧边缘"
+    }
+  ],
+  "scene_description": "室内环境，墙面和窗户",
+  "detection_summary": "在图中识别出一个开关"
+}

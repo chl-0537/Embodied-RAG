@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        100
+      ],
+      "confidence": 0.9,
+      "description": "白色带黑色图案的窗帘"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        200,
+        50,
+        300,
+        250
+      ],
+      "confidence": 0.8,
+      "description": "木制门框，有烧焦痕迹"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0,
+        0,
+        500,
+        500
+      ],
+      "confidence": 0.7,
+      "description": "白色墙壁，有部分被烧黑的痕迹"
+    }
+  ],
+  "scene_description": "房间内有一扇木制的门，门框和墙壁上有明显的烧焦痕迹，左侧挂着一幅带有黑色图案的白色窗帘。",
+  "detection_summary": "在当前视图中没有检测到床、床垫或bed等目标对象。"
+}

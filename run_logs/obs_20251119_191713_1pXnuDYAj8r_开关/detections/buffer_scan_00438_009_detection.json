@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "门把手旁边的开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的艺术作品"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着多幅画作，一扇木门半开着。",
+  "detection_summary": "成功检测到开关和三幅挂在墙上的画作。"
+}

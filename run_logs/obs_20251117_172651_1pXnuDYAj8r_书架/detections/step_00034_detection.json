@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.5,
+        0.45,
+        0.55,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    }
+  ],
+  "scene_description": "室内环境，有门、墙和装饰画",
+  "detection_summary": "在场景中检测到两幅挂画"
+}

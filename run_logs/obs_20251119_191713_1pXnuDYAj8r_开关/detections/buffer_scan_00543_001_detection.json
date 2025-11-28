@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.15,
+        0.45,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "房间中央有一张大床，床上铺有白色床单和多个枕头。"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.05,
+        0.55,
+        0.1,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "在床的一侧有一个小床头柜，上面放着一个台灯。"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.4,
+        0.7,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "靠近窗户的地方有两把米色的扶手椅和一个脚凳。"
+    },
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.75,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙上挂着一台平板电视。"
+    },
+    {
+      "label": "窗帘/curtains",
+      "bbox": [
+        0.3,
+        0.2,
+        0.7,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "大窗户两侧挂着带有花纹的窗帘。"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.78,
+        0.62,
+        0.82,
+        0.66
+      ],
+      "confidence": 0.6,
+      "description": "电视旁边有一些白色的装饰品。"
+    }
+  ],
+  "scene_description": "这是一个豪华卧室的场景，有大床、床头柜、两把扶手椅、一台挂在墙上的平板电视以及一些装饰品。",
+  "detection_summary": "成功检测到床、床头柜、椅子、电视、窗帘和装饰品等主要家具和物品。"
+}

@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.55,
+        0.75,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.65,
+        0.75,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象艺术画"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.05,
+        0.35,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象艺术画"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.85,
+        0.4,
+        0.95,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的马的艺术画"
+    }
+  ],
+  "scene_description": "室内走廊，墙壁上有几幅装饰画和几个开关。",
+  "detection_summary": "成功检测到三个开关和三幅画。"
+}

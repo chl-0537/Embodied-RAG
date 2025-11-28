@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.58
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.6,
+        0.48,
+        0.63
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.45,
+        0.65,
+        0.48,
+        0.68
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关面板"
+    }
+  ],
+  "scene_description": "房间内部，有墙壁、地毯和家具。",
+  "detection_summary": "在墙上识别出三个白色开关面板。"
+}

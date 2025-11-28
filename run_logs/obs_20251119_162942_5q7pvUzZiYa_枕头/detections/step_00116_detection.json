@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "一幅抽象风格的画作，主要颜色有黑色、黄色和红色"
+    },
+    {
+      "label": "音响设备/sound equipment",
+      "bbox": [
+        0.1,
+        0.5,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "一个黑色的音响设备，位于房间的一角"
+    }
+  ],
+  "scene_description": "这是一个室内场景，墙上挂着一幅抽象风格的画作，角落里有一个黑色的音响设备。",
+  "detection_summary": "在当前视图中没有检测到枕头或其同义词。"
+}

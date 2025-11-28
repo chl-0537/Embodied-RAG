@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0,
+        0,
+        100,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的白色窗帘"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        200,
+        50,
+        300,
+        400
+      ],
+      "confidence": 0.8,
+      "description": "木制门框"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        350,
+        100,
+        450,
+        300
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        250,
+        300,
+        350,
+        400
+      ],
+      "confidence": 0.75,
+      "description": "白色的装饰性花瓶"
+    }
+  ],
+  "scene_description": "室内场景，有窗帘、门框、镜子和花瓶",
+  "detection_summary": "成功检测到窗帘、门框、镜子和花瓶"
+}

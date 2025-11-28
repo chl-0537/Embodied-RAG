@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "在镜子反射中可以看到一本书"
+    },
+    {
+      "label": "书架/Shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.1
+      ],
+      "confidence": 0.5,
+      "description": "左侧墙边可能有一个书架"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子上方有装饰花瓶，右侧墙上挂着一幅画。",
+  "detection_summary": "在图中识别出了一本书和可能的左侧墙边的书架。"
+}

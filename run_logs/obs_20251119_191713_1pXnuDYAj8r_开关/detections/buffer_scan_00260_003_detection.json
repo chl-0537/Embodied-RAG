@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.1,
+        0.1,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "室内的一扇大窗户"
+    }
+  ],
+  "scene_description": "这是一张从室内拍摄的图片，可以看到一扇大窗户和一部分窗帘。",
+  "detection_summary": "在图片中检测到了窗帘和窗户两个主要对象。"
+}

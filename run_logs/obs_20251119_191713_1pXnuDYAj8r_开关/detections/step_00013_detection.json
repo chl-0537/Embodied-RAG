@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于房间角落"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.4,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "黑色和金色相间的窗帘"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.2,
+        0.0,
+        0.5,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "木制门，部分打开"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.6,
+        0.5,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    }
+  ],
+  "scene_description": "室内场景，有花瓶、镜子、窗帘、门和画",
+  "detection_summary": "成功检测到多个室内装饰物"
+}

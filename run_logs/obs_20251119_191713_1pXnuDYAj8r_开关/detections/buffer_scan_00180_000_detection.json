@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.15,
+        0.45,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "房间中央的大床，床上铺有白色床单和多个枕头"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.7,
+        0.55,
+        0.8,
+        0.65
+      ],
+      "confidence": 0.98,
+      "description": "位于床右侧的小型床头柜，上面有一盏台灯和一些装饰品"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.75,
+        0.55,
+        0.78,
+        0.63
+      ],
+      "confidence": 0.97,
+      "description": "放置在床头柜上的黄色台灯"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.25,
+        0.35,
+        0.35,
+        0.45
+      ],
+      "confidence": 0.96,
+      "description": "挂在墙上的两幅花卉图案画作"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.95,
+      "description": "覆盖窗户的浅色窗帘"
+    },
+    {
+      "label": "窗户-window",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.94,
+      "description": "带有百叶窗的大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "椅子-chair",
+      "bbox": [
+        0.9,
+        0.7,
+        0.95,
+        0.85
+      ],
+      "confidence": 0.93,
+      "description": "靠近床的一把带花纹的扶手椅"
+    }
+  ],
+  "scene_description": "一间布置精美的卧室，有大床、床头柜、台灯、画作、窗帘以及一把椅子，窗外是美丽的风景。",
+  "detection_summary": "成功识别出房间的各种家具和装饰品，包括床、床头柜、台灯、画作、窗帘、窗户和椅子。"
+}

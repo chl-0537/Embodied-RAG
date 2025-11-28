@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "梳妆台/commode",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "黑色木制梳妆台，上面摆放着装饰品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.6,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "大型的方形镜子，挂在墙上"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.7,
+        0.6,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "两幅抽象艺术画作，挂在墙上"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.1,
+        0.2,
+        0.2,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的长窗帘，覆盖窗户"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.55,
+        0.45,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，放在梳妆台上"
+    }
+  ],
+  "scene_description": "这是一个室内卧室的场景，有一张黑色的梳妆台，上面摆放着一些装饰品和两个白色的花瓶。墙上挂着一面大镜子以及两幅抽象的艺术画作。房间的一侧有一个窗户，挂着带图案的窗帘。",
+  "detection_summary": "在给定的图像中，没有明确识别出'开关'这个特定的对象。"
+}

@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    }
+  ],
+  "scene_description": "室内环境，有楼梯、金属扶手和墙上的装饰画",
+  "detection_summary": "在图中识别出一个开关"
+}

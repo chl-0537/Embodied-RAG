@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "梳妆台/dressing table",
+      "bbox": [
+        0.2,
+        0.7,
+        0.5,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "黑色木质梳妆台，上面摆放着一些装饰品和相框"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.55,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的方形镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.65,
+        0.42,
+        0.68
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的两幅抽象画作"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.48,
+        0.65,
+        0.5,
+        0.68
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的两幅抽象画作"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.25,
+        0.75,
+        0.28,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放在梳妆台上"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.29,
+        0.76,
+        0.32,
+        0.79
+      ],
+      "confidence": 0.8,
+      "description": "黑白照片相框，放在梳妆台上"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.33,
+        0.76,
+        0.36,
+        0.79
+      ],
+      "confidence": 0.8,
+      "description": "黑白照片相框，放在梳妆台上"
+    }
+  ],
+  "scene_description": "房间内有一个黑色的梳妆台，上面放着一些装饰品和相框，墙上挂着一面大镜子和两幅抽象画作。",
+  "detection_summary": "在房间里检测到了梳妆台、镜子、画、花瓶和相框等物品。"
+}

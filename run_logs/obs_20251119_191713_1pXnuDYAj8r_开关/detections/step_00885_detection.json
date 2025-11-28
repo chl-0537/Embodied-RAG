@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "天花板上的圆形开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.95,
+      "description": "墙上的两幅蓝色调画作"
+    },
+    {
+      "label": "架子",
+      "bbox": [
+        0.7,
+        0.6,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙上的多层架子，上面摆放着白色物品"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.85,
+      "description": "左侧房间内的黑色椅子"
+    },
+    {
+      "label": "桌子",
+      "bbox": [
+        0.05,
+        0.4,
+        0.15,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "左侧房间内的黑色桌子"
+    }
+  ],
+  "scene_description": "室内环境，有走廊、装饰画和家具",
+  "detection_summary": "成功检测到开关、画作、架子、椅子和桌子等物体"
+}

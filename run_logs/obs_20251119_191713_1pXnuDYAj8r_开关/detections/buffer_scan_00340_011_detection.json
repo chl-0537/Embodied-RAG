@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        880,
+        500,
+        900,
+        520
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙面上"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        100,
+        300,
+        400,
+        600
+      ],
+      "confidence": 0.95,
+      "description": "带有白色床单和枕头的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        50,
+        350,
+        150,
+        450
+      ],
+      "confidence": 0.85,
+      "description": "床旁边的小桌子"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        60,
+        320,
+        90,
+        380
+      ],
+      "confidence": 0.9,
+      "description": "放在床头柜上的灯具"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        200,
+        550,
+        250,
+        650
+      ],
+      "confidence": 0.8,
+      "description": "两把带靠垫的扶手椅"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        180,
+        480,
+        220,
+        530
+      ],
+      "confidence": 0.75,
+      "description": "放置在椅子之间的装饰性物品"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        300,
+        100,
+        800,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "大型的落地窗，可以看到外面的景色"
+    }
+  ],
+  "scene_description": "这是一个现代化的卧室，有一张大床、两个床头柜、一盏台灯、两张扶手椅和一个花瓶。房间内还有一面墙上的开关。",
+  "detection_summary": "成功检测到开关以及房间的其他主要家具和装饰品。"
+}

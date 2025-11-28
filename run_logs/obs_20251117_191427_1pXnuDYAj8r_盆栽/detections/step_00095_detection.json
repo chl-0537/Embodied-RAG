@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.5,
+        0.2,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "大镜子，反射出房间的一部分"
+    }
+  ],
+  "scene_description": "室内场景，有装饰性的花瓶和一面大镜子。",
+  "detection_summary": "检测到两个花瓶和一个镜子。"
+}

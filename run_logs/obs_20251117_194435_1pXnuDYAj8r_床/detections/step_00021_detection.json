@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.15,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.55,
+        0.65,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的抽象艺术作品"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.4,
+        0.15,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.2,
+        0.1,
+        0.8
+      ],
+      "confidence": 0.75,
+      "description": "在房间左侧的窗帘"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一面大镜子、一幅抽象画、两个白色花瓶和一扇窗户以及窗帘。",
+  "detection_summary": "共检测到四个主要对象：一面镜子、一幅画、两个花瓶和一个窗帘。"
+}

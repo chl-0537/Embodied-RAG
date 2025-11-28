@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象画"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的浅色木质床头柜"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.6,
+        0.5,
+        0.62,
+        0.72
+      ],
+      "confidence": 0.8,
+      "description": "放在床头柜上的白色台灯"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.58,
+        0.48,
+        0.61,
+        0.7
+      ],
+      "confidence": 0.7,
+      "description": "在床头柜上的绿色植物"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.4,
+        0.2,
+        0.42,
+        0.22
+      ],
+      "confidence": 0.6,
+      "description": "窗户前的灰色窗帘"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.1,
+        0.8,
+        0.12,
+        0.82
+      ],
+      "confidence": 0.5,
+      "description": "墙上靠近天花板的开关"
+    }
+  ],
+  "scene_description": "一间卧室内部，有床、床头柜、台灯、植物和装饰画。",
+  "detection_summary": "成功检测到画作、床头柜、台灯、植物、窗帘和开关等主要物品。"
+}

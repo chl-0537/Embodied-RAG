@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧窗户旁的窗帘"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.45,
+        0.25,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "一扇半开的木门"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.7,
+        0.6,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，放置在桌子上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到窗帘、门和桌子上的花瓶。",
+  "detection_summary": "已检测到窗帘、门和花瓶三个主要对象。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的抽象画"
+    },
+    {
+      "label": "灯/lamp",
+      "bbox": [
+        0.65,
+        0.7,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "在房间角落里的台灯"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.45,
+        0.6,
+        0.55,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "带有百叶窗的窗户"
+    },
+    {
+      "label": "植物/plant",
+      "bbox": [
+        0.6,
+        0.7,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的绿色植物"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.6,
+        0.7,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "放置在房间角落的浅色柜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个走廊和一间房间的部分视图。走廊墙上挂着一幅抽象画，房间里有一盏台灯、一扇带百叶窗的窗户和一个浅色的柜子，上面放着一盆绿植。",
+  "detection_summary": "成功检测到画作、灯、窗户、植物和柜子等主要对象。"
+}

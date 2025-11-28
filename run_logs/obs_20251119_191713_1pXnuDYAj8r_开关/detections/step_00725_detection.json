@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.725,
+        0.875,
+        0.745,
+        0.885
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.725,
+        0.915,
+        0.745,
+        0.935
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的插座开关"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.3,
+        0.4,
+        0.4,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "室内场景，有两幅挂画和两个开关。",
+  "detection_summary": "成功检测到两个开关和两幅画作。"
+}

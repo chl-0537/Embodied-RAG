@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "在床上的枕头"
+    },
+    {
+      "label": "猫/cat",
+      "bbox": [
+        0.3,
+        0.6,
+        0.4,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "在床上休息的猫"
+    }
+  ],
+  "scene_description": "房间内有一张床和一只猫",
+  "detection_summary": "成功检测到枕头和猫"
+}

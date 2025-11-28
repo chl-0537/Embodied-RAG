@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0,
+        0,
+        200,
+        400
+      ],
+      "confidence": 1.0,
+      "description": "一扇木制门，表面有明显的磨损和划痕"
+    },
+    {
+      "label": "冰箱/refrigerator",
+      "bbox": [
+        300,
+        100,
+        500,
+        300
+      ],
+      "confidence": 0.9,
+      "description": "一台白色的冰箱，顶部有一个蓝色的抽屉或柜子"
+    }
+  ],
+  "scene_description": "这是一个室内场景，左侧是一扇老旧的门，右侧是一台白色冰箱。",
+  "detection_summary": "在给定的图像中，识别出了两件主要物品：一扇有明显磨损的老旧木门和一台白色冰箱。"
+}

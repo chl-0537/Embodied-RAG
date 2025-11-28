@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的多幅画"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.55,
+        0.45,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "整齐叠放在架子上"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.55,
+        0.25,
+        0.65,
+        0.35
+      ],
+      "confidence": 0.7,
+      "description": "带有图案的盒子"
+    }
+  ],
+  "scene_description": "房间内有一面墙上挂着多幅画，旁边有一个架子，上面放着整齐叠放的毛巾和几个带图案的盒子。",
+  "detection_summary": "在房间里识别出了画作、毛巾和盒子。"
+}

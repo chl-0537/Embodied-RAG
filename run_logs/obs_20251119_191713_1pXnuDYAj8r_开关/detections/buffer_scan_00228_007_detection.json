@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.45,
+        0.15,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.25,
+        0.55,
+        0.35,
+        0.75
+      ],
+      "confidence": 0.98,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.38,
+        0.58,
+        0.48,
+        0.78
+      ],
+      "confidence": 0.97,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0.2,
+        0.2,
+        1
+      ],
+      "confidence": 0.96,
+      "description": "挂在窗户旁边的黑色和白色相间的窗帘"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.65,
+        0.7,
+        0.68,
+        0.72
+      ],
+      "confidence": 0.9,
+      "description": "在墙上的一组开关"
+    }
+  ],
+  "scene_description": "一间装饰精美的房间，有一面大镜子、两个白色花瓶和一些装饰品。",
+  "detection_summary": "成功检测到镜子、花瓶、窗帘以及一组墙上的开关。"
+}

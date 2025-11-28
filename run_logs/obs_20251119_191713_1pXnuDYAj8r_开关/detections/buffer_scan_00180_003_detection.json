@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床头灯/lamp",
+      "bbox": [
+        0.1,
+        0.7,
+        0.15,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "床头的台灯"
+    },
+    {
+      "label": "床头柜/nightstand",
+      "bbox": [
+        0.05,
+        0.65,
+        0.25,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "床旁边的桌子"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "床上方的枕头"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "窗户旁边的窗帘"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "墙上的装饰画"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.1
+      ],
+      "confidence": 0.5,
+      "description": "房间内的开关"
+    }
+  ],
+  "scene_description": "卧室内部，有一张床、两个床头柜、两盏台灯、一幅画和一扇窗户。",
+  "detection_summary": "成功检测到多个常见家居物品，包括床头灯、床头柜、枕头、窗帘、画和开关。"
+}

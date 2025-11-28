@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.85
+      ],
+      "confidence": 1.0,
+      "description": "挂在墙上的抽象画"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.8,
+        0.7,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "右侧墙边的一个木制柜子"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着一幅抽象画，旁边有一个木制柜子。",
+  "detection_summary": "在场景中检测到一幅画作和一个木制柜子。"
+}

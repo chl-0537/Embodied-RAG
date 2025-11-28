@@ -1,0 +1,30 @@
+{
+  "next_action": "移动到床的位置 [6.57, 2.98, -7.46]",
+  "reasoning": "目标'床'已被成功找到，位于habitat区域。视觉检测结果确认成功，置信度为0.9。系统已完成多视图三角测量，确定了床的精确3D位置。下一步应移动到目标位置进行后续操作。",
+  "expected_observation": "机器人移动到床的位置，观察到床的详细特征，包括床的尺寸、材质和周围环境。确认床的位置与估计坐标一致，并准备执行下一步操作。",
+  "fallback_plan": [
+    "如果移动到指定位置遇到障碍，重新规划路径",
+    "如果床的位置与估计有偏差，使用视觉导航重新定位",
+    "如果床被部分遮挡，调整视角重新确认位置",
+    "如果视觉定位失败，使用激光雷达辅助定位"
+  ],
+  "confidence": 0.9,
+  "consistency_analysis": {
+    "memory_consistency": "低",
+    "visual_consistency": "高",
+    "discrepancy_notes": "视觉检测成功但与记忆匹配度低，可能环境发生变化或记忆信息过时"
+  },
+  "cross_modal_insights": {
+    "modal_strengths": {
+      "vision": "强，最新检测成功且置信度高",
+      "memory": "弱，与当前视觉检测结果不匹配"
+    },
+    "recommendation": "优先依赖当前视觉检测结果，更新记忆中的床的位置信息"
+  },
+  "estimated_3d_position": [
+    6.568929462623211,
+    2.9792459104364575,
+    -7.455325672223751
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

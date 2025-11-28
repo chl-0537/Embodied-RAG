@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的画"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.65,
+        0.7,
+        0.75,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "床旁边的床头柜"
+    },
+    {
+      "label": "台灯-desk lamp",
+      "bbox": [
+        0.73,
+        0.72,
+        0.76,
+        0.77
+      ],
+      "confidence": 0.8,
+      "description": "放在床头柜上的台灯"
+    },
+    {
+      "label": "植物-plant",
+      "bbox": [
+        0.68,
+        0.78,
+        0.71,
+        0.81
+      ],
+      "confidence": 0.8,
+      "description": "在床头柜上的植物"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床、一张床头柜和一盏台灯，墙上挂着一幅画。",
+  "detection_summary": "房间内没有发现书籍或书架。"
+}

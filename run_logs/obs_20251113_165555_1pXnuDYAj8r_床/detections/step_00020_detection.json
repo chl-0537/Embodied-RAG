@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "整个图像显示的是一张床"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "整个图像显示的是一张床垫"
+    }
+  ],
+  "scene_description": "这是一张显示床和床垫的图像。",
+  "detection_summary": "在图像中成功检测到床和床垫。"
+}

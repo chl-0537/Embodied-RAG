@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.875,
+        0.725,
+        0.885,
+        0.735
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.875,
+        0.745,
+        0.885,
+        0.755
+      ],
+      "confidence": 0.9,
+      "description": "床头柜上的开关"
+    }
+  ],
+  "scene_description": "卧室内部，有一张大床、沙发和窗户。",
+  "detection_summary": "在卧室的场景中成功检测到了两个开关。"
+}

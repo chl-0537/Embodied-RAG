@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床头柜/nightstand",
+      "bbox": [
+        0.2,
+        0.7,
+        0.4,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于房间左侧靠近床的位置"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.15,
+        0.75,
+        0.25,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "放置在床头柜上"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.45,
+        0.65,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "悬挂在窗户两侧"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.5,
+        0.35,
+        0.9,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "占据房间右侧大部分墙面"
+    },
+    {
+      "label": "山脉/mountain range",
+      "bbox": [
+        0.6,
+        0.4,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "通过窗户可以看到的自然景观"
+    },
+    {
+      "label": "房屋/house",
+      "bbox": [
+        0.7,
+        0.5,
+        0.85,
+        0.7
+      ],
+      "confidence": 0.6,
+      "description": "通过窗户看到的建筑结构"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张大床、一张床头柜和一盏台灯。房间内有一个大窗户，窗外可以看到山脉和房屋。",
+  "detection_summary": "成功检测到多个主要对象，包括床头柜、台灯、窗帘、窗户以及窗外的自然景观和建筑物。"
+}

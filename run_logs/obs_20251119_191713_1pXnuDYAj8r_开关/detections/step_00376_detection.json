@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.2,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的大窗户旁"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.1,
+        0.2,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧的小窗户旁"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.2,
+        0.3,
+        0.8,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "房间中央的大型玻璃窗"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "房间的四周墙壁"
+    },
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.85,
+        0.75,
+        0.87,
+        0.77
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧墙面上"
+    }
+  ],
+  "scene_description": "这是一个现代风格的室内场景，有一扇大窗户可以看到外面的风景，窗帘半拉开，墙上有一个开关。",
+  "detection_summary": "在图中成功检测到了窗帘、窗户、墙壁和开关四个主要对象。"
+}

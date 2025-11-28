@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.5,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "深色木质柜子，有四个门"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.1,
+        0.4,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "编织篮子，里面装着白色物品"
+    },
+    {
+      "label": "玻璃杯/glass cup",
+      "bbox": [
+        0.35,
+        0.55,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "透明玻璃杯，放在柜子上"
+    }
+  ],
+  "scene_description": "室内环境，有一个深色木质柜子和一些装饰品",
+  "detection_summary": "成功检测到柜子、篮子和玻璃杯"
+}

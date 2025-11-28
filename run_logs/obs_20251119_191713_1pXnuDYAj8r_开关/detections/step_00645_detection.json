@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色开关面板"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "黑色木制门框"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.7,
+      "description": "挂在墙上的两幅画"
+    }
+  ],
+  "scene_description": "室内走廊，有开关、门框和挂画",
+  "detection_summary": "成功检测到开关、门框和画框"
+}

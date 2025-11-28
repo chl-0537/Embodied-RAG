@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.5,
+        0.55,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "木门",
+      "bbox": [
+        0.65,
+        0.4,
+        0.75,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "深色木质门"
+    }
+  ],
+  "scene_description": "室内走廊场景，有挂画、木门和电灯开关",
+  "detection_summary": "成功检测到开关、两幅画和一个木门"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "沙发/chaise lounge",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色沙发位于左侧房间内"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.35,
+        0.65,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "黑色电视机放置在木制柜子上"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.55,
+        0.42,
+        0.57
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的画作"
+    },
+    {
+      "label": "人像 portrait",
+      "bbox": [
+        0.6,
+        0.4,
+        0.62,
+        0.42
+      ],
+      "confidence": 0.8,
+      "description": "黑白人物画像"
+    }
+  ],
+  "scene_description": "室内环境，有沙发、电视和装饰画",
+  "detection_summary": "成功识别出沙发、电视、画和人像"
+}

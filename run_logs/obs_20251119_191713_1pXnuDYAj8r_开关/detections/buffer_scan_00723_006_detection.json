@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的抽象画"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙上的抽象画"
+    },
+    {
+      "label": "开关/ switch",
+      "bbox": [
+        0.45,
+        0.5,
+        0.55,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "位于两幅画之间的墙上"
+    }
+  ],
+  "scene_description": "房间内有两幅挂在墙上的抽象画和一面墙上的开关。",
+  "detection_summary": "在房间内检测到两幅画作和一个开关。"
+}

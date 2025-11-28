@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0,
+        500,
+        1000
+      ],
+      "confidence": 1.0,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        500,
+        0,
+        1000,
+        1000
+      ],
+      "confidence": 1.0,
+      "description": "白色墙壁"
+    }
+  ],
+  "scene_description": "房间内有一扇带图案的窗帘和一面白色的墙。",
+  "detection_summary": "在当前视图中没有检测到'novel', 'book', '书架', '书', 'books'等目标对象。"
+}

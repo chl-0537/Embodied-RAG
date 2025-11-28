@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "门/door",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "一扇木制门，表面有明显的烧焦痕迹"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色墙壁，与门的颜色形成对比"
+    },
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.45,
+        0.55,
+        0.48,
+        0.62
+      ],
+      "confidence": 0.85,
+      "description": "位于墙上的白色开关"
+    }
+  ],
+  "scene_description": "房间内有一扇有明显烧痕的木门和一面白色的墙壁，墙上有一个白色的开关。",
+  "detection_summary": "已检测到一扇木门、一面白色墙壁和一个白色开关。"
+}

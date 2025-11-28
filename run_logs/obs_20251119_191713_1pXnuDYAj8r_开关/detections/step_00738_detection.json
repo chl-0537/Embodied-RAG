@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙面上的一排大窗户"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "覆盖在窗户上的白色窗帘"
+    },
+    {
+      "label": "天花板/ceiling",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        0.1
+      ],
+      "confidence": 0.7,
+      "description": "白色的天花板上有嵌入式照明灯"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.6,
+      "description": "房间内的白色墙壁"
+    },
+    {
+      "label": "地毯/carpet",
+      "bbox": [
+        0.0,
+        0.9,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.5,
+      "description": "浅色的地毯覆盖了地面"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个带有大窗户、白色墙壁和天花板的房间。房间里有一块浅色地毯，墙上没有明显的装饰或家具。",
+  "detection_summary": "在这个场景中，主要检测到了窗户、窗帘、天花板、墙壁和地毯等物体。由于图片中没有明确的开关或其他电器设备，因此无法识别出任何开关相关的物体。"
+}

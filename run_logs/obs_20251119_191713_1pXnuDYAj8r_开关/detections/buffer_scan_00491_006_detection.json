@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        200,
+        100,
+        400,
+        300
+      ],
+      "confidence": 0.9,
+      "description": "大号双人床，白色床上用品和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        150,
+        250,
+        250,
+        350
+      ],
+      "confidence": 0.8,
+      "description": "两个带台灯的床头柜"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        300,
+        300,
+        400,
+        400
+      ],
+      "confidence": 0.7,
+      "description": "两把带脚凳的扶手椅"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        450,
+        100,
+        600,
+        300
+      ],
+      "confidence": 0.8,
+      "description": "大型落地窗，可以看到外面的景色"
+    }
+  ],
+  "scene_description": "一间宽敞的卧室，有一张大床、两张扶手椅、两个床头柜和一个大型落地窗。",
+  "detection_summary": "在房间内识别出了多个主要家具和装饰品，但没有明确看到开关的存在。"
+}

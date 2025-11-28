@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.15,
+        0.35,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的浅色窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.05,
+        0.25,
+        0.2,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "白色框架的窗户"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0.2,
+        0.2,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "黑色和白色的墙壁"
+    },
+    {
+      "label": "门框",
+      "bbox": [
+        0.65,
+        0.2,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.6,
+      "description": "木制的门框"
+    },
+    {
+      "label": "天花板",
+      "bbox": [
+        0.55,
+        0.1,
+        0.95,
+        0.2
+      ],
+      "confidence": 0.5,
+      "description": "有损坏的天花板"
+    }
+  ],
+  "scene_description": "房间内有一扇窗户、一扇部分打开的门和一些装饰性的窗帘，墙上可以看到明显的火灾痕迹。",
+  "detection_summary": "在房间内识别出了窗帘、窗户、墙壁、门框和天花板等主要物体。"
+}

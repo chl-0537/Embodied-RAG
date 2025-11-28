@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未识别"
+    }
+  ],
+  "scene_description": "图片模糊不清，无法识别具体场景和物体。",
+  "detection_summary": "由于图片质量太差，未能有效识别任何物体。"
+}

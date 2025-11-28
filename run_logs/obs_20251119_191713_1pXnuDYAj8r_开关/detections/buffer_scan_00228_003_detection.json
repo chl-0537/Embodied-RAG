@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.1,
+        0.7,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的长方形镜子"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.55,
+        0.6,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        0.05,
+        0.8,
+        0.25,
+        0.95
+      ],
+      "confidence": 0.7,
+      "description": "带有黑白图案的沙发"
+    }
+  ],
+  "scene_description": "室内装饰场景，有墙壁、镜子和沙发等家具。",
+  "detection_summary": "成功检测到开关、镜子、画框和沙发等主要对象。"
+}

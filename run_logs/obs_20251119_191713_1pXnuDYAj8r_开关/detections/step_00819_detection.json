@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "墙上的两幅画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.4,
+        0.1,
+        0.7,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "墙上的两幅画"
+    },
+    {
+      "label": "毛巾",
+      "bbox": [
+        0.75,
+        0.55,
+        0.85,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "架子上叠放的白色毛巾"
+    },
+    {
+      "label": "盒子",
+      "bbox": [
+        0.8,
+        0.6,
+        0.9,
+        0.7
+      ],
+      "confidence": 0.7,
+      "description": "架子上的带有图案的盒子"
+    }
+  ],
+  "scene_description": "房间内有两幅挂在墙上的画和一排放有毛巾和盒子的架子。",
+  "detection_summary": "在图像中检测到了画作、毛巾和盒子。"
+}

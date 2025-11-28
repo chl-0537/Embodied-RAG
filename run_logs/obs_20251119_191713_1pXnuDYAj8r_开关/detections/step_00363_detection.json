@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.2,
+        0.7,
+        0.3,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "两把带靠垫的椅子"
+    },
+    {
+      "label": "桌子",
+      "bbox": [
+        0.4,
+        0.6,
+        0.5,
+        0.7
+      ],
+      "confidence": 0.7,
+      "description": "黑色桌子"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.1,
+        0.1,
+        0.2,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "墙上的艺术作品"
+    }
+  ],
+  "scene_description": "卧室内部，有床、椅子和装饰品",
+  "detection_summary": "成功检测到床、椅子和画，但未能检测到开关"
+}

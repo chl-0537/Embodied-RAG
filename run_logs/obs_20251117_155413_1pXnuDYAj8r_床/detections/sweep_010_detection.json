@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "图中没有显示床或床垫"
+    },
+    {
+      "label": "相框/frame",
+      "bbox": [
+        0.5,
+        0.3,
+        0.7,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的两个黑色边框的相框"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.8,
+        0.4,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "右侧的一扇木门"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、镜子和装饰画",
+  "detection_summary": "未发现床或床垫，识别出墙上的相框和一扇木门"
+}

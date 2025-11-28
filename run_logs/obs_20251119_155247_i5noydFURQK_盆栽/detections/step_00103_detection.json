@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "台灯/lamp",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色台灯，位于左侧"
+    },
+    {
+      "label": "墙纸/wallpaper",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "蓝色背景带有黄色图案"
+    }
+  ],
+  "scene_description": "房间一角，有带图案的墙纸和一盏台灯。",
+  "detection_summary": "检测到一盏台灯和一面墙纸。"
+}

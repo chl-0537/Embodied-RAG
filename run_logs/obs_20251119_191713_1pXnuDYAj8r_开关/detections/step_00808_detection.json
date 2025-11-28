@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于厨房区域，靠近水槽和橱柜"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.35,
+        0.65,
+        0.45,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "与洗衣机相邻，同样位于厨房区域"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.15,
+        0.55,
+        0.25,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放置在洗衣机的顶部，装有毛巾或布料"
+    },
+    {
+      "label": "水龙头/faucet",
+      "bbox": [
+        0.85,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "安装在洗涤池上方，用于取水"
+    },
+    {
+      "label": "橱柜/cabinet",
+      "bbox": [
+        0.6,
+        0.1,
+        0.9,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "深色木质橱柜，用于存储物品"
+    },
+    {
+      "label": "墙壁/ceiling light switch",
+      "bbox": [
+        0.05,
+        0.02,
+        0.1,
+        0.04
+      ],
+      "confidence": 0.5,
+      "description": "天花板上的电灯开关"
+    }
+  ],
+  "scene_description": "这是一个家庭厨房的场景，有洗衣机、烘干机和相关的配件，以及一些储物空间。",
+  "detection_summary": "成功识别了主要的家用电器和家具，以及一些小物件。"
+}

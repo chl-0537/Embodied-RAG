@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/flower pot",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色花朵插在花瓶里"
+    }
+  ],
+  "scene_description": "室内卧室场景，有一张床、窗户和窗帘。",
+  "detection_summary": "已检测到一盆盆栽植物。"
+}

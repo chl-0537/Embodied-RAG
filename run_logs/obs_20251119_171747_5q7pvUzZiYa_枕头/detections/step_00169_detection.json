@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.05,
+        0.15,
+        0.45,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "一幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作/painting",
+      "bbox": [
+        0.55,
+        0.35,
+        0.75,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "一幅较小的画作"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂有两幅画作。",
+  "detection_summary": "在场景中检测到两幅画作。"
+}

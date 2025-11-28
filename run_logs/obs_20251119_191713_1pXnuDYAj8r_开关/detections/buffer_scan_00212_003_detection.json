@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.15,
+        0.55,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.6,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.8,
+      "description": "黑色柜子上方的白色花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.65,
+        0.7,
+        0.75,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "墙上挂着的黑白照片"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.75,
+        0.7,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "墙上挂着的黑白照片"
+    }
+  ],
+  "scene_description": "房间内有一个黑色的柜子，上面摆放着一些装饰品，旁边有一面大镜子，墙上挂着两幅黑白照片。",
+  "detection_summary": "在图中没有发现明显的开关或其同义词。"
+}

@@ -1,0 +1,94 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.725,
+        0.875,
+        0.78,
+        0.915
+      ],
+      "confidence": 0.85,
+      "description": "位于房间右侧靠近窗户的位置"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "房间中央的大床"
+    },
+    {
+      "label": "床头柜-side table",
+      "bbox": [
+        0.35,
+        0.6,
+        0.42,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "位于床的左侧"
+    },
+    {
+      "label": "台灯-table lamp",
+      "bbox": [
+        0.38,
+        0.62,
+        0.41,
+        0.68
+      ],
+      "confidence": 0.7,
+      "description": "放置在床头柜上"
+    },
+    {
+      "label": "沙发-sofa",
+      "bbox": [
+        0.2,
+        0.8,
+        0.4,
+        0.95
+      ],
+      "confidence": 0.85,
+      "description": "房间前方有一组米色沙发"
+    },
+    {
+      "label": "椅子-chair",
+      "bbox": [
+        0.4,
+        0.85,
+        0.52,
+        0.97
+      ],
+      "confidence": 0.8,
+      "description": "沙发旁边有一把单人椅"
+    },
+    {
+      "label": "画-painting",
+      "bbox": [
+        0.05,
+        0.2,
+        0.15,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着一幅大型画作"
+    },
+    {
+      "label": "窗帘-curtain",
+      "bbox": [
+        0.65,
+        0.9,
+        0.85,
+        0.98
+      ],
+      "confidence": 0.75,
+      "description": "窗户两侧有浅色的窗帘"
+    }
+  ],
+  "scene_description": "这是一个装饰精美的卧室，拥有大床、床头柜、台灯以及舒适的座椅和沙发组合。墙上悬挂着艺术作品，窗户配有窗帘。",
+  "detection_summary": "成功识别了盆栽、床、床头柜、台灯、沙发、椅子和墙上的画等主要家具和装饰品。"
+}

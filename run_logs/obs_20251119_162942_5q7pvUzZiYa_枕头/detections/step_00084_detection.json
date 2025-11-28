@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色枕头，位于房间右侧床上"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.65,
+        0.8,
+        0.85,
+        0.95
+      ],
+      "confidence": 0.95,
+      "description": "带有白色床单和枕头的床"
+    },
+    {
+      "label": "衣柜/wardrobe",
+      "bbox": [
+        0.05,
+        0.15,
+        0.45,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "木质衣柜，内有多层隔间"
+    },
+    {
+      "label": "衣物/clothing",
+      "bbox": [
+        0.05,
+        0.15,
+        0.45,
+        0.95
+      ],
+      "confidence": 0.8,
+      "description": "衣柜内的各种衣物"
+    }
+  ],
+  "scene_description": "这是一个卧室内部，左侧是木质衣柜，内有多层隔间存放着各种衣物。右侧是一张床，上面铺有白色床单和枕头。",
+  "detection_summary": "在图中成功检测到枕头、床、衣柜以及衣柜内的衣物。"
+}

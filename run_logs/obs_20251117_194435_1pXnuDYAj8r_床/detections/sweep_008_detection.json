@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙边有一张床的一部分，可以看到床头板和床垫的一小部分。"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.05,
+        0.05
+      ],
+      "confidence": 0.85,
+      "description": "在床上有一个黑白图案的枕头。"
+    }
+  ],
+  "scene_description": "这是一间室内房间，墙上挂着两幅画，右侧是一扇木门，左侧是床的一部分。",
+  "detection_summary": "检测到一张床和一个枕头。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.5,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央的书架，上面有书籍和其他物品"
+    },
+    {
+      "label": "书/book",
+      "bbox": [
+        0.55,
+        0.7,
+        0.58,
+        0.72
+      ],
+      "confidence": 0.85,
+      "description": "在书架上的一本书"
+    }
+  ],
+  "scene_description": "这是一个被烧毁的房间内部，墙壁和天花板都有明显的火烧痕迹，地板上有一些杂物。",
+  "detection_summary": "在这个场景中，我们成功检测到了一个书架和一本书。"
+}

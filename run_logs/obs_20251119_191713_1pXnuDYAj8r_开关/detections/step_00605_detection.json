@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "白色床单和枕头"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.38,
+        0.55,
+        0.42,
+        0.65
+      ],
+      "confidence": 0.98,
+      "description": "米色布艺扶手椅"
+    },
+    {
+      "label": "梳妆台/dresser",
+      "bbox": [
+        0.7,
+        0.5,
+        0.85,
+        0.8
+      ],
+      "confidence": 0.97,
+      "description": "黑色木质带镜子的梳妆台"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.25,
+        0.15,
+        0.75,
+        0.35
+      ],
+      "confidence": 0.96,
+      "description": "大窗户，可以看到外面的景色"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.23,
+        0.35,
+        0.77,
+        0.37
+      ],
+      "confidence": 0.95,
+      "description": "带有花纹的窗帘"
+    },
+    {
+      "label": "地毯/carpet",
+      "bbox": [
+        0,
+        0.9,
+        1,
+        1
+      ],
+      "confidence": 0.94,
+      "description": "浅色地毯"
+    }
+  ],
+  "scene_description": "一间卧室，有一张大床、一把椅子、一个带镜子的梳妆台和一个大窗户。",
+  "detection_summary": "成功检测到房间内的主要家具和装饰品。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.15,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.65,
+        0.4,
+        0.75,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的抽象艺术作品"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.5,
+        0.2,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "放在桌子上的白色花瓶"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.25,
+        0.5,
+        0.35,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的黑白照片"
+    },
+    {
+      "label": "抽屉/drawer",
+      "bbox": [
+        0.05,
+        0.7,
+        0.95,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "黑色的带抽屉的柜子"
+    }
+  ],
+  "scene_description": "房间内有一个黑色带抽屉的柜子，上面摆放着一些装饰品，墙上挂着一面大镜子和两幅抽象艺术作品。",
+  "detection_summary": "已检测到镜子、画、花瓶、相框和抽屉等主要物品。"
+}

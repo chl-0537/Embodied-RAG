@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        100,
+        200,
+        110,
+        210
+      ],
+      "confidence": 0.9,
+      "description": "墙上的电源开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        300,
+        400,
+        500,
+        600
+      ],
+      "confidence": 0.8,
+      "description": "卧室中央的大床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        250,
+        450,
+        280,
+        520
+      ],
+      "confidence": 0.7,
+      "description": "床旁边的两个床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        260,
+        480,
+        290,
+        550
+      ],
+      "confidence": 0.75,
+      "description": "床头柜上的两盏台灯"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        150,
+        650,
+        350,
+        750
+      ],
+      "confidence": 0.85,
+      "description": "房间里的两张带扶手的椅子"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        50,
+        100,
+        200,
+        300
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的几幅画"
+    }
+  ],
+  "scene_description": "这是一个装饰精美的卧室，有一张大床、两个床头柜和两盏台灯，还有两张带扶手的椅子和一些挂在墙上的画。",
+  "detection_summary": "在图中成功检测到了开关、床、床头柜、台灯、椅子和画框等物体。"
+}

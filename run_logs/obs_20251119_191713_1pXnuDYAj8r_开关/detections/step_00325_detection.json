@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于左侧墙上的大镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两个相框"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.6,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "中间的木门"
+    },
+    {
+      "label": "开关/light switch",
+      "bbox": [
+        0.9,
+        0.95,
+        0.92,
+        0.97
+      ],
+      "confidence": 0.75,
+      "description": "在右侧墙上"
+    }
+  ],
+  "scene_description": "这是一个室内走廊的场景，左边有一个带镜子的柜子，上面放着一些装饰品，墙上挂着几幅画，右边是一扇半开的木门，门的右边有两个白色的开关。",
+  "detection_summary": "成功检测到镜子、相框、门和开关等主要对象。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "梳妆台/dresser",
+      "bbox": [
+        0.05,
+        0.45,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "深色木制梳妆台，上面摆放着一些装饰品和镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.38,
+        0.55,
+        0.42,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两幅抽象艺术作品"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.4,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "一扇深色的木门，看起来有些老旧"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.88,
+        0.75,
+        0.92,
+        0.78
+      ],
+      "confidence": 0.8,
+      "description": "墙上安装的一个白色开关"
+    }
+  ],
+  "scene_description": "这是一个室内场景，展示了一个带有深色木制家具和装饰品的房间。",
+  "detection_summary": "在图中成功检测到了梳妆台、画作、门和一个墙上的开关。"
+}

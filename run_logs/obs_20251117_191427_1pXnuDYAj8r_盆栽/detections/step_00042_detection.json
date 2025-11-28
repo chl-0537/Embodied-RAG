@@ -1,0 +1,17 @@
+{
+  "objects": [
+    {
+      "label": "盆栽",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未发现盆栽"
+    }
+  ],
+  "scene_description": "图中显示了一个室内环境，有墙壁、窗户和装饰画框。",
+  "detection_summary": "在当前视图中没有检测到任何盆栽。"
+}

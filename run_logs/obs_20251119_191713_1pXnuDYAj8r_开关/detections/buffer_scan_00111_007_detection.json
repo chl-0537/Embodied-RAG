@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "门框/door frame",
+      "bbox": [
+        0.0,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "位于图像左侧的门框"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.5,
+        0.0,
+        1.0,
+        0.8
+      ],
+      "confidence": 1.0,
+      "description": "带有白色床单和多个枕头的床"
+    },
+    {
+      "label": "床头板/bed headboard",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "黑色床头板，上面有装饰画"
+    },
+    {
+      "label": "装饰画/decorative painting",
+      "bbox": [
+        0.75,
+        0.3,
+        0.85,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "两幅挂在床头板的画作"
+    }
+  ],
+  "scene_description": "这是一张卧室的照片，可以看到一扇半开的门，透过门可以看到一张铺着白色床单的大床，床上放着几个枕头，床头板上挂着两幅装饰画。",
+  "detection_summary": "在图像中检测到了门框、床、床头板和装饰画四个主要对象。"
+}

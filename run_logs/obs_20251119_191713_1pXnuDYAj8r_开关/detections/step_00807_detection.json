@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧的大型家用电器"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.65,
+        0.85,
+        0.75,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "与洗衣机相邻的电器设备"
+    },
+    {
+      "label": "储物柜/cabinet",
+      "bbox": [
+        0.45,
+        0.55,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "带有多个抽屉和门的家具"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.35,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "放置在架子上用于存放物品"
+    },
+    {
+      "label": "毛巾/towel",
+      "bbox": [
+        0.25,
+        0.35,
+        0.35,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "悬挂或堆放在架子上的布料"
+    }
+  ],
+  "scene_description": "洗衣房内有各种家用电器、储物设备和清洁用品",
+  "detection_summary": "成功识别出多种常见家用电器的位置和外观特征"
+}

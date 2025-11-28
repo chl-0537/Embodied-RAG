@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙上的开放式书架，里面没有明显的书籍"
+    },
+    {
+      "label": "书/books",
+      "bbox": [
+        0.0,
+        0.0,
+        0.2,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "在书架上没有看到任何书籍"
+    }
+  ],
+  "scene_description": "房间内有一个深色的梳妆台，上面摆放着一些装饰品和花瓶，墙上挂着一面大镜子以及几幅画框，右侧有一扇木门。",
+  "detection_summary": "在图中未发现明确的'novel', 'book', '书架', '书', 'books'等目标对象。"
+}

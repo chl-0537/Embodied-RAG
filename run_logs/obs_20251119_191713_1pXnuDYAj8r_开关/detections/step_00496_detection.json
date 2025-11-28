@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.65,
+        0.8,
+        0.7,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的开关"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    }
+  ],
+  "scene_description": "这是一个室内走廊的场景，墙上挂着两幅画，左侧有一扇半开的门，右侧有白色的墙壁和两个开关。",
+  "detection_summary": "在图中成功检测到两个开关和两幅挂画。"
+}

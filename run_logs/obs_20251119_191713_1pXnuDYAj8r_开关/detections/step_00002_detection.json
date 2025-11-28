@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.15,
+        0.65,
+        0.9
+      ],
+      "confidence": 0.99,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.55,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.98,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.28,
+        0.58,
+        0.38,
+        0.78
+      ],
+      "confidence": 0.97,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.41,
+        0.61,
+        0.51,
+        0.81
+      ],
+      "confidence": 0.96,
+      "description": "白色花瓶，放在桌子上"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.45,
+        0.7,
+        0.48,
+        0.73
+      ],
+      "confidence": 0.9,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.49,
+        0.7,
+        0.52,
+        0.73
+      ],
+      "confidence": 0.89,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.53,
+        0.7,
+        0.56,
+        0.73
+      ],
+      "confidence": 0.88,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子上方有灯光照明，镜子下方有一个桌子，上面摆放着三个白色的花瓶，墙上安装了三个开关。",
+  "detection_summary": "成功检测到一面大镜子、三个白色花瓶和三个墙上的开关。"
+}

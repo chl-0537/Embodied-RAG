@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未找到"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.8,
+        0.7,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧，有白色床单和枕头"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.6,
+        0.6,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "棕色，上面有一盏台灯和一个花瓶"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.3
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上，内容模糊不清"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "位于房间中央，可以看到外面的景色"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一个床、一个床头柜、一幅画框和一个窗户。",
+  "detection_summary": "在给定的图像中没有明确识别出任何开关。"
+}

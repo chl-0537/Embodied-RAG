@@ -1,0 +1,20 @@
+{
+  "next_action": "移动到床的位置，位于房间habitat区域",
+  "reasoning": "目标对象'床'已成功找到，视觉检测确认其位于habitat区域。根据意图是'找到床'，下一步应移动到床的位置进行确认和后续操作。",
+  "expected_observation": "机器人移动到床的位置，能够近距离观察床的完整形态，包括床头、床垫等部分，并能确认床的具体位置和状态。",
+  "fallback_plan": [
+    "如果无法直接移动到床的位置，则先移动到房间habitat区域，然后进行局部搜索",
+    "如果床的位置有变化，则重新进行视觉定位"
+  ],
+  "confidence": 0.9,
+  "consistency_analysis": {
+    "memory_vision_consistency": "部分一致，记忆中有多条床的视觉记录，位置在房间内，但最新视觉检测显示床位于habitat区域",
+    "status_consistency": "status显示目标已找到且视觉检测成功，与最新视觉检测结果基本一致",
+    "confidence_level": "高，视觉检测置信度为0.9"
+  },
+  "cross_modal_insights": {
+    "visual_memory_integration": "视觉检测与历史记忆中的床的位置信息基本一致，都位于房间内",
+    "location_refinement": "最新视觉检测将床的位置更精确地定位为habitat区域",
+    "object_verification": "多次视觉检测确认了床的存在，包括床体、床垫等组成部分"
+  }
+}

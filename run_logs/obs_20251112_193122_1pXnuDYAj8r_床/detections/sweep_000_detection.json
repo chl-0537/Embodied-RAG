@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        840,
+        500,
+        960,
+        600
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧床铺下方"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        800,
+        400,
+        1000,
+        700
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧，上面有枕头和被子"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0,
+        300,
+        200,
+        500
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧，可以看到床头板"
+    }
+  ],
+  "scene_description": "这是一个室内卧室的场景，有一张床、一张沙发和一些装饰画。",
+  "detection_summary": "在图中成功检测到了两个床和一个床垫。"
+}

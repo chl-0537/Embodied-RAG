@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "墙上的装饰画"
+    },
+    {
+      "label": "台灯/table lamp",
+      "bbox": [
+        0.55,
+        0.5,
+        0.65,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "枕头-pillow",
+      "bbox": [
+        0.05,
+        0.6,
+        0.15,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "床上的枕头"
+    },
+    {
+      "label": "抱枕-cushion",
+      "bbox": [
+        0.2,
+        0.6,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "床上的抱枕"
+    },
+    {
+      "label": "毛绒玩具-stuffed toy",
+      "bbox": [
+        0.65,
+        0.65,
+        0.75,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的毛绒玩具"
+    }
+  ],
+  "scene_description": "卧室一角，有床、枕头、台灯和装饰画。",
+  "detection_summary": "在卧室的一角，识别出了画、台灯、枕头、抱枕和毛绒玩具。"
+}

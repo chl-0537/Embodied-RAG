@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式灯"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "墙上的开关"
+    }
+  ],
+  "scene_description": "室内走廊，有白色墙壁、黑色框架的艺术品和金属栏杆。",
+  "detection_summary": "在图中没有明确识别出任何开关。"
+}

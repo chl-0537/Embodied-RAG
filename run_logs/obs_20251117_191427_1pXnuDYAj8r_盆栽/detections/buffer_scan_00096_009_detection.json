@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶内插有白色花朵"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.45,
+        0.35,
+        0.9
+      ],
+      "confidence": 0.95,
+      "description": "带有白色床单和枕头"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.05,
+        0.55,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "棕色皮质扶手椅"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.1,
+        0.45,
+        0.25,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "黑色桌子上有台灯和其他物品"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.4,
+        0.2,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.9,
+      "description": "大窗户可以看到外面的景色"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.35,
+        0.2,
+        0.65,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "花纹窗帘"
+    }
+  ],
+  "scene_description": "卧室内部，有一张大床、一张桌子、一把椅子以及一个大窗户。",
+  "detection_summary": "在卧室场景中成功检测到盆栽、床、椅子、桌子、窗户和窗帘等主要对象。"
+}

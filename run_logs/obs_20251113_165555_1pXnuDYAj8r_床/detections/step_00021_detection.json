@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.7,
+        0.2,
+        0.9,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "挂在窗户旁边的窗帘"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.4,
+        0.2,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "放在桌子上的花瓶"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.5,
+        0.1,
+        0.6
+      ],
+      "confidence": 0.7,
+      "description": "房间内的一张床的一部分"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.0,
+        0.55,
+        0.1,
+        0.65
+      ],
+      "confidence": 0.7,
+      "description": "床上可以看到的部分床垫"
+    }
+  ],
+  "scene_description": "室内场景，有一扇大窗户、窗帘、一张床和一束花",
+  "detection_summary": "成功检测到窗帘、花瓶、床和床垫"
+}

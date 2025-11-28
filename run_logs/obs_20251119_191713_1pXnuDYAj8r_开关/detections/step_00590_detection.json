@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "床头灯/bedside lamp",
+      "bbox": [
+        0.7,
+        0.45,
+        0.75,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "位于床头的台灯"
+    },
+    {
+      "label": "床头柜/nightstand",
+      "bbox": [
+        0.5,
+        0.35,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "放置在床旁边的桌子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.4,
+        0.25,
+        0.6,
+        0.35
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的装饰画"
+    },
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.55,
+        0.6,
+        0.65,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "放在床上的枕头"
+    },
+    {
+      "label": "被子/blanket",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "覆盖在床上的被子"
+    },
+    {
+      "label": "地毯/carpet",
+      "bbox": [
+        0.0,
+        0.8,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "铺在地面的地毯"
+    }
+  ],
+  "scene_description": "这是一间卧室的场景，有一张床、床头柜、台灯和一些装饰品。",
+  "detection_summary": "成功检测到多个卧室常见物品，包括床头灯、床头柜、画、枕头和被子。"
+}

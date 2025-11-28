@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶旁边的黑色和白色相间的书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.75,
+        0.85,
+        0.88,
+        0.93
+      ],
+      "confidence": 0.85,
+      "description": "白色花瓶旁边靠右的书"
+    }
+  ],
+  "scene_description": "房间内有一面大镜子，镜子里反射出房间的墙壁、天花板和一些装饰品。",
+  "detection_summary": "在图片中检测到了两本书。"
+}

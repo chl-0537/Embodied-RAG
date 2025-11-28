@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的方形画作"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.1,
+        0.7,
+        0.2,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "放在黑色柜子上的白色花瓶"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.15,
+        0.75,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "放在黑色柜子上的透明装饰品"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.7,
+        0.3,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制门，有金属把手"
+    }
+  ],
+  "scene_description": "室内场景，墙上挂有两幅画和一面镜子，黑色柜子上摆放着两个装饰物，旁边是一扇木门。",
+  "detection_summary": "成功识别了镜子、画、花瓶、装饰品和门等主要物品。"
+}

@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.8,
+        0.2,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "黑色和白色图案的枕头"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.1,
+        0.3,
+        0.4,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两幅画"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "一扇木制门"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.5,
+      "description": "房间内的墙壁"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一面墙上有两幅画和一个黑色的枕头，旁边是一扇木制的门。",
+  "detection_summary": "在场景中检测到了枕头、画、门和墙壁四个主要对象。"
+}

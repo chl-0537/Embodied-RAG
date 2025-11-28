@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        740,
+        350,
+        750,
+        370
+      ],
+      "confidence": 0.9,
+      "description": "位于墙上的白色开关"
+    },
+    {
+      "label": "沙发",
+      "bbox": [
+        10,
+        400,
+        200,
+        600
+      ],
+      "confidence": 0.8,
+      "description": "米色布艺沙发"
+    },
+    {
+      "label": "窗帘",
+      "bbox": [
+        20,
+        100,
+        480,
+        300
+      ],
+      "confidence": 0.85,
+      "description": "带有花纹的长窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        50,
+        150,
+        450,
+        250
+      ],
+      "confidence": 0.9,
+      "description": "大落地窗"
+    },
+    {
+      "label": "电视",
+      "bbox": [
+        500,
+        100,
+        550,
+        150
+      ],
+      "confidence": 0.75,
+      "description": "挂在墙上的平板电视"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        700,
+        300,
+        750,
+        350
+      ],
+      "confidence": 0.8,
+      "description": "白色装饰性花瓶"
+    },
+    {
+      "label": "桌子",
+      "bbox": [
+        800,
+        400,
+        900,
+        500
+      ],
+      "confidence": 0.85,
+      "description": "黑色木质桌子"
+    }
+  ],
+  "scene_description": "这是一个现代化的客厅，有大窗户、舒适的沙发和装饰品。",
+  "detection_summary": "成功检测到开关、沙发、窗帘、窗户、电视、花瓶和桌子等主要对象。"
+}

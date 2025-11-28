@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "墙上的开关"
+    },
+    {
+      "label": "床",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有白色床单和多个枕头的床"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.6,
+        0.75,
+        0.65,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的浅色床头柜"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.62,
+        0.76,
+        0.63,
+        0.77
+      ],
+      "confidence": 0.8,
+      "description": "床头柜上的台灯"
+    },
+    {
+      "label": "椅子",
+      "bbox": [
+        0.9,
+        0.8,
+        0.92,
+        0.82
+      ],
+      "confidence": 0.8,
+      "description": "房间角落里的椅子"
+    },
+    {
+      "label": "画",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的画"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有一张床、床头柜、台灯、椅子和墙上挂着的画。",
+  "detection_summary": "在场景中检测到了多个对象，包括床、床头柜、台灯、椅子和画。"
+}

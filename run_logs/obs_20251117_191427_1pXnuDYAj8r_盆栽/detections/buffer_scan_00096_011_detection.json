@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "盆栽/plant pot",
+      "bbox": [
+        0.8,
+        0.7,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶状盆栽，位于房间右侧靠近窗户处"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.2,
+        0.4,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.95,
+      "description": "大号双人床，床上铺有白色床单和多个枕头"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.55,
+        0.65,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.9,
+      "description": "两把带扶手的软垫椅，位于床前"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.45,
+        0.7,
+        0.5,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "小圆桌，位于床前"
+    },
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.6,
+        0.8,
+        0.7,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "带有花纹的长窗帘，覆盖窗户两侧"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.15,
+        0.35,
+        0.25,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在床头墙上的两幅装饰画"
+    }
+  ],
+  "scene_description": "一间布置精美的卧室，有大床、软垫椅、小圆桌以及装饰性植物和画作。",
+  "detection_summary": "在房间内成功识别出盆栽、床、椅子、桌子、窗帘和画等主要物品。"
+}

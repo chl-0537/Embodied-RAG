@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画框",
+      "bbox": [
+        0.15,
+        0.25,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的黑色边框画"
+    },
+    {
+      "label": "照片",
+      "bbox": [
+        0.18,
+        0.28,
+        0.42,
+        0.52
+      ],
+      "confidence": 0.8,
+      "description": "画框内的风景照片"
+    },
+    {
+      "label": "墙壁",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "白色墙壁"
+    }
+  ],
+  "scene_description": "室内墙上挂着一幅风景照片，背景中有一些家具和装饰品。",
+  "detection_summary": "在给定的图像中，识别出了画框、照片、墙壁等主要对象。"
+}

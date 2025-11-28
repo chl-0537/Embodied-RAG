@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.05,
+        0.45,
+        0.15,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "白色花瓶，位于左侧"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.2,
+        0.55,
+        0.3,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，位于中间偏左"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.6,
+        0.45,
+        0.8
+      ],
+      "confidence": 0.7,
+      "description": "白色花瓶，位于右侧"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.4,
+        0.9,
+        0.5
+      ],
+      "confidence": 0.85,
+      "description": "黑色边框画作，位于右上角"
+    },
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.7,
+        0.55,
+        0.9,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "黑色边框画作，位于右中部"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.1,
+        0.1,
+        0.4,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "大镜子，位于中央"
+    }
+  ],
+  "scene_description": "室内装饰场景，有多个花瓶、镜子和画作。",
+  "detection_summary": "共检测到三个花瓶和两幅画作以及一面镜子。"
+}

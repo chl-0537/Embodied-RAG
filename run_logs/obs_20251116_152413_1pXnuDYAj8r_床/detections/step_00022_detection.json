@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.1,
+        0.2,
+        0.5,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "可以看到外面的景色"
+    },
+    {
+      "label": "花朵",
+      "bbox": [
+        0.05,
+        0.75,
+        0.15,
+        0.85
+      ],
+      "confidence": 0.8,
+      "description": "窗台上的白色花朵"
+    }
+  ],
+  "scene_description": "室内场景，有窗帘、窗户和窗台上的装饰花",
+  "detection_summary": "未发现床或床垫"
+}

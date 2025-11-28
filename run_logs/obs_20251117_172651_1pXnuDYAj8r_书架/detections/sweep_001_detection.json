@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的装饰画"
+    },
+    {
+      "label": "书架/bookshelf",
+      "bbox": [
+        0.75,
+        0.65,
+        0.85,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "在右侧房间内可见的书架"
+    },
+    {
+      "label": "书/book",
+      "bbox": [
+        0.78,
+        0.68,
+        0.805,
+        0.705
+      ],
+      "confidence": 0.7,
+      "description": "在书架上的一本书"
+    }
+  ],
+  "scene_description": "这是一个室内环境，左侧有一个门框和一幅挂画，右侧可以看到一个带有窗户和家具的房间。",
+  "detection_summary": "在图中识别出了画、书架和一本书。"
+}

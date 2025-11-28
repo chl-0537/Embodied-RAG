@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "木制门，有明显的磨损痕迹"
+    },
+    {
+      "label": "墙",
+      "bbox": [
+        0.3,
+        0.1,
+        0.7,
+        0.9
+      ],
+      "confidence": 0.7,
+      "description": "灰色墙面，上面安装了开关和插座"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到一扇木制的门和一个带有开关和插座的灰色墙面。",
+  "detection_summary": "在图中成功检测到了一个开关、一扇门以及一面墙。"
+}

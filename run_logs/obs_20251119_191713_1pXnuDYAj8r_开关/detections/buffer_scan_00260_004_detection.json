@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "窗帘",
+      "bbox": [
+        0.7,
+        0.5,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的窗帘"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.1,
+        0.1,
+        0.9,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "一排并列的窗户"
+    }
+  ],
+  "scene_description": "室内视角，通过一排并列的窗户可以看到外面的景色，窗外有房屋和山脉。",
+  "detection_summary": "在图中识别出了窗帘和窗户两个主要对象。"
+}

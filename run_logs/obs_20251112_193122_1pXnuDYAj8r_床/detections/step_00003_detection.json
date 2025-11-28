@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到床或床垫"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中识别到相框"
+    }
+  ],
+  "scene_description": "这是一张室内照片，显示了一个房间的一部分，可以看到墙壁、门和一些装饰品。",
+  "detection_summary": "在提供的图像中没有检测到任何明确的'床'、'床垫'或'镜框'。"
+}

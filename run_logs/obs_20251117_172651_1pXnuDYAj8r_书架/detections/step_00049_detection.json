@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中看到书架"
+    },
+    {
+      "label": "书/book",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中看到书"
+    },
+    {
+      "label": "books",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "未在图中看到书籍"
+    }
+  ],
+  "scene_description": "这是一间客厅，有大窗户可以看到外面的景色，窗台上有一盆植物。",
+  "detection_summary": "未检测到任何目标对象novel、book、书架或书。"
+}

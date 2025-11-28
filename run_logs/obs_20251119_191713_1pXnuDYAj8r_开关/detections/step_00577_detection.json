@@ -1,0 +1,83 @@
+{
+  "objects": [
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.35,
+        0.25,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的方形画作"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.5,
+        0.3,
+        0.6,
+        0.4
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的方形画作"
+    },
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "黑色的抽屉柜"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.15,
+        0.35,
+        0.2,
+        0.45
+      ],
+      "confidence": 0.75,
+      "description": "放在柜子上的白色花瓶"
+    },
+    {
+      "label": "装饰品/decorative item",
+      "bbox": [
+        0.12,
+        0.38,
+        0.18,
+        0.42
+      ],
+      "confidence": 0.7,
+      "description": "放在柜子上的白色装饰品"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.65,
+        0.2,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "木制的双开门"
+    }
+  ],
+  "scene_description": "房间内有一个黑色抽屉柜，上面摆放着一些装饰品和花瓶，墙上挂有两幅方形画作和一个矩形镜子，旁边是一扇木制双开门。",
+  "detection_summary": "在房间内成功识别了多个家具和装饰物，包括镜子、画作、柜子、花瓶、装饰品以及一扇门。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.4,
+        0.3,
+        0.45,
+        0.35
+      ],
+      "confidence": 0.9,
+      "description": "位于客厅中央偏右位置"
+    },
+    {
+      "label": "沙发/Sofa",
+      "bbox": [
+        0.05,
+        0.4,
+        0.15,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "白色沙发，位于左侧"
+    },
+    {
+      "label": "椅子/Chair",
+      "bbox": [
+        0.18,
+        0.42,
+        0.23,
+        0.47
+      ],
+      "confidence": 0.7,
+      "description": "靠近沙发的椅子"
+    },
+    {
+      "label": "桌子/Table",
+      "bbox": [
+        0.46,
+        0.38,
+        0.52,
+        0.43
+      ],
+      "confidence": 0.75,
+      "description": "放置在电视前的桌子"
+    },
+    {
+      "label": "枕头/Pillow",
+      "bbox": [
+        0.19,
+        0.44,
+        0.21,
+        0.46
+      ],
+      "confidence": 0.85,
+      "description": "放在沙发上"
+    }
+  ],
+  "scene_description": "这是一个现代化的客厅，有白色的墙壁和木质地板。房间内有一台电视、一张沙发、一把椅子和一个桌子。",
+  "detection_summary": "成功检测到电视、沙发、椅子、桌子以及沙发上的枕头。"
+}

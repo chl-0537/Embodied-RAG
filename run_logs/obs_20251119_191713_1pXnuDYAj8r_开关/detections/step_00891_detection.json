@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "画作",
+      "bbox": [
+        0.25,
+        0.35,
+        0.45,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "左侧墙壁上挂着的蓝色调抽象画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.5,
+        0.35,
+        0.7,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "中间墙壁上挂着的蓝色调抽象画"
+    },
+    {
+      "label": "画作",
+      "bbox": [
+        0.75,
+        0.35,
+        0.95,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "右侧墙壁上挂着的蓝色调抽象画"
+    }
+  ],
+  "scene_description": "房间内三幅蓝色调的抽象画挂在墙上。",
+  "detection_summary": "在房间内检测到三幅蓝色调的抽象画。"
+}

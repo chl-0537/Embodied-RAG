@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画框/picture frame",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个黑色边框的画"
+    },
+    {
+      "label": "画框/picture frame",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.65
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的两个白色边框的画"
+    }
+  ],
+  "scene_description": "房间内有墙壁、门和两幅挂画。",
+  "detection_summary": "在房间里检测到两幅挂画。"
+}

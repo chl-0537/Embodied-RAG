@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.5,
+        0.5,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "图中右侧有多个层板的书架"
+    },
+    {
+      "label": "书/book",
+      "bbox": [
+        0.7,
+        0.8,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "在书架上可以看到几本书"
+    }
+  ],
+  "scene_description": "图中展示了一个室内环境，左侧有一个金属结构的物体，右侧是一个多层书架，上面有几本书。",
+  "detection_summary": "成功检测到一个书架和几本书。"
+}

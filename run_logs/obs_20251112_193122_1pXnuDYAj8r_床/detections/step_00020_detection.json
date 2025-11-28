@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.0,
+      "description": "整个房间内没有看到床或床垫"
+    },
+    {
+      "label": "梳妆台/dressing table",
+      "bbox": [
+        0.5,
+        0.6,
+        0.7,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "黑色木质梳妆台，上面摆放着一些装饰品"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.4,
+        0.3,
+        0.6,
+        0.5
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的方形镜子"
+    },
+    {
+      "label": "相框/photo frame",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.85,
+      "description": "两个挂在墙上的相框"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一面墙和两扇门，墙上挂着一个大镜子和两个相框，还有一个黑色的梳妆台。",
+  "detection_summary": "在给定的图像中没有检测到任何床、床垫或其同义词。"
+}

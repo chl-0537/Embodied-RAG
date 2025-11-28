@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.7,
+        0.2,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "深色木质橱柜，位于房间右侧"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.4,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "编织篮子，里面装有白色物品，放在桌子上"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.3,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "金属桌子，上面放有篮子和玻璃瓶"
+    },
+    {
+      "label": "架子/shelf",
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.3
+      ],
+      "confidence": 0.8,
+      "description": "墙上的开放式架子，摆放着装饰品"
+    }
+  ],
+  "scene_description": "室内环境，有一个深色木质橱柜、一张金属桌子、一个编织篮子和一些装饰品",
+  "detection_summary": "成功检测到主要家具和装饰品"
+}

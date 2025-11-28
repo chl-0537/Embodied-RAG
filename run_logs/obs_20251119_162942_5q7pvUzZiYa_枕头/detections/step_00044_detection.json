@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "枕头/bed pillow",
+      "bbox": [
+        0.5,
+        0.5,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "白色枕头，位于房间中央"
+    },
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.2,
+        0.2,
+        0.8,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "棕色床，位于房间中央"
+    },
+    {
+      "label": "被子/blanket",
+      "bbox": [
+        0.3,
+        0.3,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "灰色被子，位于床上"
+    }
+  ],
+  "scene_description": "这是一张卧室的照片，可以看到一张棕色的床、白色的枕头和灰色的被子。",
+  "detection_summary": "在图片中检测到了三个主要对象：枕头、床和被子。"
+}

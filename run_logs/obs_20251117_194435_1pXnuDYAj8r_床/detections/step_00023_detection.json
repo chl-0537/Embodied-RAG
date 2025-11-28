@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.1,
+        0.2,
+        0.3,
+        0.4
+      ],
+      "confidence": 0.9,
+      "description": "位于房间左侧，靠近窗户的位置"
+    },
+    {
+      "label": "床垫/mattress",
+      "bbox": [
+        0.12,
+        0.22,
+        0.28,
+        0.38
+      ],
+      "confidence": 0.85,
+      "description": "在床上，与床紧密相连"
+    }
+  ],
+  "scene_description": "这是一间卧室，有一张床和一个大窗户，窗外可以看到山景和房屋。",
+  "detection_summary": "成功检测到床和床垫两个主要对象。"
+}

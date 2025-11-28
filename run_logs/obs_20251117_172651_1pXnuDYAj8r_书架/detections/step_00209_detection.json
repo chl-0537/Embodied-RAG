@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.1,
+        0.2,
+        0.15,
+        0.25
+      ],
+      "confidence": 0.8,
+      "description": "在房间左侧的书桌上有一本书"
+    },
+    {
+      "label": "书/Book",
+      "bbox": [
+        0.13,
+        0.22,
+        0.18,
+        0.27
+      ],
+      "confidence": 0.9,
+      "description": "在房间左侧的书桌上还有一本书"
+    }
+  ],
+  "scene_description": "这是一个室内场景，可以看到窗户、窗帘和一些家具。",
+  "detection_summary": "在图中检测到了两本书。"
+}

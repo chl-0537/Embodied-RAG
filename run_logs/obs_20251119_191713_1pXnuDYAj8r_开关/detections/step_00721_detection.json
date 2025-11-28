@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画/ painting",
+      "bbox": [
+        0.35,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的马匹画像"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.8,
+      "description": "房间的背景墙"
+    }
+  ],
+  "scene_description": "房间内有一幅挂画和一面墙。",
+  "detection_summary": "在图像中检测到一幅画和一面墙。"
+}

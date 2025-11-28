@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.5,
+        0.25,
+        0.7,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "位于窗户旁边的长条形布料"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.1,
+        0.45,
+        0.3,
+        0.65
+      ],
+      "confidence": 0.8,
+      "description": "带有靠垫和抱枕的座椅家具"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.35,
+        0.55,
+        0.45,
+        0.65
+      ],
+      "confidence": 0.85,
+      "description": "放置在沙发前的装饰性容器"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.4,
+        0.4,
+        0.42,
+        0.42
+      ],
+      "confidence": 0.9,
+      "description": "墙上的电灯控制装置"
+    }
+  ],
+  "scene_description": "室内客厅场景，有沙发、窗帘、花瓶和一个墙上的开关。",
+  "detection_summary": "成功检测到窗帘、沙发、花瓶和墙上的开关。"
+}

@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.725,
+        0.875,
+        0.745,
+        0.885
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电灯开关"
+    },
+    {
+      "label": "开关",
+      "bbox": [
+        0.785,
+        0.865,
+        0.805,
+        0.875
+      ],
+      "confidence": 0.9,
+      "description": "白色墙壁上的电源插座"
+    }
+  ],
+  "scene_description": "室内环境，有装饰画和家具。",
+  "detection_summary": "在图中识别出了两个开关和一个电源插座。"
+}

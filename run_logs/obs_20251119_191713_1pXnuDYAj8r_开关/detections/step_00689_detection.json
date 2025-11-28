@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "两幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作/ painting",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 1.0,
+      "description": "两幅挂在墙上的抽象画"
+    }
+  ],
+  "scene_description": "室内环境，墙上挂着两幅抽象画",
+  "detection_summary": "在当前视图中没有检测到开关或其同义词"
+}

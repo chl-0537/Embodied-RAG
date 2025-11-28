@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.1,
+        0.2,
+        0.4,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "挂在墙上的大镜子"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.45,
+        0.35,
+        0.55,
+        0.45
+      ],
+      "confidence": 0.9,
+      "description": "墙上挂着的两个相框"
+    },
+    {
+      "label": "木门",
+      "bbox": [
+        0.65,
+        0.4,
+        0.75,
+        0.6
+      ],
+      "confidence": 0.95,
+      "description": "房间里的木门"
+    },
+    {
+      "label": "装饰品",
+      "bbox": [
+        0.15,
+        0.65,
+        0.25,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "桌子上的装饰品"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个大镜子、两幅画、一扇木门和一些装饰品。",
+  "detection_summary": "成功检测到开关、镜子、相框、木门和装饰品。"
+}

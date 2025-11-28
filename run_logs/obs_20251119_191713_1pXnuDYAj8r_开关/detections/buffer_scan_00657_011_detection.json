@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.0,
+      "description": "天花板上的嵌入式开关"
+    },
+    {
+      "label": "窗户",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.9,
+      "description": "带有磨砂玻璃的大窗户"
+    },
+    {
+      "label": "画框",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的两幅黑白照片"
+    },
+    {
+      "label": "木梁",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.7,
+      "description": "天花板上的深色木制横梁"
+    },
+    {
+      "label": "金属栏杆",
+      "bbox": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "confidence": 0.6,
+      "description": "楼梯扶手由金属制成"
+    }
+  ],
+  "scene_description": "这是一个室内场景，有一个大窗户、两幅挂画、天花板上的木梁和金属楼梯扶手。",
+  "detection_summary": "在图中识别出了开关、窗户、画框、木梁和金属栏杆等物体。"
+}

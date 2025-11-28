@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0.05,
+        0.15,
+        0.35,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "带有图案的长窗帘"
+    },
+    {
+      "label": "花瓶/vase",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.8,
+      "description": "白色花瓶，表面有纹理"
+    },
+    {
+      "label": "镜子/mirror",
+      "bbox": [
+        0.7,
+        0.25,
+        0.9,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "开关/switch",
+      "bbox": [
+        0.1,
+        0.4,
+        0.12,
+        0.42
+      ],
+      "confidence": 0.8,
+      "description": "位于墙壁上的电灯开关"
+    }
+  ],
+  "scene_description": "室内房间，有一扇窗户、一盏台灯和装饰品",
+  "detection_summary": "成功检测到窗帘、花瓶、镜子和开关"
+}

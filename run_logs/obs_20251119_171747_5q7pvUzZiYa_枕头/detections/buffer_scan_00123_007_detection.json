@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "枕头/pillow",
+      "bbox": [
+        0.0,
+        0.0,
+        0.1,
+        0.2
+      ],
+      "confidence": 0.9,
+      "description": "白色枕头在左侧床上"
+    },
+    {
+      "label": "电视/television",
+      "bbox": [
+        0.5,
+        0.4,
+        0.6,
+        0.7
+      ],
+      "confidence": 0.85,
+      "description": "黑色电视位于房间中央"
+    },
+    {
+      "label": "椅子/chair",
+      "bbox": [
+        0.55,
+        0.45,
+        0.65,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "白色椅子位于房间中央"
+    },
+    {
+      "label": "沙发/sofa",
+      "bbox": [
+        0.35,
+        0.3,
+        0.45,
+        0.4
+      ],
+      "confidence": 0.75,
+      "description": "浅色沙发位于房间右侧"
+    },
+    {
+      "label": "画/painting",
+      "bbox": [
+        0.7,
+        0.25,
+        0.8,
+        0.35
+      ],
+      "confidence": 0.7,
+      "description": "金色框画挂在墙上"
+    }
+  ],
+  "scene_description": "这是一个室内场景，显示了一个客厅或卧室的一部分。可以看到一张床、一台电视、一把椅子和一些家具。",
+  "detection_summary": "成功检测到多个对象，包括枕头、电视、椅子、沙发和画。"
+}

@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "床/bed",
+      "bbox": [
+        0.7,
+        0.8,
+        0.9,
+        0.95
+      ],
+      "confidence": 0.9,
+      "description": "房间内有一张白色的床，上面铺着绿色的被子。"
+    },
+    {
+      "label": "窗户/window",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "房间内有三个窗户，窗帘是白色的。"
+    },
+    {
+      "label": "画/poster",
+      "bbox": [
+        0.35,
+        0.4,
+        0.45,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "墙上挂着一幅画，画的是一罐番茄酱。"
+    },
+    {
+      "label": "衣柜/closet",
+      "bbox": [
+        0.05,
+        0.15,
+        0.25,
+        0.35
+      ],
+      "confidence": 0.8,
+      "description": "房间里有一个白色的衣柜，门上有镜子。"
+    },
+    {
+      "label": "狗窝/dog bed",
+      "bbox": [
+        0.1,
+        0.9,
+        0.2,
+        0.95
+      ],
+      "confidence": 0.75,
+      "description": "地上有一个蓝色的狗窝，里面放着一些玩具。"
+    }
+  ],
+  "scene_description": "这是一个卧室的场景，有床、窗户、画、衣柜和狗窝等物品。",
+  "detection_summary": "在房间内成功检测到了床、窗户、画、衣柜和狗窝等主要物品。"
+}

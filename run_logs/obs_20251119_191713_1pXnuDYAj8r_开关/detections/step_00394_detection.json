@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "开关",
+      "bbox": [
+        0.7,
+        0.8,
+        0.75,
+        0.85
+      ],
+      "confidence": 0.9,
+      "description": "墙上的白色开关"
+    },
+    {
+      "label": "相框",
+      "bbox": [
+        0.45,
+        0.55,
+        0.5,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "黑色边框的照片"
+    },
+    {
+      "label": "镜子",
+      "bbox": [
+        0.35,
+        0.4,
+        0.4,
+        0.45
+      ],
+      "confidence": 0.8,
+      "description": "挂在墙上的矩形镜子"
+    },
+    {
+      "label": "门",
+      "bbox": [
+        0.65,
+        0.65,
+        0.7,
+        0.7
+      ],
+      "confidence": 0.8,
+      "description": "木制的双开门"
+    }
+  ],
+  "scene_description": "室内环境，有墙壁、门、镜子和装饰画",
+  "detection_summary": "成功检测到开关、相框、镜子和门"
+}

@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "电视/TV",
+      "bbox": [
+        0.5,
+        0.4,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.9,
+      "description": "黑色平板电视放置在白色柜子上"
+    },
+    {
+      "label": "沙发/Sofa",
+      "bbox": [
+        0.3,
+        0.45,
+        0.5,
+        0.55
+      ],
+      "confidence": 0.8,
+      "description": "浅色沙发位于房间中央"
+    },
+    {
+      "label": "画/Painting",
+      "bbox": [
+        0.75,
+        0.35,
+        0.85,
+        0.45
+      ],
+      "confidence": 0.85,
+      "description": "挂在墙上的古典风格画作"
+    }
+  ],
+  "scene_description": "室内客厅场景，有电视、沙发和装饰画",
+  "detection_summary": "成功检测到电视、沙发和画"
+}

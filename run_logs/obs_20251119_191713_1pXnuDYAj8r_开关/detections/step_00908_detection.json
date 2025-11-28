@@ -1,0 +1,72 @@
+{
+  "objects": [
+    {
+      "label": "柜子/cabinet",
+      "bbox": [
+        0.7,
+        0.3,
+        1.0,
+        0.8
+      ],
+      "confidence": 0.9,
+      "description": "木制储物柜，位于房间右侧"
+    },
+    {
+      "label": "篮子/basket",
+      "bbox": [
+        0.45,
+        0.55,
+        0.65,
+        0.75
+      ],
+      "confidence": 0.85,
+      "description": "编织篮子，放在柜子上"
+    },
+    {
+      "label": "洗衣机/washing machine",
+      "bbox": [
+        0.65,
+        0.7,
+        0.85,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "银色洗衣机，位于房间左侧"
+    },
+    {
+      "label": "烘干机/dryer",
+      "bbox": [
+        0.85,
+        0.7,
+        1.0,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "银色烘干机，与洗衣机相邻"
+    },
+    {
+      "label": "门/door",
+      "bbox": [
+        0.0,
+        0.0,
+        0.25,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "打开的门，通向另一个房间"
+    },
+    {
+      "label": "架子/shelf",
+      "bbox": [
+        0.25,
+        0.0,
+        0.5,
+        1.0
+      ],
+      "confidence": 0.9,
+      "description": "开放式架子，上面放着物品"
+    }
+  ],
+  "scene_description": "这是一个洗衣房或杂物间的内部视图，可以看到各种家用电器和存储解决方案。",
+  "detection_summary": "成功识别了多个主要对象，包括柜子、篮子、洗衣机、烘干机和门。"
+}

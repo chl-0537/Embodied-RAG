@@ -1,0 +1,39 @@
+{
+  "objects": [
+    {
+      "label": "窗帘/curtain",
+      "bbox": [
+        0,
+        0,
+        200,
+        400
+      ],
+      "confidence": 1.0,
+      "description": "左侧有图案的窗帘"
+    },
+    {
+      "label": "墙壁/wall",
+      "bbox": [
+        200,
+        0,
+        500,
+        400
+      ],
+      "confidence": 1.0,
+      "description": "中间的黑色墙壁"
+    },
+    {
+      "label": "装饰物/decoration",
+      "bbox": [
+        500,
+        0,
+        800,
+        400
+      ],
+      "confidence": 1.0,
+      "description": "右侧的金色装饰物"
+    }
+  ],
+  "scene_description": "图中展示了一个室内环境，左侧是带有图案的窗帘，中间是一面黑色的墙壁，右侧是一些金色的装饰物。",
+  "detection_summary": "在当前视图中没有发现'novel', 'book', '书架', '书', 'books'这些目标对象。"
+}

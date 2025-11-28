@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "画作/ paintings",
+      "bbox": [
+        0.35,
+        0.45,
+        0.55,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    },
+    {
+      "label": "画作/ paintings",
+      "bbox": [
+        0.6,
+        0.45,
+        0.8,
+        0.75
+      ],
+      "confidence": 0.9,
+      "description": "两幅挂在墙上的抽象画"
+    },
+    {
+      "label": "门框/ door frame",
+      "bbox": [
+        0.0,
+        0.4,
+        0.1,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "位于左侧的门框"
+    },
+    {
+      "label": "墙壁/ wall",
+      "bbox": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "confidence": 0.7,
+      "description": "背景是白色的墙壁"
+    }
+  ],
+  "scene_description": "房间内有两幅挂在白色墙上的抽象画和一扇木制门框的门。",
+  "detection_summary": "在场景中检测到两幅画作、一个门框和一面墙壁。"
+}

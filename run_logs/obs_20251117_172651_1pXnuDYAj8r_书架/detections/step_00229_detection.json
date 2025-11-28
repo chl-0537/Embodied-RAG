@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "书架/shelf",
+      "bbox": [
+        0.7,
+        0.4,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "位于房间右侧，上面摆放着一些物品"
+    },
+    {
+      "label": "书/books",
+      "bbox": [
+        0.75,
+        0.45,
+        0.8,
+        0.55
+      ],
+      "confidence": 0.85,
+      "description": "在书架上可以看到几本书"
+    }
+  ],
+  "scene_description": "这是一个室内场景，左侧有一扇窗户和窗帘，右侧有一个书架和一些装饰品。",
+  "detection_summary": "在这个场景中，我们成功检测到了一个书架以及上面的书籍。"
+}

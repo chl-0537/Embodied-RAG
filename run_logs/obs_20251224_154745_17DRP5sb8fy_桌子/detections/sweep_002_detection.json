@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "桌子/Desk",
+      "bbox": [
+        0.5,
+        0.7,
+        0.8,
+        0.9
+      ],
+      "confidence": 0.9,
+      "description": "白色桌子，位于房间中央"
+    },
+    {
+      "label": "桌子/Desk",
+      "bbox": [
+        0.2,
+        0.4,
+        0.3,
+        0.5
+      ],
+      "confidence": 0.8,
+      "description": "黑色椅子旁边的桌子"
+    }
+  ],
+  "scene_description": "室内环境，有白色墙壁和窗帘，以及两张桌子。",
+  "detection_summary": "在图中检测到两个桌子。"
+}

@@ -195,9 +195,7 @@ class HabitatAgentWrapper:
             from habitat_sim import SimulatorConfiguration, AgentConfiguration, agent
             from habitat_sim.sensor import SensorType, SensorSubType
         except ImportError as e:
-            # 检查是否是环境问题
-            import sys
-            import os
+            # 检查是否是环境问题（os 和 sys 已在文件顶部导入）
             conda_env = os.environ.get('CONDA_DEFAULT_ENV', '未设置')
             python_path = sys.executable
             

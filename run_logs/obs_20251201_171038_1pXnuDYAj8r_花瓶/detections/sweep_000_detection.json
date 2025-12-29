@@ -1,0 +1,61 @@
+{
+  "objects": [
+    {
+      "label": "画框",
+      "bbox": [
+        0.35,
+        0.45,
+        0.42,
+        0.55
+      ],
+      "confidence": 0.9,
+      "description": "挂在墙上的艺术作品"
+    },
+    {
+      "label": "床头柜",
+      "bbox": [
+        0.65,
+        0.55,
+        0.7,
+        0.6
+      ],
+      "confidence": 0.8,
+      "description": "床旁边的家具"
+    },
+    {
+      "label": "台灯",
+      "bbox": [
+        0.68,
+        0.58,
+        0.72,
+        0.62
+      ],
+      "confidence": 0.85,
+      "description": "放在床头柜上的照明设备"
+    },
+    {
+      "label": "枕头",
+      "bbox": [
+        0.75,
+        0.6,
+        0.78,
+        0.63
+      ],
+      "confidence": 0.9,
+      "description": "床上用于休息的物品"
+    },
+    {
+      "label": "花瓶",
+      "bbox": [
+        0.73,
+        0.52,
+        0.76,
+        0.56
+      ],
+      "confidence": 0.8,
+      "description": "在房间内的装饰品"
+    }
+  ],
+  "scene_description": "这是一个室内卧室的场景，有一张床、一张桌子、一幅画和一些装饰品。",
+  "detection_summary": "已检测到多个对象，包括画框、床头柜、台灯、枕头和花瓶。"
+}

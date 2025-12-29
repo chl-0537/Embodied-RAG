@@ -1,2 +1,0 @@
-2025-11-26 15:23:46 - INFO - setup_logging:723 - 日志系统初始化完成，日志文件: logs/rag_robot_20251126_152346.log
-2025-11-26 15:23:46 - INFO - cleanup_old_logs:737 - 删除旧日志文件: logs/rag_robot_20251126_150649.log

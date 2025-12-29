@@ -1,0 +1,28 @@
+{
+  "objects": [
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色桌子的一部分，位于左侧"
+    },
+    {
+      "label": "桌子/table",
+      "bbox": [
+        0.4,
+        0.6,
+        0.6,
+        0.8
+      ],
+      "confidence": 0.85,
+      "description": "白色桌子的一部分，位于中间偏右"
+    }
+  ],
+  "scene_description": "室内环境，有白色墙壁和家具",
+  "detection_summary": "检测到两个桌子"
+}

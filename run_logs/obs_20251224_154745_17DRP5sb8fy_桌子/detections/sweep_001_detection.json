@@ -1,0 +1,50 @@
+{
+  "objects": [
+    {
+      "label": "桌子/Desk",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色桌子，位于房间左侧"
+    },
+    {
+      "label": "桌子/Table",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色桌子，位于房间左侧"
+    },
+    {
+      "label": "桌子/Tisch",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色桌子，位于房间左侧"
+    },
+    {
+      "label": "桌子/Desk",
+      "bbox": [
+        0.1,
+        0.7,
+        0.3,
+        0.9
+      ],
+      "confidence": 0.8,
+      "description": "白色桌子，位于房间左侧"
+    }
+  ],
+  "scene_description": "室内环境，有白色墙壁和家具",
+  "detection_summary": "成功检测到多个桌子"
+}

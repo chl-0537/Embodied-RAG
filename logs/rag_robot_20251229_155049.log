@@ -1,0 +1,104 @@
+2025-12-29 15:50:49 - INFO - setup_logging:723 - 日志系统初始化完成，日志文件: logs/rag_robot_20251229_155049.log
+2025-12-29 15:50:49 - INFO - cleanup_old_logs:737 - 删除旧日志文件: logs/rag_robot_20251126_152346.log
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验结果将保存到: experiment_results/experiment_20251229_155049
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始批量实验: 25 个实验任务
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 1/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=17DRP5sb8fy, target=杯子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=17DRP5sb8fy, target=杯子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=17DRP5sb8fy, target=杯子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 2/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=17DRP5sb8fy, target=椅子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=17DRP5sb8fy, target=椅子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=17DRP5sb8fy, target=椅子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 3/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=17DRP5sb8fy, target=书本
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=17DRP5sb8fy, target=书本 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=17DRP5sb8fy, target=书本, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 4/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=17DRP5sb8fy, target=桌子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=17DRP5sb8fy, target=桌子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=17DRP5sb8fy, target=桌子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 5/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=17DRP5sb8fy, target=床
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=17DRP5sb8fy, target=床 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=17DRP5sb8fy, target=床, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 6/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=1LXtFkjw3qL, target=杯子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=1LXtFkjw3qL, target=杯子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=1LXtFkjw3qL, target=杯子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 7/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=1LXtFkjw3qL, target=椅子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=1LXtFkjw3qL, target=椅子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=1LXtFkjw3qL, target=椅子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 8/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=1LXtFkjw3qL, target=书本
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=1LXtFkjw3qL, target=书本 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=1LXtFkjw3qL, target=书本, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 9/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=1LXtFkjw3qL, target=桌子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=1LXtFkjw3qL, target=桌子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=1LXtFkjw3qL, target=桌子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 10/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=1LXtFkjw3qL, target=床
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=1LXtFkjw3qL, target=床 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=1LXtFkjw3qL, target=床, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 11/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=5q7pvUzZiYa, target=杯子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=5q7pvUzZiYa, target=杯子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=5q7pvUzZiYa, target=杯子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 12/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=5q7pvUzZiYa, target=椅子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=5q7pvUzZiYa, target=椅子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=5q7pvUzZiYa, target=椅子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 13/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=5q7pvUzZiYa, target=书本
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=5q7pvUzZiYa, target=书本 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=5q7pvUzZiYa, target=书本, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 14/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=5q7pvUzZiYa, target=桌子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=5q7pvUzZiYa, target=桌子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=5q7pvUzZiYa, target=桌子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 15/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=5q7pvUzZiYa, target=床
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=5q7pvUzZiYa, target=床 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=5q7pvUzZiYa, target=床, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 16/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=2n8kARJN3HM, target=杯子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=2n8kARJN3HM, target=杯子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=2n8kARJN3HM, target=杯子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 17/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=2n8kARJN3HM, target=椅子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=2n8kARJN3HM, target=椅子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=2n8kARJN3HM, target=椅子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 18/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=2n8kARJN3HM, target=书本
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=2n8kARJN3HM, target=书本 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=2n8kARJN3HM, target=书本, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 19/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=2n8kARJN3HM, target=桌子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=2n8kARJN3HM, target=桌子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=2n8kARJN3HM, target=桌子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 20/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=2n8kARJN3HM, target=床
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=2n8kARJN3HM, target=床 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=2n8kARJN3HM, target=床, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 21/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=pLe4wQe7qrG, target=杯子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=pLe4wQe7qrG, target=杯子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=pLe4wQe7qrG, target=杯子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 22/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=pLe4wQe7qrG, target=椅子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=pLe4wQe7qrG, target=椅子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=pLe4wQe7qrG, target=椅子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 23/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=pLe4wQe7qrG, target=书本
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=pLe4wQe7qrG, target=书本 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=pLe4wQe7qrG, target=书本, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 24/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=pLe4wQe7qrG, target=桌子
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=pLe4wQe7qrG, target=桌子 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=pLe4wQe7qrG, target=桌子, success=False, SR=0.000, SPL=0.000
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验进度: 25/25
+2025-12-29 15:50:49 - INFO - log_info:780 - 开始实验: scene=pLe4wQe7qrG, target=床
+2025-12-29 15:50:49 - ERROR - log_error:785 - 实验失败: scene=pLe4wQe7qrG, target=床 | Error: habitat_rag_search() got an unexpected keyword argument 'dataset_config'
+2025-12-29 15:50:49 - INFO - log_info:780 - 实验完成: scene=pLe4wQe7qrG, target=床, success=False, SR=0.000, SPL=0.000

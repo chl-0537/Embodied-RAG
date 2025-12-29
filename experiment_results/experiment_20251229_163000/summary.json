@@ -1,0 +1,911 @@
+{
+  "experiment_info": {
+    "total_experiments": 25,
+    "successful_experiments": 0,
+    "overall_success_rate": 0.0,
+    "timestamp": "2025-12-29T16:30:00.203696"
+  },
+  "overall_metrics": {
+    "SR": 0.0,
+    "SPL": 0.0,
+    "LE": null,
+    "Recall@5": 0.0,
+    "Memory_Precision": 0.0
+  },
+  "by_scene": {
+    "17DRP5sb8fy": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "1LXtFkjw3qL": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "5q7pvUzZiYa": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "2n8kARJN3HM": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "pLe4wQe7qrG": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    }
+  },
+  "by_object": {
+    "杯子": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "椅子": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "书本": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "桌子": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    },
+    "床": {
+      "total": 5,
+      "success": 0,
+      "sr": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "spl": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "le": [],
+      "recall": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "precision": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "avg_sr": 0.0,
+      "avg_spl": 0.0,
+      "avg_le": null,
+      "avg_recall": 0.0,
+      "avg_precision": 0.0,
+      "success_rate": 0.0
+    }
+  },
+  "detailed_results": [
+    {
+      "scene_id": "17DRP5sb8fy",
+      "target_object": "杯子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 2.1457672119140625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/17DRP5sb8fy_杯子"
+    },
+    {
+      "scene_id": "17DRP5sb8fy",
+      "target_object": "椅子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.7404556274414062e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/17DRP5sb8fy_椅子"
+    },
+    {
+      "scene_id": "17DRP5sb8fy",
+      "target_object": "书本",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.7642974853515625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/17DRP5sb8fy_书本"
+    },
+    {
+      "scene_id": "17DRP5sb8fy",
+      "target_object": "桌子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5974044799804688e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/17DRP5sb8fy_桌子"
+    },
+    {
+      "scene_id": "17DRP5sb8fy",
+      "target_object": "床",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5735626220703125e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/17DRP5sb8fy_床"
+    },
+    {
+      "scene_id": "1LXtFkjw3qL",
+      "target_object": "杯子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.621246337890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/1LXtFkjw3qL_杯子"
+    },
+    {
+      "scene_id": "1LXtFkjw3qL",
+      "target_object": "椅子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.52587890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/1LXtFkjw3qL_椅子"
+    },
+    {
+      "scene_id": "1LXtFkjw3qL",
+      "target_object": "书本",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.9788742065429688e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/1LXtFkjw3qL_书本"
+    },
+    {
+      "scene_id": "1LXtFkjw3qL",
+      "target_object": "桌子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5497207641601562e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/1LXtFkjw3qL_桌子"
+    },
+    {
+      "scene_id": "1LXtFkjw3qL",
+      "target_object": "床",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5735626220703125e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/1LXtFkjw3qL_床"
+    },
+    {
+      "scene_id": "5q7pvUzZiYa",
+      "target_object": "杯子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5974044799804688e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/5q7pvUzZiYa_杯子"
+    },
+    {
+      "scene_id": "5q7pvUzZiYa",
+      "target_object": "椅子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.52587890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/5q7pvUzZiYa_椅子"
+    },
+    {
+      "scene_id": "5q7pvUzZiYa",
+      "target_object": "书本",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.52587890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/5q7pvUzZiYa_书本"
+    },
+    {
+      "scene_id": "5q7pvUzZiYa",
+      "target_object": "桌子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.621246337890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/5q7pvUzZiYa_桌子"
+    },
+    {
+      "scene_id": "5q7pvUzZiYa",
+      "target_object": "床",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.621246337890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/5q7pvUzZiYa_床"
+    },
+    {
+      "scene_id": "2n8kARJN3HM",
+      "target_object": "杯子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5735626220703125e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/2n8kARJN3HM_杯子"
+    },
+    {
+      "scene_id": "2n8kARJN3HM",
+      "target_object": "椅子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5735626220703125e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/2n8kARJN3HM_椅子"
+    },
+    {
+      "scene_id": "2n8kARJN3HM",
+      "target_object": "书本",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.6450881958007812e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/2n8kARJN3HM_书本"
+    },
+    {
+      "scene_id": "2n8kARJN3HM",
+      "target_object": "桌子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.621246337890625e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/2n8kARJN3HM_桌子"
+    },
+    {
+      "scene_id": "2n8kARJN3HM",
+      "target_object": "床",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.6450881958007812e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/2n8kARJN3HM_床"
+    },
+    {
+      "scene_id": "pLe4wQe7qrG",
+      "target_object": "杯子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5974044799804688e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/pLe4wQe7qrG_杯子"
+    },
+    {
+      "scene_id": "pLe4wQe7qrG",
+      "target_object": "椅子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5735626220703125e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/pLe4wQe7qrG_椅子"
+    },
+    {
+      "scene_id": "pLe4wQe7qrG",
+      "target_object": "书本",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5974044799804688e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/pLe4wQe7qrG_书本"
+    },
+    {
+      "scene_id": "pLe4wQe7qrG",
+      "target_object": "桌子",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.5974044799804688e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/pLe4wQe7qrG_桌子"
+    },
+    {
+      "scene_id": "pLe4wQe7qrG",
+      "target_object": "床",
+      "success": false,
+      "status": "ERROR",
+      "steps": 0,
+      "duration_seconds": 1.71661376953125e-05,
+      "path_length": 0.0,
+      "shortest_path_length": 0.0,
+      "estimated_3d_position": null,
+      "ground_truth_position": null,
+      "metrics": {
+        "SR": 0.0,
+        "SPL": 0.0,
+        "LE": null,
+        "Recall@5": 0.0,
+        "Memory_Precision": 0.0
+      },
+      "save_dir": "experiment_results/experiment_20251229_163000/pLe4wQe7qrG_床"
+    }
+  ]
+}

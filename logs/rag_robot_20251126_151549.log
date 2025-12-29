@@ -1,4 +1,0 @@
-2025-11-26 15:15:49 - INFO - setup_logging:723 - 日志系统初始化完成，日志文件: logs/rag_robot_20251126_151549.log
-2025-11-26 15:15:49 - INFO - cleanup_old_logs:737 - 删除旧日志文件: logs/rag_robot_20251126_145757.log
-2025-11-26 15:15:49 - INFO - log_info:778 - 启动 Habitat HM3D RAG 目标查找 | Data: {"scene": "/home/szu/JH/data/mp3d/1pXnuDYAj8r/1pXnuDYAj8r.glb", "target": "花瓶", "max_steps": 1000, "rotate_sweep": 12, "dataset_config": null, "save_obs_dir": "<auto>", "stuck_spread_thresh": 1.2, "relocate_moves": 24, "relocate_cooldown": 10.0, "explore_policy": "frontier", "fusion_mode": "triangulate"}
-2025-11-26 15:15:49 - ERROR - log_error:787 - ChromaDB不可用，请先安装: pip install chromadb

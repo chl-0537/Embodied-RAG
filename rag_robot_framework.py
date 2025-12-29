@@ -2057,14 +2057,14 @@ def call_chatglm_multi_object_detection(image_url: str, target_objects: List[str
 3. 只输出JSON，不要其他文字
 4. 检测所有可见对象
 """
-    
+
     # 使用增强的视觉API包装器
     result = _call_chatglm_vision_robust(image_url, detection_prompt, max_retries=4, backoff_base=0.5)
     
     # 如果成功，验证并返回
     if result["success"] and result["data"] is not None:
         parsed_result = result["data"]
-        
+                
         # 验证JSON结构
         if validate_detection_result(parsed_result):
             log_info("Multi-object detection successful", {

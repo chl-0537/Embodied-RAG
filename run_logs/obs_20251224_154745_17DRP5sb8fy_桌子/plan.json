@@ -1,0 +1,27 @@
+{
+  "next_action": "移动到目标桌子位置 [-4.20, 0.62, 0.54]",
+  "reasoning": "根据系统状态，目标'桌子'已被成功找到(target_found=true)，视觉检测也确认了目标存在(visual_detection_result=SUCCESS)。最佳记忆融合位置为[-4.202901853182609, 0.6219030184385976, 0.5394455193815791]，置信度为0.8998。下一步应移动到目标位置进行后续操作。",
+  "expected_observation": "机器人移动到桌子附近，能够近距离观察桌子，确认桌子的外观、大小和位置，为后续操作做准备。",
+  "fallback_plan": [
+    "如果移动到指定位置未找到桌子，则重新扫描当前位置周围区域",
+    "如果仍然找不到，则根据第二个记忆位置[-4.33, 0.74, 0.93]进行搜索",
+    "如果两个位置都未找到，则启动系统范围的网格搜索策略"
+  ],
+  "confidence": 0.95,
+  "consistency_analysis": {
+    "memory_vision_consistency": "高一致性，视觉检测确认了记忆中的桌子存在",
+    "position_confidence": "高，最佳记忆位置与系统估计位置完全一致",
+    "detection_reliability": "高，视觉检测状态为SUCCESS，置信度0.9"
+  },
+  "cross_modal_insights": {
+    "fusion_quality": "多视图三角测量已完成，提供了精确的3D位置估计",
+    "temporal_consistency": "最近两次观察(时间戳1766563444和1766563451)显示桌子位置稳定",
+    "spatial_relationship": "桌子位于机器人当前位置附近，便于接近和操作"
+  },
+  "estimated_3d_position": [
+    -4.202901853182609,
+    0.6219030184385976,
+    0.5394455193815791
+  ],
+  "spatial_fusion_method": "multi_view_triangulation"
+}

@@ -1,0 +1,20 @@
+{
+  "scene_id": "1LXtFkjw3qL",
+  "target_object": "桌子",
+  "success": false,
+  "status": "ERROR",
+  "steps": 0,
+  "duration_seconds": 1.7881393432617188e-05,
+  "path_length": 0.0,
+  "shortest_path_length": 0.0,
+  "estimated_3d_position": null,
+  "ground_truth_position": null,
+  "metrics": {
+    "SR": 0.0,
+    "SPL": 0.0,
+    "LE": null,
+    "Recall@5": 0.0,
+    "Memory_Precision": 0.0
+  },
+  "save_dir": "experiment_results/experiment_20251229_155049/1LXtFkjw3qL_桌子"
+}
